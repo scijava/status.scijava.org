@@ -39,6 +39,7 @@ echo '<th>OK</th>'
 echo '<th>When released</th>'
 echo '<th>Last updated</th>'
 echo '<th>OK</th>'
+echo '<th>Action</th>'
 echo '</tr>'
 
 # List components of the BOM, and loop over them.
@@ -86,6 +87,19 @@ do
     releaseOK=$checkMark
   fi
 
+  # Compute action items.
+  if [ "$url" -a "$bomOK" = "$xMark" ]
+  then
+    action="Release+Bump"
+    actionKey=1
+  else if [ "$releaseOK" = "$xMark" ]
+    action="Bump"
+    actionKey=2
+  else
+    action="None"
+    actionKey=3
+  fi
+
   # Emit the HTML table row.
   gc=$(echo "$g" | sed 's/[^0-9a-zA-Z]/-/g')
   ac=$(echo "$a" | sed 's/[^0-9a-zA-Z]/-/g')
@@ -100,6 +114,7 @@ do
   echo "<td>$releaseTimestamp</td>"
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
+  echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
   echo '</td>'
   echo '</tr>'
 done
