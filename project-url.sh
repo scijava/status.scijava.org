@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# project-url.sh
+#
+# Gets the URL of a project from its G:A.
+#
+
+# G=groupId, A=artifactId
+processGA() {
+	ga=$1
+	match=$(grep "^$ga " projects.txt)
+	if [ "$match" ]
+	then
+		echo "$match"
+	else
+		g=${ga%%:*}
+		a=${ga#*:}
+		test "$g" = "io.scif" && url=https://github.com/scifio/$a
+		test "$g" = "net.imagej" && url=https://github.com/imagej/$a
+		test "$g" = "net.imglib2" && url=https://github.com/imglib/$a
+		test "$g" = "org.scijava" && url=https://github.com/scijava/$a
+		if [ "$g" = "sc.fiji" ]
+		then
+			test "${a:0:13}" = "bigdataviewer" &&
+				url=https://github.com/bigdataviewer/${a%_} ||
+				url=https://github.com/fiji/${a%_}
+		fi
+		test -z "$url" && exit 1 # no known URL
+		echo "$ga $url"
+	fi
+}
+
+# ----
+# Main
+# ----
+while test $# -gt 0
+do
+	processGA "$1"
+	shift
+done
