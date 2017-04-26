@@ -92,7 +92,8 @@ do
   then
     action="Release+Bump"
     actionKey=1
-  else if [ "$releaseOK" = "$xMark" ]
+  elif [ "$releaseOK" = "$xMark" ]
+  then
     action="Bump"
     actionKey=2
   else
