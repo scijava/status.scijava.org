@@ -1,3 +1,30 @@
-table td {
-  border: none;
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+table tr:first-child th {
+  background: firebrick;
+  color: white;
+}
+
+table tr th {
+  text-align: left;
+  padding: 5px 8px 5px 8px;
+}
+
+table tr td {
+  padding: 2px 8px 2px 8px;
+}
+
+table tr:nth-child(even) {
+  background: #ccc;
+}
+table tr:nth-child(odd) {
+  background: #eee;
+}
+
+table td:nth-child(2), table td:nth-child(5) {
+  border-right: 1px solid gray;
 }
