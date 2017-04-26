@@ -54,6 +54,10 @@ do
 
   info "Processing $ga"
 
+  # Get project URL
+  url=$(./project-url.sh "$g:$a")
+  url=${url#* }
+
   # Check BOM version vs. newest release
   if [ "$bomVersion" = "$newestRelease" ]
   then
@@ -87,7 +91,9 @@ do
   ac=$(echo "$a" | sed 's/[^0-9a-zA-Z]/-/g')
   echo "<tr class=\"$gc $gc_$ac $bomStatus $releaseStatus\">"
   echo "<td>$g</td>"
-  echo "<td>$a</td>"
+  test "$url" &&
+    echo "<td><a href=\"$url\">$a</td>" ||
+    echo "<td>$a</td>"
   echo "<td>$bomVersion</td>"
   echo "<td>$newestRelease</td>"
   echo "<td>$bomOK</td>"
