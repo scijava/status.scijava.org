@@ -21,9 +21,14 @@ processGA() {
 		test "$g" = "org.scijava" && url=https://github.com/scijava/$a
 		if [ "$g" = "sc.fiji" ]
 		then
-			test "${a:0:13}" = "bigdataviewer" &&
-				url=https://github.com/bigdataviewer/${a%_} ||
-				url=https://github.com/fiji/${a%_}
+			case "$a" in
+				bigdataviewer*)
+					url=https://github.com/bigdataviewer/$a
+					;;
+				*)
+					url=https://github.com/fiji/${a%_}
+					;;
+			esac
 		fi
 		test -z "$url" && exit 1 # no known URL
 		echo "$ga $url"

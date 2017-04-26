@@ -88,11 +88,11 @@ do
   fi
 
   # Compute action items.
-  if [ "$url" -a "$bomOK" = "$xMark" ]
+  if [ "$url" -a "$releaseOK" = "$xMark" ]
   then
     action="Release+Bump"
     actionKey=1
-  elif [ "$releaseOK" = "$xMark" ]
+  elif [ "$bomOK" = "$xMark" ]
   then
     action="Bump"
     actionKey=2
