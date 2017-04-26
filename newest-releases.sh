@@ -9,16 +9,15 @@ test "$1" &&
   pomURL=$1 ||
   pomURL=https://raw.githubusercontent.com/scijava/pom-scijava/master/pom.xml
 
-pomFile=$(mktemp -t status.scijava.org)
+pomFile=$(mktemp -t status.scijava.org-XXXX)
 curl -fs "$pomURL" > "$pomFile"
 
-cat tmp.txt |
-#mvn -U -Dverbose=true -f "$pomFile" -s settings.xml \
-#  versions:display-dependency-updates |
+mvn -U -Dverbose=true -f "$pomFile" -s settings.xml \
+  versions:display-dependency-updates |
   # Standardize the output format for too-long G:A strings.
   perl -0777 -pe 's/\.\.\.\n\[INFO\] */ ... /igs' |
   # Filter to only the relevant lines.
-  grep ' \.\.\.\.* ' |
+  grep '[^ ]*:[^ ]* \.\.\.\.* ' |
   # Strip the [INFO] prefix.
   sed 's/^\[INFO\] *//' |
   # Catch when there is a version update.

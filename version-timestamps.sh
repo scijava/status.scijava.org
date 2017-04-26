@@ -35,9 +35,11 @@ versionTimestamp() {
 			# Much faster than doing a remote call via cURL.
 			for f in "$repo"/*/"$(gpath "$g")/$a/$v/$a-$v.pom"
 			do
-				test -f "$f" || die 2 "Cannot access local file: $f"
-				# NB: We assume GNU stat here, for now!
-				formatTimestamp "$(stat -c %y "$f")"
+				test -f "$f" &&
+					# NB: We assume GNU stat here, for now!
+					formatTimestamp "$(stat -c %y "$f")" ||
+					# No file; probably no such release.
+					echo 0
 			done | sort | tail -n1
 			;;
 		*) # REMOTE
@@ -46,8 +48,10 @@ versionTimestamp() {
 			debug "versionTimestamp: url -> $url"
 			modified=$(curl -Ifs "$url" | grep '^Last-Modified' | sed 's/^[^ ]* //')
 			debug "versionTimestamp: modified -> $modified"
-			test "$modified" || die 3 "Remote query failed for URL: $url"
-			formatTimestamp "$modified" 
+			test "$modified" &&
+				formatTimestamp "$modified" ||
+				# Invalid URL; probably no such release.
+				echo 0
 			;;
 	esac
 }
@@ -72,7 +76,7 @@ lastUpdated() {
 			metadata=$(downloadMetadata "$g" "$a")
 			lastUpdated=$(echo "$metadata" | tagValue lastUpdated)
 			debug "lastUpdated: lastUpdated -> $lastUpdated"
-			test "$lastUpdated" || die 4 "No lastUpdated tag in metadata:\n$metadata"
+			test "$lastUpdated" || die 1 "No lastUpdated tag in metadata:\n$metadata"
 			echo "$lastUpdated"
 			;;
 	esac
@@ -84,7 +88,7 @@ downloadMetadata() {
 	g=$1; a=$2
 	url="$repo/$(gpath "$g")/$a/maven-metadata.xml"
 	test "$cachedMetadata" || cachedMetadata=$(curl -fs "$url")
-	test "$cachedMetadata" || die 5 "Cannot access metadata remotely from: $url"
+	test "$cachedMetadata" || die 2 "Cannot access metadata remotely from: $url"
 	debug "downloadMetadata: cachedMetadata ->\n$cachedMetadata"
 	echo "$cachedMetadata"
 }
