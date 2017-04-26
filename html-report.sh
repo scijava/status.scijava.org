@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# generate-html-report.sh
+# html-report.sh
 
 # Generates an HTML report of the release status of all
 # components in the SciJava BOM (org.scijava:pom-scijava).
