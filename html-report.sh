@@ -64,7 +64,7 @@ do
   case "$url" in
     https://github.com/*)
       slug=${url#https://github.com/}
-      travis="<img src=\"https://travis-ci.org/$slug.svg?branch=master\">"
+      travis="<a href=\"https://travis-ci.org/$slug\"><img src=\"https://travis-ci.org/$slug.svg?branch=master\"></a>"
       ;;
     *)
       travis="-"
