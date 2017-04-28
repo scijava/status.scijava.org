@@ -40,6 +40,7 @@ echo '<th>When released</th>'
 echo '<th>Last updated</th>'
 echo '<th>OK</th>'
 echo '<th>Action</th>'
+echo '<th>Build</th>'
 echo '</tr>'
 
 # List components of the BOM, and loop over them.
@@ -58,6 +59,17 @@ do
   # Get project URL
   url=$(./project-url.sh "$g:$a")
   url=${url#* }
+
+  # Compute Travis badge
+  case "$url" in
+    https://github.com/*)
+      slug=${url#https://github.com/}
+      travis="<img src=\"https://travis-ci.org/$slug.svg?branch=master\">"
+      ;;
+    *)
+      travis="-"
+      ;;
+  esac
 
   # Check BOM version vs. newest release
   if [ "$bomVersion" = "$newestRelease" ]
@@ -116,6 +128,7 @@ do
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
+  echo "<td>$travis</td>"
   echo '</td>'
   echo '</tr>'
 done
