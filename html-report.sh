@@ -102,7 +102,7 @@ do
   # Compute action items.
   if [ "$url" -a "$releaseOK" = "$xMark" ]
   then
-    action="Release+Bump"
+    action="Cut"
     actionKey=1
   elif [ "$bomOK" = "$xMark" ]
   then
