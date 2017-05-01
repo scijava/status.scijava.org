@@ -25,8 +25,9 @@ echo '<title>SciJava software status</title>'
 echo '<link type="text/css" rel="stylesheet" href="status.css">'
 echo '<link rel="icon" type="image/png" href="favicon.png">'
 echo '<script type="text/javascript" src="sorttable.js"></script>'
+echo '<script type="text/javascript" src="sortable-badges.js"></script>'
 echo '</head>'
-echo '<body>'
+echo '<body onload="makeBadgesSortable()">'
 echo '<!-- Generated via https://codepo8.github.io/css-fork-on-github-ribbon/ -->'
 echo '<span id="forkongithub"><a href="https://github.com/scijava/status.scijava.org">Fix me on GitHub</a></span>'
 echo '<table class="sortable">'
@@ -64,10 +65,10 @@ do
   case "$url" in
     https://github.com/*)
       slug=${url#https://github.com/}
-      travis="<a href=\"https://travis-ci.org/$slug\"><img src=\"https://travis-ci.org/$slug.svg?branch=master\"></a>"
+      travis="<td class=\"badge\"><a href=\"https://travis-ci.org/$slug\"><img src=\"https://travis-ci.org/$slug.svg?branch=master\"></a></td>"
       ;;
     *)
-      travis="-"
+      travis="<td>-</td>"
       ;;
   esac
 
@@ -128,7 +129,7 @@ do
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
-  echo "<td>$travis</td>"
+  echo "$travis"
   echo '</td>'
   echo '</tr>'
 done
