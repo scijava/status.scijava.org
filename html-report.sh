@@ -130,7 +130,6 @@ do
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
   echo "$travis"
-  echo '</td>'
   echo '</tr>'
 done
 
