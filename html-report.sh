@@ -1,7 +1,11 @@
 #!/bin/sh
-
+#
+# This is free and unencumbered software released into the public domain.
+# See the UNLICENSE file for details.
+#
+# ------------------------------------------------------------------------
 # html-report.sh
-
+# ------------------------------------------------------------------------
 # Generates an HTML report of the release status of all
 # components in the SciJava BOM (org.scijava:pom-scijava).
 

@@ -1,7 +1,11 @@
 #!/bin/sh
-
-# version-timestamps.sh
 #
+# This is free and unencumbered software released into the public domain.
+# See the UNLICENSE file for details.
+#
+# ------------------------------------------------------------------------
+# version-timestamps.sh
+# ------------------------------------------------------------------------
 # Gets timestamps for the last time a component was released.
 #
 # For each G:A:V argument passed to the script,

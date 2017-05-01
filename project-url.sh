@@ -1,9 +1,12 @@
 #!/bin/sh
-
+#
+# This is free and unencumbered software released into the public domain.
+# See the UNLICENSE file for details.
+#
+# ------------------------------------------------------------------------
 # project-url.sh
-#
+# ------------------------------------------------------------------------
 # Gets the URL of a project from its G:A.
-#
 
 # G=groupId, A=artifactId
 processGA() {

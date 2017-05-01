@@ -1,7 +1,11 @@
 #!/bin/sh
-
+#
+# This is free and unencumbered software released into the public domain.
+# See the UNLICENSE file for details.
+#
+# ------------------------------------------------------------------------
 # newest-releases.sh
-
+# ------------------------------------------------------------------------
 # Dumps the component list for the given BOM (pom-scijava by default).
 # The format of each component is groupId:artifactId,bomVersion,newestVersion
 
