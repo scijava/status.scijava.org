@@ -92,8 +92,8 @@ do
   releaseTimestamp=${timestamps%% *}
   lastUpdated=${timestamps#* }
 
-  # Compute time difference.
-  if [ "$((lastUpdated-releaseTimestamp))" -gt 1000000 ]
+  # Compute time difference; >24 hours means a new release is needed.
+  if [ "$((lastUpdated-releaseTimestamp))" -gt 100000000 ]
   then
     # A SNAPSHOT was deployed more recently than the newest release.
     releaseStatus="release-needed"
