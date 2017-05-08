@@ -111,6 +111,13 @@ do
     releaseOK=$checkMark
   fi
 
+  if [ "$((lastUpdated-lastVetted))" -lt 0 ]
+  then
+    # NB: Last vetted more recently than last update; no bump needed.
+    bomStatus="bom-ok"
+    bomOK=$checkMark
+  fi
+
   # Compute action items.
   if [ "$url" -a "$releaseOK" = "$xMark" ]
   then
