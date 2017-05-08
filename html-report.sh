@@ -16,6 +16,11 @@ xMark="&#x2715;"
 
 # -- Functions --
 
+# Gets the maximum of two numbers.
+max() {
+       test "$1" -gt "$2" && echo "$1" || echo "$2"
+}
+
 info() {
   echo $@ 1>&2
 }
@@ -41,7 +46,7 @@ echo '<th>artifactId</th>'
 echo '<th>BOM version</th>'
 echo '<th>Newest release</th>'
 echo '<th>OK</th>'
-echo '<th>When released</th>'
+echo '<th>Last vetted</th>'
 echo '<th>Last updated</th>'
 echo '<th>OK</th>'
 echo '<th>Action</th>'
@@ -90,10 +95,12 @@ do
   timestamps=$(./version-timestamps.sh "$g:$a:$newestRelease")
   timestamps=${timestamps#* }
   releaseTimestamp=${timestamps%% *}
+  timestampOverride=$(./timestamp-override.sh "$g:$a")
+  lastVetted=$(max "$releaseTimestamp" "$timestampOverride")
   lastUpdated=${timestamps#* }
 
   # Compute time difference; >24 hours means a new release is needed.
-  if [ "$((lastUpdated-releaseTimestamp))" -gt 100000000 ]
+  if [ "$((lastUpdated-lastVetted))" -gt 100000000 ]
   then
     # A SNAPSHOT was deployed more recently than the newest release.
     releaseStatus="release-needed"
@@ -129,7 +136,11 @@ do
   echo "<td>$bomVersion</td>"
   echo "<td>$newestRelease</td>"
   echo "<td>$bomOK</td>"
-  echo "<td>$releaseTimestamp</td>"
+  test "$timestampOverride" -eq 0 &&
+    # NB: Last vetted automatically via release artifact.
+    echo "<td>$lastVetted</td>" ||
+    # NB: Last vetted manually via timestamps.txt.
+    echo "<td class=\"overridden\">$lastVetted</td>"
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
