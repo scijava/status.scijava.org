@@ -30,6 +30,7 @@ org.scijava:parsington 20170508120000
 org.scijava:scijava-config 20170508120000
 org.scijava:scijava-log-slf4j 20170508120000
 org.scijava:swing-checkbox-tree 20170508120000
+org.slf4j:slf4j-api 20170508120000
 org.slf4j:slf4j-ext 20170508120000
 org.slf4j:slf4j-jdk14 20170508120000
 org.slf4j:slf4j-nop 20170508120000
