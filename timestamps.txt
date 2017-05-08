@@ -1,4 +1,5 @@
 com.google.guava:guava 20170508120000
+nz.ac.waikato.cms.weka:weka-dev 20170508120000
 org.apache.xmlgraphics:batik-js 20170508120000
 org.eclipse.jetty:jetty-ant 20170508120000
 org.eclipse.jetty:jetty-client 20170508120000
