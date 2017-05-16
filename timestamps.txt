@@ -1,4 +1,4 @@
-com.google.guava:guava 20170508120000
+com.google.guava:guava 20170901000000
 org.eclipse.jetty:jetty-ant 20170508120000
 org.eclipse.jetty:jetty-client 20170508120000
 org.eclipse.jetty:jetty-deploy 20170508120000
