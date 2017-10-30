@@ -1,0 +1,15 @@
+language: java
+jdk: oraclejdk8
+branches:
+  only:
+  - master
+install: true
+script: "./update-website.sh"
+cache:
+  directories:
+  - "~/.m2/repository"
+before_install:
+- mkdir .ssh
+- openssl aes-256-cbc -K $encrypted_91e600a0b4de_key -iv $encrypted_91e600a0b4de_iv
+  -in .travis/deploykey.enc -out .ssh/id_rsa -d
+- chmod -R -w,o-rwx,g-rwx .ssh
