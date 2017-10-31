@@ -4,7 +4,7 @@ branches:
   only:
   - master
 install: true
-script: "./update-website.sh"
+script: ".travis/build.sh"
 cache:
   directories:
   - "~/.m2/repository"
