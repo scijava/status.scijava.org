@@ -13,5 +13,11 @@ then
 else
   commitNote=$(date)
 fi &&
-git commit -m "Update component table ($commitNote)" index.html &&
-git push
+if git diff-index --quiet HEAD --
+then
+  echo "== No new changes =="
+else
+  echo "== Pushing changes =="
+  git commit -m "Update component table ($commitNote)" index.html &&
+  git push
+fi
