@@ -13,7 +13,7 @@ then
 else
   commitNote=$(date)
 fi &&
-if git diff-index --quiet HEAD --
+if git diff --quiet index.html
 then
   echo "== No new changes =="
 else
