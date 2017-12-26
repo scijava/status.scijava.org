@@ -53,7 +53,6 @@ org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
 org.scijava:scijava-io-http 20171225120000
 org.scijava:scijava-java3d 20171225120000
-org.scijava:scijava-log-slf4j 20170508120000
 org.scijava:scijava-plugins-commands 20171225120000
 org.scijava:scijava-plugins-platforms 20171225120000
 org.scijava:scijava-plugins-text-markdown 20171225120000
