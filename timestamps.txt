@@ -75,6 +75,9 @@ org.slf4j:slf4j-ext 20171225210000
 org.slf4j:slf4j-jdk14 20171225210000
 org.slf4j:slf4j-nop 20171225210000
 org.slf4j:slf4j-simple 20171225210000
+sc.fiji:3D_Blob_Segmentation 20171225210000
+sc.fiji:3D_Objects_Counter 20171225210000
+sc.fiji:3D_Viewer 20171225210000
 sc.fiji:Anisotropic_Diffusion_2D 20171225120000
 sc.fiji:Archipelago_Plugins 20171225120000
 sc.fiji:Arrow_ 20171225120000
@@ -106,7 +109,7 @@ sc.fiji:Image_Expression_Parser 20171225120000
 sc.fiji:Interactive_3D_Surface_Plot 20171225120000
 sc.fiji:IsoData_Classifier 20171225120000
 sc.fiji:Kuwahara_Filter 20171225120000
-sc.fiji:KymographBuilder_ 20171225120000
+sc.fiji:KymographBuilder 20171225120000
 sc.fiji:LSM_Reader 20171225120000
 sc.fiji:LSM_Toolbox 20171225120000
 sc.fiji:Lasso_and_Blow_Tool 20171225120000
@@ -143,7 +146,7 @@ sc.fiji:Volume_Calculator 20171225120000
 sc.fiji:Volume_Viewer 20171225120000
 sc.fiji:bUnwarpJ_ 20171225120000
 sc.fiji:bigdataviewer-server 20171225120000
-sc.fiji:bij_ 20171225120000
+sc.fiji:bij 20171225120000
 sc.fiji:blockmatching_ 20171225120000
 sc.fiji:fiji-compat 20171225120000
 sc.fiji:fiji-lib 20171225120000
