@@ -144,8 +144,8 @@ sc.fiji:Skeletonize3D_ 20171225120000
 sc.fiji:Statistical_Region_Merging 20171225120000
 sc.fiji:Stitching_ 20171225120000
 sc.fiji:Sync_Win 20171225120000
-sc.fiji:T2-NIT 20170428000000
-sc.fiji:T2-TreelineGraph 20170428000000
+sc.fiji:T2-NIT 20180428000000
+sc.fiji:T2-TreelineGraph 20180428000000
 sc.fiji:Thread_Killer 20171225120000
 sc.fiji:Time_Lapse 20171225120000
 sc.fiji:ToAST_ 20171225120000
@@ -154,7 +154,7 @@ sc.fiji:TrakEM2_Archipelago 20171225120000
 sc.fiji:VIB_ 20171225120000
 sc.fiji:Vaa3d_Reader 20171225120000
 sc.fiji:Vaa3d_Writer 20171225120000
-sc.fiji:VectorString 20170428000000
+sc.fiji:VectorString 20180428000000
 sc.fiji:Video_Editing 20171225120000
 sc.fiji:View5D_ 20171225120000
 sc.fiji:Volume_Calculator 20171225120000
