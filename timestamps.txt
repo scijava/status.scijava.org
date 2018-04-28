@@ -76,6 +76,7 @@ sc.fiji:Fiji_Plugins 20171225120000
 sc.fiji:FlowJ_ 20171225120000
 sc.fiji:Graph_Cut 20171225120000
 sc.fiji:Gray_Morphology 20171225120000
+sc.fiji:H5J_Loader_Plugin 20180428120000
 sc.fiji:Helmholtz_Analysis 20171225120000
 sc.fiji:IJ_Robot 20171225120000
 sc.fiji:Image_5D 20171225120000
