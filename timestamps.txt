@@ -105,6 +105,7 @@ sc.fiji:Colour_Deconvolution 20171225120000
 sc.fiji:CorrectBleach_ 20171225120000
 sc.fiji:Descriptor_based_registration 20171225120000
 sc.fiji:Dichromacy_ 20171225120000
+sc.fiji:Directionality_ 20180428000000
 sc.fiji:FS_Align_TrakEM2 20171225120000
 sc.fiji:Feature_Detection 20171225120000
 sc.fiji:Fiji_Archipelago 20171225120000
