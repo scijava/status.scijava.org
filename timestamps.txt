@@ -21,7 +21,7 @@ net.imagej:op-finder 20171225120000
 net.imglib2:imglib2-algorithm-fft 20171225120000
 net.imglib2:imglib2-algorithm-gpl 20171225120000
 net.imglib2:imglib2-cache 20171225120000
-net.imglib2:imglib2-ui 20171225120000
+net.imglib2:imglib2-ui 20180428120000
 org.janelia:H5J_Loader_Plugin 20180428120000
 org.jmockit:jmockit 20190101120000
 org.scijava:jep 20171225120000
