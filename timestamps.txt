@@ -9,6 +9,7 @@ io.scif:scifio-ome-xml 20171225120000
 net.imagej:imagej 20180104120000
 net.imagej:imagej-common 20180104120000
 net.imagej:imagej-deprecated 20171225120000
+net.imagej:imagej-legacy 20180501000000
 net.imagej:imagej-mesh 20171225120000
 net.imagej:imagej-notebook 20180427120000
 net.imagej:imagej-plugins-commands 20171225120000
