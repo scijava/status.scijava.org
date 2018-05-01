@@ -18,6 +18,7 @@ processGA() {
 	else
 		g=${ga%%:*}
 		a=${ga#*:}
+		test "$g" = "graphics.scenery" && url=https://github.com/scenerygraphics/$a
 		test "$g" = "io.scif" && url=https://github.com/scifio/$a
 		test "$g" = "net.imagej" && url=https://github.com/imagej/$a
 		test "$g" = "net.imglib2" && url=https://github.com/imglib/$a
@@ -33,6 +34,7 @@ processGA() {
 					;;
 			esac
 		fi
+		test "$g" = "sc.iview" && url=https://github.com/scenerygraphics/$a
 		test -z "$url" && exit 1 # no known URL
 		echo "$ga $url"
 	fi
