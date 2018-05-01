@@ -1,4 +1,4 @@
-com.google.guava:guava 20180427120000
+com.google.guava:guava 20180601000000
 com.opencsv:opencsv 20171225210000
 io.scif:scifio-bf-compat 20171225120000
 io.scif:scifio-cli 20171225120000
