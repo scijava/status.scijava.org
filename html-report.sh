@@ -143,7 +143,11 @@ do
   echo "<td>$bomVersion</td>"
   echo "<td>$newestRelease</td>"
   echo "<td>$bomOK</td>"
-  if [ "$lastVetted" -eq "$timestampOverride" ]
+  if [ "$lastVetted" -eq 0 ]
+  then
+    # Unknown status!
+    echo "<td class=\"unknown\">???</td>"
+  elif [ "$lastVetted" -eq "$timestampOverride" ]
   then
     # Last vetted manually via timestamps.txt.
     echo "<td class=\"overridden\">$lastVetted</td>"
