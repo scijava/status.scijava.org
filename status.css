@@ -29,6 +29,12 @@ table td:nth-child(2), table td:nth-child(5), table td:nth-child(8) {
   border-right: 1px solid gray;
 }
 
+.unknown {
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .overridden {
   color: darkgoldenrod;
   font-style: italic;
