@@ -1,5 +1,6 @@
-com.google.guava:guava 20180601000000
-com.opencsv:opencsv 20171225210000
+com.google.guava:guava 20190101000000
+com.opencsv:opencsv 20190101000000
+hsqldb:hsqldb 20190101000000
 io.scif:scifio-hdf5 20171225120000
 io.scif:scifio-jai-imageio 20171225120000
 net.imagej:imagej-deprecated 20171225120000
