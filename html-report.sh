@@ -143,11 +143,18 @@ do
   echo "<td>$bomVersion</td>"
   echo "<td>$newestRelease</td>"
   echo "<td>$bomOK</td>"
-  test "$timestampOverride" -eq 0 &&
-    # NB: Last vetted automatically via release artifact.
-    echo "<td>$lastVetted</td>" ||
-    # NB: Last vetted manually via timestamps.txt.
+  if [ "$lastVetted" -eq "$timestampOverride" ]
+  then
+    # Last vetted manually via timestamps.txt.
     echo "<td class=\"overridden\">$lastVetted</td>"
+  elif [ "$timestampOverride" -eq 0 ]
+  then
+    # Last vetted automatically via release artifact; no timestamp override.
+    echo "<td>$lastVetted</td>"
+  else
+    # Last vetted automatically via release artifact; old timestamp override.
+    echo "<td class=\"wasOverridden\">$lastVetted</td>"
+  fi
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
