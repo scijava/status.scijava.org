@@ -2,7 +2,7 @@ axtimwalde/mpicbg <td class="badge"><a href="https://travis-ci.org/axtimwalde/mp
 bigdataviewer/bigdataviewer-core <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-core"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-core.svg?branch=master"></a></td>
 bigdataviewer/bigdataviewer-server <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-server"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-server.svg?branch=master"></a></td>
 bigdataviewer/bigdataviewer-vistools <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-vistools"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-vistools.svg?branch=master"></a></td>
-bigdataviewer/bigdataviewer_bigdataviewer <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer_fiji"><img src="https://travis-ci.org/fiji/bigdataviewer_fiji.svg?branch=master"></a></td>
+bigdataviewer/bigdataviewer_fiji <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer_fiji"><img src="https://travis-ci.org/fiji/bigdataviewer_fiji.svg?branch=master"></a></td>
 bigdataviewer/spimdata <td class="badge"><a href="https://travis-ci.org/bigdataviewer/spimdata"><img src="https://travis-ci.org/bigdataviewer/spimdata.svg?branch=master"></a></td>
 fiji/3D_Blob_Segmentation <td class="badge"><a href="https://travis-ci.org/fiji/3D_Blob_Segmentation"><img src="https://travis-ci.org/fiji/3D_Blob_Segmentation.svg?branch=master"></a></td>
 fiji/3D_Objects_Counter <td class="badge"><a href="https://travis-ci.org/fiji/3D_Objects_Counter"><img src="https://travis-ci.org/fiji/3D_Objects_Counter.svg?branch=master"></a></td>
