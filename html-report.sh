@@ -70,14 +70,17 @@ do
   url=$(./project-url.sh "$g:$a")
   url=${url#* }
 
-  # Compute Travis badge
+  # Compute CI badge
   case "$url" in
     https://github.com/*)
       slug=${url#https://github.com/}
-      travis="<td class=\"badge\"><a href=\"https://travis-ci.org/$slug\"><img src=\"https://travis-ci.org/$slug.svg?branch=master\"></a></td>"
+      ciOverride=$(grep "^$slug " ci-badges.txt)
+      test "$ciOverride" &&
+        ciBadge=${ciOverride#$slug } ||
+        ciBadge="<td class=\"badge\"><a href=\"https://travis-ci.com/$slug\"><img src=\"https://travis-ci.com/$slug.svg?branch=master\"></a></td>"
       ;;
     *)
-      travis="<td>-</td>"
+      ciBadge="<td>-</td>"
       ;;
   esac
 
@@ -162,7 +165,7 @@ do
   echo "<td>$lastUpdated</td>"
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
-  echo "$travis"
+  echo "$ciBadge"
   echo '</tr>'
 done
 
