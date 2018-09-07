@@ -8,7 +8,6 @@ io.scif:scifio-jai-imageio 20180905120000
 io.scif:scifio-lifesci 20180905120000
 io.scif:scifio-ome-xml 20180905120000
 net.imagej:ImageJA 20180905120000
-net.imagej:imagej 20180905120000
 net.imagej:imagej-deprecated 20180905120000
 net.imagej:imagej-launcher 20180905120000
 net.imagej:imagej-mesh 20180905120000
@@ -30,7 +29,6 @@ net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
 net.imglib2:imglib2-cache 20180905120000
 net.imglib2:imglib2-ij 20180905120000
-net.imglib2:imglib2-roi 20180905120000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 org.jmockit:jmockit 20190101120000
@@ -40,7 +38,6 @@ org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
 org.scijava:jython-shaded 20180905120000
 org.scijava:minimaven 20171225120000
-org.scijava:native-lib-loader 20171225120000
 org.scijava:scijava-cache 20171225120000
 org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
@@ -99,7 +96,6 @@ sc.fiji:FlowJ_ 20180905120000
 sc.fiji:Graph_Cut 20180905120000
 sc.fiji:Gray_Morphology 20180905120000
 sc.fiji:H5J_Loader_Plugin 20180905120000
-sc.fiji:HDF5_Vibez 20180905120000
 sc.fiji:Helmholtz_Analysis 20180905120000
 sc.fiji:IJ_Robot 20180905120000
 sc.fiji:IO_ 20180905120000
