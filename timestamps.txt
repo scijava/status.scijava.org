@@ -7,13 +7,16 @@ io.scif:scifio-hdf5 20180905120000
 io.scif:scifio-jai-imageio 20180905120000
 io.scif:scifio-lifesci 20180905120000
 io.scif:scifio-ome-xml 20180905120000
+mpicbg:mpicbg 20180929000000
+mpicbg:mpicbg_ 20180929000000
 net.imagej:ImageJA 20180905120000
 net.imagej:imagej-deprecated 20180905120000
-net.imagej:imagej-launcher 20180905120000
+net.imagej:imagej-launcher 20180929000000
 net.imagej:imagej-mesh 20180905120000
 net.imagej:imagej-mesh-io 20180905120000
 net.imagej:imagej-notebook 20180905120000
 net.imagej:imagej-omero-legacy 20180905120000
+net.imagej:imagej-plugins-batch 20180929000000
 net.imagej:imagej-plugins-commands 20180905120000
 net.imagej:imagej-plugins-tools 20180905120000
 net.imagej:imagej-plugins-uploader-ssh 20180905120000
@@ -24,13 +27,14 @@ net.imagej:imagej-ui-awt 20180905120000
 net.imagej:imagej-ui-swing 20180905120000
 net.imagej:imagej-updater 20180905120000
 net.imagej:imagej-usage 20180905120000
-net.imagej:op-finder 20171225120000
+net.imagej:op-finder 20180929000000
 net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
 net.imglib2:imglib2-cache 20180905120000
 net.imglib2:imglib2-ij 20180905120000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
+org.janelia:H5J_Loader_Plugin 20180929000000
 org.jmockit:jmockit 20190101120000
 org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
@@ -38,6 +42,8 @@ org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
 org.scijava:jython-shaded 20180905120000
 org.scijava:minimaven 20171225120000
+org.scijava:native-lib-loader 20180929000000
+org.scijava:parsington 20180929000000
 org.scijava:scijava-cache 20171225120000
 org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
@@ -45,6 +51,7 @@ org.scijava:scijava-io-http 20180905120000
 org.scijava:scijava-java3d 20171225120000
 org.scijava:scijava-jupyter-kernel 20180905120000
 org.scijava:scijava-log-slf4j 20180427120000
+org.scijava:scijava-maven-plugin 20180929000000
 org.scijava:scijava-plugins-commands 20171225120000
 org.scijava:scijava-plugins-platforms 20180905120000
 org.scijava:scijava-plugins-text-markdown 20171225120000
@@ -74,6 +81,8 @@ sc.fiji:AnalyzeSkeleton_ 20180905120000
 sc.fiji:Anisotropic_Diffusion_2D 20180905120000
 sc.fiji:Archipelago_Plugins 20180905120000
 sc.fiji:Arrow_ 20180905120000
+sc.fiji:Auto_Local_Threshold 20180929000000
+sc.fiji:Auto_Threshold 20180929000000
 sc.fiji:BalloonSegmentation_ 20180905120000
 sc.fiji:Bug_Submitter 20180905120000
 sc.fiji:CPU_Meter 20180905120000
@@ -138,7 +147,7 @@ sc.fiji:Time_Lapse 20180905120000
 sc.fiji:Time_Stamper 20180905120000
 sc.fiji:ToAST_ 20180905120000
 sc.fiji:TopoJ_ 20180905120000
-sc.fiji:TrackMate_ 20180905120000
+sc.fiji:TrackMate_ 20180929000000
 sc.fiji:TrakEM2_Archipelago 20180905120000
 sc.fiji:VIB-lib 20180905120000
 sc.fiji:VIB_ 20180905120000
@@ -151,6 +160,7 @@ sc.fiji:Volume_Calculator 20180905120000
 sc.fiji:Volume_Viewer 20180905120000
 sc.fiji:bUnwarpJ_ 20180905120000
 sc.fiji:bigdataviewer-server 20171225120000
+sc.fiji:bigdataviewer-vistools 20180929000000
 sc.fiji:bigdataviewer_fiji 20180905120000
 sc.fiji:bij 20180905120000
 sc.fiji:blockmatching_ 20180905120000
