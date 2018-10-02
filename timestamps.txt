@@ -162,6 +162,7 @@ sc.fiji:bUnwarpJ_ 20180905120000
 sc.fiji:bigdataviewer-server 20171225120000
 sc.fiji:bigdataviewer-vistools 20180929000000
 sc.fiji:bigdataviewer_fiji 20180905120000
+sc.fiji:bigwarp_fiji 20181002000000
 sc.fiji:bij 20180905120000
 sc.fiji:blockmatching_ 20180905120000
 sc.fiji:fiji 20180905120000
@@ -174,6 +175,7 @@ sc.fiji:panorama_ 20180905120000
 sc.fiji:register_virtual_stack_slices 20180905120000
 sc.fiji:registration_3d 20180905120000
 sc.fiji:spim_data 20180905120000
-sc.fiji:trakem2-tps 20180905120000
+sc.fiji:trakem2-tps 20181002000000
 sc.fiji:trakem2-transform 20180905120000
 sc.fiji:weave_jy2java 20180905120000
+sc.fiji:z_spacing 20181002000000
