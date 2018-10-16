@@ -32,10 +32,12 @@ net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
 net.imglib2:imglib2-cache 20180905120000
 net.imglib2:imglib2-ij 20180905120000
+net.imglib2:imglib2-realtransform 20181016000000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 org.janelia:H5J_Loader_Plugin 20180929000000
 org.jmockit:jmockit 20190101120000
+org.scijava:batch-processor 20181016000000
 org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
 org.scijava:jep 20171225120000
@@ -47,7 +49,6 @@ org.scijava:parsington 20180929000000
 org.scijava:scijava-cache 20171225120000
 org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
-org.scijava:scijava-io-http 20180905120000
 org.scijava:scijava-java3d 20171225120000
 org.scijava:scijava-jupyter-kernel 20180905120000
 org.scijava:scijava-log-slf4j 20180427120000
