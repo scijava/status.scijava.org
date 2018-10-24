@@ -10,6 +10,8 @@ io.scif:scifio-ome-xml 20180905120000
 mpicbg:mpicbg 20180929000000
 mpicbg:mpicbg_ 20180929000000
 net.imagej:ImageJA 20180905120000
+net.imagej:ij1-patcher 20181024000000
+net.imagej:imagej-common 20181024000000
 net.imagej:imagej-deprecated 20180905120000
 net.imagej:imagej-launcher 20180929000000
 net.imagej:imagej-mesh 20180905120000
@@ -89,6 +91,7 @@ sc.fiji:Bug_Submitter 20180905120000
 sc.fiji:CPU_Meter 20180905120000
 sc.fiji:Calculator_Plus 20180905120000
 sc.fiji:Cell_Counter 20180905120000
+sc.fiji:Colocalisation_Analysis 20181024000000
 sc.fiji:Color_Histogram 20180905120000
 sc.fiji:Color_Inspector_3D 20180905120000
 sc.fiji:Colour_Deconvolution 20180905120000
@@ -114,6 +117,7 @@ sc.fiji:Image_Expression_Parser 20180905120000
 sc.fiji:Interactive_3D_Surface_Plot 20180905120000
 sc.fiji:IsoData_Classifier 20180905120000
 sc.fiji:Kuwahara_Filter 20180905120000
+sc.fiji:KymographBuilder 20181024000000
 sc.fiji:LSM_Reader 20180905120000
 sc.fiji:LSM_Toolbox 20180905120000
 sc.fiji:Lasso_and_Blow_Tool 20180905120000
@@ -132,7 +136,7 @@ sc.fiji:SPIM_Opener 20180905120000
 sc.fiji:SPIM_Registration 20180905120000
 sc.fiji:Samples_ 20180905120000
 sc.fiji:Series_Labeler 20180905120000
-sc.fiji:Sholl_Analysis 20180905120000
+sc.fiji:Sholl_Analysis 20181024000000
 sc.fiji:Simple_Neurite_Tracer 20180905120000
 sc.fiji:Siox_Segmentation 20180905120000
 sc.fiji:Skeletonize3D_ 20180905120000
@@ -149,12 +153,13 @@ sc.fiji:Time_Stamper 20180905120000
 sc.fiji:ToAST_ 20180905120000
 sc.fiji:TopoJ_ 20180905120000
 sc.fiji:TrackMate_ 20180929000000
+sc.fiji:Trainable_Segmentation 20181024000000
 sc.fiji:TrakEM2_Archipelago 20180905120000
 sc.fiji:VIB-lib 20180905120000
 sc.fiji:VIB_ 20180905120000
 sc.fiji:Vaa3d_Reader 20180905120000
 sc.fiji:Vaa3d_Writer 20180905120000
-sc.fiji:VectorString 20180428000000
+sc.fiji:VectorString 20181024000000
 sc.fiji:Video_Editing 20180905120000
 sc.fiji:View5D_ 20180905120000
 sc.fiji:Volume_Calculator 20180905120000
@@ -176,7 +181,6 @@ sc.fiji:panorama_ 20180905120000
 sc.fiji:register_virtual_stack_slices 20180905120000
 sc.fiji:registration_3d 20180905120000
 sc.fiji:spim_data 20180905120000
-sc.fiji:trakem2-tps 20181002000000
+sc.fiji:trakem2_tps 20181024000000
 sc.fiji:trakem2-transform 20180905120000
-sc.fiji:weave_jy2java 20180905120000
 sc.fiji:z_spacing 20181002000000
