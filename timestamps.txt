@@ -43,6 +43,7 @@ ome:bio-formats_plugins 20181026000000
 ome:formats-api 20181026000000
 ome:formats-bsd 20181026000000
 ome:formats-gpl 20181026000000
+org.apache.poi:poi 20181026000000
 org.janelia:H5J_Loader_Plugin 20180929000000
 org.jmockit:jmockit 20190101120000
 org.scijava:batch-processor 20181016000000
