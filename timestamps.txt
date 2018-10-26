@@ -67,11 +67,13 @@ org.scijava:scijava-cache 20171225120000
 org.scijava:scijava-common 20181026000000
 org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
+org.scijava:scijava-io-http 20181026000000
 org.scijava:scijava-java3d 20171225120000
 org.scijava:scijava-jupyter-kernel 20180905120000
 org.scijava:scijava-log-slf4j 20180427120000
 org.scijava:scijava-maven-plugin 20180929000000
 org.scijava:scijava-plugins-commands 20171225120000
+org.scijava:scijava-plugins-io-table 20181026000000
 org.scijava:scijava-plugins-platforms 20180905120000
 org.scijava:scijava-plugins-text-markdown 20171225120000
 org.scijava:scijava-plugins-text-plain 20171225120000
@@ -200,3 +202,4 @@ sc.fiji:spim_data 20180905120000
 sc.fiji:trakem2_tps 20181024000000
 sc.fiji:trakem2-transform 20180905120000
 sc.fiji:z_spacing 20181002000000
+sc.iview:sciview 20181026000000
