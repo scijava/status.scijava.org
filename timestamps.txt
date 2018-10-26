@@ -78,8 +78,8 @@ org.scijava:scripting-scala 20180701120000
 org.scijava:swing-checkbox-tree 20171225120000
 org.scijava:ui-behaviour 20180905120000
 org.scijava:vecmath 20180905120000
-org.tensorflow:proto 20180901000000
-org.tensorflow:tensorflow 20180901000000
+org.tensorflow:proto 20181026000000
+org.tensorflow:tensorflow 20181026000000
 sc.fiji:3D_Blob_Segmentation 20180905120000
 sc.fiji:3D_Objects_Counter 20180905120000
 sc.fiji:3D_Viewer 20180905120000
