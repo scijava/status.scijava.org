@@ -51,6 +51,7 @@ org.jetbrains.kotlin:kotlin-reflect 20181026000000
 org.jetbrains.kotlin:kotlin-stdlib-jdk8 20181026000000
 org.jmockit:jmockit 20190101120000
 org.mockito:mockito-core 20181026000000
+org.ojalgo:ojalgo 20181026000000
 org.scijava:batch-processor 20181016000000
 org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
