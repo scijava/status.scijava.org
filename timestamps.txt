@@ -37,6 +37,7 @@ net.imglib2:imglib2-ij 20180905120000
 net.imglib2:imglib2-realtransform 20181016000000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
+net.java.dev.jna:jna 20181026000000
 org.janelia:H5J_Loader_Plugin 20180929000000
 org.jmockit:jmockit 20190101120000
 org.scijava:batch-processor 20181016000000
