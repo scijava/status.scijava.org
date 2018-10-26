@@ -1,6 +1,8 @@
+ca.mcgill:Sholl_Analysis 20181026000000
 com.google.guava:guava 20190101000000
 com.opencsv:opencsv 20190101000000
 hsqldb:hsqldb 20190101000000
+io.scif:scifio 20181026000000
 io.scif:scifio-bf-compat 20180905120000
 io.scif:scifio-cli 20180905120000
 io.scif:scifio-hdf5 20180905120000
@@ -50,6 +52,7 @@ org.scijava:minimaven 20171225120000
 org.scijava:native-lib-loader 20180929000000
 org.scijava:parsington 20180929000000
 org.scijava:scijava-cache 20171225120000
+org.scijava:scijava-common 20181026000000
 org.scijava:scijava-config 20171225120000
 org.scijava:scijava-grab 20171225120000
 org.scijava:scijava-java3d 20171225120000
