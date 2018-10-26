@@ -34,7 +34,6 @@ net.imagej:imagej-usage 20180905120000
 net.imagej:op-finder 20180929000000
 net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
-net.imglib2:imglib2-cache 20180905120000
 net.imglib2:imglib2-ij 20180905120000
 net.imglib2:imglib2-realtransform 20181016000000
 net.imglib2:imglib2-script 20180905120000
