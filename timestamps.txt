@@ -9,8 +9,6 @@ io.scif:scifio-hdf5 20180905120000
 io.scif:scifio-jai-imageio 20180905120000
 io.scif:scifio-lifesci 20180905120000
 io.scif:scifio-ome-xml 20180905120000
-mpicbg:mpicbg 20180929000000
-mpicbg:mpicbg_ 20180929000000
 net.imagej:ImageJA 20180905120000
 net.imagej:ij1-patcher 20181024000000
 net.imagej:imagej-common 20181024000000
@@ -35,7 +33,6 @@ net.imagej:op-finder 20180929000000
 net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
 net.imglib2:imglib2-ij 20180905120000
-net.imglib2:imglib2-realtransform 20181016000000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 net.java.dev.jna:jna 20181026000000
