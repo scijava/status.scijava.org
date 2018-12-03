@@ -17,6 +17,11 @@
         <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="junit" artifactId="*" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-(alpha|beta|rc)-?[0-9]+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="mpicbg" artifactId="*" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">[0-9]{8}</ignoreVersion>
