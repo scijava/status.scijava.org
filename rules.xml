@@ -27,6 +27,21 @@
         <ignoreVersion type="regex">[0-9]{8}</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="ome" artifactId="*" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-m[0-9]+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="omero" artifactId="*" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-m[0-9]+-.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.openmicroscopy" artifactId="*" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-m[0-9]+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="org.eclipse.jetty" artifactId="*" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*\.RC[0-9]+</ignoreVersion>

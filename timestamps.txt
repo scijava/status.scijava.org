@@ -36,10 +36,6 @@ net.imglib2:imglib2-ij 20180905120000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 net.java.dev.jna:jna 20181026000000
-ome:bio-formats_plugins 20181026000000
-ome:formats-api 20181026000000
-ome:formats-bsd 20181026000000
-ome:formats-gpl 20181026000000
 org.apache.poi:poi 20181026000000
 org.apache.spark:spark-core_2.11 20181231000000
 org.janelia:H5J_Loader_Plugin 20180929000000
