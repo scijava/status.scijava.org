@@ -11,10 +11,7 @@ io.scif:scifio-lifesci 20180905120000
 io.scif:scifio-ome-xml 20180905120000
 net.imagej:ImageJA 20180905120000
 net.imagej:ij1-patcher 20181024000000
-net.imagej:imagej-common 20181024000000
 net.imagej:imagej-deprecated 20180905120000
-net.imagej:imagej-launcher 20180929000000
-net.imagej:imagej-mesh 20180905120000
 net.imagej:imagej-mesh-io 20180905120000
 net.imagej:imagej-notebook 20180905120000
 net.imagej:imagej-omero-legacy 20180905120000
@@ -30,9 +27,9 @@ net.imagej:imagej-ui-swing 20180905120000
 net.imagej:imagej-updater 20180905120000
 net.imagej:imagej-usage 20180905120000
 net.imagej:op-finder 20180929000000
+net.imglib2:imglib2 20181203000000
 net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
-net.imglib2:imglib2-ij 20180905120000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 net.java.dev.jna:jna 20181208000000
@@ -53,8 +50,6 @@ org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
 org.scijava:jython-shaded 20180905120000
 org.scijava:minimaven 20171225120000
-org.scijava:native-lib-loader 20180929000000
-org.scijava:parsington 20180929000000
 org.scijava:scijava-cache 20171225120000
 org.scijava:scijava-common 20181026000000
 org.scijava:scijava-config 20171225120000
@@ -83,7 +78,6 @@ org.scijava:scripting-matlab 20180701120000
 org.scijava:scripting-renjin 20180701120000
 org.scijava:scripting-scala 20180701120000
 org.scijava:swing-checkbox-tree 20171225120000
-org.scijava:ui-behaviour 20180905120000
 org.scijava:vecmath 20180905120000
 org.tensorflow:proto 20181231000000
 org.tensorflow:tensorflow 20181231000000
@@ -119,6 +113,7 @@ sc.fiji:FlowJ_ 20180905120000
 sc.fiji:Graph_Cut 20180905120000
 sc.fiji:Gray_Morphology 20180905120000
 sc.fiji:H5J_Loader_Plugin 20180905120000
+sc.fiji:HDF5_Vibez 20181203000000
 sc.fiji:Helmholtz_Analysis 20180905120000
 sc.fiji:IJ_Robot 20180905120000
 sc.fiji:IO_ 20180905120000
@@ -147,7 +142,7 @@ sc.fiji:SPIM_Registration 20180905120000
 sc.fiji:Samples_ 20180905120000
 sc.fiji:Series_Labeler 20180905120000
 sc.fiji:Sholl_Analysis 20181024000000
-sc.fiji:Simple_Neurite_Tracer 20180905120000
+sc.fiji:Simple_Neurite_Tracer 20181203000000
 sc.fiji:Siox_Segmentation 20180905120000
 sc.fiji:Skeletonize3D_ 20180905120000
 sc.fiji:SplineDeformationGenerator_ 20180905120000
@@ -164,6 +159,7 @@ sc.fiji:ToAST_ 20180905120000
 sc.fiji:TopoJ_ 20180905120000
 sc.fiji:TrackMate_ 20180929000000
 sc.fiji:Trainable_Segmentation 20181024000000
+sc.fiji:TrakEM2_ 20181203000000
 sc.fiji:TrakEM2_Archipelago 20180905120000
 sc.fiji:VIB-lib 20180905120000
 sc.fiji:VIB_ 20180905120000
@@ -191,7 +187,8 @@ sc.fiji:panorama_ 20180905120000
 sc.fiji:register_virtual_stack_slices 20180905120000
 sc.fiji:registration_3d 20180905120000
 sc.fiji:spim_data 20180905120000
-sc.fiji:trakem2_tps 20181024000000
 sc.fiji:trakem2-transform 20180905120000
+sc.fiji:trakem2_tps 20181024000000
+sc.fiji:weave_jy2java 20181203000000
 sc.fiji:z_spacing 20181002000000
 sc.iview:sciview 20181026000000
