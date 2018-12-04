@@ -166,6 +166,7 @@ scijava/scijava-java3d <td class="badge"><a href="https://travis-ci.org/scijava/
 scijava/scijava-jupyter-kernel <td class="badge"><a href="https://travis-ci.org/scijava/scijava-jupyter-kernel"><img src="https://travis-ci.org/scijava/scijava-jupyter-kernel.svg?branch=master"></a></td>
 scijava/scijava-log-slf4j <td class="badge"><a href="https://travis-ci.org/scijava/scijava-log-slf4j"><img src="https://travis-ci.org/scijava/scijava-log-slf4j.svg?branch=master"></a></td>
 scijava/scijava-plugins-commands <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-commands"><img src="https://travis-ci.org/scijava/scijava-plugins-commands.svg?branch=master"></a></td>
+scijava/scijava-plugins-io-table <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-io-table"><img src="https://travis-ci.org/scijava/scijava-plugins-io-table.svg?branch=master"></a></td>
 scijava/scijava-plugins-platforms <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-platforms"><img src="https://travis-ci.org/scijava/scijava-plugins-platforms.svg?branch=master"></a></td>
 scijava/scijava-plugins-text-markdown <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-text-markdown"><img src="https://travis-ci.org/scijava/scijava-plugins-text-markdown.svg?branch=master"></a></td>
 scijava/scijava-plugins-text-plain <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-text-plain"><img src="https://travis-ci.org/scijava/scijava-plugins-text-plain.svg?branch=master"></a></td>
