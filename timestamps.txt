@@ -25,6 +25,7 @@ net.imagej:op-finder 20180929000000
 net.imglib2:imglib2 20181203000000
 net.imglib2:imglib2-algorithm-fft 20180905120000
 net.imglib2:imglib2-algorithm-gpl 20180905120000
+net.imglib2:imglib2-cache 20181204000000
 net.imglib2:imglib2-script 20180905120000
 net.imglib2:imglib2-ui 20180905120000
 net.java.dev.jna:jna 20181208000000
