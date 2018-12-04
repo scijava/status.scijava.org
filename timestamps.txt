@@ -12,8 +12,8 @@ io.scif:scifio-ome-xml 20180905120000
 net.imagej:ImageJA 20180905120000
 net.imagej:ij1-patcher 20181024000000
 net.imagej:imagej-deprecated 20180905120000
+net.imagej:imagej-mesh 20181204000000
 net.imagej:imagej-mesh-io 20180905120000
-net.imagej:imagej-notebook 20180905120000
 net.imagej:imagej-plugins-tools 20180905120000
 net.imagej:imagej-plugins-uploader-ssh 20180905120000
 net.imagej:imagej-plugins-uploader-webdav 20180905120000
