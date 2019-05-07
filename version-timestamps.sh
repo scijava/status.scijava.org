@@ -18,7 +18,7 @@
 # This can be a remote repository, or a local file path.
 # --------------------------------------------------------------
 test "$M2_REPO_PATH" && repo=$M2_REPO_PATH ||
-	repo=https://maven.imagej.net/content/groups/public
+	repo=https://maven.scijava.org/content/groups/public
 
 # G=groupId, A=artifactId, V=version
 processGAV() {
