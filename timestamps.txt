@@ -32,7 +32,6 @@ org.scijava:j3dutils 20180905120000
 org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
 org.scijava:jython-shaded 20190624120000
-org.scijava:minimaven 20190703000000
 org.scijava:native-lib-loader 20190703000000
 org.scijava:parsington 20190703000000
 org.scijava:scijava-cache 20190703000000
