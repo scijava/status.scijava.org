@@ -101,6 +101,7 @@ fiji/register_virtual_stack_slices <td class="badge"><a href="https://travis-ci.
 fiji/registration_3d <td class="badge"><a href="https://travis-ci.org/fiji/registration_3d"><img src="https://travis-ci.org/fiji/registration_3d.svg?branch=master"></a></td>
 fiji/weave_jy2java <td class="badge"><a href="https://travis-ci.org/fiji/weave_jy2java"><img src="https://travis-ci.org/fiji/weave_jy2java.svg?branch=master"></a></td>
 hadim/OMEVisual <td class="badge"><a href="https://travis-ci.org/hadim/OMEVisual"><img src="https://travis-ci.org/hadim/OMEVisual.svg?branch=master"></a></td>
+ijpb/MorphoLibJ <td class="badge"><a href="https://travis-ci.org/ijpb/MorphoLibJ"><img src="https://travis-ci.org/ijpb/MorphoLibJ.svg?branch=master"></a></td>
 imagej/ImageJA <td>None</td>
 imagej/ij1-patcher <td class="badge"><a href="https://travis-ci.org/imagej/ij1-patcher"><img src="https://travis-ci.org/imagej/ij1-patcher.svg?branch=master"></a></td>
 imagej/imagej <td class="badge"><a href="https://travis-ci.org/imagej/imagej"><img src="https://travis-ci.org/imagej/imagej.svg?branch=master"></a></td>
