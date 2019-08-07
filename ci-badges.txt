@@ -137,6 +137,7 @@ imglib/imglib2-realtransform <td class="badge"><a href="https://travis-ci.org/im
 imglib/imglib2-roi <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-roi"><img src="https://travis-ci.org/imglib/imglib2-roi.svg?branch=master"></a></td>
 imglib/imglib2-script <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-script"><img src="https://travis-ci.org/imglib/imglib2-script.svg?branch=master"></a></td>
 imglib/imglib2-ui <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-ui"><img src="https://travis-ci.org/imglib/imglib2-ui.svg?branch=master"></a></td>
+imglib/imglib2-unsafe <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-unsafe"><img src="https://travis-ci.org/imglib/imglib2-unsafe.svg?branch=master"></a></td>
 saalfeldlab/bigwarp <td class="badge"><a href="https://travis-ci.org/saalfeldlab/bigwarp"><img src="https://travis-ci.org/saalfeldlab/bigwarp.svg?branch=master"></a></td>
 saalfeldlab/trakem2-tps <td class="badge"><a href="https://travis-ci.org/saalfeldlab/trakem2-tps"><img src="https://travis-ci.org/saalfeldlab/trakem2-tps.svg?branch=master"></a></td>
 saalfeldlab/z-spacing <td class="badge"><a href="https://travis-ci.org/saalfeldlab/z-spacing"><img src="https://travis-ci.org/saalfeldlab/z-spacing.svg?branch=master"></a></td>
@@ -159,6 +160,7 @@ scijava/minimaven <td class="badge"><a href="https://travis-ci.org/scijava/minim
 scijava/native-lib-loader <td class="badge"><a href="https://travis-ci.org/scijava/native-lib-loader"><img src="https://travis-ci.org/scijava/native-lib-loader.svg?branch=master"></a></td>
 scijava/parsington <td class="badge"><a href="https://travis-ci.org/scijava/parsington"><img src="https://travis-ci.org/scijava/parsington.svg?branch=master"></a></td>
 scijava/scijava-cache <td class="badge"><a href="https://travis-ci.org/scijava/scijava-cache"><img src="https://travis-ci.org/scijava/scijava-cache.svg?branch=master"></a></td>
+scijava/scijava-coding-style <td class="badge"><a href="https://travis-ci.org/scijava/scijava-coding-style"><img src="https://travis-ci.org/scijava/scijava-coding-style.svg?branch=master"></a></td>
 scijava/scijava-common <td class="badge"><a href="https://travis-ci.org/scijava/scijava-common"><img src="https://travis-ci.org/scijava/scijava-common.svg?branch=master"></a></td>
 scijava/scijava-config <td class="badge"><a href="https://travis-ci.org/scijava/scijava-config"><img src="https://travis-ci.org/scijava/scijava-config.svg?branch=master"></a></td>
 scijava/scijava-grab <td class="badge"><a href="https://travis-ci.org/scijava/scijava-grab"><img src="https://travis-ci.org/scijava/scijava-grab.svg?branch=master"></a></td>
