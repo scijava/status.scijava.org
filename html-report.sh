@@ -171,5 +171,6 @@ done
 
 # Emit the HTML footer matter.
 echo '</table>'
+cat footer.html
 echo '</body>'
 echo '</html>'
