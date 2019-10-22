@@ -13,6 +13,8 @@
 
 checkMark="&#x2714;"
 xMark="&#x2715;"
+repoBase="https://maven.scijava.org"
+gavFormat="$repoBase/#nexus-search;gav~%s~%s~%s~~"
 
 # -- Functions --
 
@@ -143,8 +145,10 @@ do
   test "$url" &&
     echo "<td><a href=\"$url\">$a</td>" ||
     echo "<td>$a</td>"
-  echo "<td>$bomVersion</td>"
-  echo "<td>$newestRelease</td>"
+  bomVersionLink=$(printf "$gavFormat" "$g" "$a" "$bomVersion")
+  echo "<td><a href="$bomVersionLink">$bomVersion</a></td>"
+  newestReleaseLink=$(printf "$gavFormat" "$g" "$a" "$newestRelease")
+  echo "<td><a href="$newestReleaseLink">$newestRelease</a></td>"
   echo "<td>$bomOK</td>"
   if [ "$lastVetted" -eq 0 ]
   then
