@@ -25,8 +25,15 @@ processGAV() {
 	debug processGAV $@
 	g=$1; a=$2; v=$3
 	releaseTimestamp=$(releaseTimestamp "$g" "$a" "$v")
-	newestSnapshot=$(newestSnapshot "$g" "$a")
-	lastDeployed=$(snapshotTimestamp "$g" "$a" "$newestSnapshot")
+	latestVersion=$(latestVersion "$g" "$a")
+	case "$latestVersion" in
+		*-SNAPSHOT)
+			lastDeployed=$(snapshotTimestamp "$g" "$a" "$latestVersion")
+			;;
+		*)
+			lastDeployed=$(releaseTimestamp "$g" "$a" "$latestVersion")
+			;;
+	esac
 	echo "$g:$a:$v $releaseTimestamp $lastDeployed"
 }
 
@@ -61,9 +68,9 @@ releaseTimestamp() {
 	esac
 }
 
-# Given a GA, discerns the newest snapshot version.
-newestSnapshot() {
-	debug newestSnapshot $@
+# Given a GA, discerns the latest version (snapshot or release).
+latestVersion() {
+	debug latestVersion $@
 	# Extract <versioning><latest> value.
 	extractTag latest $@
 }
@@ -93,7 +100,7 @@ extractTag() {
 			# Extract versioning/latest from the remote metadata.
 			metadata=$(downloadMetadata "$g" "$av")
 			tagValue=$(echo "$metadata" | tagValue "$tag")
-			debug "newestSnapshot: $tag -> $tagValue"
+			debug "extractTag: $tag -> $tagValue"
 			test "$tagValue" || die 1 "No $tag tag in metadata:\n$metadata"
 			echo "$tagValue"
 			;;
