@@ -11,7 +11,7 @@
 # For each G:A:V argument passed to the script,
 # there is one line of output, formatted as follows:
 #
-#     G:A:V releaseTimestamp lastUpdated
+#     G:A:V releaseTimestamp lastDeployed
 
 # --------------------------------------------------------------
 # Set the M2_REPO_PATH variable to the desired Maven repository.
@@ -24,14 +24,15 @@ test "$M2_REPO_PATH" && repo=$M2_REPO_PATH ||
 processGAV() {
 	debug processGAV $@
 	g=$1; a=$2; v=$3
-	versionTimestamp=$(versionTimestamp "$g" "$a" "$v")
-	lastUpdated=$(lastUpdated "$g" "$a" "$v")
-	echo "$g:$a:$v $versionTimestamp $lastUpdated"
+	releaseTimestamp=$(releaseTimestamp "$g" "$a" "$v")
+	newestSnapshot=$(newestSnapshot "$g" "$a")
+	lastDeployed=$(snapshotTimestamp "$g" "$a" "$newestSnapshot")
+	echo "$g:$a:$v $releaseTimestamp $lastDeployed"
 }
 
-# Given a GAV, discerns when it was deployed.
-versionTimestamp() {
-	debug versionTimestamp $@
+# Given a release GAV, discerns when it was deployed.
+releaseTimestamp() {
+	debug releaseTimestamp $@
 	g=$1; a=$2; v=$3
 	case "$repo" in
 		/*) # LOCAL
@@ -49,9 +50,9 @@ versionTimestamp() {
 		*) # REMOTE
 			# Query the POM's HTTP header for the last modified time.
 			url="$repo/$(gpath "$g")/$a/$v/$a-$v.pom"
-			debug "versionTimestamp: url -> $url"
+			debug "releaseTimestamp: url -> $url"
 			modified=$(curl -Ifs "$url" | grep '^Last-Modified' | sed 's/^[^ ]* //')
-			debug "versionTimestamp: modified -> $modified"
+			debug "releaseTimestamp: modified -> $modified"
 			test "$modified" &&
 				formatTimestamp "$modified" ||
 				# Invalid URL; probably no such release.
@@ -60,28 +61,41 @@ versionTimestamp() {
 	esac
 }
 
-# Given a GA, discerns when the latest version was deployed.
-# This is probably, but not necessarily, the timestamp
-# corresponding to the most recently deployed SNAPSHOT.
-lastUpdated() {
-	debug lastUpdated $@
-	g=$1; a=$2
+# Given a GA, discerns the newest snapshot version.
+newestSnapshot() {
+	debug newestSnapshot $@
+	# Extract <versioning><latest> value.
+	extractTag latest $@
+}
+
+# Given a GAV, discerns when that snapshot was last deployed.
+snapshotTimestamp() {
+	debug snapshotTimestamp $@
+	g=$1; a=$2; v=$3
+	# Extract <versioning><snapshot><timestamp> value.
+	extractTag timestamp "$g" "$a/$v" | tr -d '.'
+}
+
+# Given a GA(V), extracts an XML tag from local or remote maven-metadata.xml.
+extractTag() {
+	debug extractTag $@
+	tag=$1; g=$2; av=$3
 	case "$repo" in
 		/*) # LOCAL
-			# Extract versioning/lastUpdated from each maven-metadata.xml.
+			# Extract tag value from each maven-metadata.xml.
 			# Then sort and take the last entry as newest.
-			for f in "$repo"/*/"$(gpath "$g")/$a/maven-metadata.xml"
+			for f in "$repo"/*/"$(gpath "$g")/$av/maven-metadata.xml"
 			do
-				cat "$f" | tagValue lastUpdated
+				cat "$f" | tagValue "$tag"
 			done | sort | tail -n1
 			;;
 		*) # REMOTE
-			# Extract versioning/lastUpdated from the remote metadata.
-			metadata=$(downloadMetadata "$g" "$a")
-			lastUpdated=$(echo "$metadata" | tagValue lastUpdated)
-			debug "lastUpdated: lastUpdated -> $lastUpdated"
-			test "$lastUpdated" || die 1 "No lastUpdated tag in metadata:\n$metadata"
-			echo "$lastUpdated"
+			# Extract versioning/latest from the remote metadata.
+			metadata=$(downloadMetadata "$g" "$av")
+			tagValue=$(echo "$metadata" | tagValue "$tag")
+			debug "newestSnapshot: $tag -> $tagValue"
+			test "$tagValue" || die 1 "No $tag tag in metadata:\n$metadata"
+			echo "$tagValue"
 			;;
 	esac
 }
@@ -89,8 +103,8 @@ lastUpdated() {
 # Downloads maven-metadata.xml from the remote repository as needed.
 downloadMetadata() {
 	debug downloadMetadata $@
-	g=$1; a=$2
-	url="$repo/$(gpath "$g")/$a/maven-metadata.xml"
+	g=$1; av=$2
+	url="$repo/$(gpath "$g")/$av/maven-metadata.xml"
 	test "$cachedMetadata" || cachedMetadata=$(curl -fs "$url")
 	test "$cachedMetadata" || die 2 "Cannot access metadata remotely from: $url"
 	debug "downloadMetadata: cachedMetadata ->\n$cachedMetadata"
