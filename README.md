@@ -1,5 +1,5 @@
 This repository contains code to update the
-[SciJava component status table](http://status.scijava.org/).
+[SciJava component status table](https://status.scijava.org/).
 
 SciJava maintainers use this table to see at a glance which components of the
 [SciJava component collection](https://imagej.net/Architecture#Definitions):
