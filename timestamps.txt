@@ -82,7 +82,6 @@ sc.fiji:Fiji_Package_Maker 20190703000000
 sc.fiji:Fiji_Plugins 20190703000000
 sc.fiji:FlowJ_ 20190703000000
 sc.fiji:Graph_Cut 20190703000000
-sc.fiji:Gray_Morphology 20190703000000
 sc.fiji:Gray_Morphology 20191023000000
 sc.fiji:Helmholtz_Analysis 20190703000000
 sc.fiji:IJ_Robot 20190703000000
