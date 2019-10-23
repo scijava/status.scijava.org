@@ -53,10 +53,10 @@ org.scijava:scripting-java 20190703000000
 org.scijava:swing-checkbox-tree 20190703000000
 org.scijava:ui-behaviour 20190703000000
 org.scijava:vecmath 20180905120000
-org.tensorflow:proto 20190710000000
-org.tensorflow:tensorflow 20190710000000
-org.tensorflow:libtensorflow 20190710000000
-org.tensorflow:libtensorflow_jni 20190710000000
+org.tensorflow:proto 20010110000000
+org.tensorflow:tensorflow 20010110000000
+org.tensorflow:libtensorflow 20200101000000
+org.tensorflow:libtensorflow_jni 20010110000000
 sc.fiji:3D_Blob_Segmentation 20190703000000
 info.picocli:picocli 20191001000000
 sc.fiji:3D_Objects_Counter 20190703000000
