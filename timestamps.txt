@@ -14,8 +14,6 @@ net.imagej:imagej-plugins-uploader-ssh 20190703000000
 net.imagej:imagej-scripting 20190703000000
 net.imagej:imagej-server 20190703000000
 net.imagej:imagej-ui-awt 20190703000000
-net.imagej:imagej-ui-swing 20190703000000
-net.imagej:imagej-updater 20190703000000
 net.imagej:imagej-usage 20190624120000
 net.imagej:op-finder 20190703000000
 net.imglib2:imglib2-algorithm-fft 20191024000000
