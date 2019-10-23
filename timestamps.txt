@@ -35,6 +35,8 @@ org.scijava:native-lib-loader 20190703000000
 org.scijava:parsington 20190703000000
 org.scijava:scijava-cache 20190703000000
 org.scijava:scijava-config 20190703000000
+org.scijava:scijava-grab 20191022000000
+org.scijava:scijava-io-http 20191022000000
 org.scijava:scijava-java3d 20190703000000
 org.scijava:scijava-jupyter-kernel 20190703000000
 org.scijava:scijava-log-slf4j 20190703000000
