@@ -140,10 +140,13 @@ imglib/imglib2-ui <td class="badge"><a href="https://travis-ci.org/imglib/imglib
 imglib/imglib2-unsafe <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-unsafe"><img src="https://travis-ci.org/imglib/imglib2-unsafe.svg?branch=master"></a></td>
 ome/bioformats <td class="badge"><a href="https://travis-ci.org/ome/bioformats"><img src="https://travis-ci.org/ome/bioformats.svg?branch=develop"></a></td>
 ome/ome-common-java <td class="badge"><a href="https://travis-ci.org/ome/ome-common-java"><img src="https://travis-ci.org/ome/ome-common-java.svg?branch=master"></a></td>
+ome/ome-metakit <td class="badge"><a href="https://travis-ci.org/ome/ome-metakit"><img src="https://travis-ci.org/ome/ome-metakit.svg?branch=master"></a></td>
 ome/ome-model <td class="badge"><a href="https://travis-ci.org/ome/ome-model"><img src="https://travis-ci.org/ome/ome-model.svg?branch=master"></a></td>
+ome/ome-poi <td class="badge"><a href="https://travis-ci.org/ome/ome-poi"><img src="https://travis-ci.org/ome/ome-poi.svg?branch=master"></a></td>
 ome/omero-blitz <td class="badge"><a href="https://travis-ci.org/ome/omero-blitz"><img src="https://travis-ci.org/ome/omero-blitz.svg?branch=master"></a></td>
 ome/omero-common <td class="badge"><a href="https://travis-ci.org/ome/omero-common"><img src="https://travis-ci.org/ome/omero-common.svg?branch=master"></a></td>
 ome/omero-dsl-plugin <td class="badge"><a href="https://travis-ci.org/ome/omero-dsl-plugin"><img src="https://travis-ci.org/ome/omero-dsl-plugin.svg?branch=master"></a></td>
+ome/omero-gateway-java <td class="badge"><a href="https://travis-ci.org/ome/omero-gateway-java"><img src="https://travis-ci.org/ome/omero-gateway-java.svg?branch=master"></a></td>
 ome/omero-model <td class="badge"><a href="https://travis-ci.org/ome/omero-model"><img src="https://travis-ci.org/ome/omero-model.svg?branch=master"></a></td>
 ome/omero-renderer <td class="badge"><a href="https://travis-ci.org/ome/omero-renderer"><img src="https://travis-ci.org/ome/omero-renderer.svg?branch=master"></a></td>
 ome/omero-romio <td class="badge"><a href="https://travis-ci.org/ome/omero-romio"><img src="https://travis-ci.org/ome/omero-romio.svg?branch=master"></a></td>
