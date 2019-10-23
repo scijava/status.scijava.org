@@ -1,3 +1,4 @@
+ca.mcgill:Sholl_Analysis 20191023000000
 com.google.guava:guava 20200101000000
 com.opencsv:opencsv 20200101000000
 hsqldb:hsqldb 20190101000000
