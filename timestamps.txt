@@ -67,7 +67,7 @@ sc.fiji:CPU_Meter 20190703000000
 sc.fiji:Calculator_Plus 20190703000000
 sc.fiji:Colocalisation_Analysis 20190703000000
 sc.fiji:Color_Histogram 20190703000000
-sc.fiji:CorrectBleach_ 20190703000000
+sc.fiji:Correct_3D_Drift 20191023000000
 sc.fiji:Descriptor_based_registration 20190703000000
 sc.fiji:Directionality_ 20190703000000
 sc.fiji:FS_Align_TrakEM2 20190703000000
@@ -79,10 +79,9 @@ sc.fiji:Fiji_Plugins 20190703000000
 sc.fiji:FlowJ_ 20190703000000
 sc.fiji:Graph_Cut 20190703000000
 sc.fiji:Gray_Morphology 20190703000000
-sc.fiji:HDF5_Vibez 20190703000000
+sc.fiji:Gray_Morphology 20191023000000
 sc.fiji:Helmholtz_Analysis 20190703000000
 sc.fiji:IJ_Robot 20190703000000
-sc.fiji:IO_ 20190703000000
 sc.fiji:Image_5D 20190703000000
 sc.fiji:Image_Expression_Parser 20190703000000
 sc.fiji:Interactive_3D_Surface_Plot 20190703000000
@@ -106,6 +105,7 @@ sc.fiji:SPIM_Opener 20190703000000
 sc.fiji:SPIM_Registration 20190703000000
 sc.fiji:Samples_ 20190703000000
 sc.fiji:Series_Labeler 20190703000000
+sc.fiji:Simple_Neurite_Tracer 20191023000000
 sc.fiji:Siox_Segmentation 20190703000000
 sc.fiji:Skeletonize3D_ 20190703000000
 sc.fiji:SplineDeformationGenerator_ 20190703000000
@@ -113,15 +113,12 @@ sc.fiji:Statistical_Region_Merging 20190703000000
 sc.fiji:Stitching_ 20190703000000
 sc.fiji:Sync_Win 20190703000000
 sc.fiji:Thread_Killer 20190703000000
-sc.fiji:Time_Lapse 20190703000000
 sc.fiji:Time_Stamper 20190703000000
 sc.fiji:ToAST_ 20190703000000
 sc.fiji:TopoJ_ 20190703000000
 sc.fiji:Trainable_Segmentation 20190703000000
 sc.fiji:TrakEM2_Archipelago 20190703000000
 sc.fiji:VIB-lib 20190703000000
-sc.fiji:VIB_ 20190703000000
-sc.fiji:Vaa3d_Reader 20190703000000
 sc.fiji:VectorString 20190703000000
 sc.fiji:Video_Editing 20190703000000
 sc.fiji:View5D_ 20190703000000
@@ -136,4 +133,7 @@ sc.fiji:pal-optimization 20190703000000
 sc.fiji:panorama_ 20190703000000
 sc.fiji:register_virtual_stack_slices 20190703000000
 sc.fiji:registration_3d 20190703000000
+sc.fiji:trakem2-transform 20191023000000
+sc.fiji:trakem2_tps 20191023000000
 sc.fiji:weave_jy2java 20190703000000
+sc.fiji:z_spacing 20191023000000
