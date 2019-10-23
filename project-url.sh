@@ -22,34 +22,7 @@ processGA() {
 		test "$g" = "io.scif" && url=https://github.com/scifio/$a
 		test "$g" = "net.imagej" && url=https://github.com/imagej/$a
 		test "$g" = "net.imglib2" && url=https://github.com/imglib/$a
-		if [ "$g" = "ome" ]
-		then
-			case "$a" in
-				bio-formats_plugins|formats-*)
-					url=https://github.com/ome/bioformats
-					;;
-			esac
-		fi
-		if [ "$g" = "org.openmicroscopy" ]
-		then
-			case "$a" in
-				ome-common)
-					url=https://github.com/ome/ome-common-java
-					;;
-				metakit)
-					url=https://github.com/ome/ome-metakit
-					;;
-				ome-xml|specification)
-					url=https://github.com/ome/ome-model
-					;;
-				omero-gateway)
-					url=https://github.com/ome/omero-gateway-java
-					;;
-				*)
-					url=https://github.com/ome/$a
-					;;
-			esac
-		fi
+		test "$g" = "org.openmicroscopy" && url=https://github.com/ome/$a
 		test "$g" = "org.scijava" && url=https://github.com/scijava/$a
 		if [ "$g" = "sc.fiji" ]
 		then

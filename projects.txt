@@ -2,7 +2,16 @@ ca.mcgill:Sholl_Analysis https://github.com/tferr/ASA
 mpicbg:mpicbg https://github.com/axtimwalde/mpicbg
 mpicbg:mpicbg_ https://github.com/axtimwalde/mpicbg
 net.imagej:ij https://github.com/imagej/ImageJA
+ome:bio-formats_plugins https://github.com/ome/bioformats
+ome:formats-api https://github.com/ome/bioformats
+ome:formats-bsd https://github.com/ome/bioformats
+ome:formats-gpl https://github.com/ome/bioformats
 org.janelia:H5J_Loader_Plugin https://github.com/fiji/H5J_Loader_Plugin
+org.openmicroscopy:metakit https://github.com/ome/ome-metakit
+org.openmicroscopy:ome-common https://github.com/ome/ome-common-java
+org.openmicroscopy:ome-xml https://github.com/ome/ome-model
+org.openmicroscopy:omero-gateway https://github.com/ome/omero-gateway-java
+org.openmicroscopy:specification https://github.com/ome/ome-model
 org.scijava:j3dcore https://github.com/scijava/java3d-core
 org.scijava:j3dutils https://github.com/scijava/java3d-utils
 sc.fiji:Differentials https://github.com/fiji-BIG/Differentials
