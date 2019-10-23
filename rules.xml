@@ -44,6 +44,7 @@
     </rule>
     <rule groupId="org.eclipse.jetty" artifactId="*" comparisonMethod="maven">
       <ignoreVersions>
+        <ignoreVersion type="regex">.*-(alpha|beta|rc)-?[0-9]+</ignoreVersion>
         <ignoreVersion type="regex">.*\.RC[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
