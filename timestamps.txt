@@ -10,7 +10,6 @@ net.imagej:imagej-plugins-batch 20190703000000
 net.imagej:imagej-plugins-commands 20190703000000
 net.imagej:imagej-plugins-tools 20190703000000
 net.imagej:imagej-plugins-uploader-ssh 20190703000000
-net.imagej:imagej-plugins-uploader-webdav 20190703000000
 net.imagej:imagej-scripting 20190703000000
 net.imagej:imagej-server 20190703000000
 net.imagej:imagej-ui-awt 20190703000000
@@ -44,11 +43,11 @@ org.scijava:scijava-plugins-io-table 20190703000000
 org.scijava:scijava-plugins-platforms 20190703000000
 org.scijava:scijava-plugins-text-markdown 20190703000000
 org.scijava:scijava-plugins-text-plain 20190703000000
+org.scijava:scijava-search 20191022000000
 org.scijava:scijava-table 20190703000000
 org.scijava:scijava-ui-awt 20190703000000
 org.scijava:scripting-clojure 20190703000000
 org.scijava:scripting-java 20190703000000
-org.scijava:scripting-kotlin 20190703000000
 org.scijava:swing-checkbox-tree 20190703000000
 org.scijava:ui-behaviour 20190703000000
 org.scijava:vecmath 20180905120000
