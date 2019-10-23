@@ -97,6 +97,12 @@ do
   fi
 
   # Discern timestamps for this component.
+  #
+  # Each component is "vetted" either by:
+  #   A) being released; or
+  #   B) adding an override to timestamps.txt.
+  # Our goal here is to detect whether the component has changed since
+  # the most recent release (not the release listed in the BOM).
   timestamps=$(./version-timestamps.sh "$g:$a:$newestRelease")
   timestamps=${timestamps#* }
   releaseTimestamp=${timestamps%% *}
