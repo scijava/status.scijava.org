@@ -18,6 +18,9 @@ net.imagej:imagej-ui-swing 20190703000000
 net.imagej:imagej-updater 20190703000000
 net.imagej:imagej-usage 20190624120000
 net.imagej:op-finder 20190703000000
+net.imglib2:imglib2-algorithm-fft 20191024000000
+net.imglib2:imglib2-realtransform 20191023000000
+net.imglib2:imglib2-unsafe 20191024000000
 net.java.dev.jna:jna 20200101000000
 org.apache.poi:poi 20200101000000
 org.apache.spark:spark-core_2.11 20200101000000
