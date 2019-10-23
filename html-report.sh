@@ -122,9 +122,9 @@ do
     releaseOK=$checkMark
   fi
 
-  if [ "$((lastUpdated-lastVetted))" -lt 0 ]
+  if [ "$((lastUpdated-timestampOverride))" -lt 0 ]
   then
-    # NB: Last vetted more recently than last update; no bump needed.
+    # NB: Manually vetted more recently than last update; no bump needed.
     bomStatus="bom-ok"
     bomOK=$checkMark
   fi
