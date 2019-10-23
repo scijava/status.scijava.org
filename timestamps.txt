@@ -1,7 +1,6 @@
 com.google.guava:guava 20200101000000
 com.opencsv:opencsv 20200101000000
 hsqldb:hsqldb 20190101000000
-net.imagej:imagej-deprecated 20190703000000
 net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
 net.imagej:imagej-omero 20190703000000
@@ -32,7 +31,6 @@ org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
 org.scijava:jython-shaded 20190624120000
 org.scijava:native-lib-loader 20190703000000
-org.scijava:parsington 20190703000000
 org.scijava:scijava-cache 20190703000000
 org.scijava:scijava-config 20190703000000
 org.scijava:scijava-grab 20191022000000
@@ -67,7 +65,6 @@ sc.fiji:BalloonSegmentation_ 20190703000000
 sc.fiji:Bug_Submitter 20190703000000
 sc.fiji:CPU_Meter 20190703000000
 sc.fiji:Calculator_Plus 20190703000000
-sc.fiji:Cell_Counter 20190703000000
 sc.fiji:Colocalisation_Analysis 20190703000000
 sc.fiji:Color_Histogram 20190703000000
 sc.fiji:CorrectBleach_ 20190703000000
@@ -120,7 +117,6 @@ sc.fiji:Time_Lapse 20190703000000
 sc.fiji:Time_Stamper 20190703000000
 sc.fiji:ToAST_ 20190703000000
 sc.fiji:TopoJ_ 20190703000000
-sc.fiji:TrackMate_ 20190703000000
 sc.fiji:Trainable_Segmentation 20190703000000
 sc.fiji:TrakEM2_Archipelago 20190703000000
 sc.fiji:VIB-lib 20190703000000
