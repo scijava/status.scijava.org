@@ -1,6 +1,6 @@
 ca.mcgill:Sholl_Analysis 20191023000000
 com.google.guava:guava 20200101000000
-com.opencsv:opencsv 20200101000000
+com.opencsv:opencsv 20200701000000
 hsqldb:hsqldb 20190101000000
 net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
@@ -17,8 +17,8 @@ net.imagej:imagej-usage 20190624120000
 net.imagej:op-finder 20190703000000
 net.imglib2:imglib2-algorithm-fft 20191024000000
 net.java.dev.jna:jna 20200101000000
-org.apache.poi:poi 20200101000000
-org.apache.spark:spark-core_2.11 20200101000000
+org.apache.poi:poi 20200701000000
+org.apache.spark:spark-core_2.11 20200701000000
 org.jmockit:jmockit 20200101000000
 org.mockito:mockito-core 20200101000000
 org.scijava:j3dcore 20180905120000
