@@ -2,7 +2,6 @@ ca.mcgill:Sholl_Analysis 20191023000000
 com.google.guava:guava 20200101000000
 com.opencsv:opencsv 20200101000000
 hsqldb:hsqldb 20190101000000
-info.picocli:picocli 20191001000000
 net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
 net.imagej:imagej-omero 20190703000000
@@ -17,17 +16,11 @@ net.imagej:imagej-ui-awt 20190703000000
 net.imagej:imagej-usage 20190624120000
 net.imagej:op-finder 20190703000000
 net.imglib2:imglib2-algorithm-fft 20191024000000
-net.imglib2:imglib2-realtransform 20191023000000
-net.imglib2:imglib2-unsafe 20191024000000
 net.java.dev.jna:jna 20200101000000
 org.apache.poi:poi 20200101000000
 org.apache.spark:spark-core_2.11 20200101000000
 org.jmockit:jmockit 20200101000000
 org.mockito:mockito-core 20200101000000
-org.ojalgo:ojalgo 20200101000000
-org.openjdk.jmh:jmh-core 20181026000000
-org.openjdk.jmh:jmh-generator-annprocess 20181026000000
-org.scijava:batch-processor 20190703000000
 org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
 org.scijava:jep 20171225120000
@@ -52,7 +45,6 @@ org.scijava:scijava-ui-awt 20190703000000
 org.scijava:scripting-clojure 20190703000000
 org.scijava:scripting-java 20190703000000
 org.scijava:swing-checkbox-tree 20190703000000
-org.scijava:ui-behaviour 20190703000000
 org.scijava:vecmath 20180905120000
 org.tensorflow:libtensorflow 20200101000000
 org.tensorflow:libtensorflow_jni 20200101000000
@@ -70,7 +62,6 @@ sc.fiji:Calculator_Plus 20190703000000
 sc.fiji:Colocalisation_Analysis 20190703000000
 sc.fiji:Color_Histogram 20190703000000
 sc.fiji:Correct_3D_Drift 20191023000000
-sc.fiji:Descriptor_based_registration 20190703000000
 sc.fiji:Directionality_ 20190703000000
 sc.fiji:FS_Align_TrakEM2 20190703000000
 sc.fiji:Feature_Detection 20190703000000
@@ -103,7 +94,6 @@ sc.fiji:QuickPALM_ 20190703000000
 sc.fiji:RATS_ 20190703000000
 sc.fiji:Reconstruct_Reader 20190703000000
 sc.fiji:SPIM_Opener 20190703000000
-sc.fiji:SPIM_Registration 20190703000000
 sc.fiji:Samples_ 20190703000000
 sc.fiji:Series_Labeler 20190703000000
 sc.fiji:Simple_Neurite_Tracer 20191023000000
