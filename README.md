@@ -1,3 +1,5 @@
+[![](https://travis-ci.org/scijava/status.scijava.org.svg?branch=master)](https://travis-ci.org/scijava/status.scijava.org)
+
 This repository contains code to update the
 [SciJava component status table](https://status.scijava.org/).
 
