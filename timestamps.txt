@@ -39,9 +39,7 @@ org.scijava:scijava-plugins-io-table 20190703000000
 org.scijava:scijava-plugins-platforms 20190703000000
 org.scijava:scijava-plugins-text-markdown 20190703000000
 org.scijava:scijava-plugins-text-plain 20190703000000
-org.scijava:scijava-search 20191022000000
 org.scijava:scijava-table 20190703000000
-org.scijava:scijava-ui-awt 20190703000000
 org.scijava:scripting-clojure 20190703000000
 org.scijava:scripting-java 20190703000000
 org.scijava:swing-checkbox-tree 20190703000000
