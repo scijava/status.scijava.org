@@ -2,6 +2,7 @@ ca.mcgill:Sholl_Analysis https://github.com/tferr/ASA
 mpicbg:mpicbg https://github.com/axtimwalde/mpicbg
 mpicbg:mpicbg_ https://github.com/axtimwalde/mpicbg
 net.imagej:ij https://github.com/imagej/ImageJA
+net.imglib2:imglib2-label-multisets https://github.com/saalfeldlab/imglib2-label-multisets
 ome:bio-formats_plugins https://github.com/ome/bioformats
 ome:formats-api https://github.com/ome/bioformats
 ome:formats-bsd https://github.com/ome/bioformats
@@ -20,6 +21,7 @@ sc.fiji:MosaicJ_ https://github.com/fiji-BIG/MosaicJ
 sc.fiji:OMEVisual https://github.com/hadim/OMEVisual
 sc.fiji:PointPicker_ https://github.com/fiji-BIG/PointPicker
 sc.fiji:SheppLogan_ https://github.com/fiji-BIG/SheppLogan
+sc.fiji:Simple_Neurite_Tracer https://github.com/fiji/SNT
 sc.fiji:Snakuscule_ https://github.com/fiji-BIG/Snakuscule
 sc.fiji:StackReg_ https://github.com/fiji-BIG/StackReg
 sc.fiji:T2-NIT https://github.com/trakem2/T2-NIT
