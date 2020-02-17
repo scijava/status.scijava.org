@@ -60,11 +60,11 @@ fiji/PIV_analyser <td class="badge"><a href="https://travis-ci.org/fiji/PIV_anal
 fiji/QuickPALM <td class="badge"><a href="https://travis-ci.org/fiji/QuickPALM"><img src="https://travis-ci.org/fiji/QuickPALM.svg?branch=master"></a></td>
 fiji/RATS <td class="badge"><a href="https://travis-ci.org/fiji/RATS"><img src="https://travis-ci.org/fiji/RATS.svg?branch=master"></a></td>
 fiji/Reconstruct_Reader <td class="badge"><a href="https://travis-ci.org/fiji/Reconstruct_Reader"><img src="https://travis-ci.org/fiji/Reconstruct_Reader.svg?branch=master"></a></td>
+fiji/SNT <td class="badge"><a href="https://travis-ci.org/fiji/SNT"><img src="https://travis-ci.org/fiji/SNT.svg?branch=master"></a></td>
 fiji/SPIM_Opener <td class="badge"><a href="https://travis-ci.org/fiji/SPIM_Opener"><img src="https://travis-ci.org/fiji/SPIM_Opener.svg?branch=master"></a></td>
 fiji/SPIM_Registration <td class="badge"><a href="https://travis-ci.org/fiji/SPIM_Registration"><img src="https://travis-ci.org/fiji/SPIM_Registration.svg?branch=master"></a></td>
 fiji/Samples <td class="badge"><a href="https://travis-ci.org/fiji/Samples"><img src="https://travis-ci.org/fiji/Samples.svg?branch=master"></a></td>
 fiji/Series_Labeler <td class="badge"><a href="https://travis-ci.org/fiji/Series_Labeler"><img src="https://travis-ci.org/fiji/Series_Labeler.svg?branch=master"></a></td>
-fiji/Simple_Neurite_Tracer <td class="badge"><a href="https://travis-ci.org/fiji/Simple_Neurite_Tracer"><img src="https://travis-ci.org/fiji/Simple_Neurite_Tracer.svg?branch=master"></a></td>
 fiji/Siox_Segmentation <td class="badge"><a href="https://travis-ci.org/fiji/Siox_Segmentation"><img src="https://travis-ci.org/fiji/Siox_Segmentation.svg?branch=master"></a></td>
 fiji/Skeletonize3D <td class="badge"><a href="https://travis-ci.org/fiji/Skeletonize3D"><img src="https://travis-ci.org/fiji/Skeletonize3D.svg?branch=master"></a></td>
 fiji/SplineDeformationGenerator <td class="badge"><a href="https://travis-ci.org/fiji/SplineDeformationGenerator"><img src="https://travis-ci.org/fiji/SplineDeformationGenerator.svg?branch=master"></a></td>
