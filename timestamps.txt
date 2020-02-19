@@ -6,6 +6,7 @@ net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
 net.imagej:imagej-omero 20190703000000
 net.imagej:imagej-omero-legacy 20190703000000
+net.imagej:imagej-opencv 20200206000000
 net.imagej:imagej-plugins-batch 20190703000000
 net.imagej:imagej-plugins-commands 20190703000000
 net.imagej:imagej-plugins-tools 20190703000000
