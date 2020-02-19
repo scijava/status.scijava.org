@@ -20,7 +20,7 @@ gavFormat="$repoBase/#nexus-search;gav~%s~%s~%s~~"
 
 # Gets the maximum of two numbers.
 max() {
-       test "$1" -gt "$2" && echo "$1" || echo "$2"
+  test "$1" -gt "$2" && echo "$1" || echo "$2"
 }
 
 info() {
