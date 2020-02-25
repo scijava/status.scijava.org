@@ -18,8 +18,8 @@ function imageData(img) {
 }
 
 function hashCode(s) {
-  // NB: Using the first 64 characters is good enough, and much faster.
-  return s.substring(0, 64);
+  // NB: Using the first 128 characters is good enough, and much faster.
+  return s.substring(0, 128);
 /*
   var hash = 0;
   if (s.length === 0) return hash;
