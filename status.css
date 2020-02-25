@@ -2,6 +2,7 @@ table {
   border: 1px solid gray;
   border-collapse: collapse;
   font-family: "Helvetica Neue", Helvetica, Arial;
+  margin-right: 200px; /* leave room for GitHub ribbon */
 }
 
 table tr:first-child th {
