@@ -53,6 +53,7 @@ echo '<th>Last updated</th>'
 echo '<th>OK</th>'
 echo '<th>Action</th>'
 echo '<th>Build</th>'
+echo '<th>Quality</th>'
 echo '</tr>'
 
 # List components of the BOM, and loop over them.
@@ -72,7 +73,7 @@ do
   url=$(./project-url.sh "$g:$a")
   url=${url#* }
 
-  # Compute CI badge
+  # Compute badges
   case "$url" in
     https://github.com/*)
       slug=${url#https://github.com/}
@@ -80,9 +81,11 @@ do
       test "$ciOverride" &&
         ciBadge=${ciOverride#$slug } ||
         ciBadge="<td class=\"badge\"><a href=\"https://travis-ci.com/$slug\"><img src=\"https://travis-ci.com/$slug.svg?branch=master\"></a></td>"
+      qualityBadge="<td class=\"badge\"><a href=\"https://lgtm.com/projects/g/$slug/context:java\"><img src=\"https://img.shields.io/lgtm/grade/java/g/$slug.svg\"></a></td>"
       ;;
     *)
       ciBadge="<td>-</td>"
+      qualityBadge="<td>-</td>"
       ;;
   esac
 
@@ -176,6 +179,7 @@ do
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
   echo "$ciBadge"
+  echo "$qualityBadge"
   echo '</tr>'
 done
 
