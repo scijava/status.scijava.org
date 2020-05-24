@@ -1,12 +1,12 @@
-ca.mcgill:Sholl_Analysis 20191023000000
 com.google.guava:guava 20200701000000
 com.opencsv:opencsv 20200701000000
 hsqldb:hsqldb 20190101000000
+io.scif:scifio-jai-imageio 20200523000000
 net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
 net.imagej:imagej-omero 20190703000000
 net.imagej:imagej-omero-legacy 20190703000000
-net.imagej:imagej-opencv 20200206000000
+net.imagej:imagej-opencv 20200523000000
 net.imagej:imagej-plugins-batch 20190703000000
 net.imagej:imagej-plugins-commands 20190703000000
 net.imagej:imagej-plugins-tools 20190703000000
@@ -15,7 +15,6 @@ net.imagej:imagej-scripting 20190703000000
 net.imagej:imagej-server 20190703000000
 net.imagej:imagej-ui-awt 20190703000000
 net.imagej:imagej-usage 20190624120000
-net.imagej:op-finder 20190703000000
 net.imglib2:imglib2-algorithm-fft 20191024000000
 net.java.dev.jna:jna 20200701000000
 org.apache.poi:poi 20200701000000
@@ -40,11 +39,11 @@ org.scijava:scijava-plugins-io-table 20190703000000
 org.scijava:scijava-plugins-platforms 20190703000000
 org.scijava:scijava-plugins-text-markdown 20190703000000
 org.scijava:scijava-plugins-text-plain 20190703000000
-org.scijava:scijava-table 20190703000000
 org.scijava:scripting-clojure 20190703000000
 org.scijava:scripting-java 20190703000000
 org.scijava:swing-checkbox-tree 20190703000000
 org.scijava:vecmath 20180905120000
+org.springframework:spring-aop 20250101000000
 org.tensorflow:libtensorflow 20200701000000
 org.tensorflow:libtensorflow_jni 20200701000000
 org.tensorflow:libtensorflow_jni_gpu 20200701000000
@@ -69,7 +68,6 @@ sc.fiji:Fiji_Archipelago 20190703000000
 sc.fiji:Fiji_Developer 20190703000000
 sc.fiji:Fiji_Package_Maker 20190703000000
 sc.fiji:Fiji_Plugins 20190703000000
-sc.fiji:FlowJ_ 20190703000000
 sc.fiji:Graph_Cut 20190703000000
 sc.fiji:Gray_Morphology 20191023000000
 sc.fiji:Helmholtz_Analysis 20190703000000
@@ -84,7 +82,6 @@ sc.fiji:LSM_Reader 20190703000000
 sc.fiji:LSM_Toolbox 20190703000000
 sc.fiji:Lasso_and_Blow_Tool 20190703000000
 sc.fiji:Linear_Kuwahara 20190703000000
-sc.fiji:LocalThickness_ 20190703000000
 sc.fiji:MTrack2_ 20190703000000
 sc.fiji:M_I_P 20190703000000
 sc.fiji:Manual_Tracking 20190703000000
@@ -107,7 +104,7 @@ sc.fiji:Thread_Killer 20190703000000
 sc.fiji:Time_Stamper 20190703000000
 sc.fiji:ToAST_ 20190703000000
 sc.fiji:TopoJ_ 20190703000000
-sc.fiji:Trainable_Segmentation 20190703000000
+sc.fiji:Trainable_Segmentation 20200523000000
 sc.fiji:TrakEM2_Archipelago 20190703000000
 sc.fiji:VIB-lib 20190703000000
 sc.fiji:VectorString 20190703000000
@@ -115,7 +112,6 @@ sc.fiji:Video_Editing 20190703000000
 sc.fiji:View5D_ 20190703000000
 sc.fiji:Volume_Calculator 20190703000000
 sc.fiji:Volume_Viewer 20190703000000
-sc.fiji:bij 20190703000000
 sc.fiji:blockmatching_ 20190703000000
 sc.fiji:fiji-lib 20190703000000
 sc.fiji:legacy-imglib1 20190703000000
