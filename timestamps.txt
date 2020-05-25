@@ -2,6 +2,7 @@ com.google.guava:guava 20200701000000
 com.opencsv:opencsv 20200701000000
 hsqldb:hsqldb 20190101000000
 io.scif:scifio-jai-imageio 20200523000000
+io.scif:scifio-lifesci 20200524000000
 net.imagej:imagej-mesh-io 20190703000000
 net.imagej:imagej-notebook 20190703000000
 net.imagej:imagej-omero 20190703000000
@@ -17,6 +18,11 @@ net.imagej:imagej-ui-awt 20190703000000
 net.imagej:imagej-usage 20190624120000
 net.imglib2:imglib2-algorithm-fft 20191024000000
 net.java.dev.jna:jna 20200701000000
+ome:formats-api 20250101000000
+ome:formats-bsd 20250101000000
+ome:formats-gpl 20250101000000
+ome:bio-formats_plugins 20250101000000
+ome:jxrlib-all 20250101000000
 org.apache.poi:poi 20200701000000
 org.apache.spark:spark-core_2.11 20200701000000
 org.jmockit:jmockit 20200701000000
@@ -35,7 +41,7 @@ org.scijava:scijava-java3d 20190703000000
 org.scijava:scijava-jupyter-kernel 20190703000000
 org.scijava:scijava-log-slf4j 20190703000000
 org.scijava:scijava-plugins-commands 20190703000000
-org.scijava:scijava-plugins-io-table 20190703000000
+org.scijava:scijava-plugins-io-table 20200524000000
 org.scijava:scijava-plugins-platforms 20190703000000
 org.scijava:scijava-plugins-text-markdown 20190703000000
 org.scijava:scijava-plugins-text-plain 20190703000000
@@ -60,7 +66,7 @@ sc.fiji:CPU_Meter 20190703000000
 sc.fiji:Calculator_Plus 20190703000000
 sc.fiji:Colocalisation_Analysis 20190703000000
 sc.fiji:Color_Histogram 20190703000000
-sc.fiji:Correct_3D_Drift 20191023000000
+sc.fiji:Color_Inspector_3D 20200524000000
 sc.fiji:Directionality_ 20190703000000
 sc.fiji:FS_Align_TrakEM2 20190703000000
 sc.fiji:Feature_Detection 20190703000000
@@ -69,7 +75,6 @@ sc.fiji:Fiji_Developer 20190703000000
 sc.fiji:Fiji_Package_Maker 20190703000000
 sc.fiji:Fiji_Plugins 20190703000000
 sc.fiji:Graph_Cut 20190703000000
-sc.fiji:Gray_Morphology 20191023000000
 sc.fiji:Helmholtz_Analysis 20190703000000
 sc.fiji:IJ_Robot 20190703000000
 sc.fiji:Image_5D 20190703000000
