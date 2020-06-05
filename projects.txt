@@ -18,7 +18,6 @@ org.scijava:j3dutils https://github.com/scijava/java3d-utils
 sc.fiji:Differentials https://github.com/fiji-BIG/Differentials
 sc.fiji:Extended_Depth_Field https://github.com/fiji-BIG/Extended_Depth_Field
 sc.fiji:MosaicJ_ https://github.com/fiji-BIG/MosaicJ
-sc.fiji:OMEVisual https://github.com/hadim/OMEVisual
 sc.fiji:PointPicker_ https://github.com/fiji-BIG/PointPicker
 sc.fiji:SheppLogan_ https://github.com/fiji-BIG/SheppLogan
 sc.fiji:Simple_Neurite_Tracer https://github.com/fiji/SNT
