@@ -174,49 +174,14 @@ scifio/scifio-hdf5 <td class="badge"><a href="https://travis-ci.org/scifio/scifi
 scifio/scifio-jai-imageio <td class="badge"><a href="https://travis-ci.org/scifio/scifio-jai-imageio"><img src="https://travis-ci.org/scifio/scifio-jai-imageio.svg?branch=master"></a></td>
 scifio/scifio-lifesci <td class="badge"><a href="https://travis-ci.org/scifio/scifio-lifesci"><img src="https://travis-ci.org/scifio/scifio-lifesci.svg?branch=master"></a></td>
 scifio/scifio-ome-xml <td class="badge"><a href="https://travis-ci.org/scifio/scifio-ome-xml"><img src="https://travis-ci.org/scifio/scifio-ome-xml.svg?branch=master"></a></td>
-scijava/batch-processor <td class="badge"><a href="https://travis-ci.org/scijava/batch-processor"><img src="https://travis-ci.org/scijava/batch-processor.svg?branch=master"></a></td>
 scijava/java3d-core <td>None</td>
 scijava/java3d-utils <td>None</td>
 scijava/jep <td>None</td>
 scijava/junit-benchmarks <td>None</td>
 scijava/jython-shaded <td>None</td>
-scijava/minimaven <td class="badge"><a href="https://travis-ci.org/scijava/minimaven"><img src="https://travis-ci.org/scijava/minimaven.svg?branch=master"></a></td>
-scijava/native-lib-loader <td class="badge"><a href="https://travis-ci.org/scijava/native-lib-loader"><img src="https://travis-ci.org/scijava/native-lib-loader.svg?branch=master"></a></td>
-scijava/parsington <td class="badge"><a href="https://travis-ci.org/scijava/parsington"><img src="https://travis-ci.org/scijava/parsington.svg?branch=master"></a></td>
-scijava/scijava-cache <td class="badge"><a href="https://travis-ci.org/scijava/scijava-cache"><img src="https://travis-ci.org/scijava/scijava-cache.svg?branch=master"></a></td>
-scijava/scijava-coding-style <td class="badge"><a href="https://travis-ci.org/scijava/scijava-coding-style"><img src="https://travis-ci.org/scijava/scijava-coding-style.svg?branch=master"></a></td>
-scijava/scijava-common <td class="badge"><a href="https://travis-ci.org/scijava/scijava-common"><img src="https://travis-ci.org/scijava/scijava-common.svg?branch=master"></a></td>
-scijava/scijava-config <td class="badge"><a href="https://travis-ci.org/scijava/scijava-config"><img src="https://travis-ci.org/scijava/scijava-config.svg?branch=master"></a></td>
-scijava/scijava-grab <td class="badge"><a href="https://travis-ci.org/scijava/scijava-grab"><img src="https://travis-ci.org/scijava/scijava-grab.svg?branch=master"></a></td>
-scijava/scijava-io-http <td class="badge"><a href="https://travis-ci.org/scijava/scijava-io-http"><img src="https://travis-ci.org/scijava/scijava-io-http.svg?branch=master"></a></td>
-scijava/scijava-java3d <td class="badge"><a href="https://travis-ci.org/scijava/scijava-java3d"><img src="https://travis-ci.org/scijava/scijava-java3d.svg?branch=master"></a></td>
 scijava/scijava-jupyter-kernel <td class="badge"><a href="https://travis-ci.org/scijava/scijava-jupyter-kernel"><img src="https://travis-ci.org/scijava/scijava-jupyter-kernel.svg?branch=master"></a></td>
 scijava/scijava-listeners <td class="badge"><a href="https://travis-ci.com/scijava/scijava-listeners"><img src="https://travis-ci.com/scijava/scijava-listeners.svg?branch=master"></a></td>
-scijava/scijava-log-slf4j <td class="badge"><a href="https://travis-ci.org/scijava/scijava-log-slf4j"><img src="https://travis-ci.org/scijava/scijava-log-slf4j.svg?branch=master"></a></td>
 scijava/scijava-optional <td class="badge"><a href="https://travis-ci.com/scijava/scijava-optional"><img src="https://travis-ci.com/scijava/scijava-optional.svg?branch=master"></a></td>
-scijava/scijava-plugins-commands <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-commands"><img src="https://travis-ci.org/scijava/scijava-plugins-commands.svg?branch=master"></a></td>
-scijava/scijava-plugins-io-table <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-io-table"><img src="https://travis-ci.org/scijava/scijava-plugins-io-table.svg?branch=master"></a></td>
-scijava/scijava-plugins-platforms <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-platforms"><img src="https://travis-ci.org/scijava/scijava-plugins-platforms.svg?branch=master"></a></td>
-scijava/scijava-plugins-text-markdown <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-text-markdown"><img src="https://travis-ci.org/scijava/scijava-plugins-text-markdown.svg?branch=master"></a></td>
-scijava/scijava-plugins-text-plain <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-text-plain"><img src="https://travis-ci.org/scijava/scijava-plugins-text-plain.svg?branch=master"></a></td>
-scijava/scijava-search <td class="badge"><a href="https://travis-ci.org/scijava/scijava-search"><img src="https://travis-ci.org/scijava/scijava-search.svg?branch=master"></a></td>
-scijava/scijava-table <td class="badge"><a href="https://travis-ci.org/scijava/scijava-table"><img src="https://travis-ci.org/scijava/scijava-table.svg?branch=master"></a></td>
-scijava/scijava-ui-awt <td class="badge"><a href="https://travis-ci.org/scijava/scijava-ui-awt"><img src="https://travis-ci.org/scijava/scijava-ui-awt.svg?branch=master"></a></td>
-scijava/scijava-ui-swing <td class="badge"><a href="https://travis-ci.org/scijava/scijava-ui-swing"><img src="https://travis-ci.org/scijava/scijava-ui-swing.svg?branch=master"></a></td>
-scijava/script-editor <td class="badge"><a href="https://travis-ci.org/scijava/script-editor"><img src="https://travis-ci.org/scijava/script-editor.svg?branch=master"></a></td>
-scijava/scripting-beanshell <td class="badge"><a href="https://travis-ci.org/scijava/scripting-beanshell"><img src="https://travis-ci.org/scijava/scripting-beanshell.svg?branch=master"></a></td>
-scijava/scripting-clojure <td class="badge"><a href="https://travis-ci.org/scijava/scripting-clojure"><img src="https://travis-ci.org/scijava/scripting-clojure.svg?branch=master"></a></td>
-scijava/scripting-groovy <td class="badge"><a href="https://travis-ci.org/scijava/scripting-groovy"><img src="https://travis-ci.org/scijava/scripting-groovy.svg?branch=master"></a></td>
-scijava/scripting-java <td class="badge"><a href="https://travis-ci.org/scijava/scripting-java"><img src="https://travis-ci.org/scijava/scripting-java.svg?branch=master"></a></td>
-scijava/scripting-javascript <td class="badge"><a href="https://travis-ci.org/scijava/scripting-javascript"><img src="https://travis-ci.org/scijava/scripting-javascript.svg?branch=master"></a></td>
-scijava/scripting-jruby <td class="badge"><a href="https://travis-ci.org/scijava/scripting-jruby"><img src="https://travis-ci.org/scijava/scripting-jruby.svg?branch=master"></a></td>
-scijava/scripting-jython <td class="badge"><a href="https://travis-ci.org/scijava/scripting-jython"><img src="https://travis-ci.org/scijava/scripting-jython.svg?branch=master"></a></td>
-scijava/scripting-kotlin <td class="badge"><a href="https://travis-ci.org/scijava/scripting-kotlin"><img src="https://travis-ci.org/scijava/scripting-kotlin.svg?branch=master"></a></td>
-scijava/scripting-matlab <td class="badge"><a href="https://travis-ci.org/scijava/scripting-matlab"><img src="https://travis-ci.org/scijava/scripting-matlab.svg?branch=master"></a></td>
-scijava/scripting-renjin <td class="badge"><a href="https://travis-ci.org/scijava/scripting-renjin"><img src="https://travis-ci.org/scijava/scripting-renjin.svg?branch=master"></a></td>
-scijava/scripting-scala <td class="badge"><a href="https://travis-ci.org/scijava/scripting-scala"><img src="https://travis-ci.org/scijava/scripting-scala.svg?branch=master"></a></td>
-scijava/swing-checkbox-tree <td class="badge"><a href="https://travis-ci.org/scijava/swing-checkbox-tree"><img src="https://travis-ci.org/scijava/swing-checkbox-tree.svg?branch=master"></a></td>
-scijava/ui-behaviour <td class="badge"><a href="https://travis-ci.org/scijava/ui-behaviour"><img src="https://travis-ci.org/scijava/ui-behaviour.svg?branch=master"></a></td>
 scijava/vecmath <td>None</td>
 tferr/ASA <td class="badge"><a href="https://travis-ci.org/tferr/ASA"><img src="https://travis-ci.org/tferr/ASA.svg?branch=master"></a></td>
 trakem2/T2-NIT <td class="badge"><a href="https://travis-ci.org/trakem2/T2-NIT"><img src="https://travis-ci.org/trakem2/T2-NIT.svg?branch=master"></a></td>
