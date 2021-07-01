@@ -80,7 +80,7 @@ do
       ciOverride=$(grep "^$slug " ci-badges.txt)
       test "$ciOverride" &&
         ciBadge=${ciOverride#$slug } ||
-        ciBadge="<td class=\"badge\"><a href=\"https://travis-ci.com/$slug\"><img src=\"https://travis-ci.com/$slug.svg?branch=master\"></a></td>"
+        ciBadge="<td class=\"badge\"><a href=\"https://github.com/$slug/actions\"><img src=\"https://github.com/$slug/actions/build-main.svg\"></a></td>"
       qualityBadge="<td class=\"badge\"><a href=\"https://lgtm.com/projects/g/$slug/context:java\"><img src=\"https://img.shields.io/lgtm/grade/java/g/$slug.svg\"></a></td>"
       ;;
     *)
