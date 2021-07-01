@@ -33,6 +33,7 @@ fiji/Fiji_Archipelago <td class="badge"><a href="https://travis-ci.org/fiji/Fiji
 fiji/Fiji_Developer <td class="badge"><a href="https://travis-ci.org/fiji/Fiji_Developer"><img src="https://travis-ci.org/fiji/Fiji_Developer.svg?branch=master"></a></td>
 fiji/Fiji_Package_Maker <td class="badge"><a href="https://travis-ci.org/fiji/Fiji_Package_Maker"><img src="https://travis-ci.org/fiji/Fiji_Package_Maker.svg?branch=master"></a></td>
 fiji/Fiji_Plugins <td class="badge"><a href="https://travis-ci.org/fiji/Fiji_Plugins"><img src="https://travis-ci.org/fiji/Fiji_Plugins.svg?branch=master"></a></td>
+fiji/FilamentDetector <td class="badge"><a href="https://travis-ci.com/fiji/FilamentDetector"><img src="https://travis-ci.com/fiji/FilamentDetector.svg?branch=master"></a></td>
 fiji/FlowJ <td class="badge"><a href="https://travis-ci.org/fiji/FlowJ"><img src="https://travis-ci.org/fiji/FlowJ.svg?branch=master"></a></td>
 fiji/Graph_Cut <td class="badge"><a href="https://travis-ci.org/fiji/Graph_Cut"><img src="https://travis-ci.org/fiji/Graph_Cut.svg?branch=master"></a></td>
 fiji/Gray_Morphology <td class="badge"><a href="https://travis-ci.org/fiji/Gray_Morphology"><img src="https://travis-ci.org/fiji/Gray_Morphology.svg?branch=master"></a></td>
@@ -45,6 +46,7 @@ fiji/Image_5D <td class="badge"><a href="https://travis-ci.org/fiji/Image_5D"><i
 fiji/Image_Expression_Parser <td class="badge"><a href="https://travis-ci.org/fiji/Image_Expression_Parser"><img src="https://travis-ci.org/fiji/Image_Expression_Parser.svg?branch=master"></a></td>
 fiji/Interactive_3D_Surface_Plot <td class="badge"><a href="https://travis-ci.org/fiji/Interactive_3D_Surface_Plot"><img src="https://travis-ci.org/fiji/Interactive_3D_Surface_Plot.svg?branch=master"></a></td>
 fiji/IsoData_Classifier <td class="badge"><a href="https://travis-ci.org/fiji/IsoData_Classifier"><img src="https://travis-ci.org/fiji/IsoData_Classifier.svg?branch=master"></a></td>
+fiji/Kappa <td class="badge"><a href="https://travis-ci.com/fiji/Kappa"><img src="https://travis-ci.com/fiji/Kappa.svg?branch=master"></a></td>
 fiji/Kuwahara_Filter <td class="badge"><a href="https://travis-ci.org/fiji/Kuwahara_Filter"><img src="https://travis-ci.org/fiji/Kuwahara_Filter.svg?branch=master"></a></td>
 fiji/KymographBuilder <td class="badge"><a href="https://travis-ci.org/fiji/KymographBuilder"><img src="https://travis-ci.org/fiji/KymographBuilder.svg?branch=master"></a></td>
 fiji/LSM_Reader <td class="badge"><a href="https://travis-ci.org/fiji/LSM_Reader"><img src="https://travis-ci.org/fiji/LSM_Reader.svg?branch=master"></a></td>
@@ -56,6 +58,7 @@ fiji/MTrack2 <td class="badge"><a href="https://travis-ci.org/fiji/MTrack2"><img
 fiji/M_I_P <td class="badge"><a href="https://travis-ci.org/fiji/M_I_P"><img src="https://travis-ci.org/fiji/M_I_P.svg?branch=master"></a></td>
 fiji/Manual_Tracking <td class="badge"><a href="https://travis-ci.org/fiji/Manual_Tracking"><img src="https://travis-ci.org/fiji/Manual_Tracking.svg?branch=master"></a></td>
 fiji/Multi_Kymograph <td class="badge"><a href="https://travis-ci.org/fiji/Multi_Kymograph"><img src="https://travis-ci.org/fiji/Multi_Kymograph.svg?branch=master"></a></td>
+fiji/OMEVisual <td class="badge"><a href="https://travis-ci.com/fiji/OMEVisual"><img src="https://travis-ci.com/fiji/OMEVisual.svg?branch=master"></a></td>
 fiji/PIV_analyser <td class="badge"><a href="https://travis-ci.org/fiji/PIV_analyser"><img src="https://travis-ci.org/fiji/PIV_analyser.svg?branch=master"></a></td>
 fiji/QuickPALM <td class="badge"><a href="https://travis-ci.org/fiji/QuickPALM"><img src="https://travis-ci.org/fiji/QuickPALM.svg?branch=master"></a></td>
 fiji/RATS <td class="badge"><a href="https://travis-ci.org/fiji/RATS"><img src="https://travis-ci.org/fiji/RATS.svg?branch=master"></a></td>
@@ -92,6 +95,7 @@ fiji/bUnwarpJ <td class="badge"><a href="https://travis-ci.org/fiji/bUnwarpJ"><i
 fiji/bij <td class="badge"><a href="https://travis-ci.org/fiji/bij"><img src="https://travis-ci.org/fiji/bij.svg?branch=master"></a></td>
 fiji/blockmatching <td class="badge"><a href="https://travis-ci.org/fiji/blockmatching"><img src="https://travis-ci.org/fiji/blockmatching.svg?branch=master"></a></td>
 fiji/fiji <td class="badge"><a href="https://travis-ci.org/fiji/fiji"><img src="https://travis-ci.org/fiji/fiji.svg?branch=master"></a></td>
+fiji/fiji-builds <td class="badge"><a href="https://travis-ci.com/fiji/fiji-builds"><img src="https://travis-ci.com/fiji/fiji-builds.svg?branch=master"></a></td>
 fiji/fiji-lib <td class="badge"><a href="https://travis-ci.org/fiji/fiji-lib"><img src="https://travis-ci.org/fiji/fiji-lib.svg?branch=master"></a></td>
 fiji/legacy-imglib1 <td class="badge"><a href="https://travis-ci.org/fiji/legacy-imglib1"><img src="https://travis-ci.org/fiji/legacy-imglib1.svg?branch=master"></a></td>
 fiji/level_sets <td class="badge"><a href="https://travis-ci.org/fiji/level_sets"><img src="https://travis-ci.org/fiji/level_sets.svg?branch=master"></a></td>
@@ -100,18 +104,23 @@ fiji/panorama <td class="badge"><a href="https://travis-ci.org/fiji/panorama"><i
 fiji/register_virtual_stack_slices <td class="badge"><a href="https://travis-ci.org/fiji/register_virtual_stack_slices"><img src="https://travis-ci.org/fiji/register_virtual_stack_slices.svg?branch=master"></a></td>
 fiji/registration_3d <td class="badge"><a href="https://travis-ci.org/fiji/registration_3d"><img src="https://travis-ci.org/fiji/registration_3d.svg?branch=master"></a></td>
 fiji/weave_jy2java <td class="badge"><a href="https://travis-ci.org/fiji/weave_jy2java"><img src="https://travis-ci.org/fiji/weave_jy2java.svg?branch=master"></a></td>
+flimlib/flimlib-javadoc <td class="badge"><a href="https://travis-ci.com/flimlib/flimlib-javadoc"><img src="https://travis-ci.com/flimlib/flimlib-javadoc.svg?branch=master"></a></td>
 ijpb/MorphoLibJ <td class="badge"><a href="https://travis-ci.org/ijpb/MorphoLibJ"><img src="https://travis-ci.org/ijpb/MorphoLibJ.svg?branch=master"></a></td>
 imagej/ImageJA <td>None</td>
+imagej/ij1-builds <td class="badge"><a href="https://travis-ci.com/imagej/ij1-builds"><img src="https://travis-ci.com/imagej/ij1-builds.svg?branch=master"></a></td>
 imagej/ij1-patcher <td class="badge"><a href="https://travis-ci.org/imagej/ij1-patcher"><img src="https://travis-ci.org/imagej/ij1-patcher.svg?branch=master"></a></td>
 imagej/imagej <td class="badge"><a href="https://travis-ci.org/imagej/imagej"><img src="https://travis-ci.org/imagej/imagej.svg?branch=master"></a></td>
 imagej/imagej-common <td class="badge"><a href="https://travis-ci.org/imagej/imagej-common"><img src="https://travis-ci.org/imagej/imagej-common.svg?branch=master"></a></td>
 imagej/imagej-deprecated <td class="badge"><a href="https://travis-ci.org/imagej/imagej-deprecated"><img src="https://travis-ci.org/imagej/imagej-deprecated.svg?branch=master"></a></td>
 imagej/imagej-launcher <td class="badge"><a href="https://travis-ci.org/imagej/imagej-launcher"><img src="https://travis-ci.org/imagej/imagej-launcher.svg?branch=master"></a></td>
 imagej/imagej-legacy <td class="badge"><a href="https://travis-ci.org/imagej/imagej-legacy"><img src="https://travis-ci.org/imagej/imagej-legacy.svg?branch=master"></a></td>
+imagej/imagej-matlab <td class="badge"><a href="https://travis-ci.com/imagej/imagej-matlab"><img src="https://travis-ci.com/imagej/imagej-matlab.svg?branch=master"></a></td>
 imagej/imagej-mesh <td class="badge"><a href="https://travis-ci.org/imagej/imagej-mesh"><img src="https://travis-ci.org/imagej/imagej-mesh.svg?branch=master"></a></td>
 imagej/imagej-mesh-io <td class="badge"><a href="https://travis-ci.org/imagej/imagej-mesh-io"><img src="https://travis-ci.org/imagej/imagej-mesh-io.svg?branch=master"></a></td>
 imagej/imagej-notebook <td class="badge"><a href="https://travis-ci.org/imagej/imagej-notebook"><img src="https://travis-ci.org/imagej/imagej-notebook.svg?branch=master"></a></td>
 imagej/imagej-omero <td class="badge"><a href="https://travis-ci.org/imagej/imagej-omero"><img src="https://travis-ci.org/imagej/imagej-omero.svg?branch=master"></a></td>
+imagej/imagej-omero-legacy <td class="badge"><a href="https://travis-ci.com/imagej/imagej-omero-legacy"><img src="https://travis-ci.com/imagej/imagej-omero-legacy.svg?branch=master"></a></td>
+imagej/imagej-opencv <td class="badge"><a href="https://travis-ci.com/imagej/imagej-opencv"><img src="https://travis-ci.com/imagej/imagej-opencv.svg?branch=master"></a></td>
 imagej/imagej-ops <td class="badge"><a href="https://travis-ci.org/imagej/imagej-ops"><img src="https://travis-ci.org/imagej/imagej-ops.svg?branch=master"></a></td>
 imagej/imagej-plugins-batch <td class="badge"><a href="https://travis-ci.org/imagej/imagej-plugins-batch"><img src="https://travis-ci.org/imagej/imagej-plugins-batch.svg?branch=master"></a></td>
 imagej/imagej-plugins-commands <td class="badge"><a href="https://travis-ci.org/imagej/imagej-plugins-commands"><img src="https://travis-ci.org/imagej/imagej-plugins-commands.svg?branch=master"></a></td>
@@ -125,6 +134,7 @@ imagej/imagej-ui-awt <td class="badge"><a href="https://travis-ci.org/imagej/ima
 imagej/imagej-ui-swing <td class="badge"><a href="https://travis-ci.org/imagej/imagej-ui-swing"><img src="https://travis-ci.org/imagej/imagej-ui-swing.svg?branch=master"></a></td>
 imagej/imagej-updater <td class="badge"><a href="https://travis-ci.org/imagej/imagej-updater"><img src="https://travis-ci.org/imagej/imagej-updater.svg?branch=master"></a></td>
 imagej/imagej-usage <td class="badge"><a href="https://travis-ci.org/imagej/imagej-usage"><img src="https://travis-ci.org/imagej/imagej-usage.svg?branch=master"></a></td>
+imagej/list-of-update-sites <td class="badge"><a href="https://travis-ci.com/imagej/list-of-update-sites"><img src="https://travis-ci.com/imagej/list-of-update-sites.svg?branch=master"></a></td>
 imagej/op-finder <td class="badge"><a href="https://travis-ci.org/imagej/op-finder"><img src="https://travis-ci.org/imagej/op-finder.svg?branch=master"></a></td>
 imglib/imglib2 <td class="badge"><a href="https://travis-ci.org/imglib/imglib2"><img src="https://travis-ci.org/imglib/imglib2.svg?branch=master"></a></td>
 imglib/imglib2-algorithm <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-algorithm"><img src="https://travis-ci.org/imglib/imglib2-algorithm.svg?branch=master"></a></td>
@@ -151,10 +161,12 @@ ome/omero-renderer <td class="badge"><a href="https://travis-ci.org/ome/omero-re
 ome/omero-romio <td class="badge"><a href="https://travis-ci.org/ome/omero-romio"><img src="https://travis-ci.org/ome/omero-romio.svg?branch=master"></a></td>
 ome/omero-server <td class="badge"><a href="https://travis-ci.org/ome/omero-server"><img src="https://travis-ci.org/ome/omero-server.svg?branch=master"></a></td>
 saalfeldlab/bigwarp <td class="badge"><a href="https://travis-ci.org/saalfeldlab/bigwarp"><img src="https://travis-ci.org/saalfeldlab/bigwarp.svg?branch=master"></a></td>
+saalfeldlab/imglib2-label-multisets <td class="badge"><a href="https://travis-ci.com/saalfeldlab/imglib2-label-multisets"><img src="https://travis-ci.com/saalfeldlab/imglib2-label-multisets.svg?branch=master"></a></td>
 saalfeldlab/trakem2-tps <td class="badge"><a href="https://travis-ci.org/saalfeldlab/trakem2-tps"><img src="https://travis-ci.org/saalfeldlab/trakem2-tps.svg?branch=master"></a></td>
 saalfeldlab/z-spacing <td class="badge"><a href="https://travis-ci.org/saalfeldlab/z-spacing"><img src="https://travis-ci.org/saalfeldlab/z-spacing.svg?branch=master"></a></td>
 scenerygraphics/scenery <td class="badge"><a href="https://travis-ci.org/scenerygraphics/scenery"><img src="https://travis-ci.org/scenerygraphics/scenery.svg?branch=master"></a></td>
 scenerygraphics/sciview <td class="badge"><a href="https://travis-ci.org/scenerygraphics/sciview"><img src="https://travis-ci.org/scenerygraphics/sciview.svg?branch=master"></a></td>
+scenerygraphics/sciview-javadoc <td class="badge"><a href="https://travis-ci.com/scenerygraphics/sciview-javadoc"><img src="https://travis-ci.com/scenerygraphics/sciview-javadoc.svg?branch=master"></a></td>
 scifio/scifio <td class="badge"><a href="https://travis-ci.org/scifio/scifio"><img src="https://travis-ci.org/scifio/scifio.svg?branch=master"></a></td>
 scifio/scifio-bf-compat <td class="badge"><a href="https://travis-ci.org/scifio/scifio-bf-compat"><img src="https://travis-ci.org/scifio/scifio-bf-compat.svg?branch=master"></a></td>
 scifio/scifio-cli <td class="badge"><a href="https://travis-ci.org/scifio/scifio-cli"><img src="https://travis-ci.org/scifio/scifio-cli.svg?branch=master"></a></td>
@@ -179,7 +191,9 @@ scijava/scijava-grab <td class="badge"><a href="https://travis-ci.org/scijava/sc
 scijava/scijava-io-http <td class="badge"><a href="https://travis-ci.org/scijava/scijava-io-http"><img src="https://travis-ci.org/scijava/scijava-io-http.svg?branch=master"></a></td>
 scijava/scijava-java3d <td class="badge"><a href="https://travis-ci.org/scijava/scijava-java3d"><img src="https://travis-ci.org/scijava/scijava-java3d.svg?branch=master"></a></td>
 scijava/scijava-jupyter-kernel <td class="badge"><a href="https://travis-ci.org/scijava/scijava-jupyter-kernel"><img src="https://travis-ci.org/scijava/scijava-jupyter-kernel.svg?branch=master"></a></td>
+scijava/scijava-listeners <td class="badge"><a href="https://travis-ci.com/scijava/scijava-listeners"><img src="https://travis-ci.com/scijava/scijava-listeners.svg?branch=master"></a></td>
 scijava/scijava-log-slf4j <td class="badge"><a href="https://travis-ci.org/scijava/scijava-log-slf4j"><img src="https://travis-ci.org/scijava/scijava-log-slf4j.svg?branch=master"></a></td>
+scijava/scijava-optional <td class="badge"><a href="https://travis-ci.com/scijava/scijava-optional"><img src="https://travis-ci.com/scijava/scijava-optional.svg?branch=master"></a></td>
 scijava/scijava-plugins-commands <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-commands"><img src="https://travis-ci.org/scijava/scijava-plugins-commands.svg?branch=master"></a></td>
 scijava/scijava-plugins-io-table <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-io-table"><img src="https://travis-ci.org/scijava/scijava-plugins-io-table.svg?branch=master"></a></td>
 scijava/scijava-plugins-platforms <td class="badge"><a href="https://travis-ci.org/scijava/scijava-plugins-platforms"><img src="https://travis-ci.org/scijava/scijava-plugins-platforms.svg?branch=master"></a></td>
