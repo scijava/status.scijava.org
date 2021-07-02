@@ -136,17 +136,6 @@ imagej/imagej-updater <td class="badge"><a href="https://travis-ci.org/imagej/im
 imagej/imagej-usage <td class="badge"><a href="https://travis-ci.org/imagej/imagej-usage"><img src="https://travis-ci.org/imagej/imagej-usage.svg?branch=master"></a></td>
 imagej/list-of-update-sites <td class="badge"><a href="https://travis-ci.com/imagej/list-of-update-sites"><img src="https://travis-ci.com/imagej/list-of-update-sites.svg?branch=master"></a></td>
 imagej/op-finder <td class="badge"><a href="https://travis-ci.org/imagej/op-finder"><img src="https://travis-ci.org/imagej/op-finder.svg?branch=master"></a></td>
-imglib/imglib2 <td class="badge"><a href="https://travis-ci.org/imglib/imglib2"><img src="https://travis-ci.org/imglib/imglib2.svg?branch=master"></a></td>
-imglib/imglib2-algorithm <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-algorithm"><img src="https://travis-ci.org/imglib/imglib2-algorithm.svg?branch=master"></a></td>
-imglib/imglib2-algorithm-fft <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-algorithm-fft"><img src="https://travis-ci.org/imglib/imglib2-algorithm-fft.svg?branch=master"></a></td>
-imglib/imglib2-algorithm-gpl <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-algorithm-gpl"><img src="https://travis-ci.org/imglib/imglib2-algorithm-gpl.svg?branch=master"></a></td>
-imglib/imglib2-cache <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-cache"><img src="https://travis-ci.org/imglib/imglib2-cache.svg?branch=master"></a></td>
-imglib/imglib2-ij <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-ij"><img src="https://travis-ci.org/imglib/imglib2-ij.svg?branch=master"></a></td>
-imglib/imglib2-realtransform <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-realtransform"><img src="https://travis-ci.org/imglib/imglib2-realtransform.svg?branch=master"></a></td>
-imglib/imglib2-roi <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-roi"><img src="https://travis-ci.org/imglib/imglib2-roi.svg?branch=master"></a></td>
-imglib/imglib2-script <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-script"><img src="https://travis-ci.org/imglib/imglib2-script.svg?branch=master"></a></td>
-imglib/imglib2-ui <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-ui"><img src="https://travis-ci.org/imglib/imglib2-ui.svg?branch=master"></a></td>
-imglib/imglib2-unsafe <td class="badge"><a href="https://travis-ci.org/imglib/imglib2-unsafe"><img src="https://travis-ci.org/imglib/imglib2-unsafe.svg?branch=master"></a></td>
 ome/bioformats <td class="badge"><a href="https://travis-ci.org/ome/bioformats"><img src="https://travis-ci.org/ome/bioformats.svg?branch=develop"></a></td>
 ome/ome-common-java <td class="badge"><a href="https://travis-ci.org/ome/ome-common-java"><img src="https://travis-ci.org/ome/ome-common-java.svg?branch=master"></a></td>
 ome/ome-metakit <td class="badge"><a href="https://travis-ci.org/ome/ome-metakit"><img src="https://travis-ci.org/ome/ome-metakit.svg?branch=master"></a></td>
