@@ -16,7 +16,4 @@ jobs:
            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Execute the build
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          .github/build.sh
+        run: .github/build.sh
