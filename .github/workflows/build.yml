@@ -15,10 +15,8 @@ jobs:
         with:
            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Configure GitHub settings
-        run: |
-          git config --local user.email "ci@scijava.org"
-          git config --local user.name "SciJava CI"
-          
       - name: Execute the build
-        run: .github/build.sh
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          .github/build.sh
