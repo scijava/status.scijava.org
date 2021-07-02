@@ -1,9 +1,4 @@
 axtimwalde/mpicbg <td class="badge"><a href="https://travis-ci.org/axtimwalde/mpicbg"><img src="https://travis-ci.org/axtimwalde/mpicbg.svg?branch=master"></a></td>
-bigdataviewer/bigdataviewer-core <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-core"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-core.svg?branch=master"></a></td>
-bigdataviewer/bigdataviewer-server <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-server"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-server.svg?branch=master"></a></td>
-bigdataviewer/bigdataviewer-vistools <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer-vistools"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer-vistools.svg?branch=master"></a></td>
-bigdataviewer/bigdataviewer_fiji <td class="badge"><a href="https://travis-ci.org/bigdataviewer/bigdataviewer_fiji"><img src="https://travis-ci.org/bigdataviewer/bigdataviewer_fiji.svg?branch=master"></a></td>
-bigdataviewer/spimdata <td class="badge"><a href="https://travis-ci.org/bigdataviewer/spimdata"><img src="https://travis-ci.org/bigdataviewer/spimdata.svg?branch=master"></a></td>
 flimlib/flimlib-javadoc <td class="badge"><a href="https://travis-ci.com/flimlib/flimlib-javadoc"><img src="https://travis-ci.com/flimlib/flimlib-javadoc.svg?branch=master"></a></td>
 ijpb/MorphoLibJ <td class="badge"><a href="https://travis-ci.org/ijpb/MorphoLibJ"><img src="https://travis-ci.org/ijpb/MorphoLibJ.svg?branch=master"></a></td>
 imagej/ImageJA <td>None</td>
