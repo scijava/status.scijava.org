@@ -73,8 +73,3 @@ scijava/scijava-listeners <td class="badge"><a href="https://travis-ci.com/scija
 scijava/scijava-optional <td class="badge"><a href="https://travis-ci.com/scijava/scijava-optional"><img src="https://travis-ci.com/scijava/scijava-optional.svg?branch=master"></a></td>
 scijava/vecmath <td>None</td>
 tferr/ASA <td class="badge"><a href="https://travis-ci.org/tferr/ASA"><img src="https://travis-ci.org/tferr/ASA.svg?branch=master"></a></td>
-trakem2/T2-NIT <td class="badge"><a href="https://travis-ci.org/trakem2/T2-NIT"><img src="https://travis-ci.org/trakem2/T2-NIT.svg?branch=master"></a></td>
-trakem2/T2-TreelineGraph <td class="badge"><a href="https://travis-ci.org/trakem2/T2-TreelineGraph"><img src="https://travis-ci.org/trakem2/T2-TreelineGraph.svg?branch=master"></a></td>
-trakem2/TrakEM2 <td class="badge"><a href="https://travis-ci.org/trakem2/TrakEM2"><img src="https://travis-ci.org/trakem2/TrakEM2.svg?branch=master"></a></td>
-trakem2/VectorString <td class="badge"><a href="https://travis-ci.org/trakem2/VectorString"><img src="https://travis-ci.org/trakem2/VectorString.svg?branch=master"></a></td>
-trakem2/trakem2-transform <td class="badge"><a href="https://travis-ci.org/trakem2/trakem2-transform"><img src="https://travis-ci.org/trakem2/trakem2-transform.svg?branch=master"></a></td>
