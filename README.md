@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/scijava/status.scijava.org.svg?branch=master)](https://travis-ci.org/scijava/status.scijava.org)
+[![](https://github.com/scijava/status.scijava.org/workflows/build/badge.svg)](https://github.com/scijava/status.scijava.org/actions/workflows/build.yml)
 
 This repository contains code to update the
 [SciJava component status table](https://status.scijava.org/).

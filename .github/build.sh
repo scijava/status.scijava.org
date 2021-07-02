@@ -7,17 +7,12 @@
 git clone --depth=1 --branch=gh-pages git@github.com:scijava/status.scijava.org site &&
 mv -f index-new.html site/index.html &&
 cd site &&
-if [ "$TRAVIS_BUILD_NUMBER" ]
-then
-  commitNote="Travis build $TRAVIS_BUILD_NUMBER"
-else
-  commitNote=$(date)
-fi &&
 if git diff --quiet index.html
 then
   echo "== No new changes =="
 else
   echo "== Pushing changes =="
+  commitNote="$(TZ=UCT date +'%Y-%M-%d %H:%m:%S UCT')"
   git commit -m "Update component table ($commitNote)" index.html &&
   git push
 fi
