@@ -5,6 +5,10 @@ table {
   margin-right: 200px; /* leave room for GitHub ribbon */
 }
 
+.sortable th {
+  cursor: pointer;
+}
+
 table tr:first-child th {
   background: firebrick;
   color: white;
