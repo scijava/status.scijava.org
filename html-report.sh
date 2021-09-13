@@ -53,7 +53,6 @@ echo '<th>Last updated</th>'
 echo '<th>OK</th>'
 echo '<th>Action</th>'
 echo '<th>Build</th>'
-echo '<th>Quality</th>'
 echo '</tr>'
 
 # List components of the BOM, and loop over them.
@@ -81,11 +80,9 @@ do
       test "$ciOverride" &&
         ciBadge=${ciOverride#$slug } ||
         ciBadge="<td class=\"badge\"><a href=\"https://github.com/$slug/actions\"><img src=\"https://github.com/$slug/actions/workflows/build-main.yml/badge.svg\"></a></td>"
-      qualityBadge="<td class=\"badge\"><a href=\"https://lgtm.com/projects/g/$slug/context:java\"><img src=\"https://img.shields.io/lgtm/grade/java/g/$slug.svg\"></a></td>"
       ;;
     *)
       ciBadge="<td>-</td>"
-      qualityBadge="<td>-</td>"
       ;;
   esac
 
@@ -179,7 +176,6 @@ do
   echo "<td>$releaseOK</td>"
   echo "<td sorttable_customkey=\"$actionKey\">$action</td>"
   echo "$ciBadge"
-  echo "$qualityBadge"
   echo '</tr>'
 done
 
