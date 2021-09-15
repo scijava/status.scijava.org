@@ -4,7 +4,6 @@ ijpb/MorphoLibJ <td class="badge"><a href="https://travis-ci.org/ijpb/MorphoLibJ
 imagej/ImageJA <td>None</td>
 imagej/ij1-builds <td class="badge"><a href="https://travis-ci.com/imagej/ij1-builds"><img src="https://travis-ci.com/imagej/ij1-builds.svg?branch=master"></a></td>
 imagej/imagej-launcher <td class="badge"><a href="https://travis-ci.org/imagej/imagej-launcher"><img src="https://travis-ci.org/imagej/imagej-launcher.svg?branch=master"></a></td>
-imagej/imagej-usage <td class="badge"><a href="https://travis-ci.org/imagej/imagej-usage"><img src="https://travis-ci.org/imagej/imagej-usage.svg?branch=master"></a></td>
 imagej/list-of-update-sites <td class="badge"><a href="https://travis-ci.com/imagej/list-of-update-sites"><img src="https://travis-ci.com/imagej/list-of-update-sites.svg?branch=master"></a></td>
 ome/bioformats <td class="badge"><a href="https://github.com/ome/bioformats/actions"><img src="https://github.com/ome/bioformats/workflows/Maven/badge.svg"></a></td>
 ome/ome-common-java <td class="badge"><a href="https://github.com/ome/ome-common-java/actions"><img src="https://github.com/ome/ome-common-java/workflows/Maven/badge.svg"></a></td>
@@ -19,9 +18,7 @@ ome/omero-model <td class="badge"><a href="https://github.com/ome/omero-model/ac
 ome/omero-renderer <td class="badge"><a href="https://github.com/ome/omero-renderer/actions"><img src="https://github.com/ome/omero-renderer/workflows/Gradle/badge.svg"></a></td>
 ome/omero-romio <td class="badge"><a href="https://github.com/ome/omero-romio/actions"><img src="https://github.com/ome/omero-romio/workflows/Gradle/badge.svg"></a></td>
 ome/omero-server <td class="badge"><a href="https://github.com/ome/omero-server/actions"><img src="https://github.com/ome/omero-server/workflows/Gradle/badge.svg"></a></td>
-saalfeldlab/bigwarp <td class="badge"><a href="https://travis-ci.org/saalfeldlab/bigwarp"><img src="https://travis-ci.org/saalfeldlab/bigwarp.svg?branch=master"></a></td>
 saalfeldlab/imglib2-label-multisets <td class="badge"><a href="https://travis-ci.com/saalfeldlab/imglib2-label-multisets"><img src="https://travis-ci.com/saalfeldlab/imglib2-label-multisets.svg?branch=master"></a></td>
-saalfeldlab/trakem2-tps <td class="badge"><a href="https://travis-ci.org/saalfeldlab/trakem2-tps"><img src="https://travis-ci.org/saalfeldlab/trakem2-tps.svg?branch=master"></a></td>
 saalfeldlab/z-spacing <td class="badge"><a href="https://travis-ci.org/saalfeldlab/z-spacing"><img src="https://travis-ci.org/saalfeldlab/z-spacing.svg?branch=master"></a></td>
 scenerygraphics/scenery <td class="badge"><a href="https://travis-ci.org/scenerygraphics/scenery"><img src="https://travis-ci.org/scenerygraphics/scenery.svg?branch=master"></a></td>
 scenerygraphics/sciview <td class="badge"><a href="https://travis-ci.org/scenerygraphics/sciview"><img src="https://travis-ci.org/scenerygraphics/sciview.svg?branch=master"></a></td>
