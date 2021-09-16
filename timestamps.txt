@@ -98,7 +98,6 @@ sc.fiji:Reconstruct_Reader 20190703000000
 sc.fiji:SPIM_Opener 20190703000000
 sc.fiji:Samples_ 20190703000000
 sc.fiji:Series_Labeler 20190703000000
-sc.fiji:Simple_Neurite_Tracer 20191023000000
 sc.fiji:Siox_Segmentation 20190703000000
 sc.fiji:Skeletonize3D_ 20190703000000
 sc.fiji:SplineDeformationGenerator_ 20190703000000

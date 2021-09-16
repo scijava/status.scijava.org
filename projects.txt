@@ -1,4 +1,3 @@
-ca.mcgill:Sholl_Analysis https://github.com/tferr/ASA
 mpicbg:mpicbg https://github.com/axtimwalde/mpicbg
 mpicbg:mpicbg_ https://github.com/axtimwalde/mpicbg
 net.imagej:ij https://github.com/imagej/ImageJA
@@ -15,7 +14,6 @@ org.openmicroscopy:omero-gateway https://github.com/ome/omero-gateway-java
 org.openmicroscopy:specification https://github.com/ome/ome-model
 org.scijava:j3dcore https://github.com/scijava/java3d-core
 org.scijava:j3dutils https://github.com/scijava/java3d-utils
-sc.fiji:Simple_Neurite_Tracer https://github.com/fiji/SNT
 sc.fiji:T2-NIT https://github.com/trakem2/T2-NIT
 sc.fiji:T2-TreelineGraph https://github.com/trakem2/T2-TreelineGraph
 sc.fiji:TrakEM2_ https://github.com/trakem2/TrakEM2
