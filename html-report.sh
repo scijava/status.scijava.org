@@ -43,10 +43,8 @@ echo '<!-- Generated via https://codepo8.github.io/css-fork-on-github-ribbon/ --
 echo '<span id="forkongithub"><a href="https://github.com/scijava/status.scijava.org">Fix me on GitHub</a></span>'
 echo '<table class="sortable">'
 echo '<tr>'
-echo '<th>groupId</th>'
-echo '<th>artifactId</th>'
-echo '<th>BOM version</th>'
-echo '<th>Newest release</th>'
+echo '<th>Artifact</th>'
+echo '<th>Release</th>'
 echo '<th>OK</th>'
 echo '<th>Last vetted</th>'
 echo '<th>Last updated</th>'
@@ -147,14 +145,19 @@ do
   gc=$(echo "$g" | sed 's/[^0-9a-zA-Z]/-/g')
   ac=$(echo "$a" | sed 's/[^0-9a-zA-Z]/-/g')
   echo "<tr class=\"$gc $gc_$ac $bomStatus $releaseStatus\">"
-  echo "<td>$g</td>"
   test "$url" &&
-    echo "<td><a href=\"$url\">$a</td>" ||
-    echo "<td>$a</td>"
-  bomVersionLink=$(printf "$gavFormat" "$g" "$a" "$bomVersion")
-  echo "<td><a href="$bomVersionLink">$bomVersion</a></td>"
+    echo "<td><a href=\"$url\">$g : $a</td>" ||
+    echo "<td>$g : $a</td>"
+
   newestReleaseLink=$(printf "$gavFormat" "$g" "$a" "$newestRelease")
-  echo "<td><a href="$newestReleaseLink">$newestRelease</a></td>"
+  test "$bomVersion" = "$newestRelease" && {
+    echo "<a href="$newestReleaseLink">$newestRelease</a></td>"
+  } || {
+    bomVersionLink=$(printf "$gavFormat" "$g" "$a" "$bomVersion")
+    echo "<td><a href="$bomVersionLink">$bomVersion</a> &rarr; "
+    echo "<a href="$newestReleaseLink">$newestRelease</a></td>"
+  }
+
   echo "<td>$bomOK</td>"
   if [ "$lastVetted" -eq 0 ]
   then
