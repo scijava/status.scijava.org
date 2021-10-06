@@ -151,7 +151,7 @@ do
 
   newestReleaseLink=$(printf "$gavFormat" "$g" "$a" "$newestRelease")
   test "$bomVersion" = "$newestRelease" && {
-    echo "<a href=\"$newestReleaseLink\">$newestRelease</a></td>"
+    echo "<td><a href=\"$newestReleaseLink\">$newestRelease</a></td>"
   } || {
     bomVersionLink=$(printf "$gavFormat" "$g" "$a" "$bomVersion")
     echo "<td><a href=\"$bomVersionLink\">$bomVersion</a> &rarr; "
