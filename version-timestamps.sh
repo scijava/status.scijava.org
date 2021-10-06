@@ -172,7 +172,11 @@ do
 			rest=${gav#*:}
 			a=${rest%%:*}
 			v=${rest#*:}
-			processGAV "$g" "$a" "$v"
+			cacheFile=.cache/"version-timestamps-$g-$a-$v"
+			if [ -f "$cacheFile" ]; then cat "$cacheFile"
+			elif [ -d .cache ]; then processGAV "$g" "$a" "$v" | tee "$cacheFile"
+			else processGAV "$g" "$a" "$v"
+			fi
 			;;
 		*)
 			echo "[WARNING] Ignoring invalid argument: $1" 2>&1

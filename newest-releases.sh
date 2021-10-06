@@ -11,6 +11,11 @@
 
 dir=$(cd "$(dirname "$0")" && pwd)
 
+cacheFile=
+test -d .cache &&
+  cacheFile=.cache/newest-releases &&
+  test -f "$cacheFile" && cat "$cacheFile" && exit 1
+
 test "$1" &&
   pomURL=$1 ||
   pomURL=https://raw.githubusercontent.com/scijava/pom-scijava/master/pom.xml
@@ -18,7 +23,7 @@ test "$1" &&
 pomFile=$(mktemp -t status.scijava.org-XXXX)
 curl -fs "$pomURL" > "$pomFile"
 
-mvn -B -U -Dverbose=true -f "$pomFile" -s settings.xml \
+result=$(mvn -B -U -Dverbose=true -f "$pomFile" -s settings.xml \
   -Dmaven.version.rules=file://$dir/rules.xml \
   versions:display-dependency-updates |
   # Standardize the output format for too-long G:A strings.
@@ -32,6 +37,8 @@ mvn -B -U -Dverbose=true -f "$pomFile" -s settings.xml \
   # Catch when there is no version update.
   sed 's/ *\.\.\.\.* *\([^ ]*\) */,\1,\1/' |
   # Sort the results.
-  sort
+  sort)
+
+  echo "$result" | tee $cacheFile
 
 rm "$pomFile"
