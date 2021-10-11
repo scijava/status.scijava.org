@@ -14,7 +14,7 @@ dir=$(cd "$(dirname "$0")" && pwd)
 cacheFile=
 test -d .cache &&
   cacheFile=.cache/newest-releases &&
-  test -f "$cacheFile" && cat "$cacheFile" && exit 1
+  test -f "$cacheFile" && cat "$cacheFile" && exit 0
 
 test "$1" &&
   pomURL=$1 ||
