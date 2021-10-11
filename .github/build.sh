@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Regenerate the HTML content.
-./html-report.sh > index-new.html &&
+python html-report.py > index-new.html &&
 
 # Push it to the gh-pages branch.
 git clone --depth=1 --branch=gh-pages git@github.com:scijava/status.scijava.org site &&

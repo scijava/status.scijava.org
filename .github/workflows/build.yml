@@ -17,6 +17,9 @@ jobs:
       - uses: webfactory/ssh-agent@v0.5.3
         with:
            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
       - name: Execute the build
         run: .github/build.sh
