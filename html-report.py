@@ -74,6 +74,7 @@ def version_timestamps(g, a, v):
     Returns a (releaseTimestamp, lastDeployed) pair.
     """
     gav, releaseTimestamp, lastDeployed = subprocess.check_output(['./version-timestamps.sh', f'{g}:{a}:{v}']).decode().strip('\n\r').split(' ')
+    assert gav == f'{g}:{a}:{v}'
     releaseTimestamp = int(releaseTimestamp) if releaseTimestamp else 0
     lastDeployed = int(lastDeployed) if lastDeployed else 0
     return releaseTimestamp, lastDeployed
