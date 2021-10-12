@@ -9,13 +9,14 @@
 # Generates an HTML report of the release status of all
 # components in the SciJava BOM (org.scijava:pom-scijava).
 
-import logging, re, subprocess
+import datetime, logging, re, subprocess
 
 # -- Constants --
 
 checkMark = "&#x2714;"
 xMark = "&#x2715;"
 repoBase = "https://maven.scijava.org"
+datetime0 = datetime.datetime(datetime.MINYEAR, 1, 1, 0, 0, 0)
 
 # -- Data --
 
@@ -68,6 +69,14 @@ def project_url(ga):
 
     return ''
 
+def ts2dt(timestamp):
+    """
+    Converts timestamp string of the form YYYYMMDDhhmmss to a datetime object.
+    """
+    if not timestamp: return datetime0
+    m = re.match('(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)', timestamp)
+    return datetime.datetime(*map(int, m.groups())) if m else datetime0
+
 def version_timestamps(g, a, v):
     """
     Gets timestamps for the last time a component was released.
@@ -75,9 +84,7 @@ def version_timestamps(g, a, v):
     """
     gav, releaseTimestamp, lastDeployed = subprocess.check_output(['./version-timestamps.sh', f'{g}:{a}:{v}']).decode().strip('\n\r').split(' ')
     assert gav == f'{g}:{a}:{v}'
-    releaseTimestamp = int(releaseTimestamp) if releaseTimestamp else 0
-    lastDeployed = int(lastDeployed) if lastDeployed else 0
-    return releaseTimestamp, lastDeployed
+    return ts2dt(releaseTimestamp), ts2dt(lastDeployed)
 
 def badge(url):
     slug = None
@@ -101,7 +108,7 @@ def timestamp_override(g, a):
     such as that particular G:A:V not be present in the remote repository
     for any reason (in which case, this function returns 0).
     """
-    return int(timestamps.get(f'{g}:{a}', 0))
+    return ts2dt(timestamps.get(f'{g}:{a}', None))
 
 def release_link(g, a, v):
     return f"<a href=\"{repoBase}/#nexus-search;gav~{g}~{a}~{v}~~\">{v}</a>"
@@ -166,7 +173,7 @@ for line in newest_releases():
     lastVetted = max(releaseTimestamp, timestampOverride)
 
     # Compute time difference; >24 hours means a new release is needed.
-    if lastUpdated - lastVetted > 1000000:
+    if lastUpdated - lastVetted > datetime.timedelta(days=1):
         # A SNAPSHOT was deployed more recently than the newest release.
         releaseStatus = "release-needed"
         releaseOK = xMark
@@ -212,7 +219,7 @@ for line in newest_releases():
     elif lastVetted == timestampOverride:
         # Last vetted manually via timestamps.txt.
         print(f"<td class=\"overridden\">{lastVetted}</td>")
-    elif timestampOverride == 0:
+    elif timestampOverride == datetime0:
         # Last vetted automatically via release artifact; no timestamp override.
         print(f"<td>{lastVetted}</td>")
     else:
