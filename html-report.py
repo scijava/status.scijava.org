@@ -147,10 +147,8 @@ for line in newest_releases():
 
     logging.info(f"Processing {ga}")
 
-    # Get project URL
+    # Get project metadata
     url = project_url(ga)
-
-    # Compute badges
     ciBadge = badge(url)
 
     # Check BOM version vs. newest release
