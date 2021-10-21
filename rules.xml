@@ -7,6 +7,11 @@
         <ignoreVersion type="regex">.*-(alpha|beta|rc)-?[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="com.google.guava" artifactId="guava" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-android</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="com.jcraft" artifactId="jzlib" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*-kohsuke-?[0-9]+</ignoreVersion>
