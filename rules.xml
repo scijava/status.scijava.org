@@ -12,7 +12,22 @@
         <ignoreVersion type="regex">.*-kohsuke-?[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="commons-beanutils" artifactId="commons-beanutils" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="commons-codec" artifactId="commons-codec" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="commons-collections" artifactId="commons-collections" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="commons-io" artifactId="commons-io" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
       </ignoreVersions>
