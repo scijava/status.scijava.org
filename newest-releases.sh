@@ -37,7 +37,7 @@ result=$(mvn -B -U -Dverbose=true -f "$pomFile" -s settings.xml \
   # Catch when there is no version update.
   sed 's/ *\.\.\.\.* *\([^ ]*\) */,\1,\1/' |
   # Sort the results.
-  sort)
+  sort -u)
 
   echo "$result" | tee $cacheFile
 
