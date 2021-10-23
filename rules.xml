@@ -37,6 +37,11 @@
         <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="javax.enterprise" artifactId="cdi-api" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*[\.-](Alpha|Beta|CR|EDR|PFD|PRD)([0-9]+(\.[0-9]+)*[a-z]?)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="junit" artifactId="*" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*-(alpha|beta|rc)-?[0-9]+</ignoreVersion>
