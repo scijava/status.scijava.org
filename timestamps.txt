@@ -94,7 +94,7 @@ sc.fiji:Calculator_Plus 20211021000000
 sc.fiji:Cell_Counter 20211021000000
 sc.fiji:Colocalisation_Analysis 20211021000000
 sc.fiji:Color_Histogram 20211021000000
-sc.fiji:Color_Inspector_3D 20200524000000
+sc.fiji:Color_Inspector_3D 20211023171100
 sc.fiji:Colour_Deconvolution 20211021000000
 sc.fiji:CorrectBleach_ 20211021000000
 sc.fiji:Correct_3D_Drift 20211021000000
@@ -170,4 +170,4 @@ sc.fiji:registration_3d 20211021000000
 sc.fiji:trakem2-transform 20211021000000
 sc.fiji:trakem2_tps 20211021000000
 sc.fiji:weave_jy2java 20211021000000
-sc.fiji:z_spacing 20191023000000
+sc.fiji:z_spacing 20211023171300
