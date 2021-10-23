@@ -10,7 +10,6 @@ net.imagej:imagej-matlab 20211020000000
 net.imagej:imagej-mesh 20211020000000
 net.imagej:imagej-mesh-io 20211020000000
 net.imagej:imagej-notebook 20211020000000
-net.imagej:imagej-omero 20190703000000
 net.imagej:imagej-omero-legacy 20211020000000
 net.imagej:imagej-opencv 20200523000000
 net.imagej:imagej-ops 20211020000000
@@ -18,8 +17,6 @@ net.imagej:imagej-plugins-batch 20211020000000
 net.imagej:imagej-plugins-commands 20211020000000
 net.imagej:imagej-plugins-tools 20211020000000
 net.imagej:imagej-plugins-uploader-ssh 20211020000000
-net.imagej:imagej-scripting 20190703000000
-net.imagej:imagej-server 20190703000000
 net.imagej:imagej-tensorflow 20211021000000
 net.imagej:imagej-ui-awt 20211021000000
 net.imagej:imagej-usage 20190624120000
@@ -114,7 +111,6 @@ sc.fiji:Helmholtz_Analysis 20211021000000
 sc.fiji:IJ_Robot 20211021000000
 sc.fiji:Image_5D 20211021000000
 sc.fiji:Image_Expression_Parser 20211021000000
-sc.fiji:Interactive_3D_Surface_Plot 20190703000000
 sc.fiji:IsoData_Classifier 20211021000000
 sc.fiji:Kappa 20211021000000
 sc.fiji:Kuwahara_Filter 20211021000000
@@ -134,7 +130,6 @@ sc.fiji:QuickPALM_ 20211021000000
 sc.fiji:RATS_ 20211021000000
 sc.fiji:Reconstruct_Reader 20211021000000
 sc.fiji:SPIM_Opener 20211021000000
-sc.fiji:Samples_ 20190703000000
 sc.fiji:Series_Labeler 20211021000000
 sc.fiji:Siox_Segmentation 20211021000000
 sc.fiji:Skeletonize3D_ 20211021000000
