@@ -68,7 +68,7 @@ org.scijava:scripting-jruby 20211021000000
 org.scijava:scripting-jython 20211021000000
 org.scijava:scripting-scala 20211021000000
 org.scijava:swing-checkbox-tree 20211021000000
-org.scijava:ui-behavior 20211021000000
+org.scijava:ui-behaviour 20211023191200
 org.scijava:vecmath 20180905120000
 org.springframework:spring-aop 20250101000000
 org.tensorflow:libtensorflow 20200701000000
@@ -106,6 +106,7 @@ sc.fiji:Fiji_Package_Maker 20211021000000
 sc.fiji:Fiji_Plugins 20211021000000
 sc.fiji:FlowJ_ 20211021000000
 sc.fiji:Graph_Cut 20211021000000
+sc.fiji:Gray_Morphology 20211023182400
 sc.fiji:HDF5_Vibez 20211021000000
 sc.fiji:Helmholtz_Analysis 20211021000000
 sc.fiji:IJ_Robot 20211021000000
@@ -156,7 +157,7 @@ sc.fiji:Volume_Viewer 20211021000000
 sc.fiji:bUnwarpJ_ 20211021000000
 sc.fiji:bij 20211021000000
 sc.fiji:blockmatching_ 20211021000000
-sc.fiji:legacy-imglib1 20190703000000
+sc.fiji:legacy-imglib1 20211023190200
 sc.fiji:level_sets 20211021000000
 sc.fiji:pal-optimization 20211021000000
 sc.fiji:panorama_ 20211021000000
