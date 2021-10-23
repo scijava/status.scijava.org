@@ -68,6 +68,15 @@
         <ignoreVersion type="regex">.*\.RC[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="org.jgrapht" artifactId="*" comparisonMethod="maven">
+      <!--
+      As of version 1.5.0, the JGraphT project requires Java 11.
+      We cannot upgrade past 1.4.0 while we still support Java 8.
+      -->
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="org.slf4j" artifactId="*" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*-(alpha|beta|rc)-?[0-9]+</ignoreVersion>
