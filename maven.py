@@ -90,21 +90,6 @@ class MavenPOM(XML):
             devs.append(dev)
         return devs
 
-    @property
-    def reviewers(self):
-        return self._dev_role("reviewer")
-
-    @property
-    def support(self):
-        return self._dev_role("support")
-
-    @property
-    def maintainers(self):
-        return self._dev_role("maintainer")
-
-    def _dev_role(self, role):
-        return [dev["id"] for dev in self.developers if role in dev["roles"]]
-
 class MavenMetadata(XML):
 
     @property
