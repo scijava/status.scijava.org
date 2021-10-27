@@ -4,9 +4,9 @@
 # See the UNLICENSE file for details.
 #
 # ------------------------------------------------------------------------
-# github_issues.py
+# github.py
 # ------------------------------------------------------------------------
-# A class to download and organize issues from GitHub.
+# A class to download and organize information from GitHub.
 
 import json, logging, math
 import requests
