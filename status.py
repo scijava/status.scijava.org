@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------------
 # component-status.py
 # ------------------------------------------------------------------------
-# Generates a JSON document with information about the components
+# Generates a data structure with information about the components
 # and repositories of the SciJava component collection.
 
 import json, re, sys
@@ -78,7 +78,8 @@ def process(patterns=[]):
             c = maven.MavenComponent(g, a)
             records.append(status(c))
 
-    print(json.dumps(records, sort_keys=True, indent=4))
+    return records
 
 if __name__ == '__main__':
-    process(sys.argv[1:])
+    result = process(sys.argv[1:])
+    print(json.dumps(result, sort_keys=True, indent=4))
