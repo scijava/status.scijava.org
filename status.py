@@ -65,6 +65,9 @@ def process(patterns=[]):
     a = "pom-scijava"
     psj = maven.MavenComponent(g, a)
 
+    if not psj.release and not psj.snapshot and not psj.pom:
+        return None
+
     records = []
 
     if matches(g, a, patterns):
@@ -82,4 +85,7 @@ def process(patterns=[]):
 
 if __name__ == '__main__':
     result = process(sys.argv[1:])
-    print(json.dumps(result, sort_keys=True, indent=4))
+    if result:
+        print(json.dumps(result, sort_keys=True, indent=4))
+    else:
+        print("This script must be run from the SciJava Maven server.")
