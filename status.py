@@ -4,7 +4,7 @@
 # See the UNLICENSE file for details.
 #
 # ------------------------------------------------------------------------
-# component-status.py
+# status.py
 # ------------------------------------------------------------------------
 # Generates a data structure with information about the components
 # and repositories of the SciJava component collection.
