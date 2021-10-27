@@ -24,37 +24,34 @@ def status(c):
         "groupId": c.groupId,
         "artifactId": c.artifactId
     }
-    if c.release:
-        record["release"] = {
-            "source": resource_path(c.release.source),
-            "groupId": c.release.groupId,
-            "artifactId": c.release.artifactId,
-            "lastUpdated": c.release.lastUpdated,
-            "latest": c.release.latest,
-            "lastVersion": c.release.lastVersion,
-            "release": c.release.release,
-        }
-    if c.snapshot:
-        record["snapshot"] = {
-            "source": resource_path(c.snapshot.source),
-            "groupId": c.snapshot.groupId,
-            "artifactId": c.snapshot.artifactId,
-            "lastUpdated": c.snapshot.lastUpdated,
-            "latest": c.snapshot.latest,
-            "lastVersion": c.snapshot.lastVersion,
-            "release": c.snapshot.release,
-        }
-    if c.pom:
-        record["pom"] = {
-            "source": resource_path(c.pom.source),
-            "groupId": c.pom.groupId,
-            "artifactId": c.pom.artifactId,
-            "version": c.pom.version,
-            "scm": c.pom.scmURL,
-            "issues": c.pom.issuesURL,
-            "ci": c.pom.ciURL,
-            "developers": c.pom.developers,
-        }
+    record["release"] = None if c.release is None else {
+        "source": resource_path(c.release.source),
+        "groupId": c.release.groupId,
+        "artifactId": c.release.artifactId,
+        "lastUpdated": c.release.lastUpdated,
+        "latest": c.release.latest,
+        "lastVersion": c.release.lastVersion,
+        "release": c.release.release,
+    }
+    record["snapshot"] = None if c.snapshot is None else {
+        "source": resource_path(c.snapshot.source),
+        "groupId": c.snapshot.groupId,
+        "artifactId": c.snapshot.artifactId,
+        "lastUpdated": c.snapshot.lastUpdated,
+        "latest": c.snapshot.latest,
+        "lastVersion": c.snapshot.lastVersion,
+        "release": c.snapshot.release,
+    }
+    record["pom"] = None if c.pom is None else {
+        "source": resource_path(c.pom.source),
+        "groupId": c.pom.groupId,
+        "artifactId": c.pom.artifactId,
+        "version": c.pom.version,
+        "scm": c.pom.scmURL,
+        "issues": c.pom.issuesURL,
+        "ci": c.pom.ciURL,
+        "developers": c.pom.developers,
+    }
     return record
 
 def matches(g, a, patterns):
