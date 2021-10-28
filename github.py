@@ -23,6 +23,10 @@ class GitHubIssues:
         return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')),
                             max_results=self._max_results, token=self._token)
 
+    def prs(self):
+        return GitHubIssues(self.issues(lambda item: item['pull_request'] is True),
+                            max_results=self._max_results, token=self._token)
+
     def issues(self, predicate=lambda x: True):
         return list(filter(predicate, self._json['items']))
 
