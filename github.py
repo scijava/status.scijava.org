@@ -8,7 +8,7 @@
 # ------------------------------------------------------------------------
 # A class to download and organize information from GitHub.
 
-import json, logging, math
+import json, logging, math, sys
 import requests
 
 class GitHubIssues:
@@ -72,3 +72,13 @@ class GitHubIssues:
             else:
                 # Overwrite value in the dict.
                 self._json[key] = value
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Usage: github.py <query>")
+        print("Ex: github.py repo:scijava/pom-scijava")
+        sys.exit(1)
+    query = "+".join(sys.argv[1:])
+    ghi = GitHubIssues()
+    ghi.download(query)
+    print(json.dumps(ghi._json, sort_keys=True, indent=4))
