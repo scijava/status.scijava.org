@@ -20,7 +20,8 @@ class GitHubIssues:
         self._max_results = max_results
 
     def repo(self, org, repo):
-        return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')), max_results=self._max_results, token=self._token)
+        return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')),
+                            max_results=self._max_results, token=self._token)
 
     def issues(self, predicate=lambda x: True):
         return list(filter(predicate, self._json['items']))
