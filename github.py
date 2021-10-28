@@ -23,7 +23,7 @@ class GitHubIssues:
         return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')), max_results=self._max_results, token=self._token)
 
     def issues(self, predicate=lambda x: True):
-        return list(map(predicate, self._json['items']))
+        return list(filter(predicate, self._json['items']))
 
     def load(self, filepath):
         with open(filepath) as f:
