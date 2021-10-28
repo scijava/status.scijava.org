@@ -37,7 +37,7 @@ class GitHubIssues:
 
     def save(self, filepath):
         with open(filepath, 'w') as f:
-            return json.dump(self._json, f)
+            return json.dump(self._json, f, sort_keys=True, indent=4)
 
     def download(self, query):
         """
