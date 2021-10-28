@@ -8,70 +8,66 @@
 # ------------------------------------------------------------------------
 # A class to download and organize information from GitHub.
 
-import json, logging, math, sys
+import json, logging, math, sys, time
 import requests
 
 class GitHubIssues:
 
-    def __init__(self, items=[], max_results=10000, token=None):
+    def __init__(self, items=[], token=None):
         self._token = token
-        self._json = {'items': items}
-        self._per_page = 100
-        self._max_results = max_results
+        self._items = items
+        self._delay_per_request = 5
+        self._max_requests = 100
 
     def repo(self, org, repo):
         return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')),
-                            max_results=self._max_results, token=self._token)
+                            token=self._token)
 
     def prs(self):
         return GitHubIssues(self.issues(lambda item: item['pull_request'] is True),
-                            max_results=self._max_results, token=self._token)
+                            token=self._token)
 
     def issues(self, predicate=lambda x: True):
-        return list(filter(predicate, self._json['items']))
+        return list(filter(predicate, self._items))
 
     def load(self, filepath):
         with open(filepath) as f:
             result = json.loads(f.read())
-            self._merge(result)
+            self._items.extend(result)
 
     def save(self, filepath):
         with open(filepath, 'w') as f:
-            return json.dump(self._json, f, sort_keys=True, indent=4)
+            return json.dump(self._items, f, sort_keys=True, indent=4)
+
+    @staticmethod
+    def _search_url(query):
+        return f"https://api.github.com/search/issues?q={query}+is:open&sort=created&order=asc&per_page=100"
 
     def download(self, query):
         """
         Downloads issues from GitHub according to the given query.
         """
-
-        url = f"https://api.github.com/search/issues?q={query}+is:open&sort=created&order=asc&per_page={self._per_page}"
-        url = self._download_page(url)
-
-        max_pages = math.ceil(self._max_results / self._per_page)
-        for i in range(1, max_pages):
+        url = GitHubIssues._search_url(query)
+        for _ in range(self._max_requests):
+            url = self._download_page(url, query)
             if not url: break
-            url = self._download_page(url)
+            time.sleep(self._delay_per_request)
 
-    def _download_page(self, url):
-        headers = {}
-        if self._token: headers['Authorization'] = self._token
+    def _download_page(self, url, query):
+        headers = {'User-Agent': 'status.scijava.org'}
+        if self._token: headers['Authorization'] = "token " + self._token
 
         logging.debug(f'Downloading {url}')
-        response = requests.get(url, headers)
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
         result = response.json()
+        self._items.extend(result['items'])
 
-        self._merge(result)
-
-        return response.links['next']['url'] if 'next' in response.links else None
-
-    def _merge(self, content):
-        for key, value in content.items():
-            if key in self._json and type(self._json[key]) == list:
-                # Append values to the list.
-                self._json[key].extend(value)
-            else:
-                # Overwrite value in the dict.
-                self._json[key] = value
+        next_url = response.links['next']['url'] if 'next' in response.links else None
+        if not next_url and result['total_count'] > 1000 and len(result['items']) > 0:
+            # We hit the 1000-issue limit. Continue the search just beyond the last issue we got.
+            next_url = GitHubIssues._search_url(f"{query}+created:>{result['items'][-1]['created_at']}")
+        return next_url
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
