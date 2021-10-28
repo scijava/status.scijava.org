@@ -9,14 +9,21 @@
 # Generates an HTML report of the release status of all
 # components in the SciJava BOM (org.scijava:pom-scijava).
 
-import datetime, logging, re, subprocess
+import datetime, logging, pathlib, re, subprocess, sys
+
+from github_issues import GitHubIssues
 
 # -- Constants --
 
 checkMark = "&#x2714;"
 xMark = "&#x2715;"
+questionMark = "&#10067;" # 10068, 9072
+bangMark = "&#10071;" # 10069
+warningSign = "&#9888;"
+
 repoBase = "https://maven.scijava.org"
 datetime0 = datetime.datetime(datetime.MINYEAR, 1, 1, 0, 0, 0)
+cacheDir = pathlib.Path('.cache')
 
 # -- Data --
 
@@ -32,17 +39,7 @@ def file2map(filepath, sep=' '):
 badge_overrides = file2map('ci-badges.txt')
 timestamps = file2map('timestamps.txt')
 project_urls = file2map('projects.txt')
-
-group_orgs = {
-    'graphics.scenery':   'scenerygraphics',
-    'io.scif':            'scifio',
-    'net.imagej':         'imagej',
-    'net.imglib2':        'imglib',
-    'org.openmicroscopy': 'ome',
-    'org.scijava':        'scijava',
-    'sc.fiji':            'fiji',
-    'sc.iview':           'scenerygraphics',
-}
+group_orgs = file2map('group-orgs.txt')
 
 # -- Functions --
 
@@ -123,6 +120,86 @@ def release_link(g, a, v):
 
 # -- Main --
 
+issues = GitHubIssues()
+cached_issues = cacheDir / 'issues.json'
+if cached_issues.is_file():
+    issues.load(cached_issues)
+    print(f'Got {len(issues.issues())} issues from local cache')
+else:
+    # HACK: Hardcode the five core orgs for now.
+    # CTR TODO: Make this extensible. The artifacts with issueManagement of
+    # https://github.com/<org>/<repo>/issues are the ones we want to fetch.
+    # Consider doing $(mvn dependency:get ...) if we don't already have the
+    # info locally, then we can freely utilize local pom.xml files and
+    # maven-metadata-local.xml.
+    query = 'user:scijava+user:imglib+user:imagej+user:scifio+user:fiji'
+    issues.download(query)
+    if cacheDir.is_dir():
+        issues.save(cached_issues)
+    print(f'Got {len(issues.issues())} issues from GitHub')
+
+sys.exit(0)
+
+# === Information gathering ===
+
+logging.info("Generating list of components")
+newest_release_list = newest_releases()
+
+# Process each component on the list.
+for line in newest_release_list:
+    ga, bomVersion, newestRelease = line.split(',')
+    g, a = ga.split(':')
+
+    logging.info(f"Processing {ga}")
+
+    # Get project metadata
+    url = project_url(ga)
+    ciBadge = badge(url)
+
+lines = [token.decode() for token in subprocess.check_output(['./newest-releases.sh']).split()]
+releases = newest_releases()
+
+"""
+........
+
+generate-mega-melt.py in pom-scijava/tests is close to what we need.
+Want to generate a minimal POM depending on everything in pom-scijava depMgmt.
+Then 'mvn -B -U -Denforcer.skip dependency:list', which will resolve (download!) all POMs (but not JARs).
+  -- except THIS IS WRONG -- in my tests, JARs are downloaded too. :-(
+  -- need to find a way, with one mvn invocation, to download only all the POMs, but not the JARs.
+  -- maybe adding <type>pom</type> to each dependency would work, followed by dependency:resolve?
+
+Some components might be at non-existent versions, and fail the dependency:list command, but that doesn't matter.
+We'll be able to tell that those versions don't exist when we look in the ~/.m2/repository.
+
+Is there a way to merge status.scijava.org table generation into pom-scijava repo?
+There is substantial overlap between mega-melt testing and table generation.
+Maybe status.scijava.org could become only the web page, without any GitHub Action.
+And then in pom-scijava, we'd have:
+    - daily action to regenerate the table
+    - push to main action to run mega-melt THEN regenerate the table
+        - that same action, if release.properties is there, does release instead
+    - PR action to run mega-melt only
+
+Anyway, the workflow for this script becomes:
+
+1. 
+
+........
+"""
+
+#logging.info("Downloading GitHub issues")
+# HACK: Hardcode the five core orgs for now.
+# CTR TODO: Make this extensible. The artifacts with issueManagement of
+# https://github.com/<org>/<repo>/issues are the ones we want to fetch.
+# Consider doing $(mvn dependency:get ...) if we don't already have the
+# info locally, then we can freely utilize local pom.xml files and
+# maven-metadata-local.xml.
+#query = 'user:scijava+user:imglib+user:imagej+user:scifio+user:fiji';
+#issues = download_issues(query)
+
+# === Table output ===
+
 # Emit the HTML header matter.
 print('<html>')
 print('<head>')
@@ -149,7 +226,7 @@ print('</tr>')
 
 # List components of the BOM, and loop over them.
 logging.info("Generating list of components")
-for line in newest_releases():
+for line in releases:
     ga, bomVersion, newestRelease = line.split(',')
     g, a = ga.split(':')
 
@@ -212,6 +289,18 @@ for line in newest_releases():
         print(f"<td><a href=\"{url}\">{g} : {a}</td>")
     else:
         print(f"<td>{g} : {a}</td>")
+
+    # Changes since vetted (replace space with T):
+    # - https://github.com/scijava/scijava-common/commits/master?since=2021-09-09T10:05:24
+    # Changes since release:
+    # - https://github.com/scijava/scijava-common/compare/scijava-common-2.87.0...master
+    # need to know which branch is HEAD (main/master/etc)
+    # Should we mark stale timestamp overrides at all? They don't hurt anything; red highlight is annoying.
+    #
+    # How many open issues are there? How many open PRs?
+    # - curl -fs https://api.github.com/search/issues?q=user:$org+type:pr+is:open&sort=created&order=asc&page=$p > $org-$p.json
+    # https://stackoverflow.com/a/50731243/1207769
+
 
     if bomVersion == newestRelease:
         print(f"<td>{release_link(g, a, newestRelease)}</td>")
