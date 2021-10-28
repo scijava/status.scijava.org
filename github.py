@@ -8,8 +8,46 @@
 # ------------------------------------------------------------------------
 # A class to download and organize information from GitHub.
 
-import json, logging, math, sys, time
+import datetime, json, logging, math, sys, time
 import requests
+
+class GitHubIssue:
+
+    def __init__(self, data):
+        self._data = data
+
+    @staticmethod
+    def _datetime(timestamp):
+        # Credit: https://stackoverflow.com/a/969324/1207769
+        return datetime.datetime.strptime('2019-01-04T16:41:24+0200', "%Y-%m-%dT%H:%M:%S%z")
+
+    @property
+    def created_at(self):
+        return GitHubIssue._datetime(self._data['created_at'])
+
+    @property
+    def updated_at(self):
+        return GitHubIssue._datetime(self._data['updated_at'])
+
+    @property
+    def is_pr(self):
+        return 'pull_request' in self._data
+
+    @property
+    def is_draft(self):
+        return 'draft' in self._data
+
+    @property
+    def milestone(self):
+        return self._data['milestone']['title'] if self._data['milestone'] else None
+
+    @property
+    def labels(self):
+        return [label['name'] for label in self._data['labels']]
+
+    @property
+    def assignees(self):
+        return [assignee['login'] for assignee in self._data['assignees']]
 
 class GitHubIssues:
 
@@ -20,22 +58,29 @@ class GitHubIssues:
         self._max_requests = 100
 
     def repo(self, org, repo):
-        return GitHubIssues(self.issues(lambda item: item['repository_url'].endswith(f'/repos/{org}/{repo}')),
-                            token=self._token)
+        """
+        Filter the collection of issues to only those in the given repository.
+        """
+        return GitHubIssues([item for item in self._items if item['repository_url'].endswith(f'/repos/{org}/{repo}')], token=self._token)
 
-    def prs(self):
-        return GitHubIssues(self.issues(lambda item: item['pull_request'] is True),
-                            token=self._token)
-
-    def issues(self, predicate=lambda x: True):
-        return list(filter(predicate, self._items))
+    def issues(self):
+        """
+        Return the collection of issues as a list of GitHubIssue objects.
+        """
+        return list(map(GitHubIssue, self._items))
 
     def load(self, filepath):
+        """
+        Load issues from the given JSON file.
+        """
         with open(filepath) as f:
             result = json.loads(f.read())
             self._items.extend(result)
 
     def save(self, filepath):
+        """
+        Save issues to the given JSON file.
+        """
         with open(filepath, 'w') as f:
             return json.dump(self._items, f, sort_keys=True, indent=4)
 
@@ -45,7 +90,7 @@ class GitHubIssues:
 
     def download(self, query):
         """
-        Downloads issues from GitHub according to the given query.
+        Download issues from GitHub according to the given query.
         """
         url = GitHubIssues._search_url(query)
         for _ in range(self._max_requests):
