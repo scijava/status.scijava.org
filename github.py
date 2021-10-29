@@ -122,4 +122,4 @@ if __name__ == '__main__':
     query = "+".join(sys.argv[1:])
     ghi = GitHubIssues()
     ghi.download(query)
-    print(json.dumps(ghi._json, sort_keys=True, indent=4))
+    print(json.dumps(ghi._items, sort_keys=True, indent=4))
