@@ -119,6 +119,7 @@ def run():
             "drafts":      sum(1 for issue in issues if issue.is_draft),
             "unscheduled": sum(1 for issue in issues if issue.milestone == 'unscheduled'),
             "labels":      Counter([label for issue in issues for label in issue.labels]),
+            "milestones":  Counter([issue.milestone if issue.milestone else 'none' for issue in issues]),
             "oldest":      str(min(issue.created_at for issue in issues)) if issues else None,
             "updated":     str(max(issue.updated_at for issue in issues)) if issues else None,
             "assignees":   Counter([assignee for issue in issues for assignee in issue.assignees])
