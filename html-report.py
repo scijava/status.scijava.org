@@ -9,9 +9,9 @@
 # Generates an HTML report of the release status of all
 # components in the SciJava BOM (org.scijava:pom-scijava).
 
-import datetime, logging, pathlib, re, subprocess, sys
+import datetime, json, logging, pathlib, re, subprocess, sys
 
-from github_issues import GitHubIssues
+from maven import ts2dt
 
 # -- Constants --
 
@@ -21,9 +21,8 @@ questionMark = "&#10067;" # 10068, 9072
 bangMark = "&#10071;" # 10069
 warningSign = "&#9888;"
 
-repoBase = "https://maven.scijava.org"
+repo_base = "https://maven.scijava.org"
 datetime0 = datetime.datetime(datetime.MINYEAR, 1, 1, 0, 0, 0)
-cacheDir = pathlib.Path('.cache')
 
 # -- Data --
 
@@ -38,25 +37,14 @@ def file2map(filepath, sep=' '):
 
 badge_overrides = file2map('ci-badges.txt')
 timestamps = file2map('timestamps.txt')
-project_urls = file2map('projects.txt')
 group_orgs = file2map('group-orgs.txt')
 
 # -- Functions --
-
-def newest_releases():
-    """
-    Dumps the component list for the given BOM (pom-scijava by default).
-    The format of each component is groupId:artifactId,bomVersion,newestVersion
-    """
-    return [token.decode() for token in subprocess.check_output(['./newest-releases.sh']).split()]
 
 def project_url(ga):
     """
     Gets the URL of a project from its G:A.
     """
-    if ga in project_urls:
-        return project_urls[ga]
-
     g, a = ga.split(':', 1)
 
     if g == "sc.fiji":
@@ -73,14 +61,6 @@ def project_url(ga):
         return f'https://github.com/{group_orgs[g]}/{a}'
 
     return ''
-
-def ts2dt(timestamp):
-    """
-    Converts timestamp string of the form YYYYMMDDhhmmss to a datetime object.
-    """
-    if not timestamp: return datetime0
-    m = re.match('(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)', timestamp)
-    return datetime.datetime(*map(int, m.groups())) if m else datetime0
 
 def version_timestamps(g, a, v):
     """
@@ -116,87 +96,151 @@ def timestamp_override(g, a):
     return ts2dt(timestamps.get(f'{g}:{a}', None))
 
 def release_link(g, a, v):
-    return f"<a href=\"{repoBase}/#nexus-search;gav~{g}~{a}~{v}~~\">{v}</a>"
+    return f"<a href=\"{repo_base}/#nexus-search;gav~{g}~{a}~{v}~~\">{v}</a>"
 
-# -- Main --
+def generate(status):
+    for row in status:
+        g = status['groupId']
+        a = status['artifactId']
+        logging.info(f"Processing {g}:{a}")
 
-issues = GitHubIssues()
-cached_issues = cacheDir / 'issues.json'
-if cached_issues.is_file():
-    issues.load(cached_issues)
-    print(f'Got {len(issues.issues())} issues from local cache')
-else:
-    # HACK: Hardcode the five core orgs for now.
-    # CTR TODO: Make this extensible. The artifacts with issueManagement of
-    # https://github.com/<org>/<repo>/issues are the ones we want to fetch.
-    # Consider doing $(mvn dependency:get ...) if we don't already have the
-    # info locally, then we can freely utilize local pom.xml files and
-    # maven-metadata-local.xml.
-    query = 'user:scijava+user:imglib+user:imagej+user:scifio+user:fiji'
-    issues.download(query)
-    if cacheDir.is_dir():
-        issues.save(cached_issues)
-    print(f'Got {len(issues.issues())} issues from GitHub')
+        if status['issues']:
+            issues = status['issues']
+            issues['prs']
+            issues['drafts']
+            issues['count']
 
-sys.exit(0)
+            labels = issues['labels']
+            bugs = labels.get('bug', 0)
+            enhs = labels.get('enhancement', 0)
 
-# === Information gathering ===
+            issues['assignees']
 
-logging.info("Generating list of components")
-newest_release_list = newest_releases()
+            milestones = issues['milestones']
+            ms_none = milestones.get('none', 0)
 
-# Process each component on the list.
-for line in newest_release_list:
-    ga, bomVersion, newestRelease = line.split(',')
-    g, a = ga.split(':')
+            updated = issues['updated'] # TODO: convert GHI timestamp to datetime?
 
-    logging.info(f"Processing {ga}")
+        if status['release']:
+            assert g == status['release']['groupId'] and a == status['release']['artifactId']
+            bom_version = status['release']['release']
+            bom_release_date = status['release']['lastUpdated']
+            release_source = f"{repo_base}/content/repositories{status['release']['source']}"
+            # ...
+        if status['snapshot']:
+            assert g == status['snapshot']['groupId'] and a == status['snapshot']['artifactId']
+            last_version = status['snapshot']['lastVersion']
+            last_updated_date = status['snapshot']['lastUpdated']
+            snapshot_source = f"{repo_base}/content/repositories{status['snapshot']['source'}"
+            # ...
+        if status['team']:
+            maintainer_count = len(status['team'].get('maintainer', 0)
+            reviewer_count = len(status['team'].get('reviewer', 0)
+            support_count = len(status['team'].get('support', 0)
+            # ...
+        if status['pom']:
+            pom = status['pom']
+            assert g == pom['groupId'] and a == pom['artifactId']
+            ci = pom['ci']
+            # TODO: generalize the badge generation; should handle travis-ci.org and travis-ci.com too.
+            badge = f"<td class=\"badge\"><a href=\"{ci}\"><img src=\"{ci}/workflows/build-main.yml/badge.svg\"></a></td>"
+            issues_url = pom['issues']
+            scm_url = pom['scm']
+            pom_source = f"{repo_base}/content/repositories{pom['source'}"
+            assert last_version == pom['version'] # what if not status['snapshot'] ?
+
+            pass
 
     # Get project metadata
     url = project_url(ga)
     ciBadge = badge(url)
 
+"""
+WHAT IS NEEDED FOR TABLE COLUMNS:
+
+Generate the actual results table in HTML.
+    - Each table row is a COMPONENT.
+    - Components are grouped by REPOSITORY (using rowspan).
+
+Fields of the table are:
+
+<--            Repo scope                            -->   <!--               component scope                         -->
+Repository | Build status | Review score | Support score | Maintainance score | Artifact      | Release (BOM -> newest) |
+
+Score is a heuristic calculation of how much attention the repository needs right now. Factors include:
+1. PRs needing merge -- most urgent. creates new commits on main; contributors deserve a reply.
+2. cut release -- next most urgent. release ready main branch!
+3. bump version -- next step. release won't reach downstream components without this.
+4. open issues -- these lead to PRs.
+
+We want to incentivize addressing PRs first, followed by cutting releases,
+followed by bumping versions, followed by addressing remaining issues.
+Therefore, we score as follows:
+
+  1000 * Count of PRs awaiting maintainer attention.
++  100 * <sqrt(D)> where D is the number of days (ceil(lastModified - vetted)) of datestamp difference.
++   10 * 
++    V * number of issues awaiting team attention. V varies per issue, based on time (engage(H)) since last team member reply.
+
+Team roles that matter here: support, reviewer, maintainer.
+- reviewers scored on PRs needing review/merge
+- support scored on issues needing response
+- maintainers scored on releases needing to be cut
+
+The engage function tries to model community engagement:
+- Think about how engaged issue/PR participants will be to receive a reply at this time.
+- Incentivize team answering:
+  1. within 24 hours
+  2. within 14 days
+  3. after 14 days, prefer answering oldest open issues first.
+
+- how many open issues (minus `question` issues)
+- how many open PRs (minus `question` and `changes requested` PRs -- esp. PRs awaiting review)
+
+Edge cases:
+- What if issueManagement differs across component POMs in the same repository?
+- Repositories not part of the BOM, but which we want one row for that repo with review + support scores. hardcoded txt file list?
+
+Filters:
+- By person. (Single Team column, Details, listing the team of the component.)
+- By GitHub org.
+- By groupId.
+- Plus a plain text filter?
+Is it enough for the first three to just be dropdown list boxes?
+
+Info we need from maven-metadata.xml:
+- latest -- newest SNAPSHOT version, only used internally to find the newest POM
+- release -- newest release version
+- lastUpdated -- timestamp for deciding whether a new release needs to be cut (compare vs newest release timestamp)
+
+Info we need from POM:
+- ciManagement/url -- for build badge
+- scmManagement/url -- just for linking to the project online like we do now from the Artifact/Repository column
+- issueManagement/url -- for where to look for project issues
+- roles -- developer ids with each role, for enabling table sorting by priority
+
+For CI badge from ciManagement/url:
+- https://travis-ci.org/imagej/ImageJA             -> red X symbol
+- https://travis-ci.com/github/imagej/ImageJA      -> travis-ci.com badge
+- https://app.travis-ci.com/github/imagej/ImageJA  -> travis-ci.com badge
+- https://github.com/imagej/ImageJA/actions        -> github.com actions badge
+- Anything else non-empty                          -> question mark symbol (with URL as a link, still)
+
+For repositories on the explicit repositories list (not inferred from components of pom-scijava):
+- Some of these have a pom.xml (e.g. bonej-javadoc), some don't (e.g. pyimagej)
+- For POM projects, we can extract all the usual info as above. We just need to resolve the POM differently:
+  - pom-urls.txt map pointing to the GitHub raw link -- so that we don't rely on anything being deployed to maven.scijava.org
+- For non-POM projects:
+  - Need to explicitly declare all the info normally harvested from the POM. (CI, SCM, issues, dev roles)
+    Where and how should we declare this info? in a YAML or JSON file, perhaps?
+
+- For Python projects, we could glean latest, release, and lastUpdated from SCM... but it's more work... later.
+"""
+
+# -------- BEGIN OLD CODE -------------
+
 lines = [token.decode() for token in subprocess.check_output(['./newest-releases.sh']).split()]
 releases = newest_releases()
-
-"""
-........
-
-generate-mega-melt.py in pom-scijava/tests is close to what we need.
-Want to generate a minimal POM depending on everything in pom-scijava depMgmt.
-Then 'mvn -B -U -Denforcer.skip dependency:list', which will resolve (download!) all POMs (but not JARs).
-  -- except THIS IS WRONG -- in my tests, JARs are downloaded too. :-(
-  -- need to find a way, with one mvn invocation, to download only all the POMs, but not the JARs.
-  -- maybe adding <type>pom</type> to each dependency would work, followed by dependency:resolve?
-
-Some components might be at non-existent versions, and fail the dependency:list command, but that doesn't matter.
-We'll be able to tell that those versions don't exist when we look in the ~/.m2/repository.
-
-Is there a way to merge status.scijava.org table generation into pom-scijava repo?
-There is substantial overlap between mega-melt testing and table generation.
-Maybe status.scijava.org could become only the web page, without any GitHub Action.
-And then in pom-scijava, we'd have:
-    - daily action to regenerate the table
-    - push to main action to run mega-melt THEN regenerate the table
-        - that same action, if release.properties is there, does release instead
-    - PR action to run mega-melt only
-
-Anyway, the workflow for this script becomes:
-
-1. 
-
-........
-"""
-
-#logging.info("Downloading GitHub issues")
-# HACK: Hardcode the five core orgs for now.
-# CTR TODO: Make this extensible. The artifacts with issueManagement of
-# https://github.com/<org>/<repo>/issues are the ones we want to fetch.
-# Consider doing $(mvn dependency:get ...) if we don't already have the
-# info locally, then we can freely utilize local pom.xml files and
-# maven-metadata-local.xml.
-#query = 'user:scijava+user:imglib+user:imagej+user:scifio+user:fiji';
-#issues = download_issues(query)
 
 # === Table output ===
 
@@ -332,3 +376,12 @@ with open('footer.html') as f:
     print(f.read().strip())
 print('</body>')
 print('</html>')
+
+# --------- END OLD CODE --------------
+
+if __name__ == '__main__':
+    # TODO: arg parsing + usage
+    with open("status.json") as f:
+        status = json.read(f)
+    result = generate(status)
+    print(result)

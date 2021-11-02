@@ -37,7 +37,7 @@ def fetch_issues(orgs):
     ghi.download(query)
     return ghi
 
-def run():
+def process():
     # Get all the juicy details from the Maven metadata.
     bom_file = cache_dir / 'maven.json'
     if bom_file.is_file():
@@ -117,7 +117,6 @@ def run():
             "count":       len(issues),
             "prs":         sum(1 for issue in issues if issue.is_pr),
             "drafts":      sum(1 for issue in issues if issue.is_draft),
-            "unscheduled": sum(1 for issue in issues if issue.milestone == 'unscheduled'),
             "labels":      Counter([label for issue in issues for label in issue.labels]),
             "milestones":  Counter([issue.milestone if issue.milestone else 'none' for issue in issues]),
             "oldest":      str(min(issue.created_at for issue in issues)) if issues else None,
@@ -125,138 +124,62 @@ def run():
             "assignees":   Counter([assignee for issue in issues for assignee in issue.assignees])
         })
 
+        # what about milestones past due! they are bad
+
     print(json.dumps(bom, sort_keys=True, indent=4))
 
 # -- Main --
 
 if __name__ == '__main__':
     logging.root.setLevel(logging.INFO)
-    run()
+    result = process()
+    if result:
+        print(json.dumps(result, sort_keys=True, indent=4))
+    else:
+        print("Unable to synthesize component status data.")
 
-
-## CTR START HERE -
-# Review these notes from earlier, keep what's useful, throw the rest away.
-
-# - maven_poms.py, adapted from pom-scijava's tests/generate-mega-melt.py, generates a pom.xml with only allow-listed groupIds.
-#   From there, we can call "mvn -DexcludeTransitive=true dependency:copy-dependencies" to grab all POMs at once into target/dependency.
-#   Unfortunately, Maven still does (at least) one web request per POM, and it takes a long time to check all these GAs for updates.
-# - Much faster would be to do it on the server side, on balinese. We could use a python script that looks directly at the file system
-#   of /opt/sonatype-work/nexus/storage/snapshots/ for maven-metadata.xml (for <latest> and <lastUpdated> tags), and also
-#   extracts data from the POM at /opt/sonatype-work/nexus/storage/snapshots/<groupId>/<artifactId>/<latest>/*.pom
-#   (should sanity check that the datestamp on the discovered SNAPSHOT.pom is very close to the <latest> value -- e.g., for legacy-imglib1:
-#       <lastUpdated>20210702145659</lastUpdated>
-#       /opt/sonatype-work/nexus/storage/snapshots/sc/fiji/legacy-imglib1/1.1.10-SNAPSHOT/legacy-imglib1-1.1.10-20210702.145658-9.pom
-# - So then we need to write this JSON document to something like maven.scijava.org/status.scijava.org.json, and it can curl that down
-#   and generate the table from there? Do we need such a separation? We could just have balinese serve that domain, too.
-# - We want to cover edge cases, though:
-#   - What if the sanity check above fails? I.e. we don't have a POM we're confident is the best one?
-#     Then we show question mark symbols in the columns normally pulled from the POM: build badge
-
-# Info we need from maven-metadata.xml:
-# - latest -- newest SNAPSHOT version, only used internally to find the newest POM
-# - release -- newest release version
-# - lastUpdated -- timestamp for deciding whether a new release needs to be cut (compare vs newest release timestamp)
-
-# Info we need from POM:
-# - ciManagement/url -- for build badge
-# - scmManagement/url -- just for linking to the project online like we do now from the Artifact/Repository column
-# - issueManagement/url -- for where to look for project issues
-# - roles -- developer ids with each role, for enabling table sorting by priority
-
-# For CI badge from ciManagement/url:
-# - https://travis-ci.org/imagej/ImageJA             -> red X symbol
-# - https://travis-ci.com/github/imagej/ImageJA      -> travis-ci.com badge
-# - https://app.travis-ci.com/github/imagej/ImageJA  -> travis-ci.com badge
-# - https://github.com/imagej/ImageJA/actions        -> github.com actions badge
-# - Anything else non-empty                          -> question mark symbol (with URL as a link, still)
-
-# For repositories on the explicit repositories list (not inferred from components of pom-scijava):
-# - Some of these have a pom.xml (e.g. bonej-javadoc), some don't (e.g. pyimagej)
-# - For POM projects, we can extract all the usual info as above. We just need to resolve the POM differently:
-#   - pom-urls.txt map pointing to the GitHub raw link -- so that we don't rely on anything being deployed to maven.scijava.org
-# - For non-POM projects:
-#   - Need to explicitly declare all the info normally harvested from the POM. (CI, SCM, issues, dev roles)
-#     Where and how should we declare this info? in a YAML or JSON file, perhaps?
-
-# - For Python projects, we could glean latest, release, and lastUpdated from SCM... but it's more work... later.
-
-# - balinese can run a cron job generating maven.scijava.org/status.json
-
-# Questions to answer:
-# - How often should balinese regenerate the status.json ?
-# - Under what circumstances would we want to trigger an immediate rebuild of status.scijava.org? Ideally whenever pom-scijava changes...
-
-# CTR FIXME - Instead of writing this newest-releases file into .cache,
-# we could instead read
-#   ~/.m2/repository/$g/$a/maven-metadata-scijava-mirror.xml
-# for each component on the list.
-# And we can also look for
-#   ~/.m2/repository/$g/$a/$v/$a-$v.pom
-# for v of the newest release.
-
-# So the steps are:
-# 0. Get the list of components into a dict
-# 1. Refresh maven-metadata xml (versions:display-dependency-updates) and add it to the dict
-# 2. Refresh pom files
-#    - use BOM release version POM?
-#    - or latest release version POM?
-#    - or latest POM on main/master branch of listed scm?
-#    - what is the fastest way to get and cache all these POMs?
-#        - mvn dependency:get -Dartifact=net.imagej:imagej-common:0.34.1:pom only gets the POM, not the JAR (whew!)
-#          But do we want to do that for every single artifact?
-#        - if we're reading them from GitHub, we should save the etag from response headers, and check 'curl -I' next time...
-#          But will this actually be faster? The poms are so small.
-# 3. Read desired information from maven-metadata and POMs, populating dict
-# 4. Using contents of dict, generate the query to use for GitHub Issues
-# 5. Make the GitHub Issues query/ies, caching resultant JSON.
-# 6. Generate the actual results table in HTML.
-#    - Each table row is a COMPONENT.
-#    - Components are grouped by REPOSITORY (using rowspan).
+# ==================
+# === NEXT STEPS ===
+# ==================
 #
-# Fields of the table are:
+# 1.  We aren't using versions:display-dependency-updates anymore. Therefore,
+#     we need to apply the rules.xml regex patterns ourselves in maven.py to
+#     filter out unwanted versions. Should be straightforward to do in Python.
 #
-# <--            Repo scope                            -->   <!--               component scope                         -->
-# Repository | Build status | Review score | Support score | Maintainance score | Artifact      | Release (BOM -> newest) |
+# 2.  Do we need the history of the status table? I don't think we do.
+#     So then status.scijava.org should NO LONGER be a GitHub Pages site,
+#     but rather just this Python code, plus assets in an assets folder.
+#     All on the main branch, no more gh-pages branch.
 #
-
-# Score is a heuristic calculation of how much attention the repository needs right now. Factors include:
-# 1. PRs needing merge -- most urgent. creates new commits on main; contributors deserve a reply.
-# 2. cut release -- next most urgent. release ready main branch!
-# 3. bump version -- next step. release won't reach downstream components without this.
-# 4. open issues -- these lead to PRs.
-
-# We want to incentivize addressing PRs first, followed by cutting releases,
-# followed by bumping versions, followed by addressing remaining issues.
-# Therefore, we score as follows:
+#     Then balinese can run this code as a cron job, and write the
+#     output site to the docroot at /var/www/status.scijava.org/
 #
-#   1000 * Count of PRs awaiting maintainer attention.
-# +  100 * <sqrt(D)> where D is the number of days (ceil(lastModified - vetted)) of datestamp difference.
-# +   10 * 
-# +    V * number of issues awaiting team attention. V varies per issue, based on time (engage(H)) since last team member reply.
-
-# Team roles that matter here: support, reviewer, maintainer.
-# - reviewers scored on PRs needing review/merge
-# - support scored on issues needing response
-# - maintainers scored on releases needing to be cut
-
-# The engage function tries to model community engagement:
-# - Think about how engaged issue/PR participants will be to receive a reply at this time.
-# - Incentivize team answering:
-#   1. within 24 hours
-#   2. within 14 days
-#   3. after 14 days, prefer answering oldest open issues first.
-
-# - how many open issues (minus `question` issues)
-# - how many open PRs (minus `question` and `changes requested` PRs -- esp. PRs awaiting review)
-
-# Edge cases:
-# - What if issueManagement differs across component POMs in the same repository?
-# - Repositories not part of the BOM, but which we want one row for that repo with review + support scores. hardcoded txt file list?
-
-# Filters:
-# - By person. (Single Team column, Details, listing the team of the component.)
-# - By GitHub org.
-# - By groupId.
-# - Plus a plain text filter?
-# Is it enough for the first three to just be dropdown list boxes?
-
+# 3.  Sanity check that the datestamp on the discovered SNAPSHOT.pom is very
+#     close to the <latest> value -- e.g., for legacy-imglib1, from maven-metadata.xml:
+#
+#         <lastUpdated>20210702145659</lastUpdated>
+#
+#     And on the file system:
+#
+#         /opt/sonatype-work/nexus/storage/snapshots/sc/fiji/legacy-imglib1/1.1.10-SNAPSHOT/legacy-imglib1-1.1.10-20210702.145658-9.pom
+#
+#     Note that these timestamps are off by 1 second. But close enough!
+#
+# 4.  Consider reintroducing a step that calls
+#     `mvn versions:display-dependency-updates` like newest-releases.sh used to do.
+#
+#     Reasons to consider doing this, even though it is slow:
+#     -   Can apply rules.xml to filter newest versions to regex criteria.
+#     -   Might help keep maven.scijava.org proxies up-to-date with upstreams.
+#         But it doesn't invalidate the server-side caches for proxied
+#         artifacts; gotta do that too to be certain to have the latest.
+#
+# 5.  In the meantime: if the (2) sanity check fails, it means we don't have a
+#     POM we're confident is the best one. In that case, the HTML table should
+#     show question mark symbols in the columns normally pulled from the POM.
+#
+# 6.  Under what circumstances would we want to trigger an immediate rebuild of
+#     status.scijava.org? Ideally whenever pom-scijava changes. But also every
+#     hour. Or 30 minutes? or 10 minutes? Releases happen asynchronously!
+#     Probably just running it via cron every 30 minutes is good enough.
+#     But it would be great to have instant updates after a pom-scijava push.

@@ -161,32 +161,19 @@ class MavenComponent:
         return best
 
     @staticmethod
-    def _ts2dt(ts):
-        """
-        Converts Maven-style timestamp strings into Python datetime objects.
-
-        Valid forms:
-        * 20210702144918 (seen in <lastUpdated> in maven-metadata.xml)
-        * 20210702.144917 (seen in deployed SNAPSHOT filenames)
-        """
-        m = re.match("(\d{4})(\d\d)(\d\d)\.?(\d\d)(\d\d)(\d\d)", ts)
-        if not m: raise ValueError(f"Invalid timestamp: {ts}")
-        return datetime.datetime(*map(int, m.groups()))
-
-    @staticmethod
     def _pom(repos, g, a, v, ts=None):
         gav_path = f"{g.replace('.', '/')}/{a}/{v}"
         if v.endswith("-SNAPSHOT"):
             # Find snapshot POM with matching timestamp.
             assert ts is not None
-            dt_requested = MavenComponent._ts2dt(ts)
+            dt_requested = ts2dt(ts)
             pom_prefix = f"{a}-{v[:-9]}" # artifactId-version minus -SNAPSHOT
             for repo in repos:
                 d = pathlib.Path(f"{storage}/{repo}/{gav_path}")
                 for f in d.glob(f"{pom_prefix}-*.pom"):
                     m = re.match(pom_prefix + "-(\d{8}\.\d{6})-\d+\.pom", f.name)
                     if not m: continue # ignore weirdly named POM
-                    dt_actual = MavenComponent._ts2dt(m.group(1))
+                    dt_actual = ts2dt(m.group(1))
                     if abs(dt_requested - dt_actual).seconds <= ts_allowance:
                         # Timestamp is within tolerance! Found it!
                         return MavenPOM(str(f))
@@ -200,6 +187,18 @@ class MavenComponent:
         return None
 
 # -- Functions --
+
+def ts2dt(ts):
+    """
+    Converts Maven-style timestamp strings into Python datetime objects.
+
+    Valid forms:
+    * 20210702144918 (seen in <lastUpdated> in maven-metadata.xml)
+    * 20210702.144917 (seen in deployed SNAPSHOT filenames)
+    """
+    m = re.match("(\d{4})(\d\d)(\d\d)\.?(\d\d)(\d\d)(\d\d)", ts)
+    if not m: raise ValueError(f"Invalid timestamp: {ts}")
+    return datetime.datetime(*map(int, m.groups()))
 
 def resource_path(source):
     return None if source is None else source[len(storage):]
