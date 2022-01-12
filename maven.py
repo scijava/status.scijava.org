@@ -12,8 +12,10 @@
 # When run from the command line, generates a data structure with information
 # about the components and repositories of the SciJava component collection.
 
-import datetime, json, logging, os, pathlib, re, sys
-import xml.etree.ElementTree as ET
+import json, logging, os, pathlib, re, sys
+from datetime import datetime
+from typing import Dict, Sequence
+from xml.etree import ElementTree as ET
 
 # -- Constants --
 
@@ -32,16 +34,16 @@ class XML:
         self.tree = ET.parse(source)
         XML._strip_ns(self.tree.getroot())
 
-    def elements(self, path):
+    def elements(self, path: str) -> Sequence[ET.Element]:
         return self.tree.findall(path)
 
-    def value(self, path):
+    def value(self, path: str) -> str:
         el = self.elements(path)
         assert len(el) <= 1
         return None if len(el) == 0 else el[0].text
 
     @staticmethod
-    def _strip_ns(el):
+    def _strip_ns(el: ET.Element) -> None:
         """
         Remove namespace prefixes from elements and attributes.
         Credit: https://stackoverflow.com/a/32552776/1207769
@@ -59,31 +61,31 @@ class XML:
 class MavenPOM(XML):
 
     @property
-    def groupId(self):
+    def groupId(self) -> str:
         return self.value("groupId") or self.value("parent/groupId")
 
     @property
-    def artifactId(self):
+    def artifactId(self) -> str:
         return self.value("artifactId")
 
     @property
-    def version(self):
+    def version(self) -> str:
         return self.value("version") or self.value("parent/version")
 
     @property
-    def scmURL(self):
+    def scmURL(self) -> str:
         return self.value("scm/url")
 
     @property
-    def issuesURL(self):
+    def issuesURL(self) -> str:
         return self.value("issueManagement/url")
 
     @property
-    def ciURL(self):
+    def ciURL(self) -> str:
         return self.value("ciManagement/url")
 
     @property
-    def developers(self):
+    def developers(self) -> Sequence[Dict[str, object]]:
         devs = []
         for el in self.elements("developers/developer"):
             dev = {}
@@ -100,40 +102,40 @@ class MavenPOM(XML):
 class MavenMetadata(XML):
 
     @property
-    def groupId(self):
+    def groupId(self) -> str:
         try:
             return self.value("groupId")
         except Exception:
             return self.value("parent/groupId")
 
     @property
-    def artifactId(self):
+    def artifactId(self) -> str:
         return self.value("artifactId")
 
     @property
-    def lastUpdated(self):
+    def lastUpdated(self) -> int:
         result = self.value("versioning/lastUpdated")
         return None if result is None else int(result)
 
     @property
-    def latest(self):
+    def latest(self) -> str:
         # WARNING: The <latest> value is often wrong, for reasons I don't know.
         # However, the last <version> under <versions> has the correct value.
         # Consider using lastVersion instead of latest.
         return self.value("versioning/latest")
 
     @property
-    def lastVersion(self):
+    def lastVersion(self) -> str:
         vs = self.elements("versioning/versions/version")
         return None if len(vs) == 0 else vs[-1].text
 
     @property
-    def release(self):
+    def release(self) -> str:
         return self.value("versioning/release")
 
 class MavenComponent:
 
-    def __init__(self, g, a):
+    def __init__(self, g: str, a: str):
         self.groupId = g
         self.artifactId = a
         self.release = MavenComponent._metadata(release_repos, g, a)
@@ -149,7 +151,7 @@ class MavenComponent:
             self.pom = None
 
     @staticmethod
-    def _metadata(repos, g, a):
+    def _metadata(repos, g: str, a: str) -> MavenMetadata:
         suffix = f"{g.replace('.', '/')}/{a}/maven-metadata.xml"
         best = None
         for repo in repos:
@@ -161,7 +163,7 @@ class MavenComponent:
         return best
 
     @staticmethod
-    def _pom(repos, g, a, v, ts=None):
+    def _pom(repos, g: str, a: str, v: str, ts=None) -> MavenPOM:
         gav_path = f"{g.replace('.', '/')}/{a}/{v}"
         if v.endswith("-SNAPSHOT"):
             # Find snapshot POM with matching timestamp.
@@ -188,7 +190,7 @@ class MavenComponent:
 
 # -- Functions --
 
-def ts2dt(ts):
+def ts2dt(ts: str) -> datetime:
     """
     Converts Maven-style timestamp strings into Python datetime objects.
 
@@ -198,12 +200,12 @@ def ts2dt(ts):
     """
     m = re.match("(\d{4})(\d\d)(\d\d)\.?(\d\d)(\d\d)(\d\d)", ts)
     if not m: raise ValueError(f"Invalid timestamp: {ts}")
-    return datetime.datetime(*map(int, m.groups()))
+    return datetime(*map(int, m.groups()))
 
-def resource_path(source):
+def resource_path(source: str) -> str:
     return None if source is None else source[len(storage):]
 
-def status(c):
+def status(c: MavenComponent) -> Dict[str, object]:
     """
     Gathers information from Maven about the given groupId:artifactId.
     """
@@ -241,10 +243,10 @@ def status(c):
     }
     return record
 
-def matches(g, a, patterns):
+def matches(g: str, a: str, patterns: Sequence[str]) -> bool:
     return not patterns or any(re.match(pat, f"{g}:{a}") for pat in patterns)
 
-def process(patterns=[]):
+def process(patterns=[]) -> Sequence[Dict[str, object]]:
     g = "org.scijava"
     a = "pom-scijava"
     psj = MavenComponent(g, a)
