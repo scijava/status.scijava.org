@@ -14,7 +14,7 @@ then
   echo "== No new changes =="
 else
   echo "== Pushing changes =="
-  commitNote="$(TZ=UCT date +'%Y-%M-%d %H:%m:%S UCT')"
+  commitNote="$(TZ=UTC date +'%Y-%M-%d %H:%m:%S UTC')"
   git commit -m "Update component table ($commitNote)" index.html &&
   git push
 fi
