@@ -124,9 +124,9 @@ def process():
             "assignees":   Counter([assignee for issue in issues for assignee in issue.assignees])
         })
 
-        # what about milestones past due! they are bad
+        # TODO: what about milestones past due! they are bad
 
-    print(json.dumps(bom, sort_keys=True, indent=4))
+    return bom
 
 # -- Main --
 
