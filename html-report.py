@@ -11,6 +11,8 @@
 
 import datetime, json, logging, pathlib, re, subprocess, sys
 
+# TEMP: regex: what is \b ?
+#
 from maven import ts2dt
 
 # -- Constants --
@@ -41,36 +43,6 @@ group_orgs = file2map('group-orgs.txt')
 
 # -- Functions --
 
-def project_url(ga):
-    """
-    Gets the URL of a project from its G:A.
-    """
-    g, a = ga.split(':', 1)
-
-    if g == "sc.fiji":
-        if a.startswith('TrackMate'):
-            return f'https://github.com/trackmate-sc/{a}'
-        elif a.startswith('bigdataviewer'):
-            return f'https://github.com/bigdataviewer/{a}'
-        elif a.startswith('labkit'):
-            return f'https://github.com/juglab/{a}'
-        if a.endswith('_'):
-            a = a[:-1]
-
-    if g in group_orgs:
-        return f'https://github.com/{group_orgs[g]}/{a}'
-
-    return ''
-
-def version_timestamps(g, a, v):
-    """
-    Gets timestamps for the last time a component was released.
-    Returns a (releaseTimestamp, lastDeployed) pair.
-    """
-    gav, releaseTimestamp, lastDeployed = subprocess.check_output(['./version-timestamps.sh', f'{g}:{a}:{v}']).decode().strip('\n\r').split(' ')
-    assert gav == f'{g}:{a}:{v}'
-    return ts2dt(releaseTimestamp), ts2dt(lastDeployed)
-
 def badge(url):
     slug = None
     if url.startswith('https://github.com/'):
@@ -98,17 +70,73 @@ def timestamp_override(g, a):
 def release_link(g, a, v):
     return f"<a href=\"{repo_base}/#nexus-search;gav~{g}~{a}~{v}~~\">{v}</a>"
 
-def generate(status):
-    for row in status:
-        g = status['groupId']
-        a = status['artifactId']
+def review_score(c):
+    """
+    A score based on PRs needing attention (review and/or merge).
+
+    1000 * Count of PRs awaiting review attention.
+
+    How many open PRs (minus `question` and `changes requested` PRs -- esp. PRs
+    awaiting review).
+    """
+    # TODO
+    return 0
+
+def support_score(c):
+    """
+    A score based on issues needing response.
+
+    Think about how engaged issue/PR participants will be to receive a reply at
+    this time. Incentivize team answering:
+    1. within 24 hours
+    2. within 14 days
+    3. after 14 days, prefer answering oldest open issues first.
+
+    How many open issues (minus `question` issues).
+
+    V * number of issues awaiting team attention. V varies per issue, based on
+    time (engage(H)) since last team member reply. But we may not have
+    individual stats per issue. May need to augment github.py to compute more
+    stats.
+    """
+    # TODO
+    return 0
+
+def maintenance_score(c):
+    """
+    A score based on how badly a release needs to be cut.
+
+    100 * <sqrt(D)> where D is the number of days (ceil(lastModified - vetted))
+    of datestamp difference.
+    """
+    # TODO
+    return 0
+
+def developer_score(c, developer):
+    """
+    Total score for this component for the given developer.
+
+    We want to incentivize addressing PRs first, followed by cutting releases,
+    followed by bumping versions, followed by addressing remaining issues.
+    """
+    rs = review_score(c) if 'reviewer' in developer['roles'] else 0
+    ss = support_score(c) if 'support' in developer['roles'] else 0
+    ms = maintenance_score(c) if 'maintenance' in developer['roles'] else 0
+    return rs + ss + ms
+
+def report(status: Sequence[Dict[str, object]]):
+    # START HERE: TODO: FIXME: OLD CODE -- update this
+    sorted_rows = sorted(status, key=lambda x: f"{x['issues']['org']/x['issues']['repo'] if x['issues'] else ''};{x['groupId']:x['artifactId']}")
+    for row in sorted_rows:
+        g = row['groupId']
+        a = row['artifactId']
         logging.info(f"Processing {g}:{a}")
 
-        if status['issues']:
-            issues = status['issues']
-            issues['prs']
-            issues['drafts']
-            issues['count']
+        if row['issues']:
+            issues = row['issues']
+            prs = issues['prs']
+            drafts = issues['drafts']
+            issue_count = issues['count']
 
             labels = issues['labels']
             bugs = labels.get('bug', 0)
@@ -121,25 +149,25 @@ def generate(status):
 
             updated = issues['updated'] # TODO: convert GHI timestamp to datetime?
 
-        if status['release']:
-            assert g == status['release']['groupId'] and a == status['release']['artifactId']
-            bom_version = status['release']['release']
-            bom_release_date = status['release']['lastUpdated']
-            release_source = f"{repo_base}/content/repositories{status['release']['source']}"
+        if row['release']:
+            assert g == row['release']['groupId'] and a == row['release']['artifactId']
+            bom_version = row['release']['release']
+            bom_release_date = row['release']['lastUpdated']
+            release_source = f"{repo_base}/content/repositories{row['release']['source']}"
             # ...
-        if status['snapshot']:
-            assert g == status['snapshot']['groupId'] and a == status['snapshot']['artifactId']
-            last_version = status['snapshot']['lastVersion']
-            last_updated_date = status['snapshot']['lastUpdated']
-            snapshot_source = f"{repo_base}/content/repositories{status['snapshot']['source'}"
+        if row['snapshot']:
+            assert g == row['snapshot']['groupId'] and a == row['snapshot']['artifactId']
+            last_version = row['snapshot']['lastVersion']
+            last_updated_date = row['snapshot']['lastUpdated']
+            snapshot_source = f"{repo_base}/content/repositories{row['snapshot']['source'}"
             # ...
-        if status['team']:
-            maintainer_count = len(status['team'].get('maintainer', 0)
-            reviewer_count = len(status['team'].get('reviewer', 0)
-            support_count = len(status['team'].get('support', 0)
+        if row['team']:
+            maintainer_count = len(row['team'].get('maintainer', 0)
+            reviewer_count = len(row['team'].get('reviewer', 0)
+            support_count = len(row['team'].get('support', 0)
             # ...
-        if status['pom']:
-            pom = status['pom']
+        if row['pom']:
+            pom = row['pom']
             assert g == pom['groupId'] and a == pom['artifactId']
             ci = pom['ci']
             # TODO: generalize the badge generation; should handle travis-ci.org and travis-ci.com too.
@@ -147,9 +175,7 @@ def generate(status):
             issues_url = pom['issues']
             scm_url = pom['scm']
             pom_source = f"{repo_base}/content/repositories{pom['source'}"
-            assert last_version == pom['version'] # what if not status['snapshot'] ?
-
-            pass
+            assert last_version == pom['version'] # what if not row['snapshot'] ?
 
     # Get project metadata
     url = project_url(ga)
@@ -167,35 +193,12 @@ Fields of the table are:
 <--            Repo scope                            -->   <!--               component scope                         -->
 Repository | Build status | Review score | Support score | Maintainance score | Artifact      | Release (BOM -> newest) |
 
-Score is a heuristic calculation of how much attention the repository needs right now. Factors include:
+Scores are heuristic calculations of how much attention the repository needs right now.
+
 1. PRs needing merge -- most urgent. creates new commits on main; contributors deserve a reply.
 2. cut release -- next most urgent. release ready main branch!
 3. bump version -- next step. release won't reach downstream components without this.
 4. open issues -- these lead to PRs.
-
-We want to incentivize addressing PRs first, followed by cutting releases,
-followed by bumping versions, followed by addressing remaining issues.
-Therefore, we score as follows:
-
-  1000 * Count of PRs awaiting maintainer attention.
-+  100 * <sqrt(D)> where D is the number of days (ceil(lastModified - vetted)) of datestamp difference.
-+   10 * 
-+    V * number of issues awaiting team attention. V varies per issue, based on time (engage(H)) since last team member reply.
-
-Team roles that matter here: support, reviewer, maintainer.
-- reviewers scored on PRs needing review/merge
-- support scored on issues needing response
-- maintainers scored on releases needing to be cut
-
-The engage function tries to model community engagement:
-- Think about how engaged issue/PR participants will be to receive a reply at this time.
-- Incentivize team answering:
-  1. within 24 hours
-  2. within 14 days
-  3. after 14 days, prefer answering oldest open issues first.
-
-- how many open issues (minus `question` issues)
-- how many open PRs (minus `question` and `changes requested` PRs -- esp. PRs awaiting review)
 
 Edge cases:
 - What if issueManagement differs across component POMs in the same repository?
@@ -237,40 +240,7 @@ For repositories on the explicit repositories list (not inferred from components
 - For Python projects, we could glean latest, release, and lastUpdated from SCM... but it's more work... later.
 """
 
-# -------- BEGIN OLD CODE -------------
-
-lines = [token.decode() for token in subprocess.check_output(['./newest-releases.sh']).split()]
-releases = newest_releases()
-
-# === Table output ===
-
-# Emit the HTML header matter.
-print('<html>')
-print('<head>')
-print('<title>SciJava software status</title>')
-print('<link type="text/css" rel="stylesheet" href="status.css">')
-print('<link rel="icon" type="image/png" href="favicon.png">')
-print('<script type="text/javascript" src="sorttable.js"></script>')
-print('<script type="text/javascript" src="sortable-badges.js"></script>')
-print('</head>')
-print('<body onload="makeBadgesSortable()">')
-print('<!-- Generated via https://codepo8.github.io/css-fork-on-github-ribbon/ -->')
-print('<span id="forkongithub"><a href="https://github.com/scijava/status.scijava.org">Fix me on GitHub</a></span>')
-print('<table class="sortable">')
-print('<tr>')
-print('<th>Artifact</th>')
-print('<th>Release</th>')
-print('<th>OK</th>')
-print('<th>Last vetted</th>')
-print('<th>Last updated</th>')
-print('<th>OK</th>')
-print('<th>Action</th>')
-print('<th>Build</th>')
-print('</tr>')
-
-# List components of the BOM, and loop over them.
-logging.info("Generating list of components")
-for line in releases:
+def htmlify(row):
     ga, bomVersion, newestRelease = line.split(',')
     g, a = ga.split(':')
 
@@ -340,10 +310,6 @@ for line in releases:
     # - https://github.com/scijava/scijava-common/compare/scijava-common-2.87.0...master
     # need to know which branch is HEAD (main/master/etc)
     # Should we mark stale timestamp overrides at all? They don't hurt anything; red highlight is annoying.
-    #
-    # How many open issues are there? How many open PRs?
-    # - curl -fs https://api.github.com/search/issues?q=user:$org+type:pr+is:open&sort=created&order=asc&page=$p > $org-$p.json
-    # https://stackoverflow.com/a/50731243/1207769
 
 
     if bomVersion == newestRelease:
@@ -370,18 +336,50 @@ for line in releases:
     print(ciBadge)
     print('</tr>')
 
-# Emit the HTML footer matter.
-print('</table>')
-with open('footer.html') as f:
-    print(f.read().strip())
-print('</body>')
-print('</html>')
+def footer():
+    with open('footer.html') as f:
+        return f.read().strip()
 
-# --------- END OLD CODE --------------
+def sort_key(c):
+    return f"{x['issues']['org']/x['issues']['repo'] if x['issues'] else ''};{x['groupId']:x['artifactId']}"
+
+def report(status: Sequence[Dict[str, object]]):
+    status = sorted(status, key=sort_key)
+
+# Emit the HTML header matter.
+    # Python indented multiline strings? Remind myself.
+    return f"""
+<html>
+<head>
+<title>SciJava software status</title>
+<link type="text/css" rel="stylesheet" href="status.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<script type="text/javascript" src="sorttable.js"></script>
+<script type="text/javascript" src="sortable-badges.js"></script>
+</head>
+<body onload="makeBadgesSortable()">
+<!-- Generated via https://codepo8.github.io/css-fork-on-github-ribbon/ -->
+<span id="forkongithub"><a href="https://github.com/scijava/status.scijava.org">Fix me on GitHub</a></span>
+<table class="sortable">
+<tr>
+<th>Artifact</th>
+<th>Release</th>
+<th>OK</th>
+<th>Last vetted</th>
+<th>Last updated</th>
+<th>OK</th>
+<th>Action</th>
+<th>Build</th>
+</tr>
+{"".join(htmlify(c) for c in status)}
+</table>
+{footer()}
+</body>
+</html>
+"""
 
 if __name__ == '__main__':
     # TODO: arg parsing + usage
     with open("status.json") as f:
         status = json.read(f)
-    result = generate(status)
-    print(result)
+    print(report(status))

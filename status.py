@@ -12,6 +12,7 @@
 import json, logging, re
 from collections import Counter
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 
 import github, maven
 
@@ -21,23 +22,23 @@ cache_dir = Path('.cache')
 
 # -- Functions --
 
-def issues_repo(pom):
+def issues_repo(pom: Dict[str, object]) -> Union[Tuple[None, None], Tuple[str, str]]:
     """
     If this POM record declares GitHub Issues for its issue management,
     return the GitHub (org, repo) pair. Otherwise, return (None, None).
     """
     if pom['issues'] is None: return None, None
-    m = re.match('https?://github.com/([^/]+)/([^/]+)/issues', pom['issues'])
+    m = re.match('https?://github.com/([^/]+)/([^/]+)/issues', str(pom['issues']))
     if not m: return None, None # does not use GitHub Issues
     return m.group(1), m.group(2)
 
-def fetch_issues(orgs):
+def fetch_issues(orgs: Sequence[str]) -> github.GitHubIssues:
     ghi = github.GitHubIssues()
     query = "+".join(f"user:{org}" for org in orgs)
     ghi.download(query)
     return ghi
 
-def process():
+def process() -> Optional[List[Dict[str, Any]]]:
     # Get all the juicy details from the Maven metadata.
     bom_file = cache_dir / 'maven.json'
     if bom_file.is_file():
@@ -54,7 +55,7 @@ def process():
     if not bom:
         logging.error("This script must be run from the SciJava Maven server,\n"
                       f"or you must have a {bom_file} with cached metadata.")
-        sys.exit(1)
+        return None
 
     # Augment the BOM records with team information.
     logging.info("Augmenting BOM with team info...")
@@ -86,9 +87,10 @@ def process():
     # Compile a list of orgs containing any repository that:
     # 1. Uses GitHub Issues; and
     # 2. Has any developer with reviewer or support role.
-    orgs = {c["issues"]["org"] for c in bom \
-            if c["issues"] and any(role in c["team"] for role in ["reviewer", "support"])}
-    orgs = list(orgs)
+    orgs = list({
+        c["issues"]["org"] for c in bom \
+            if c["issues"] and any(role in c["team"] for role in ["reviewer", "support"])
+    })
     orgs.sort()
 
     # Retrieve all the open issues for those orgs.

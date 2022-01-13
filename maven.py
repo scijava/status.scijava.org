@@ -12,9 +12,9 @@
 # When run from the command line, generates a data structure with information
 # about the components and repositories of the SciJava component collection.
 
-import json, logging, os, pathlib, re, sys
+import json, os, pathlib, re, sys
 from datetime import datetime
-from typing import Dict, Sequence
+from typing import Any, Dict, Optional, List, Sequence
 from xml.etree import ElementTree as ET
 
 # -- Constants --
@@ -34,10 +34,10 @@ class XML:
         self.tree = ET.parse(source)
         XML._strip_ns(self.tree.getroot())
 
-    def elements(self, path: str) -> Sequence[ET.Element]:
+    def elements(self, path: str) -> List[ET.Element]:
         return self.tree.findall(path)
 
-    def value(self, path: str) -> str:
+    def value(self, path: str) -> Optional[str]:
         el = self.elements(path)
         assert len(el) <= 1
         return None if len(el) == 0 else el[0].text
@@ -61,36 +61,37 @@ class XML:
 class MavenPOM(XML):
 
     @property
-    def groupId(self) -> str:
+    def groupId(self) -> Optional[str]:
         return self.value("groupId") or self.value("parent/groupId")
 
     @property
-    def artifactId(self) -> str:
+    def artifactId(self) -> Optional[str]:
         return self.value("artifactId")
 
     @property
-    def version(self) -> str:
+    def version(self) -> Optional[str]:
         return self.value("version") or self.value("parent/version")
 
     @property
-    def scmURL(self) -> str:
+    def scmURL(self) -> Optional[str]:
         return self.value("scm/url")
 
     @property
-    def issuesURL(self) -> str:
+    def issuesURL(self) -> Optional[str]:
         return self.value("issueManagement/url")
 
     @property
-    def ciURL(self) -> str:
+    def ciURL(self) -> Optional[str]:
         return self.value("ciManagement/url")
 
     @property
-    def developers(self) -> Sequence[Dict[str, object]]:
+    def developers(self) -> List[Dict[str, Any]]:
         devs = []
         for el in self.elements("developers/developer"):
-            dev = {}
+            dev: Dict[str, Any] = {}
             for child in el:
-                if len(child) == 0: dev[child.tag] = child.text
+                if len(child) == 0:
+                    dev[child.tag] = child.text
                 else:
                     if child.tag == 'properties':
                         dev[child.tag] = {grand.tag: grand.text for grand in child}
@@ -102,35 +103,35 @@ class MavenPOM(XML):
 class MavenMetadata(XML):
 
     @property
-    def groupId(self) -> str:
+    def groupId(self) -> Optional[str]:
         try:
             return self.value("groupId")
         except Exception:
             return self.value("parent/groupId")
 
     @property
-    def artifactId(self) -> str:
+    def artifactId(self) -> Optional[str]:
         return self.value("artifactId")
 
     @property
-    def lastUpdated(self) -> int:
+    def lastUpdated(self) -> Optional[int]:
         result = self.value("versioning/lastUpdated")
         return None if result is None else int(result)
 
     @property
-    def latest(self) -> str:
+    def latest(self) -> Optional[str]:
         # WARNING: The <latest> value is often wrong, for reasons I don't know.
         # However, the last <version> under <versions> has the correct value.
         # Consider using lastVersion instead of latest.
         return self.value("versioning/latest")
 
     @property
-    def lastVersion(self) -> str:
+    def lastVersion(self) -> Optional[str]:
         vs = self.elements("versioning/versions/version")
         return None if len(vs) == 0 else vs[-1].text
 
     @property
-    def release(self) -> str:
+    def release(self) -> Optional[str]:
         return self.value("versioning/release")
 
 class MavenComponent:
@@ -140,18 +141,17 @@ class MavenComponent:
         self.artifactId = a
         self.release = MavenComponent._metadata(release_repos, g, a)
         self.snapshot = MavenComponent._metadata(snapshot_repos, g, a)
-        if self.snapshot:
+        self.pom: Optional[MavenPOM] = None
+        if self.snapshot and self.snapshot.lastVersion:
             # Get the newest POM possible, based on last updated SNAPSHOT.
             self.pom = MavenComponent._pom(snapshot_repos, g, a, v=self.snapshot.lastVersion,
                 ts=str(self.snapshot.lastUpdated))
-        elif self.release:
+        elif self.release and self.release.lastVersion:
             # Get the POM of the newest release.
             self.pom = MavenComponent._pom(release_repos, g, a, v=self.release.lastVersion)
-        else:
-            self.pom = None
 
     @staticmethod
-    def _metadata(repos, g: str, a: str) -> MavenMetadata:
+    def _metadata(repos: Sequence[str], g: str, a: str) -> Optional[MavenMetadata]:
         suffix = f"{g.replace('.', '/')}/{a}/maven-metadata.xml"
         best = None
         for repo in repos:
@@ -163,7 +163,7 @@ class MavenComponent:
         return best
 
     @staticmethod
-    def _pom(repos, g: str, a: str, v: str, ts=None) -> MavenPOM:
+    def _pom(repos, g: str, a: str, v: str, ts=None) -> Optional[MavenPOM]:
         gav_path = f"{g.replace('.', '/')}/{a}/{v}"
         if v.endswith("-SNAPSHOT"):
             # Find snapshot POM with matching timestamp.
@@ -200,16 +200,16 @@ def ts2dt(ts: str) -> datetime:
     """
     m = re.match("(\d{4})(\d\d)(\d\d)\.?(\d\d)(\d\d)(\d\d)", ts)
     if not m: raise ValueError(f"Invalid timestamp: {ts}")
-    return datetime(*map(int, m.groups()))
+    return datetime(*map(int, m.groups())) #noqa
 
 def resource_path(source: str) -> str:
     return None if source is None else source[len(storage):]
 
-def status(c: MavenComponent) -> Dict[str, object]:
+def status(c: MavenComponent) -> Dict[str, Any]:
     """
     Gathers information from Maven about the given groupId:artifactId.
     """
-    record = {
+    record: Dict[str, Any] = {
         "groupId": c.groupId,
         "artifactId": c.artifactId
     }
@@ -246,7 +246,7 @@ def status(c: MavenComponent) -> Dict[str, object]:
 def matches(g: str, a: str, patterns: Sequence[str]) -> bool:
     return not patterns or any(re.match(pat, f"{g}:{a}") for pat in patterns)
 
-def process(patterns=[]) -> Sequence[Dict[str, object]]:
+def process(patterns=[]) -> Optional[List[Dict[str, Any]]]:
     g = "org.scijava"
     a = "pom-scijava"
     psj = MavenComponent(g, a)
@@ -259,9 +259,12 @@ def process(patterns=[]) -> Sequence[Dict[str, object]]:
     if matches(g, a, patterns):
         records.append(status(psj))
 
+    if not psj.pom:
+        return records
+
     for dep in psj.pom.elements("dependencyManagement/dependencies/dependency"):
-        g = dep.find("groupId").text
-        a = dep.find("artifactId").text
+        g = dep.find("groupId").text #noqa
+        a = dep.find("artifactId").text #noqa
 
         if matches(g, a, patterns):
             c = MavenComponent(g, a)
@@ -269,9 +272,12 @@ def process(patterns=[]) -> Sequence[Dict[str, object]]:
 
     return records
 
-if __name__ == '__main__':
-    result = process(sys.argv[1:])
+def main(args: Sequence[str]):
+    result = process(args)
     if result:
         print(json.dumps(result, sort_keys=True, indent=4))
     else:
         print("This script must be run from the SciJava Maven server.")
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
