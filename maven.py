@@ -262,12 +262,16 @@ def process(patterns=[]) -> Optional[List[Dict[str, Any]]]:
     if not psj.pom:
         return records
 
+    # FIXME: Need to compute effective POM for our PSJ BOM.
+    # Then we can get the version from the dependency elements.
+    # Otherwise, we'd have to do the property resolution ourselves.
     for dep in psj.pom.elements("dependencyManagement/dependencies/dependency"):
         g = dep.find("groupId").text #noqa
         a = dep.find("artifactId").text #noqa
+        #v = dep.find("version").text #noqa
 
         if matches(g, a, patterns):
-            c = MavenComponent(g, a)
+            c = MavenComponent(g, a, v)
             records.append(status(c))
 
     return records
