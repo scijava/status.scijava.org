@@ -11,7 +11,7 @@
 
 import datetime, json, re, sys
 from pathlib import Path
-from typing import Any, Collection, Dict, List, Optional, Sequence, Union
+from typing import Any, Collection, Dict, List, Optional, Sequence, Set, Union
 
 from maven import ts2dt
 
@@ -28,7 +28,7 @@ datetime0 = datetime.datetime(datetime.MINYEAR, 1, 1, 0, 0, 0)
 
 # -- Data --
 
-def file2map(filepath: Union[str, Path], sep: str = ' '):
+def file2map(filepath: Union[str, Path], sep: str = ' ') -> Dict[str, str]:
     with open(filepath) as f:
         pairs = [line.strip().split(sep, 1) for line in f.readlines()]
     return {pair[0]: pair[1] for pair in pairs}
@@ -36,7 +36,7 @@ def file2map(filepath: Union[str, Path], sep: str = ' '):
 badge_overrides = file2map('ci-badges.txt')
 timestamps = file2map('timestamps.txt')
 
-def get(data: Dict[Any, Any], *args):
+def get(data: Dict[Any, Any], *args) -> Any:
     """
     Convenience function for null-safe data attribute access.
     """
@@ -252,50 +252,63 @@ def col_release(c: Dict[str, Any]) -> str:
     return release_link(g, a, bom_version) + " &rarr; " + release_link(g, a, newest_release)
 
 class Field:
-    def __init__(self, value, classes=[]):
+    def __init__(self, name: str, value: Any, sort_key: str, classes: Sequence[str] = []):
+        self.name = name
         self.value = value
-        self.classes = " ".join(classes)
+        self.classes = classes
+        self.sort_key = sort_key
 
-def compute_fields(c: Dict[str, Any]) -> Dict[str, Field]:
+    def classes_string(self) -> str:
+        return " ".join(self.classes)
+
+    def __str__(self) -> str:
+        return str(self.value)
+
+def css_class(s: str) -> str:
+    return re.sub('[^0-9A-Za-z]', '-', s)
+
+def compute_fields(c: Dict[str, Any]) -> List[Field]:
     """
     Computes report fields for the given component.
     Field names across components may differ.
 
     :param c: The component for which fields will be computed.
     """
-    result = {
-        "Repository":        Field(col_repository(c)),
-        "Build status":      Field(col_build_status(c)),
-        "Review score":      Field(str(review_score(c))),
-        "Support score":     Field(str(support_score(c))),
-        "Maintenance score": Field(str(maintenance_score(c))),
-        "Artifact":          Field("Artifact", col_artifact(c)),
-        "Release":           Field("Release", col_release(c)),
-    }
+    result = [
+        Field("Repository",        col_repository(c),    sort_key="1"),
+        Field("Build status",      col_build_status(c),  sort_key="2"),
+        Field("Review score",      review_score(c),      sort_key="3"),
+        Field("Support score",     support_score(c),     sort_key="4"),
+        Field("Maintenance score", maintenance_score(c), sort_key="5"),
+        Field("Artifact",          col_artifact(c),      sort_key="6"),
+        Field("Release",           col_release(c),       sort_key="7"),
+    ]
     devs = get(c, 'pom', 'developers')
     if devs:
         for dev in devs:
             score = developer_score(c, dev)
             if score is not None:
                 dev_id = get(dev, 'id') or get(dev, 'name') or '~MYSTERIOUS NINJA~'
-                classes = ['dev-' + css_class(dev_id)]
-                result[dev_id] = Field(str(score), classes)
+                classes = ['developer', 'dev-' + css_class(dev_id)]
+                result.append(Field(dev_id, score, sort_key=f"dev-{dev_id}", classes=classes))
     return result
 
-def css_class(s: str) -> str:
-    return re.sub('[^0-9A-Za-z]', '-', s)
+def _class_attribute(classes: Dict[str, str], name: str) -> str:
+    s = classes.get(name, "")
+    return f" class=\"{s}\"" if s else ""
 
-def row(names: Collection[str], fields: Dict[str, Field]) -> str:
+def row(names: Collection[str], classes: Dict[str, str], fields: Sequence[Field]) -> str:
     """
     Emits HTML for a table row.
 
     :param names: Field names, aligned with the table's column headers.
-    :param fields: dictionary of field names to field values.
+    :param fields: list of fields.
     """
-    artifact = fields["Artifact"].value
+    artifact = next(field.value for field in fields if field.name == "Artifact")
     g = artifact[:artifact.find(":")]
     a = artifact[artifact.find(":")+1:]
-    columns = "".join(f"<td class=\"{css_class(name)}\">{fields.get(name, '')}</td>\n" for name in names)
+    values = {field.name: field.value for field in fields}
+    columns = "".join(f"<td{_class_attribute(classes, name)}>{values.get(name, '')}</td>\n" for name in names)
     return f"<tr class=\"g-{css_class(g)} a-{css_class(a)}\">\n{columns}</tr>\n"
 
 def _component_sort_key(c: Dict[str, Any]):
@@ -312,24 +325,35 @@ def _component_sort_key(c: Dict[str, Any]):
 
 def report(status: Sequence[Dict[str, Any]]) -> str:
     # Compute the fields (i.e. column names and values) per component.
-    table: List[Dict[str, Field]] = [compute_fields(c) for c in sorted(status, key=_component_sort_key)]
+    table: List[List[Field]] = [compute_fields(c) for c in sorted(status, key=_component_sort_key)]
 
     # Column headers are a union of field names across all components.
     # NB: It's theoretically possible that the same field could have different
     # classes at different table rows, but in practice it should never happen.
-    headers = {field_name: field.classes for fields in table for field_name, field in fields.items()}
+    names: Set[str] = set()
+    dev_ids: Set[str] = set()
+    sort_keys: Dict[str, str] = {}
+    classes: Dict[str, str] = {}
+    for fields in table:
+        for field in fields:
+            names.add(field.name)
+            if "developer" in field.classes:
+                dev_ids.add(field.name)
+            sort_keys[field.name] = field.sort_key
+            classes[field.name] = field.classes_string()
+    headers = sorted(names, key=lambda name: sort_keys[name])
 
     # Generate the major chunks of HTML.
-    html_headers = "\n".join(f"<th class=\"{classes}\">" + name + "</th>" for name, classes in headers.items())
-    html_table_rows = "".join(row(headers, table_row) for table_row in table)
+    html_headers = "\n".join(f"<th class=\"{classes[name]}\">" + name + "</th>" for name in headers)
+    html_table_rows = "".join(row(headers, classes, table_row) for table_row in table)
     with open('footer.html') as f:
         html_footer = f.read().strip()
 
     html_dev_selector = "<p>\nDeveloper:\n<select id=\"developer\" onchange=\"refresh()\">\n" + \
-        "\n".join(f"<option value=\"{dev_id}\">{dev_id}</option>" for dev_id in headers) + \
+        "\n".join(f"<option value=\"{dev_id}\">{dev_id}</option>" for dev_id in sorted(dev_ids)) + \
         "</select>\n</p>\n"
 
-    return re.sub("\n +", "\n", f"""
+    return re.sub("\n +", "\n", f"""<!DOCTYPE html>
     <html>
     <head>
     <title>SciJava software status</title>
@@ -355,8 +379,8 @@ def report(status: Sequence[Dict[str, Any]]) -> str:
     """)
 
 def main(args: Sequence[str]):
-    # TODO: arg parsing + usage
-    with open("status.json") as f:
+    input_file = args[0] if len(args) > 0 else "status.json"
+    with open(input_file) as f:
         status = json.loads(f.read())
     print(report(status))
 
