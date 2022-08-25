@@ -1,18 +1,13 @@
 com.google.guava:guava 20250101000000
 hsqldb:hsqldb 20190101000000
-io.scif:scifio-bf-compat 20211020000000
 io.scif:scifio-jai-imageio 20211020000000
 io.scif:scifio-lifesci 20211020000000
-net.imagej:ij1-patcher 20211020000000
-net.imagej:imagej 20211020000000
 net.imagej:imagej-deprecated 20211020000000
 net.imagej:imagej-matlab 20211020000000
 net.imagej:imagej-mesh 20211020000000
 net.imagej:imagej-mesh-io 20211020000000
 net.imagej:imagej-notebook 20211020000000
-net.imagej:imagej-omero-legacy 20211020000000
 net.imagej:imagej-opencv 20200523000000
-net.imagej:imagej-ops 20211020000000
 net.imagej:imagej-plugins-batch 20211020000000
 net.imagej:imagej-plugins-commands 20211020000000
 net.imagej:imagej-plugins-tools 20211020000000
@@ -21,7 +16,6 @@ net.imagej:imagej-tensorflow 20211021000000
 net.imagej:imagej-ui-awt 20211021000000
 net.imagej:imagej-usage 20190624120000
 net.imagej:op-finder 20211021000000
-net.imglib2:imglib2-algorithm 20211021000000
 net.imglib2:imglib2-algorithm-fft 20211021000000
 net.imglib2:imglib2-algorithm-gpl 20211021000000
 net.imglib2:imglib2-label-multisets 20211021000000
@@ -40,7 +34,6 @@ org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
 org.scijava:jep 20171225120000
 org.scijava:junit-benchmarks 20180905120000
-org.scijava:jython-shaded 20190624120000
 org.scijava:minimaven 20211021000000
 org.scijava:scijava-cache 20211021000000
 org.scijava:scijava-coding-style 20211021000000
@@ -48,7 +41,6 @@ org.scijava:scijava-config 20211021000000
 org.scijava:scijava-grab 20211021000000
 org.scijava:scijava-io-http 20211021000000
 org.scijava:scijava-java3d 20211021000000
-org.scijava:scijava-jupyter-kernel 20190703000000
 org.scijava:scijava-listeners 20211021000000
 org.scijava:scijava-log-slf4j 20211021000000
 org.scijava:scijava-maven-plugin 20211021000000
@@ -59,7 +51,6 @@ org.scijava:scijava-plugins-text-markdown 20211021000000
 org.scijava:scijava-plugins-text-plain 20211021000000
 org.scijava:scijava-table 20211021000000
 org.scijava:scijava-ui-awt 20211021000000
-org.scijava:script-editor 20211021000000
 org.scijava:scripting-beanshell 20211021000000
 org.scijava:scripting-clojure 20211021000000
 org.scijava:scripting-java 20211021000000
@@ -68,7 +59,6 @@ org.scijava:scripting-jruby 20211021000000
 org.scijava:scripting-jython 20211021000000
 org.scijava:scripting-scala 20211021000000
 org.scijava:swing-checkbox-tree 20211021000000
-org.scijava:ui-behaviour 20211023191200
 org.scijava:vecmath 20180905120000
 org.springframework:spring-aop 20250101000000
 org.tensorflow:libtensorflow 20200701000000
@@ -107,7 +97,6 @@ sc.fiji:Fiji_Plugins 20211021000000
 sc.fiji:FlowJ_ 20211021000000
 sc.fiji:Graph_Cut 20211021000000
 sc.fiji:Gray_Morphology 20211023182400
-sc.fiji:HDF5_Vibez 20211021000000
 sc.fiji:Helmholtz_Analysis 20211021000000
 sc.fiji:IJ_Robot 20211021000000
 sc.fiji:Image_5D 20211021000000
@@ -153,7 +142,6 @@ sc.fiji:Vaa3d_Writer 20211021000000
 sc.fiji:VectorString 20211021000000
 sc.fiji:Video_Editing 20211021000000
 sc.fiji:Volume_Calculator 20211021000000
-sc.fiji:Volume_Viewer 20211021000000
 sc.fiji:bUnwarpJ_ 20211021000000
 sc.fiji:bij 20211021000000
 sc.fiji:blockmatching_ 20211021000000
@@ -164,6 +152,5 @@ sc.fiji:panorama_ 20211021000000
 sc.fiji:register_virtual_stack_slices 20211021000000
 sc.fiji:registration_3d 20211021000000
 sc.fiji:trakem2-transform 20211021000000
-sc.fiji:trakem2_tps 20211021000000
 sc.fiji:weave_jy2java 20211021000000
 sc.fiji:z_spacing 20211023171300
