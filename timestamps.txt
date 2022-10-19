@@ -1,4 +1,7 @@
 com.google.guava:guava 20250101000000
+com.miglayout:miglayout-core 20250101000000
+com.miglayout:miglayout-swing 20250101000000
+com.miglayout:miglayout-swt 20250101000000
 hsqldb:hsqldb 20190101000000
 net.imagej:imagej-usage 20190624120000
 ome:bio-formats_plugins 20250101000000
@@ -10,6 +13,7 @@ org.apache.poi:poi 20250101000000
 org.apache.spark:spark-core_2.11 20250101000000
 org.jmockit:jmockit 20200701000000
 org.mockito:mockito-core 20250101000000
+org.ojalgo:ojalgo 20250101000000
 org.scijava:j3dcore 20180905120000
 org.scijava:j3dutils 20180905120000
 org.scijava:jep 20171225120000
