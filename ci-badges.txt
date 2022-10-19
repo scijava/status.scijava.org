@@ -1,9 +1,4 @@
-axtimwalde/mpicbg <td class="badge"><a href="https://travis-ci.org/axtimwalde/mpicbg"><img src="https://travis-ci.org/axtimwalde/mpicbg.svg?branch=master"></a></td>
-flimlib/flimlib-javadoc <td class="badge"><a href="https://travis-ci.com/flimlib/flimlib-javadoc"><img src="https://travis-ci.com/flimlib/flimlib-javadoc.svg?branch=master"></a></td>
-ijpb/MorphoLibJ <td class="badge"><a href="https://travis-ci.org/ijpb/MorphoLibJ"><img src="https://travis-ci.org/ijpb/MorphoLibJ.svg?branch=master"></a></td>
-imagej/ImageJA <td>None</td>
-imagej/ij1-builds <td class="badge"><a href="https://travis-ci.com/imagej/ij1-builds"><img src="https://travis-ci.com/imagej/ij1-builds.svg?branch=master"></a></td>
-imagej/imagej-launcher <td class="badge"><a href="https://travis-ci.org/imagej/imagej-launcher"><img src="https://travis-ci.org/imagej/imagej-launcher.svg?branch=master"></a></td>
+imagej/imagej-matlab <td class="badge"><a href="https://github.com/imagej/imagej-matlab/actions"><img src="https://github.com/imagej/imagej-matlab/workflows/build/badge.svg"></a></td>
 ome/bioformats <td class="badge"><a href="https://github.com/ome/bioformats/actions"><img src="https://github.com/ome/bioformats/workflows/Maven/badge.svg"></a></td>
 ome/ome-common-java <td class="badge"><a href="https://github.com/ome/ome-common-java/actions"><img src="https://github.com/ome/ome-common-java/workflows/Maven/badge.svg"></a></td>
 ome/ome-metakit <td class="badge"><a href="https://github.com/ome/ome-metakit/actions"><img src="https://github.com/ome/ome-metakit/workflows/Maven/badge.svg"></a></td>
@@ -17,13 +12,8 @@ ome/omero-model <td class="badge"><a href="https://github.com/ome/omero-model/ac
 ome/omero-renderer <td class="badge"><a href="https://github.com/ome/omero-renderer/actions"><img src="https://github.com/ome/omero-renderer/workflows/Gradle/badge.svg"></a></td>
 ome/omero-romio <td class="badge"><a href="https://github.com/ome/omero-romio/actions"><img src="https://github.com/ome/omero-romio/workflows/Gradle/badge.svg"></a></td>
 ome/omero-server <td class="badge"><a href="https://github.com/ome/omero-server/actions"><img src="https://github.com/ome/omero-server/workflows/Gradle/badge.svg"></a></td>
-scenerygraphics/scenery <td class="badge"><a href="https://travis-ci.org/scenerygraphics/scenery"><img src="https://travis-ci.org/scenerygraphics/scenery.svg?branch=master"></a></td>
-scenerygraphics/sciview <td class="badge"><a href="https://travis-ci.org/scenerygraphics/sciview"><img src="https://travis-ci.org/scenerygraphics/sciview.svg?branch=master"></a></td>
 scijava/java3d-core <td>None</td>
 scijava/java3d-utils <td>None</td>
 scijava/jep <td>None</td>
 scijava/junit-benchmarks <td>None</td>
-scijava/jython-shaded <td>None</td>
-scijava/scijava-jupyter-kernel <td class="badge"><a href="https://travis-ci.org/scijava/scijava-jupyter-kernel"><img src="https://travis-ci.org/scijava/scijava-jupyter-kernel.svg?branch=master"></a></td>
 scijava/vecmath <td>None</td>
-tferr/ASA <td class="badge"><a href="https://travis-ci.org/tferr/ASA"><img src="https://travis-ci.org/tferr/ASA.svg?branch=master"></a></td>

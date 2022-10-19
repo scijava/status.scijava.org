@@ -59,8 +59,12 @@ def project_url(ga):
     g, a = ga.split(':', 1)
 
     if g == "sc.fiji":
-        if a.startswith('bigdataviewer'):
+        if a.startswith('TrackMate'):
+            return f'https://github.com/trackmate-sc/{a}'
+        elif a.startswith('bigdataviewer'):
             return f'https://github.com/bigdataviewer/{a}'
+        elif a.startswith('labkit'):
+            return f'https://github.com/juglab/{a}'
         if a.endswith('_'):
             a = a[:-1]
 
