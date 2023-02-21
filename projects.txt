@@ -1,6 +1,6 @@
 mpicbg:mpicbg https://github.com/axtimwalde/mpicbg
 mpicbg:mpicbg_ https://github.com/axtimwalde/mpicbg
-net.imagej:ij https://github.com/imagej/ImageJA
+net.imagej:ij https://github.com/imagej/ImageJ
 net.imglib2:imglib2-label-multisets https://github.com/saalfeldlab/imglib2-label-multisets
 ome:bio-formats_plugins https://github.com/ome/bioformats
 ome:formats-api https://github.com/ome/bioformats

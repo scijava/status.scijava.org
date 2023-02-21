@@ -1,3 +1,4 @@
+imagej/imagej-common <td class="badge"><a href="https://github.com/imagej/imagej-common/actions"><img src="https://github.com/imagej/imagej-common/actions/workflows/build.yml/badge.svg"></a></td>
 imagej/imagej-matlab <td class="badge"><a href="https://github.com/imagej/imagej-matlab/actions"><img src="https://github.com/imagej/imagej-matlab/workflows/build/badge.svg"></a></td>
 ome/bioformats <td class="badge"><a href="https://github.com/ome/bioformats/actions"><img src="https://github.com/ome/bioformats/workflows/Maven/badge.svg"></a></td>
 ome/ome-common-java <td class="badge"><a href="https://github.com/ome/ome-common-java/actions"><img src="https://github.com/ome/ome-common-java/workflows/Maven/badge.svg"></a></td>
@@ -17,3 +18,13 @@ scijava/java3d-utils <td>None</td>
 scijava/jep <td>None</td>
 scijava/junit-benchmarks <td>None</td>
 scijava/vecmath <td>None</td>
+trackmate-sc/TrackMate <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate/actions"><img src="https://github.com/trackmate-sc/TrackMate/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-CSVImporter <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-CSVImporter/actions"><img src="https://github.com/trackmate-sc/TrackMate-CSVImporter/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-Cellpose <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-Cellpose/actions"><img src="https://github.com/trackmate-sc/TrackMate-Cellpose/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-ExTrack <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-ExTrack/actions"><img src="https://github.com/trackmate-sc/TrackMate-ExTrack/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-Ilastik <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-Ilastik/actions"><img src="https://github.com/trackmate-sc/TrackMate-Ilastik/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-MorphoLibJ <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-MorphoLibJ/actions"><img src="https://github.com/trackmate-sc/TrackMate-MorphoLibJ/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-Oneat <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-Oneat/actions"><img src="https://github.com/trackmate-sc/TrackMate-Oneat/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-Skeleton <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-Skeleton/actions"><img src="https://github.com/trackmate-sc/TrackMate-Skeleton/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-StarDist <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-StarDist/actions"><img src="https://github.com/trackmate-sc/TrackMate-StarDist/actions/workflows/build.yml/badge.svg"></a></td>
+trackmate-sc/TrackMate-Weka <td class="badge"><a href="https://github.com/trackmate-sc/TrackMate-Weka/actions"><img src="https://github.com/trackmate-sc/TrackMate-Weka/actions/workflows/build.yml/badge.svg"></a></td>
