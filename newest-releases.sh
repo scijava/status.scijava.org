@@ -24,7 +24,7 @@ pomFile=$(mktemp -t status.scijava.org-XXXX)
 curl -fs "$pomURL" > "$pomFile"
 
 result=$(mvn -B -U -Dverbose=true -f "$pomFile" -s settings.xml \
-  -Dmaven.version.rules=file://$dir/rules.xml \
+  -Dmaven.version.rules=https://raw.githubusercontent.com/scijava/pom-scijava/master/rules.xml \
   versions:display-dependency-updates |
   # Standardize the output format for too-long G:A strings.
   perl -0777 -pe 's/\.\.\.\n\[INFO\] */ ... /igs' |
