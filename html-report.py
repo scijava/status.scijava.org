@@ -22,7 +22,11 @@ datetime0 = datetime.datetime(datetime.MINYEAR, 1, 1, 0, 0, 0)
 
 def file2map(filepath, sep=' '):
     with open(filepath) as f:
-        pairs = [line.strip().split(sep, 1) for line in f.readlines()]
+        pairs = [
+            line.strip().split(sep, 1)
+            for line in f.readlines()
+            if not line == "" and not line.startswith("#")
+        ]
     return {pair[0]: pair[1] for pair in pairs}
 
 badge_overrides = file2map('ci-badges.txt')
