@@ -25,7 +25,7 @@ def file2map(filepath, sep=' '):
         pairs = [
             line.strip().split(sep, 1)
             for line in f.readlines()
-            if not line == "" and not line.startswith("#")
+            if not line.strip() == "" and not line.startswith("#")
         ]
     return {pair[0]: pair[1] for pair in pairs}
 
