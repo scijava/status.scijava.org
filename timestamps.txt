@@ -7,6 +7,7 @@ org.scijava:vecmath 20180905120000
 
 # Newer versions break stuff... freeze for now.
 hsqldb:hsqldb 20190101000000
+org.codehaus.groovy:groovy 20250101000000
 org.codehaus.groovy:groovy-ant 20250101000000
 org.codehaus.groovy:groovy-astbuilder 20250101000000
 org.codehaus.groovy:groovy-bsf 20250101000000
