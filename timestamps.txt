@@ -36,9 +36,9 @@ org.codehaus.groovy:groovy-yaml 20250101000000
 org.mockito:mockito-core 20250101000000
 org.ojalgo:ojalgo 20250101000000
 org.python:jython-slim 20230309000000
-org.springframework:spring-aop 202501010000
-org.springframework:spring-beans 202501010000
-org.springframework:spring-core 202501010000
+org.springframework:spring-aop 20250101000000
+org.springframework:spring-beans 20250101000000
+org.springframework:spring-core 20250101000000
 org.tensorflow:libtensorflow 20200701000000
 org.tensorflow:libtensorflow_jni 20200701000000
 org.tensorflow:libtensorflow_jni_gpu 20200701000000
