@@ -126,7 +126,7 @@ sc.fiji:MTrack2_ 20230309000000
 sc.fiji:M_I_P 20230309000000
 sc.fiji:Manual_Tracking 20230309000000
 sc.fiji:Multi_Kymograph 20230309000000
-sc.fiji:OMEVisual_ 20230309000000
+sc.fiji:OMEVisual 20230309000000
 sc.fiji:PIV_analyser 20230309000000
 sc.fiji:QuickPALM_ 20230309000000
 sc.fiji:RATS_ 20230309000000
@@ -135,7 +135,7 @@ sc.fiji:Samples_ 20230309000000
 sc.fiji:Series_Labeler 20230309000000
 sc.fiji:Siox_Segmentation 20230309000000
 sc.fiji:Skeletonize3D_ 20230309000000
-sc.fiji:SplineDeformationGenerator 20230309000000
+sc.fiji:SplineDeformationGenerator_ 20230309000000
 sc.fiji:Stack_Manipulation 20230309000000
 sc.fiji:Statistical_Region_Merging 20230309000000
 sc.fiji:Sync_Win 20230309000000
