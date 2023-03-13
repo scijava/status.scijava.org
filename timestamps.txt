@@ -87,6 +87,8 @@ org.scijava:scripting-jruby 20230309000000
 org.scijava:scripting-matlab 20230309000000
 org.scijava:scripting-scala 20230309000000
 org.scijava:swing-checkbox-tree 20230309000000
+sc.fiji:3D_Objects_Counter 20230313000000
+sc.fiji:3D_Viewer 20230313000000
 sc.fiji:AnalyzeSkeleton_ 20230309000000
 sc.fiji:Anisotropic_Diffusion_2D 20230309000000
 sc.fiji:Archipelago_Plugins 20230309000000
