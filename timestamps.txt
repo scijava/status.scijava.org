@@ -107,7 +107,6 @@ sc.fiji:Dichromacy_ 20230309000000
 sc.fiji:Directionality_ 20230309000000
 sc.fiji:Fiji_Archipelago 20230309000000
 sc.fiji:Fiji_Package_Maker 20230309000000
-sc.fiji:Fiji_Plugins 20230309000000
 sc.fiji:FlowJ_ 20230309000000
 sc.fiji:Graph_Cut 20230309000000
 sc.fiji:Gray_Morphology 20230309000000
