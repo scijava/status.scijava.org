@@ -109,7 +109,7 @@ def run():
     # Augment the BOM records with statistics about issues.
     logging.info(f"Augmenting BOM with issues info...")
     for c in bom:
-        if not c["issues"]: continue # Component does not use itHub Issues.
+        if not c["issues"]: continue # Component does not use GitHub Issues.
 
         issues = ghi.repo(c["issues"]["org"], c["issues"]["repo"]).issues()
 
