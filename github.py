@@ -19,7 +19,7 @@ class GitHubIssue:
     @staticmethod
     def _datetime(timestamp):
         # Credit: https://stackoverflow.com/a/969324/1207769
-        return datetime.datetime.strptime('2019-01-04T16:41:24+0200', "%Y-%m-%dT%H:%M:%S%z")
+        return datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S%z")
 
     @property
     def created_at(self):
