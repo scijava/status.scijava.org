@@ -51,9 +51,9 @@ class GitHubIssue:
 
 class GitHubIssues:
 
-    def __init__(self, items=[], token=None):
+    def __init__(self, items=None, token=None):
         self._token = token
-        self._items = items
+        self._items = [] if items is None else items
         self._delay_per_request = 5
         self._max_requests = 100
 
