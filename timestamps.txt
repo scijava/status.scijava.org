@@ -149,7 +149,6 @@ sc.fiji:VIB-lib 20230309000000
 sc.fiji:Vaa3d_Reader 20230309000000
 sc.fiji:Vaa3d_Writer 20230309000000
 sc.fiji:Video_Editing 20230309000000
-sc.fiji:Volume_Viewer 20230309000000
 sc.fiji:bUnwarpJ_ 20230309000000
 sc.fiji:bij 20230309000000
 sc.fiji:fiji-lib 20230309000000
