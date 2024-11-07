@@ -101,7 +101,7 @@ def badge(url):
     if slug in badge_overrides:
         return badge_overrides[slug]
     if slug:
-        return f"<td class=\"badge\"><a href=\"https://github.com/{slug}/actions\"><img src=\"https://github.com/{slug}/actions/workflows/build-main.yml/badge.svg\"></a></td>"
+        return f"<td class=\"badge\"><a href=\"https://github.com/{slug}/actions\"><img data-src=\"https://github.com/{slug}/actions/workflows/build-main.yml/badge.svg\"></a></td>"
     return "<td>-</td>"
 
 def timestamp_override(g, a):
@@ -130,9 +130,9 @@ print('<title>SciJava software status</title>')
 print('<link type="text/css" rel="stylesheet" href="status.css">')
 print('<link rel="icon" type="image/png" href="favicon.png">')
 print('<script type="text/javascript" src="sorttable.js"></script>')
-print('<script type="text/javascript" src="sortable-badges.js"></script>')
 print('</head>')
-print('<body onload="makeBadgesSortable()">')
+print('<body">')
+print('<script type="text/javascript" src="sortable-badges.js"></script>')
 print('<!-- Generated via https://codepo8.github.io/css-fork-on-github-ribbon/ -->')
 print('<span id="forkongithub"><a href="https://github.com/scijava/status.scijava.org">Fix me on GitHub</a></span>')
 print('<table class="sortable">')
