@@ -86,6 +86,7 @@ async function loadBadgesGradually(token, progressCallback) {
     const badges = document.getElementsByClassName('badge');
     Array.from(badges).forEach(badge => {
         badge.setAttribute('sorttable_customkey', 'loading');
+        badge.setAttribute('title', 'loading');
     });
 
     const badgeArray = Array.from(badges);
@@ -107,6 +108,7 @@ async function loadBadgesGradually(token, progressCallback) {
                 const status = await getWorkflowStatus(img.dataset.src, token);
                 const sortKey = getSortKey(status);
                 badge.setAttribute('sorttable_customkey', sortKey);
+                badge.setAttribute('title', sortKey);
                 console.log('Set sort key:', sortKey);
 
                 // Then load the badge image
