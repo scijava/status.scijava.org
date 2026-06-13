@@ -1,47 +1,19 @@
 {
-  "generated": "2026-05-30T19:48:33Z",
+  "generated": "2026-06-13T18:25:33Z",
   "repos": {
-    "scifio/scifio-labeling": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "scifio/scifio-jai-imageio": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scifio/scifio": {
+    "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "scifio/scifio-bf-compat": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scifio/scifio-hdf5": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scifio/scifio-cli": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "bionanoimaging/View5D": {
+    "JaneliaSciComp/multiview-reconstruction": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "ijpb/MorphoLibJ": {
+    "JaneliaSciComp/n5-zstandard": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
-    "scifio/scifio-lifesci": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scifio/scifio-ome-xml": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "saalfeldlab/jitk-tps": {
+    "PreibischLab/multiview-simulation": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -49,15 +21,431 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "imagej/ij1-patcher": {
+    "bigdataviewer/bigdataviewer-core": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "imagej/imagej2": {
+    "bigdataviewer/bigdataviewer-server": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
+    },
+    "bigdataviewer/bigdataviewer-vistools": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "bigdataviewer/bigdataviewer_fiji": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
+    },
+    "bigdataviewer/bigvolumeviewer-core": {
       "title": "build - passing",
       "workflow": "build.yml"
+    },
+    "bigdataviewer/spimdata": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "bionanoimaging/View5D": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "bonej-org/BoneJ2": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
+    },
+    "fiji/3D_Blob_Segmentation": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/3D_Objects_Counter": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/3D_Viewer": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
+    },
+    "fiji/AnalyzeSkeleton": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Anisotropic_Diffusion_2D": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Archipelago_Plugins": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Arrow": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Auto_Local_Threshold": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Auto_Threshold": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/BalloonSegmentation": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Bug_Submitter": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/CPU_Meter": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Calculator_Plus": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Cell_Counter": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Colocalisation_Analysis": {
+      "title": "build - no status",
+      "workflow": "build.yml"
+    },
+    "fiji/Color_Histogram": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Color_Inspector_3D": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Colour_Deconvolution": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/CorrectBleach": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Correct_3D_Drift": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Descriptor_based_registration": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Dichromacy": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Directionality": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/FS_Align_TrakEM2": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Feature_Detection": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Fiji_Archipelago": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Fiji_Developer": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Fiji_Package_Maker": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Fiji_Plugins": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "fiji/FilamentDetector": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "fiji/FlowJ": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Graph_Cut": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Gray_Morphology": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/H5J_Loader_Plugin": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/HDF5_Vibez": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Helmholtz_Analysis": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/IJ_Robot": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/IO": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Image_5D": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Image_Expression_Parser": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Interactive_3D_Surface_Plot": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/IsoData_Classifier": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Kappa": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Kuwahara_Filter": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/KymographBuilder": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "fiji/LSM_Reader": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/LSM_Toolbox": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Lasso_and_Blow_Tool": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Linear_Kuwahara": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/LocalThickness": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/MTrack2": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/M_I_P": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Manual_Tracking": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Multi_Kymograph": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/OMEVisual": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "fiji/PIV_analyser": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/QuickPALM": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/RATS": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Reconstruct_Reader": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/SPIM_Opener": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/SPIM_Registration": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Samples": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Series_Labeler": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Siox_Segmentation": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Skeletonize3D": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/SplineDeformationGenerator": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Stack_Manipulation": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Statistical_Region_Merging": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Stitching": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Sync_Win": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Thread_Killer": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Time_Lapse": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Time_Stamper": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/ToAST": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/TopoJ": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Trainable_Segmentation": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/TrakEM2_Archipelago": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/VIB": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/VIB-lib": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Vaa3d_Reader": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Vaa3d_Writer": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Video_Editing": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Volume_Calculator": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/Volume_Viewer": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/bUnwarpJ": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/bij": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/blockmatching": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/fiji": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "fiji/fiji-lib": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/legacy-imglib1": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/level_sets": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/pal-optimization": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/panorama": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/register_virtual_stack_slices": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/registration_3d": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "fiji/weave_jy2java": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "ijpb/MorphoLibJ": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
     },
     "imagej/ImageJ": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "imagej/ij1-patcher": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
@@ -69,9 +457,13 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "imagej/imagej-notebook": {
+    "imagej/imagej-legacy": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "imagej/imagej-matlab": {
       "title": "build - no status",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-mesh": {
       "title": "build - no status",
@@ -81,13 +473,9 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "imagej/imagej-matlab": {
+    "imagej/imagej-notebook": {
       "title": "build - no status",
-      "workflow": "build.yml"
-    },
-    "imagej/imagej-legacy": {
-      "title": "build - passing",
-      "workflow": "build.yml"
+      "workflow": "build-main.yml"
     },
     "imagej/imagej-omero": {
       "title": "build - no status",
@@ -101,7 +489,7 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "imagej/imagej-plugins-tools": {
+    "imagej/imagej-ops": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -109,15 +497,19 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
+    "imagej/imagej-plugins-commands": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "imagej/imagej-plugins-tools": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
     "imagej/imagej-plugins-uploader-ssh": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "imagej/imagej-ops": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "imagej/imagej-plugins-commands": {
+    "imagej/imagej-plugins-uploader-webdav": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -125,20 +517,12 @@
       "title": "build - passing",
       "workflow": "build-main.yml"
     },
-    "imagej/imagej-plugins-uploader-webdav": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "imagej/imagej-tensorflow": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
     "imagej/imagej-server": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "imagej/op-finder": {
-      "title": "build - no status",
+    "imagej/imagej-tensorflow": {
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "imagej/imagej-ui-awt": {
@@ -153,15 +537,27 @@
       "title": "build - passing",
       "workflow": "build-main.yml"
     },
-    "imglib/imglib2-algorithm": {
+    "imagej/imagej2": {
       "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "imagej/op-finder": {
+      "title": "build - no status",
       "workflow": "build-main.yml"
     },
     "imglib/imglib2": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
+    "imglib/imglib2-algorithm": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
+    },
     "imglib/imglib2-algorithm-fft": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "imglib/imglib2-algorithm-gpl": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
@@ -173,7 +569,7 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "imglib/imglib2-algorithm-gpl": {
+    "imglib/imglib2-imagej": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
@@ -182,14 +578,6 @@
       "workflow": "build.yml"
     },
     "imglib/imglib2-mesh": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "saalfeldlab/imglib2-label-multisets": {
-      "title": "build - no status",
-      "workflow": "build.yml"
-    },
-    "imglib/imglib2-imagej": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
@@ -205,28 +593,80 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "fiji/H5J_Loader_Plugin": {
+    "juglab/labkit-pixel-classification": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "PreibischLab/multiview-simulation": {
+    "juglab/labkit-ui": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "PreibischLab/BigStitcher": {
+    "morphonets/SNT": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "JaneliaSciComp/multiview-reconstruction": {
+    "ome/ome-codecs": {
+      "title": "Maven - passing",
+      "workflow": "maven.yml"
+    },
+    "ome/ome-common-java": {
+      "title": "Maven - passing",
+      "workflow": "maven.yml"
+    },
+    "ome/ome-metakit": {
+      "title": "Maven - passing",
+      "workflow": "maven.yml"
+    },
+    "ome/ome-model": {
+      "title": "Maven - passing",
+      "workflow": "maven.yml"
+    },
+    "ome/ome-poi": {
+      "title": "Maven - passing",
+      "workflow": "maven.yml"
+    },
+    "ome/omero-blitz": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-common": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-dsl-plugin": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-gateway-java": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-model": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-renderer": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-romio": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "ome/omero-server": {
+      "title": "Gradle - passing",
+      "workflow": "gradle.yml"
+    },
+    "saalfeldlab/bigwarp": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "JaneliaSciComp/n5-zstandard": {
-      "title": "build - passing",
+    "saalfeldlab/imglib2-label-multisets": {
+      "title": "build - no status",
       "workflow": "build.yml"
     },
-    "bonej-org/BoneJ2": {
-      "title": "build - passing",
+    "saalfeldlab/jitk-tps": {
+      "title": "build - no status",
       "workflow": "build-main.yml"
     },
     "saalfeldlab/n5": {
@@ -269,95 +709,79 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "ome/ome-codecs": {
-      "title": "Maven - passing",
-      "workflow": "maven.yml"
+    "saalfeldlab/trakem2-tps": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "morphonets/SNT": {
+    "saalfeldlab/z-spacing": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
+    "scifio/scifio": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "ome/ome-metakit": {
-      "title": "Maven - passing",
-      "workflow": "maven.yml"
+    "scifio/scifio-bf-compat": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "ome/ome-model": {
-      "title": "Maven - passing",
-      "workflow": "maven.yml"
+    "scifio/scifio-cli": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "ome/ome-common-java": {
-      "title": "Maven - passing",
-      "workflow": "maven.yml"
+    "scifio/scifio-hdf5": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "ome/ome-poi": {
-      "title": "Maven - passing",
-      "workflow": "maven.yml"
+    "scifio/scifio-jai-imageio": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "ome/omero-blitz": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
+    "scifio/scifio-labeling": {
+      "title": "build - passing",
+      "workflow": "build-main.yml"
     },
-    "ome/omero-dsl-plugin": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
+    "scifio/scifio-lifesci": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
-    "ome/omero-common": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
-    },
-    "ome/omero-gateway-java": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
-    },
-    "ome/omero-renderer": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
-    },
-    "ome/omero-romio": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
+    "scifio/scifio-ome-xml": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
     },
     "scijava/app-launcher": {
       "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "ome/omero-server": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
-    },
-    "ome/omero-model": {
-      "title": "Gradle - passing",
-      "workflow": "gradle.yml"
-    },
-    "scijava/minimaven": {
-      "title": "build - no status",
       "workflow": "build.yml"
     },
     "scijava/batch-processor": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
+    "scijava/minimaven": {
+      "title": "build - no status",
+      "workflow": "build.yml"
+    },
     "scijava/native-lib-loader": {
       "title": "build - no status",
+      "workflow": "build.yml"
+    },
+    "scijava/parsington": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "scijava/scijava": {
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/scijava-cache": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "scijava/scijava": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
     "scijava/scijava-common": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/scijava-config": {
-      "title": "build - no status",
-      "workflow": "build.yml"
-    },
-    "scijava/parsington": {
       "title": "build - no status",
       "workflow": "build.yml"
     },
@@ -377,6 +801,10 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
+    "scijava/scijava-listeners": {
+      "title": "build - no status",
+      "workflow": "build.yml"
+    },
     "scijava/scijava-log-slf4j": {
       "title": "build - no status",
       "workflow": "build.yml"
@@ -385,15 +813,7 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "scijava/scijava-listeners": {
-      "title": "build - no status",
-      "workflow": "build.yml"
-    },
     "scijava/scijava-plot": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scijava/scijava-plugins-text-markdown": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -401,12 +821,16 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
+    "scijava/scijava-plugins-text-markdown": {
+      "title": "build - no status",
+      "workflow": "build-main.yml"
+    },
     "scijava/scijava-plugins-text-plain": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "scijava/scijava-search": {
-      "title": "build - no status",
+    "scijava/scijava-table": {
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "scijava/scijava-ui-awt": {
@@ -417,15 +841,11 @@
       "title": "build - passing",
       "workflow": "build-main.yml"
     },
-    "scijava/scijava-table": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
     "scijava/script-editor": {
       "title": "build - passing",
       "workflow": "build-main.yml"
     },
-    "scijava/scripting-beanshell": {
+    "scijava/script-editor-jython": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -433,7 +853,7 @@
       "title": "build - no status",
       "workflow": "build.yml"
     },
-    "scijava/script-editor-jython": {
+    "scijava/scripting-beanshell": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -445,19 +865,15 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "scijava/scripting-javascript": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "scijava/scripting-java": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "scijava/scripting-jruby": {
+    "scijava/scripting-javascript": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "scijava/scripting-kotlin": {
+    "scijava/scripting-jruby": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -473,19 +889,11 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "scijava/scripting-scala": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "scijava/scripting-renjin": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "scijava/ui-behaviour": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/3D_Objects_Counter": {
+    "scijava/scripting-scala": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -493,305 +901,17 @@
       "title": "build - no status",
       "workflow": "build.yml"
     },
-    "fiji/3D_Blob_Segmentation": {
+    "scijava/ui-behaviour": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "fiji/3D_Viewer": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "fiji/AnalyzeSkeleton": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Anisotropic_Diffusion_2D": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Archipelago_Plugins": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Arrow": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Auto_Threshold": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/BalloonSegmentation": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Auto_Local_Threshold": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Bug_Submitter": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/CPU_Meter": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Cell_Counter": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Calculator_Plus": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Colocalisation_Analysis": {
-      "title": "build - no status",
-      "workflow": "build.yml"
-    },
-    "fiji/Color_Histogram": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Color_Inspector_3D": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Colour_Deconvolution": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/CorrectBleach": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Correct_3D_Drift": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Descriptor_based_registration": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Directionality": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Dichromacy": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/FS_Align_TrakEM2": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Feature_Detection": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Fiji_Archipelago": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Fiji_Package_Maker": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Fiji_Developer": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/FlowJ": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Fiji_Plugins": {
+    "trackmate-sc/MaMuT": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "fiji/FilamentDetector": {
+    "trackmate-sc/TrackMate": {
       "title": "build - passing",
       "workflow": "build.yml"
-    },
-    "fiji/HDF5_Vibez": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Gray_Morphology": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Graph_Cut": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/IJ_Robot": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Helmholtz_Analysis": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/IO": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Image_Expression_Parser": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Image_5D": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Kappa": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Interactive_3D_Surface_Plot": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/IsoData_Classifier": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Kuwahara_Filter": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/KymographBuilder": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "fiji/LSM_Reader": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Lasso_and_Blow_Tool": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/LSM_Toolbox": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/LocalThickness": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/MTrack2": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Linear_Kuwahara": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/M_I_P": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Multi_Kymograph": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/OMEVisual": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "fiji/Manual_Tracking": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/QuickPALM": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/PIV_analyser": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/RATS": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Reconstruct_Reader": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/SPIM_Opener": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Series_Labeler": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/SPIM_Registration": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Skeletonize3D": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Samples": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Siox_Segmentation": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/SplineDeformationGenerator": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Stack_Manipulation": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Statistical_Region_Merging": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Stitching": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/T2-NIT": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Sync_Win": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/T2-TreelineGraph": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Thread_Killer": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Time_Lapse": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Time_Stamper": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/ToAST": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/TopoJ": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
     },
     "trackmate-sc/TrackMate-CSVImporter": {
       "title": "build - passing",
@@ -799,10 +919,6 @@
     },
     "trackmate-sc/TrackMate-Cellpose": {
       "title": "build - failing",
-      "workflow": "build.yml"
-    },
-    "trackmate-sc/TrackMate": {
-      "title": "build - passing",
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-ExTrack": {
@@ -822,26 +938,22 @@
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-Skeleton": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-StarDist": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-Weka": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "fiji/Trainable_Segmentation": {
+    "trakem2/T2-NIT": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "fiji/VIB-lib": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/VIB": {
+    "trakem2/T2-TreelineGraph": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -849,127 +961,11 @@
       "title": "build - passing",
       "workflow": "build-main.yml"
     },
-    "fiji/TrakEM2_Archipelago": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Vaa3d_Reader": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Vaa3d_Writer": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "trakem2/VectorString": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
-    "fiji/Volume_Viewer": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Video_Editing": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Volume_Calculator": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/bUnwarpJ": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/bigdataviewer-core": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "bigdataviewer/bigdataviewer-vistools": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/bigdataviewer-server": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "saalfeldlab/bigwarp": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "bigdataviewer/bigdataviewer_fiji": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "fiji/blockmatching": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/bigvolumeviewer-core": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "fiji/bij": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/fiji": {
-      "title": "build - passing",
-      "workflow": "build.yml"
-    },
-    "fiji/fiji-lib": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "juglab/labkit-pixel-classification": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "juglab/labkit-ui": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/legacy-imglib1": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/level_sets": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/pal-optimization": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/panorama": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/register_virtual_stack_slices": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/registration_3d": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/weave_jy2java": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "trakem2/trakem2-transform": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "saalfeldlab/trakem2-tps": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "saalfeldlab/z-spacing": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/spimdata": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     }
