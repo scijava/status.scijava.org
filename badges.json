@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T18:25:33Z",
+  "generated": "2026-06-15T19:46:52Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -14,7 +14,7 @@
       "workflow": "build.yml"
     },
     "PreibischLab/multiview-simulation": {
-      "title": "build - no status",
+      "title": "build - failing",
       "workflow": "build-main.yml"
     },
     "axtimwalde/mpicbg": {
@@ -758,7 +758,7 @@
       "workflow": "build-main.yml"
     },
     "scijava/minimaven": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/native-lib-loader": {
@@ -829,6 +829,10 @@
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
+    "scijava/scijava-search": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
     "scijava/scijava-table": {
       "title": "build - passing",
       "workflow": "build-main.yml"
@@ -862,8 +866,8 @@
       "workflow": "build-main.yml"
     },
     "scijava/scripting-groovy": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
+      "title": "build - passing",
+      "workflow": "build.yml"
     },
     "scijava/scripting-java": {
       "title": "build - passing",
@@ -880,6 +884,10 @@
     "scijava/scripting-jython": {
       "title": "build - passing",
       "workflow": "build-main.yml"
+    },
+    "scijava/scripting-kotlin": {
+      "title": "build - passing",
+      "workflow": "build.yml"
     },
     "scijava/scripting-matlab": {
       "title": "build - no status",
