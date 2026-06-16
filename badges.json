@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T00:16:35Z",
+  "generated": "2026-06-16T02:13:22Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -27,10 +27,6 @@
     },
     "bigdataviewer/bigdataviewer-server": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/bigdataviewer-vistools": {
-      "title": "build - no status",
       "workflow": "build-main.yml"
     },
     "bigdataviewer/bigdataviewer_fiji": {
