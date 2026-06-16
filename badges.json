@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T19:46:52Z",
+  "generated": "2026-06-16T00:16:35Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -14,7 +14,7 @@
       "workflow": "build.yml"
     },
     "PreibischLab/multiview-simulation": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "axtimwalde/mpicbg": {
@@ -926,7 +926,7 @@
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-Cellpose": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "trackmate-sc/TrackMate-ExTrack": {
