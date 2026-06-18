@@ -47,7 +47,7 @@
     },
     "bonej-org/BoneJ2": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/3D_Blob_Segmentation": {
       "title": "build - no status",
