@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T04:50:51Z",
+  "generated": "2026-06-24T02:31:42Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -130,7 +130,7 @@
       "workflow": "build-main.yml"
     },
     "fiji/Descriptor_based_registration": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "fiji/Dichromacy": {
@@ -322,7 +322,7 @@
       "workflow": "build-main.yml"
     },
     "fiji/Stitching": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "fiji/Sync_Win": {

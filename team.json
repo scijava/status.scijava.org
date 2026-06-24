@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19 05:00 UTC",
+  "generated": "2026-06-24 02:31 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 10,
+      "maintainer_releases": 7,
       "popups": {
         "components": [
           {
@@ -315,20 +315,8 @@
             "url": "https://github.com/imglib/imglib2-roi"
           },
           {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
-          },
-          {
-            "ga": "sc.fiji:Descriptor_based_registration",
-            "url": "https://github.com/fiji/Descriptor_based_registration"
-          },
-          {
             "ga": "sc.fiji:SPIM_Registration",
             "url": "https://github.com/fiji/SPIM_Registration"
-          },
-          {
-            "ga": "sc.fiji:Stitching_",
-            "url": "https://github.com/fiji/Stitching"
           },
           {
             "ga": "sc.fiji:legacy-imglib1",
@@ -419,12 +407,6 @@
             "repo": "JaneliaSciComp/BigStitcher",
             "title": "Refactors phase correlation code to be in Multiview Reconstruction",
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
-          },
-          {
-            "number": 165,
-            "repo": "JaneliaSciComp/BigStitcher",
-            "title": "Merge Zarrv3",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/165"
           },
           {
             "number": 6,
@@ -2296,9 +2278,9 @@
           }
         ]
       },
-      "reviewer_prs": 27,
+      "reviewer_prs": 26,
       "support_issues": 299,
-      "total": 347
+      "total": 343
     },
     {
       "component_count": 8,
@@ -2407,7 +2389,7 @@
       "dev_id": "alessandrofelder",
       "dev_name": "Alessandro Felder",
       "dev_url": "https://github.com/alessandrofelder",
-      "developer_features": 18,
+      "developer_features": 17,
       "maintainer_releases": 3,
       "popups": {
         "components": [
@@ -2451,12 +2433,6 @@
           }
         ],
         "developer_features": [
-          {
-            "number": 102,
-            "repo": "bonej-org/BoneJ2",
-            "title": "BoneJ doesn't work \"out-of-the-box\" with vanilla ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/102"
-          },
           {
             "number": 164,
             "repo": "bonej-org/BoneJ2",
@@ -2577,28 +2553,10 @@
         "reviewer_prs": [],
         "support_issues": [
           {
-            "number": 102,
-            "repo": "bonej-org/BoneJ2",
-            "title": "BoneJ doesn't work \"out-of-the-box\" with vanilla ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/102"
-          },
-          {
-            "number": 142,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Cannot use macro to save Java windows in Fiji",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/142"
-          },
-          {
             "number": 164,
             "repo": "bonej-org/BoneJ2",
             "title": "ROIs are not properly handled",
             "url": "https://github.com/bonej-org/BoneJ2/issues/164"
-          },
-          {
-            "number": 191,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Axis scale checking is too stringent",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/191"
           },
           {
             "number": 194,
@@ -2635,12 +2593,6 @@
             "repo": "bonej-org/BoneJ2",
             "title": "Add hyperstack support to Ellipsoid Factor",
             "url": "https://github.com/bonej-org/BoneJ2/issues/227"
-          },
-          {
-            "number": 229,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Test Failure FractalDimensionWrapperTest",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/229"
           },
           {
             "number": 234,
@@ -2703,12 +2655,6 @@
             "url": "https://github.com/bonej-org/BoneJ2/issues/270"
           },
           {
-            "number": 273,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Test failures in AnalyseSkeletonWrapperTest after update to scijava 29 and 30",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/273"
-          },
-          {
             "number": 275,
             "repo": "bonej-org/BoneJ2",
             "title": "Reinstate a negative test to check that the format exception is caught in AnalyzeSkeletonWrapper",
@@ -2725,12 +2671,6 @@
             "repo": "bonej-org/BoneJ2",
             "title": "Add 3-3-2 surface colour regime so that 3D surfaces match 2D particle default LUT",
             "url": "https://github.com/bonej-org/BoneJ2/issues/298"
-          },
-          {
-            "number": 300,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/300"
           },
           {
             "number": 315,
@@ -2801,8 +2741,8 @@
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 37,
-      "total": 62
+      "support_issues": 31,
+      "total": 55
     },
     {
       "component_count": 32,
@@ -4397,6 +4337,12 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/119"
           },
           {
+            "number": 125,
+            "repo": "saalfeldlab/n5-ij",
+            "title": "Cannot infer unit from \"micron\"",
+            "url": "https://github.com/saalfeldlab/n5-ij/issues/125"
+          },
+          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -4849,8 +4795,8 @@
         ]
       },
       "reviewer_prs": 35,
-      "support_issues": 246,
-      "total": 322
+      "support_issues": 247,
+      "total": 323
     },
     {
       "component_count": 1,
@@ -4879,7 +4825,7 @@
     },
     {
       "component_count": 3,
-      "debugger_bugs": 11,
+      "debugger_bugs": 10,
       "dev_id": "bnorthan",
       "dev_name": "Brian Northan",
       "dev_url": "https://imagej.net/people/bnorthan",
@@ -4912,12 +4858,6 @@
             "repo": "imagej/imagej-ops",
             "title": "Map namespace methods type safety",
             "url": "https://github.com/imagej/imagej-ops/issues/612"
-          },
-          {
-            "number": 637,
-            "repo": "imagej/imagej-ops",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/imagej/imagej-ops/issues/637"
           },
           {
             "number": 645,
@@ -6007,12 +5947,6 @@
             "url": "https://github.com/imagej/imagej-ops/issues/636"
           },
           {
-            "number": 637,
-            "repo": "imagej/imagej-ops",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/imagej/imagej-ops/issues/637"
-          },
-          {
             "number": 641,
             "repo": "imagej/imagej-ops",
             "title": "filter/addPoissonNoise hangs up with large pixel values",
@@ -6489,8 +6423,8 @@
         ]
       },
       "reviewer_prs": 15,
-      "support_issues": 229,
-      "total": 263
+      "support_issues": 228,
+      "total": 261
     },
     {
       "component_count": 11,
@@ -7624,12 +7558,12 @@
     },
     {
       "component_count": 204,
-      "debugger_bugs": 116,
+      "debugger_bugs": 115,
       "dev_id": "ctrueden",
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 180,
+      "maintainer_releases": 174,
       "popups": {
         "components": [
           {
@@ -8913,12 +8847,6 @@
             "url": "https://github.com/imagej/imagej-ops/issues/612"
           },
           {
-            "number": 637,
-            "repo": "imagej/imagej-ops",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/imagej/imagej-ops/issues/637"
-          },
-          {
             "number": 645,
             "repo": "imagej/imagej-ops",
             "title": "OpListings ignore preallocated outputs",
@@ -9941,10 +9869,6 @@
             "url": "https://github.com/scijava/app-launcher"
           },
           {
-            "ga": "org.scijava:native-lib-loader",
-            "url": "https://github.com/scijava/native-lib-loader"
-          },
-          {
             "ga": "org.scijava:parsington",
             "url": "https://github.com/scijava/parsington"
           },
@@ -9967,10 +9891,6 @@
           {
             "ga": "org.scijava:scijava-concurrent",
             "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-desktop",
-            "url": "https://github.com/scijava/scijava-desktop"
           },
           {
             "ga": "org.scijava:scijava-discovery",
@@ -10113,10 +10033,6 @@
             "url": "https://github.com/scijava/scripting-scala"
           },
           {
-            "ga": "org.scijava:swing-checkbox-tree",
-            "url": "https://github.com/scijava/swing-checkbox-tree"
-          },
-          {
             "ga": "org.scijava:ui-behaviour",
             "url": "https://github.com/scijava/ui-behaviour"
           },
@@ -10197,10 +10113,6 @@
             "url": "https://github.com/fiji/Correct_3D_Drift"
           },
           {
-            "ga": "sc.fiji:Descriptor_based_registration",
-            "url": "https://github.com/fiji/Descriptor_based_registration"
-          },
-          {
             "ga": "sc.fiji:Dichromacy_",
             "url": "https://github.com/fiji/Dichromacy"
           },
@@ -10231,10 +10143,6 @@
           {
             "ga": "sc.fiji:Fiji_Plugins",
             "url": "https://github.com/fiji/Fiji_Plugins"
-          },
-          {
-            "ga": "sc.fiji:FilamentDetector",
-            "url": "https://github.com/fiji/FilamentDetector"
           },
           {
             "ga": "sc.fiji:FlowJ_",
@@ -10371,10 +10279,6 @@
           {
             "ga": "sc.fiji:Statistical_Region_Merging",
             "url": "https://github.com/fiji/Statistical_Region_Merging"
-          },
-          {
-            "ga": "sc.fiji:Stitching_",
-            "url": "https://github.com/fiji/Stitching"
           },
           {
             "ga": "sc.fiji:Sync_Win",
@@ -15587,12 +15491,6 @@
             "url": "https://github.com/imagej/imagej-ops/issues/636"
           },
           {
-            "number": 637,
-            "repo": "imagej/imagej-ops",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/imagej/imagej-ops/issues/637"
-          },
-          {
             "number": 641,
             "repo": "imagej/imagej-ops",
             "title": "filter/addPoissonNoise hangs up with large pixel values",
@@ -19749,18 +19647,12 @@
             "repo": "fiji/fiji",
             "title": "LUTs and other ImageJ metadata are not conserved when saving images as Compressed TIFF",
             "url": "https://github.com/fiji/fiji/issues/431"
-          },
-          {
-            "number": 432,
-            "repo": "fiji/fiji",
-            "title": "K-Lean: machine-verified contracts for biological image analysis",
-            "url": "https://github.com/fiji/fiji/issues/432"
           }
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1461,
-      "total": 1943
+      "support_issues": 1459,
+      "total": 1934
     },
     {
       "component_count": 1,
@@ -22696,7 +22588,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -22714,24 +22606,13 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [
-          {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 162,
             "repo": "JaneliaSciComp/BigStitcher",
             "title": "Refactors phase correlation code to be in Multiview Reconstruction",
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
-          },
-          {
-            "number": 165,
-            "repo": "JaneliaSciComp/BigStitcher",
-            "title": "Merge Zarrv3",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/165"
           },
           {
             "number": 6,
@@ -23499,9 +23380,9 @@
           }
         ]
       },
-      "reviewer_prs": 8,
+      "reviewer_prs": 7,
       "support_issues": 121,
-      "total": 130
+      "total": 128
     },
     {
       "component_count": 8,
@@ -25164,7 +25045,7 @@
       "dev_id": "mdoube",
       "dev_name": "Michael Doube",
       "dev_url": "https://scholars.cityu.edu.hk/en/persons/michael-doube(e2acdf24-d9b3-4a48-a05d-ffcd72e7b758).html",
-      "developer_features": 18,
+      "developer_features": 17,
       "maintainer_releases": 5,
       "popups": {
         "components": [
@@ -25216,12 +25097,6 @@
           }
         ],
         "developer_features": [
-          {
-            "number": 102,
-            "repo": "bonej-org/BoneJ2",
-            "title": "BoneJ doesn't work \"out-of-the-box\" with vanilla ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/102"
-          },
           {
             "number": 164,
             "repo": "bonej-org/BoneJ2",
@@ -25350,28 +25225,10 @@
         "reviewer_prs": [],
         "support_issues": [
           {
-            "number": 102,
-            "repo": "bonej-org/BoneJ2",
-            "title": "BoneJ doesn't work \"out-of-the-box\" with vanilla ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/102"
-          },
-          {
-            "number": 142,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Cannot use macro to save Java windows in Fiji",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/142"
-          },
-          {
             "number": 164,
             "repo": "bonej-org/BoneJ2",
             "title": "ROIs are not properly handled",
             "url": "https://github.com/bonej-org/BoneJ2/issues/164"
-          },
-          {
-            "number": 191,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Axis scale checking is too stringent",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/191"
           },
           {
             "number": 194,
@@ -25408,12 +25265,6 @@
             "repo": "bonej-org/BoneJ2",
             "title": "Add hyperstack support to Ellipsoid Factor",
             "url": "https://github.com/bonej-org/BoneJ2/issues/227"
-          },
-          {
-            "number": 229,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Test Failure FractalDimensionWrapperTest",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/229"
           },
           {
             "number": 234,
@@ -25476,12 +25327,6 @@
             "url": "https://github.com/bonej-org/BoneJ2/issues/270"
           },
           {
-            "number": 273,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Test failures in AnalyseSkeletonWrapperTest after update to scijava 29 and 30",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/273"
-          },
-          {
             "number": 275,
             "repo": "bonej-org/BoneJ2",
             "title": "Reinstate a negative test to check that the format exception is caught in AnalyzeSkeletonWrapper",
@@ -25498,12 +25343,6 @@
             "repo": "bonej-org/BoneJ2",
             "title": "Add 3-3-2 surface colour regime so that 3D surfaces match 2D particle default LUT",
             "url": "https://github.com/bonej-org/BoneJ2/issues/298"
-          },
-          {
-            "number": 300,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Fractal Dimension creates thousands of zombie threads that crash ImageJ",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/300"
           },
           {
             "number": 315,
@@ -25574,8 +25413,8 @@
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 37,
-      "total": 64
+      "support_issues": 31,
+      "total": 57
     },
     {
       "component_count": 1,
@@ -25616,7 +25455,7 @@
       "dev_name": "Mark Kittisopikul",
       "dev_url": "https://imagej.net/people/mkitti",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -25626,7 +25465,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.janelia:n5-zstandard",
+            "url": "https://github.com/JaneliaSciComp/n5-zstandard"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -25639,7 +25483,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 1,
-      "total": 1
+      "total": 2
     },
     {
       "component_count": 2,
@@ -25718,10 +25562,10 @@
             "url": "https://github.com/imagej/ImageJ/pull/292"
           },
           {
-            "number": 297,
+            "number": 298,
             "repo": "imagej/ImageJ",
-            "title": "Add Analyze>Tools>Compare Images plugin (MSE, RMSE, MAE, PSNR, SSIM)",
-            "url": "https://github.com/imagej/ImageJ/pull/297"
+            "title": "Add support for custom ROI group LUTs",
+            "url": "https://github.com/imagej/ImageJ/pull/298"
           }
         ],
         "support_issues": [
@@ -26759,12 +26603,6 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/336"
           },
           {
-            "number": 344,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "[WIP] Rewrite MATLAB import functions with readstruct()",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/344"
-          },
-          {
             "number": 345,
             "repo": "trackmate-sc/TrackMate",
             "title": "Rewrite MATLAB import functions with readtable()",
@@ -26781,6 +26619,12 @@
             "repo": "trackmate-sc/TrackMate",
             "title": "Add pixi support",
             "url": "https://github.com/trackmate-sc/TrackMate/pull/348"
+          },
+          {
+            "number": 350,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Rewrite MATLAB import functions with readstruct()",
+            "url": "https://github.com/trackmate-sc/TrackMate/pull/350"
           },
           {
             "number": 22,
@@ -27540,6 +27384,12 @@
             "repo": "bigdataviewer/bigdataviewer-core",
             "title": "added prototype for first issue of faster loading",
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/212"
+          },
+          {
+            "number": 221,
+            "repo": "bigdataviewer/bigdataviewer-core",
+            "title": "Read chunks instead of blocks",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/221"
           },
           {
             "number": 4,
@@ -28607,9 +28457,9 @@
           }
         ]
       },
-      "reviewer_prs": 30,
+      "reviewer_prs": 31,
       "support_issues": 174,
-      "total": 225
+      "total": 226
     }
   ]
 }
