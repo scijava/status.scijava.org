@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24 08:18 UTC",
+  "generated": "2026-06-25 08:18 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -2737,12 +2737,24 @@
             "repo": "bonej-org/BoneJ2",
             "title": "omni raw binary is (0,1), need it as (0,255) for ImageJ",
             "url": "https://github.com/bonej-org/BoneJ2/issues/412"
+          },
+          {
+            "number": 425,
+            "repo": "bonej-org/BoneJ2",
+            "title": "XamFlow EllipsoidFactor",
+            "url": "https://github.com/bonej-org/BoneJ2/issues/425"
+          },
+          {
+            "number": 426,
+            "repo": "bonej-org/BoneJ2",
+            "title": "Handle 2D IO from DatasetUtil",
+            "url": "https://github.com/bonej-org/BoneJ2/issues/426"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 31,
-      "total": 55
+      "support_issues": 33,
+      "total": 57
     },
     {
       "component_count": 32,
@@ -19647,12 +19659,18 @@
             "repo": "fiji/fiji",
             "title": "LUTs and other ImageJ metadata are not conserved when saving images as Compressed TIFF",
             "url": "https://github.com/fiji/fiji/issues/431"
+          },
+          {
+            "number": 433,
+            "repo": "fiji/fiji",
+            "title": "\"Flatten\" rewrites the last part of an image title",
+            "url": "https://github.com/fiji/fiji/issues/433"
           }
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1459,
-      "total": 1934
+      "support_issues": 1460,
+      "total": 1935
     },
     {
       "component_count": 1,
@@ -25409,12 +25427,24 @@
             "repo": "bonej-org/BoneJ2",
             "title": "omni raw binary is (0,1), need it as (0,255) for ImageJ",
             "url": "https://github.com/bonej-org/BoneJ2/issues/412"
+          },
+          {
+            "number": 425,
+            "repo": "bonej-org/BoneJ2",
+            "title": "XamFlow EllipsoidFactor",
+            "url": "https://github.com/bonej-org/BoneJ2/issues/425"
+          },
+          {
+            "number": 426,
+            "repo": "bonej-org/BoneJ2",
+            "title": "Handle 2D IO from DatasetUtil",
+            "url": "https://github.com/bonej-org/BoneJ2/issues/426"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 31,
-      "total": 57
+      "support_issues": 33,
+      "total": 59
     },
     {
       "component_count": 1,
