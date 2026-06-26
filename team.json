@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26 08:26 UTC",
+  "generated": "2026-06-26 20:09 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -16355,6 +16355,12 @@
             "url": "https://github.com/imagej/imagej-updater/issues/118"
           },
           {
+            "number": 120,
+            "repo": "imagej/imagej-updater",
+            "title": "False positive `Conflicts` for same `artifactId`",
+            "url": "https://github.com/imagej/imagej-updater/issues/120"
+          },
+          {
             "number": 1,
             "repo": "imagej/op-finder",
             "title": "Play button improvements",
@@ -19669,8 +19675,8 @@
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1461,
-      "total": 1936
+      "support_issues": 1462,
+      "total": 1937
     },
     {
       "component_count": 1,
