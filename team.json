@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25 08:18 UTC",
+  "generated": "2026-06-26 08:26 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -2743,18 +2743,12 @@
             "repo": "bonej-org/BoneJ2",
             "title": "XamFlow EllipsoidFactor",
             "url": "https://github.com/bonej-org/BoneJ2/issues/425"
-          },
-          {
-            "number": 426,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Handle 2D IO from DatasetUtil",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/426"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 33,
-      "total": 57
+      "support_issues": 32,
+      "total": 56
     },
     {
       "component_count": 32,
@@ -17873,6 +17867,12 @@
             "url": "https://github.com/scijava/scijava-common/issues/490"
           },
           {
+            "number": 491,
+            "repo": "scijava/scijava-common",
+            "title": "Macro recording of non required parameter of type File: file browser pops-up",
+            "url": "https://github.com/scijava/scijava-common/issues/491"
+          },
+          {
             "number": 3,
             "repo": "scijava/scijava-desktop",
             "title": "Support multiple installations of the same app coexisting on the desktop",
@@ -19669,8 +19669,8 @@
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1460,
-      "total": 1935
+      "support_issues": 1461,
+      "total": 1936
     },
     {
       "component_count": 1,
@@ -25433,18 +25433,12 @@
             "repo": "bonej-org/BoneJ2",
             "title": "XamFlow EllipsoidFactor",
             "url": "https://github.com/bonej-org/BoneJ2/issues/425"
-          },
-          {
-            "number": 426,
-            "repo": "bonej-org/BoneJ2",
-            "title": "Handle 2D IO from DatasetUtil",
-            "url": "https://github.com/bonej-org/BoneJ2/issues/426"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 33,
-      "total": 59
+      "support_issues": 32,
+      "total": 58
     },
     {
       "component_count": 1,
