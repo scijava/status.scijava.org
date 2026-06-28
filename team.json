@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27 07:44 UTC",
+  "generated": "2026-06-28 08:16 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7336,6 +7336,12 @@
             "repo": "fiji/3D_Objects_Counter",
             "title": "Added 4 new columns to the results table, ID, Min Dist to Surf, Max D…",
             "url": "https://github.com/fiji/3D_Objects_Counter/pull/1"
+          },
+          {
+            "number": 3,
+            "repo": "fiji/Time_Stamper",
+            "title": "Enhance Time Stamper with non-blocking interactive preview, custom formatting, and alignment controls",
+            "url": "https://github.com/fiji/Time_Stamper/pull/3"
           }
         ],
         "support_issues": [
@@ -7503,9 +7509,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 2,
       "support_issues": 27,
-      "total": 33
+      "total": 34
     },
     {
       "component_count": 1,
@@ -7569,7 +7575,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 174,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -10377,10 +10383,6 @@
           {
             "ga": "sc.fiji:blockmatching_",
             "url": "https://github.com/fiji/blockmatching"
-          },
-          {
-            "ga": "sc.fiji:fiji",
-            "url": "https://github.com/fiji/fiji"
           },
           {
             "ga": "sc.fiji:fiji-lib",
@@ -19676,7 +19678,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1462,
-      "total": 1937
+      "total": 1936
     },
     {
       "component_count": 1,
