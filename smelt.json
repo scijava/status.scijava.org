@@ -5540,17 +5540,22 @@
       ]
     },
     "org.bonej:bonej-legacy-plugins_": {
-      "version": "7.2.0",
-      "binary_test": null,
-      "source_build": "skipped",
-      "skipped_reason": "prior success",
+      "version": "7.2.2",
+      "binary_test": "pass",
+      "source_build": "pass",
+      "skipped_reason": null,
       "binary_log": null,
       "source_log": null,
-      "own_bytecode": 8,
+      "own_bytecode": 11,
       "effective_bytecode": 11,
       "build_java": 11,
       "drivers": [
         "io.scif:scifio:0.49.0",
+        "org.bonej:bonej-legacy-plugins_:7.2.2",
+        "org.bonej:bonej-legacy-util_:7.2.2",
+        "org.bonej:bonej-ops:7.2.2",
+        "org.bonej:bonej-plugins:7.2.2",
+        "org.bonej:bonej-utilities:7.2.2",
         "org.scijava:scijava-desktop:1.0.0"
       ],
       "closure": [
@@ -5674,10 +5679,10 @@
         "org.apache.maven.scm:maven-scm-api::jar:1.4",
         "org.apache.maven.scm:maven-scm-provider-svn-commons::jar:1.4",
         "org.apache.maven.scm:maven-scm-provider-svnexe::jar:1.4",
-        "org.bonej:bonej-legacy-util_::jar:7.2.0",
-        "org.bonej:bonej-ops::jar:7.2.0",
-        "org.bonej:bonej-plugins::jar:7.2.0",
-        "org.bonej:bonej-utilities::jar:7.2.0",
+        "org.bonej:bonej-legacy-util_::jar:7.2.2",
+        "org.bonej:bonej-ops::jar:7.2.2",
+        "org.bonej:bonej-plugins::jar:7.2.2",
+        "org.bonej:bonej-utilities::jar:7.2.2",
         "org.bouncycastle:bcpkix-jdk18on::jar:1.78.1",
         "org.bouncycastle:bcprov-jdk18on::jar:1.78.1",
         "org.bouncycastle:bcutil-jdk18on::jar:1.78.1",
@@ -5827,16 +5832,17 @@
       ]
     },
     "org.bonej:bonej-legacy-util_": {
-      "version": "7.2.0",
-      "binary_test": null,
-      "source_build": "skipped",
-      "skipped_reason": "prior success",
+      "version": "7.2.2",
+      "binary_test": "pass",
+      "source_build": "pass",
+      "skipped_reason": null,
       "binary_log": null,
       "source_log": null,
-      "own_bytecode": 8,
+      "own_bytecode": 11,
       "effective_bytecode": 11,
       "build_java": 11,
       "drivers": [
+        "org.bonej:bonej-legacy-util_:7.2.2",
         "org.mockito:mockito-core:5.20.0"
       ],
       "closure": [
@@ -5854,17 +5860,18 @@
       ]
     },
     "org.bonej:bonej-ops": {
-      "version": "7.2.0",
-      "binary_test": null,
-      "source_build": "skipped",
-      "skipped_reason": "prior success",
+      "version": "7.2.2",
+      "binary_test": "pass",
+      "source_build": "pass",
+      "skipped_reason": null,
       "binary_log": null,
       "source_log": null,
-      "own_bytecode": 8,
+      "own_bytecode": 11,
       "effective_bytecode": 11,
       "build_java": 11,
       "drivers": [
         "io.scif:scifio:0.49.0",
+        "org.bonej:bonej-ops:7.2.2",
         "org.scijava:scijava-desktop:1.0.0"
       ],
       "closure": [
@@ -6091,17 +6098,20 @@
       ]
     },
     "org.bonej:bonej-plugins": {
-      "version": "7.2.0",
-      "binary_test": null,
-      "source_build": "skipped",
-      "skipped_reason": "prior success",
+      "version": "7.2.2",
+      "binary_test": "pass",
+      "source_build": "pass",
+      "skipped_reason": null,
       "binary_log": null,
       "source_log": null,
-      "own_bytecode": 8,
+      "own_bytecode": 11,
       "effective_bytecode": 11,
       "build_java": 11,
       "drivers": [
         "io.scif:scifio:0.49.0",
+        "org.bonej:bonej-ops:7.2.2",
+        "org.bonej:bonej-plugins:7.2.2",
+        "org.bonej:bonej-utilities:7.2.2",
         "org.mockito:mockito-core:5.20.0",
         "org.scijava:scijava-desktop:1.0.0"
       ],
@@ -6227,8 +6237,8 @@
         "org.apache.maven.scm:maven-scm-api::jar:1.4",
         "org.apache.maven.scm:maven-scm-provider-svn-commons::jar:1.4",
         "org.apache.maven.scm:maven-scm-provider-svnexe::jar:1.4",
-        "org.bonej:bonej-ops::jar:7.2.0",
-        "org.bonej:bonej-utilities::jar:7.2.0",
+        "org.bonej:bonej-ops::jar:7.2.2",
+        "org.bonej:bonej-utilities::jar:7.2.2",
         "org.bouncycastle:bcpkix-jdk18on::jar:1.78.1",
         "org.bouncycastle:bcprov-jdk18on::jar:1.78.1",
         "org.bouncycastle:bcutil-jdk18on::jar:1.78.1",
@@ -6248,6 +6258,7 @@
         "org.ejml:ejml-fsparse::jar:0.41",
         "org.ejml:ejml-simple::jar:0.41",
         "org.ejml:ejml-zdense::jar:0.41",
+        "org.hamcrest:hamcrest-core::jar:1.3",
         "org.javassist:javassist::jar:3.30.2-GA",
         "org.jfree:jfreechart::jar:1.5.6",
         "org.jfree:jfreesvg::jar:3.4.4",
@@ -6373,17 +6384,18 @@
       ]
     },
     "org.bonej:bonej-utilities": {
-      "version": "7.2.0",
-      "binary_test": null,
-      "source_build": "skipped",
-      "skipped_reason": "prior success",
+      "version": "7.2.2",
+      "binary_test": "pass",
+      "source_build": "pass",
+      "skipped_reason": null,
       "binary_log": null,
       "source_log": null,
-      "own_bytecode": 8,
+      "own_bytecode": 11,
       "effective_bytecode": 11,
       "build_java": 11,
       "drivers": [
         "io.scif:scifio:0.49.0",
+        "org.bonej:bonej-utilities:7.2.2",
         "org.mockito:mockito-core:5.20.0",
         "org.scijava:scijava-desktop:1.0.0"
       ],
