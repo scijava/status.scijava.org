@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28 08:16 UTC",
+  "generated": "2026-06-29 09:22 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -2390,7 +2390,7 @@
       "dev_name": "Alessandro Felder",
       "dev_url": "https://github.com/alessandrofelder",
       "developer_features": 17,
-      "maintainer_releases": 3,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -2536,20 +2536,7 @@
             "url": "https://github.com/bonej-org/BoneJ2/issues/409"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.bonej:bonej-ops",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-plugins",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-utilities",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -2748,7 +2735,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 32,
-      "total": 56
+      "total": 53
     },
     {
       "component_count": 32,
@@ -25072,7 +25059,7 @@
       "dev_name": "Michael Doube",
       "dev_url": "https://scholars.cityu.edu.hk/en/persons/michael-doube(e2acdf24-d9b3-4a48-a05d-ffcd72e7b758).html",
       "developer_features": 17,
-      "maintainer_releases": 5,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -25226,28 +25213,7 @@
             "url": "https://github.com/bonej-org/BoneJ2/issues/409"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.bonej:bonej-legacy-plugins_",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-legacy-util_",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-ops",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-plugins",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          },
-          {
-            "ga": "org.bonej:bonej-utilities",
-            "url": "https://github.com/bonej-org/BoneJ2"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -25446,7 +25412,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 32,
-      "total": 58
+      "total": 53
     },
     {
       "component_count": 1,
