@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29 17:49 UTC",
+  "generated": "2026-06-30 08:25 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 8,
+      "maintainer_releases": 7,
       "popups": {
         "components": [
           {
@@ -315,10 +315,6 @@
             "url": "https://github.com/imglib/imglib2-roi"
           },
           {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
-          },
-          {
             "ga": "sc.fiji:SPIM_Registration",
             "url": "https://github.com/fiji/SPIM_Registration"
           },
@@ -393,6 +389,12 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
+          },
+          {
+            "number": 53,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Fix: axis permutations silently erased by transform simplification",
+            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
           },
           {
             "number": 44,
@@ -1019,6 +1021,12 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Create RealViews.hyperSlice",
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
+          },
+          {
+            "number": 52,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
+            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
           },
           {
             "number": 2,
@@ -2282,9 +2290,9 @@
           }
         ]
       },
-      "reviewer_prs": 26,
-      "support_issues": 299,
-      "total": 344
+      "reviewer_prs": 27,
+      "support_issues": 300,
+      "total": 345
     },
     {
       "component_count": 8,
@@ -3192,6 +3200,12 @@
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
           },
           {
+            "number": 53,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Fix: axis permutations silently erased by transform simplification",
+            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
+          },
+          {
             "number": 44,
             "repo": "imglib/imglib2-roi",
             "title": "Sparse bitmask",
@@ -3942,6 +3956,12 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Create RealViews.hyperSlice",
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
+          },
+          {
+            "number": 52,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
+            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
           },
           {
             "number": 2,
@@ -4791,9 +4811,9 @@
           }
         ]
       },
-      "reviewer_prs": 35,
-      "support_issues": 247,
-      "total": 323
+      "reviewer_prs": 36,
+      "support_issues": 248,
+      "total": 325
     },
     {
       "component_count": 1,
@@ -22605,7 +22625,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -22623,12 +22643,7 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [
-          {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 162,
@@ -23404,7 +23419,7 @@
       },
       "reviewer_prs": 7,
       "support_issues": 121,
-      "total": 129
+      "total": 128
     },
     {
       "component_count": 8,
@@ -27303,6 +27318,12 @@
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
           },
           {
+            "number": 53,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Fix: axis permutations silently erased by transform simplification",
+            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
+          },
+          {
             "number": 44,
             "repo": "imglib/imglib2-roi",
             "title": "Sparse bitmask",
@@ -27977,6 +27998,12 @@
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
           },
           {
+            "number": 52,
+            "repo": "imglib/imglib2-realtransform",
+            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
+            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
+          },
+          {
             "number": 2,
             "repo": "imglib/imglib2-roi",
             "title": "Decide on ROI Persistence Mechanism",
@@ -28464,9 +28491,9 @@
           }
         ]
       },
-      "reviewer_prs": 31,
-      "support_issues": 174,
-      "total": 226
+      "reviewer_prs": 32,
+      "support_issues": 175,
+      "total": 228
     }
   ]
 }
