@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30 08:25 UTC",
+  "generated": "2026-07-01 08:45 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7586,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 172,
       "popups": {
         "components": [
           {
@@ -9882,10 +9882,6 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
-          },
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -19689,7 +19685,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1462,
-      "total": 1936
+      "total": 1935
     },
     {
       "component_count": 1,
@@ -26249,7 +26245,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26317,12 +26313,7 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26414,7 +26405,7 @@
       },
       "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 23
+      "total": 22
     },
     {
       "component_count": 18,
