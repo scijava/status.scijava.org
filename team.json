@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02 08:00 UTC",
+  "generated": "2026-07-02 13:25 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -449,12 +449,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
-            "number": 99,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "fix lazy BDV bug",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/99"
           },
           {
             "number": 130,
@@ -2296,9 +2290,9 @@
           }
         ]
       },
-      "reviewer_prs": 28,
+      "reviewer_prs": 27,
       "support_issues": 300,
-      "total": 346
+      "total": 345
     },
     {
       "component_count": 8,
@@ -22688,12 +22682,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
-            "number": 99,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "fix lazy BDV bug",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/99"
           }
         ],
         "support_issues": [
@@ -23425,9 +23413,9 @@
           }
         ]
       },
-      "reviewer_prs": 8,
+      "reviewer_prs": 7,
       "support_issues": 121,
-      "total": 129
+      "total": 128
     },
     {
       "component_count": 8,
