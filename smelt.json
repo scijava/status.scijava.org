@@ -4345,7 +4345,7 @@
       ]
     },
     "net.preibisch:BigStitcher": {
-      "version": "3.0.7",
+      "version": "3.0.8",
       "binary_test": "pass",
       "source_build": "pass",
       "skipped_reason": null,
@@ -4355,8 +4355,8 @@
       "effective_bytecode": 21,
       "build_java": 21,
       "drivers": [
-        "net.preibisch:BigStitcher:3.0.7",
-        "net.preibisch:multiview-reconstruction:9.0.9"
+        "net.preibisch:BigStitcher:3.0.8",
+        "net.preibisch:multiview-reconstruction:9.0.11"
       ],
       "closure": [
         "args4j:args4j::jar:2.33",
@@ -4481,7 +4481,7 @@
         "net.imglib2:imglib2-roi::jar:0.15.2",
         "net.imglib2:imglib2::jar:8.0.0",
         "net.java.dev.jna:jna::jar:5.14.0",
-        "net.preibisch:multiview-reconstruction::jar:9.0.9",
+        "net.preibisch:multiview-reconstruction::jar:9.0.11",
         "net.preibisch:multiview-simulation::jar:0.3.1",
         "net.sf.trove4j:trove4j::jar:3.0.3",
         "net.thisptr:jackson-jq::jar:1.0.0-preview.20191208",
@@ -4601,7 +4601,7 @@
       ]
     },
     "net.preibisch:multiview-reconstruction": {
-      "version": "9.0.9",
+      "version": "9.0.11",
       "binary_test": "pass",
       "source_build": "pass",
       "skipped_reason": null,
@@ -4611,7 +4611,7 @@
       "effective_bytecode": 21,
       "build_java": 21,
       "drivers": [
-        "net.preibisch:multiview-reconstruction:9.0.9"
+        "net.preibisch:multiview-reconstruction:9.0.11"
       ],
       "closure": [
         "antlr:antlr::jar:2.7.7",
@@ -11604,7 +11604,7 @@
       "closure": []
     },
     "sc.fiji:Descriptor_based_registration": {
-      "version": "3.0.2",
+      "version": "3.0.3",
       "binary_test": "pass",
       "source_build": "pass",
       "skipped_reason": null,
@@ -11614,8 +11614,8 @@
       "effective_bytecode": 21,
       "build_java": 21,
       "drivers": [
-        "net.preibisch:multiview-reconstruction:9.0.9",
-        "sc.fiji:Descriptor_based_registration:3.0.2"
+        "net.preibisch:multiview-reconstruction:9.0.11",
+        "sc.fiji:Descriptor_based_registration:3.0.3"
       ],
       "closure": [
         "args4j:args4j::jar:2.33",
@@ -11739,7 +11739,7 @@
         "net.imglib2:imglib2-roi::jar:0.15.2",
         "net.imglib2:imglib2::jar:8.0.0",
         "net.java.dev.jna:jna::jar:5.14.0",
-        "net.preibisch:multiview-reconstruction::jar:9.0.9",
+        "net.preibisch:multiview-reconstruction::jar:9.0.11",
         "net.preibisch:multiview-simulation::jar:0.3.1",
         "net.sf.trove4j:trove4j::jar:3.0.3",
         "net.thisptr:jackson-jq::jar:1.0.0-preview.20191208",
@@ -21092,8 +21092,8 @@
       "effective_bytecode": 21,
       "build_java": 21,
       "drivers": [
-        "net.preibisch:multiview-reconstruction:9.0.9",
-        "sc.fiji:Descriptor_based_registration:3.0.2",
+        "net.preibisch:multiview-reconstruction:9.0.11",
+        "sc.fiji:Descriptor_based_registration:3.0.3",
         "sc.fiji:Stitching_:3.1.10"
       ],
       "closure": [
@@ -21304,7 +21304,7 @@
         "net.imglib2:imglib2-roi::jar:0.15.2",
         "net.imglib2:imglib2::jar:8.0.0",
         "net.java.dev.jna:jna::jar:5.14.0",
-        "net.preibisch:multiview-reconstruction::jar:9.0.9",
+        "net.preibisch:multiview-reconstruction::jar:9.0.11",
         "net.preibisch:multiview-simulation::jar:0.3.1",
         "net.sf.jung:jung-api::jar:2.0.1",
         "net.sf.jung:jung-graph-impl::jar:2.0.1",
@@ -21587,7 +21587,7 @@
         "sc.fiji:Colour_Deconvolution::jar:3.0.3",
         "sc.fiji:CorrectBleach_::jar:2.1.0",
         "sc.fiji:Correct_3D_Drift::jar:1.0.7",
-        "sc.fiji:Descriptor_based_registration::jar:3.0.2",
+        "sc.fiji:Descriptor_based_registration::jar:3.0.3",
         "sc.fiji:Dichromacy_::jar:2.1.2",
         "sc.fiji:Directionality_::jar:2.3.0",
         "sc.fiji:FS_Align_TrakEM2::jar:2.0.4",
