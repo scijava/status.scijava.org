@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03 07:56 UTC",
+  "generated": "2026-07-03 20:53 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 7,
+      "maintainer_releases": 8,
       "popups": {
         "components": [
           {
@@ -311,6 +311,10 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -391,12 +395,6 @@
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
           },
           {
-            "number": 53,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Fix: axis permutations silently erased by transform simplification",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
-          },
-          {
             "number": 44,
             "repo": "imglib/imglib2-roi",
             "title": "Sparse bitmask",
@@ -413,12 +411,6 @@
             "repo": "JaneliaSciComp/BigStitcher",
             "title": "Refactors phase correlation code to be in Multiview Reconstruction",
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
-          },
-          {
-            "number": 166,
-            "repo": "JaneliaSciComp/BigStitcher",
-            "title": "fix lazy BDV bug",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/166"
           },
           {
             "number": 6,
@@ -455,12 +447,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
-            "number": 100,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "split views bug fix: add multi channel support",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/100"
           },
           {
             "number": 130,
@@ -1033,12 +1019,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Create RealViews.hyperSlice",
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
-          },
-          {
-            "number": 52,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
-            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
           },
           {
             "number": 2,
@@ -2302,9 +2282,9 @@
           }
         ]
       },
-      "reviewer_prs": 29,
-      "support_issues": 300,
-      "total": 347
+      "reviewer_prs": 26,
+      "support_issues": 299,
+      "total": 344
     },
     {
       "component_count": 8,
@@ -2768,7 +2748,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 19,
+      "maintainer_releases": 20,
       "popups": {
         "components": [
           {
@@ -3070,6 +3050,10 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -3210,12 +3194,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 53,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Fix: axis permutations silently erased by transform simplification",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
           },
           {
             "number": 44,
@@ -3968,12 +3946,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Create RealViews.hyperSlice",
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
-          },
-          {
-            "number": 52,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
-            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
           },
           {
             "number": 2,
@@ -4823,9 +4795,9 @@
           }
         ]
       },
-      "reviewer_prs": 36,
-      "support_issues": 248,
-      "total": 325
+      "reviewer_prs": 35,
+      "support_issues": 247,
+      "total": 324
     },
     {
       "component_count": 1,
@@ -7598,7 +7570,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 174,
       "popups": {
         "components": [
           {
@@ -9888,6 +9860,10 @@
             "url": "https://github.com/imglib/imglib2-mesh"
           },
           {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -10922,6 +10898,12 @@
             "repo": "fiji/fiji",
             "title": "Improve README documentation",
             "url": "https://github.com/fiji/fiji/pull/356"
+          },
+          {
+            "number": 434,
+            "repo": "fiji/fiji",
+            "title": "Use USERPROFILE-based plugin directories on Windows",
+            "url": "https://github.com/fiji/fiji/pull/434"
           }
         ],
         "support_issues": [
@@ -19699,9 +19681,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 80,
       "support_issues": 1462,
-      "total": 1936
+      "total": 1938
     },
     {
       "component_count": 1,
@@ -22664,12 +22646,6 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
           },
           {
-            "number": 166,
-            "repo": "JaneliaSciComp/BigStitcher",
-            "title": "fix lazy BDV bug",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/166"
-          },
-          {
             "number": 6,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "look for tile locations under another key in .czi metadata",
@@ -22704,12 +22680,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
-            "number": 100,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "split views bug fix: add multi channel support",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/100"
           }
         ],
         "support_issues": [
@@ -23441,9 +23411,9 @@
           }
         ]
       },
-      "reviewer_prs": 9,
+      "reviewer_prs": 7,
       "support_issues": 121,
-      "total": 130
+      "total": 128
     },
     {
       "component_count": 8,
@@ -27060,7 +27030,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 11,
+      "maintainer_releases": 12,
       "popups": {
         "components": [
           {
@@ -27242,6 +27212,10 @@
             "url": "https://github.com/imglib/imglib2-mesh"
           },
           {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -27334,12 +27308,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 53,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Fix: axis permutations silently erased by transform simplification",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/53"
           },
           {
             "number": 44,
@@ -28016,12 +27984,6 @@
             "url": "https://github.com/imglib/imglib2-realtransform/issues/48"
           },
           {
-            "number": 52,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Bug: RealViewsSimplifyUtils: axis permutation are ignored when simplifying to translation",
-            "url": "https://github.com/imglib/imglib2-realtransform/issues/52"
-          },
-          {
             "number": 2,
             "repo": "imglib/imglib2-roi",
             "title": "Decide on ROI Persistence Mechanism",
@@ -28509,9 +28471,9 @@
           }
         ]
       },
-      "reviewer_prs": 32,
-      "support_issues": 175,
-      "total": 228
+      "reviewer_prs": 31,
+      "support_issues": 174,
+      "total": 227
     }
   ]
 }
