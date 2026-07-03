@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02 13:25 UTC",
+  "generated": "2026-07-03 07:56 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -415,6 +415,12 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
           },
           {
+            "number": 166,
+            "repo": "JaneliaSciComp/BigStitcher",
+            "title": "fix lazy BDV bug",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/166"
+          },
+          {
             "number": 6,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "look for tile locations under another key in .czi metadata",
@@ -449,6 +455,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
+          },
+          {
+            "number": 100,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "split views bug fix: add multi channel support",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/100"
           },
           {
             "number": 130,
@@ -2290,9 +2302,9 @@
           }
         ]
       },
-      "reviewer_prs": 27,
+      "reviewer_prs": 29,
       "support_issues": 300,
-      "total": 345
+      "total": 347
     },
     {
       "component_count": 8,
@@ -7586,7 +7598,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 172,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9882,6 +9894,10 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
+          },
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -19685,7 +19701,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1462,
-      "total": 1935
+      "total": 1936
     },
     {
       "component_count": 1,
@@ -22648,6 +22664,12 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
           },
           {
+            "number": 166,
+            "repo": "JaneliaSciComp/BigStitcher",
+            "title": "fix lazy BDV bug",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/166"
+          },
+          {
             "number": 6,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "look for tile locations under another key in .czi metadata",
@@ -22682,6 +22704,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
+          },
+          {
+            "number": 100,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "split views bug fix: add multi channel support",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/100"
           }
         ],
         "support_issues": [
@@ -23413,9 +23441,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 9,
       "support_issues": 121,
-      "total": 128
+      "total": 130
     },
     {
       "component_count": 8,
@@ -26245,7 +26273,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26313,7 +26341,12 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26326,12 +26359,6 @@
             "repo": "morphonets/SNT",
             "title": "Bump ch.qos.logback:logback-classic from 1.5.32 to 1.5.34",
             "url": "https://github.com/morphonets/SNT/pull/291"
-          },
-          {
-            "number": 292,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-core from 1.5.32 to 1.5.34",
-            "url": "https://github.com/morphonets/SNT/pull/292"
           },
           {
             "number": 293,
@@ -26403,7 +26430,7 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 4,
       "support_issues": 9,
       "total": 22
     },
@@ -26622,12 +26649,6 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/345"
           },
           {
-            "number": 347,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Rewrite MATLAB functions with matlab.io.xml.dom",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/347"
-          },
-          {
             "number": 348,
             "repo": "trackmate-sc/TrackMate",
             "title": "Add pixi support",
@@ -26638,6 +26659,12 @@
             "repo": "trackmate-sc/TrackMate",
             "title": "Rewrite MATLAB import functions with readstruct()",
             "url": "https://github.com/trackmate-sc/TrackMate/pull/350"
+          },
+          {
+            "number": 351,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Rewrite MATLAB functions with matlab.io.xml.dom.*",
+            "url": "https://github.com/trackmate-sc/TrackMate/pull/351"
           },
           {
             "number": 22,
