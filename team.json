@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05 07:52 UTC",
+  "generated": "2026-07-06 08:55 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -19848,12 +19848,18 @@
             "repo": "ijpb/MorphoLibJ",
             "title": "Feature request: 3D Directional filtering",
             "url": "https://github.com/ijpb/MorphoLibJ/issues/86"
+          },
+          {
+            "number": 87,
+            "repo": "ijpb/MorphoLibJ",
+            "title": "Possible bug: 3D watershed can label voxels outside domainMask",
+            "url": "https://github.com/ijpb/MorphoLibJ/issues/87"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 24,
-      "total": 24
+      "support_issues": 25,
+      "total": 25
     },
     {
       "component_count": 1,
@@ -23648,6 +23654,12 @@
             "url": "https://github.com/ijpb/MorphoLibJ/issues/86"
           },
           {
+            "number": 87,
+            "repo": "ijpb/MorphoLibJ",
+            "title": "Possible bug: 3D watershed can label voxels outside domainMask",
+            "url": "https://github.com/ijpb/MorphoLibJ/issues/87"
+          },
+          {
             "number": 10,
             "repo": "fiji/AnalyzeSkeleton",
             "title": "Possible issue in the calculation of the average branch length.",
@@ -23956,8 +23968,8 @@
         ]
       },
       "reviewer_prs": 1,
-      "support_issues": 75,
-      "total": 84
+      "support_issues": 76,
+      "total": 85
     },
     {
       "component_count": 3,
@@ -26325,22 +26337,28 @@
             "url": "https://github.com/morphonets/SNT/pull/268"
           },
           {
-            "number": 291,
+            "number": 296,
             "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.5.32 to 1.5.34",
-            "url": "https://github.com/morphonets/SNT/pull/291"
+            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.3",
+            "url": "https://github.com/morphonets/SNT/pull/296"
           },
           {
-            "number": 293,
+            "number": 297,
             "repo": "morphonets/SNT",
-            "title": "Bump smile-core.version from 4.4.0 to 6.1.1",
-            "url": "https://github.com/morphonets/SNT/pull/293"
+            "title": "Bump smile-core.version from 4.4.0 to 6.2.3",
+            "url": "https://github.com/morphonets/SNT/pull/297"
           },
           {
-            "number": 294,
+            "number": 298,
             "repo": "morphonets/SNT",
-            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.1.1",
-            "url": "https://github.com/morphonets/SNT/pull/294"
+            "title": "Bump ch.qos.logback:logback-core from 1.5.33 to 1.5.37",
+            "url": "https://github.com/morphonets/SNT/pull/298"
+          },
+          {
+            "number": 299,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-classic from 1.5.32 to 1.5.37",
+            "url": "https://github.com/morphonets/SNT/pull/299"
           }
         ],
         "support_issues": [
@@ -26400,9 +26418,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 22
+      "total": 23
     },
     {
       "component_count": 18,
