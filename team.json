@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07 08:15 UTC",
+  "generated": "2026-07-08 07:24 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 8,
+      "maintainer_releases": 9,
       "popups": {
         "components": [
           {
@@ -317,6 +317,10 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
           },
           {
             "ga": "sc.fiji:SPIM_Registration",
@@ -2284,7 +2288,7 @@
       },
       "reviewer_prs": 26,
       "support_issues": 299,
-      "total": 344
+      "total": 345
     },
     {
       "component_count": 8,
@@ -22625,7 +22629,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -22643,7 +22647,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 162,
@@ -23419,7 +23428,7 @@
       },
       "reviewer_prs": 7,
       "support_issues": 121,
-      "total": 128
+      "total": 129
     },
     {
       "component_count": 8,
