@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08 07:24 UTC",
+  "generated": "2026-07-09 08:20 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26356,18 +26356,6 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.2.3",
             "url": "https://github.com/morphonets/SNT/pull/297"
-          },
-          {
-            "number": 298,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-core from 1.5.33 to 1.5.37",
-            "url": "https://github.com/morphonets/SNT/pull/298"
-          },
-          {
-            "number": 299,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.5.32 to 1.5.37",
-            "url": "https://github.com/morphonets/SNT/pull/299"
           }
         ],
         "support_issues": [
@@ -26427,9 +26415,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 3,
       "support_issues": 9,
-      "total": 23
+      "total": 21
     },
     {
       "component_count": 18,
