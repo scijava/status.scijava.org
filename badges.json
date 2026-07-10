@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T08:20:05Z",
+  "generated": "2026-07-10T08:16:28Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -598,7 +598,7 @@
       "workflow": "build-main.yml"
     },
     "morphonets/SNT": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "ome/ome-codecs": {
@@ -630,7 +630,7 @@
       "workflow": "gradle.yml"
     },
     "ome/omero-dsl-plugin": {
-      "title": "Gradle - passing",
+      "title": "Gradle - no status",
       "workflow": "gradle.yml"
     },
     "ome/omero-gateway-java": {
