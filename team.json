@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10 08:16 UTC",
+  "generated": "2026-07-11 07:07 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -10682,6 +10682,12 @@
             "url": "https://github.com/imagej/imagej-updater/pull/97"
           },
           {
+            "number": 16,
+            "repo": "imglib/imglib2-mesh",
+            "title": "New Voxelization algorithm",
+            "url": "https://github.com/imglib/imglib2-mesh/pull/16"
+          },
+          {
             "number": 46,
             "repo": "scijava/native-lib-loader",
             "title": "extractResource: extract file only if it was not extracted yet",
@@ -19685,9 +19691,9 @@
           }
         ]
       },
-      "reviewer_prs": 80,
+      "reviewer_prs": 81,
       "support_issues": 1462,
-      "total": 1938
+      "total": 1939
     },
     {
       "component_count": 1,
@@ -24432,6 +24438,12 @@
             "repo": "imagej/imagej-mesh",
             "title": "Taubin's mesh smoothing algorithm.",
             "url": "https://github.com/imagej/imagej-mesh/pull/26"
+          },
+          {
+            "number": 16,
+            "repo": "imglib/imglib2-mesh",
+            "title": "New Voxelization algorithm",
+            "url": "https://github.com/imglib/imglib2-mesh/pull/16"
           }
         ],
         "support_issues": [
@@ -24515,9 +24527,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 3,
       "support_issues": 13,
-      "total": 25
+      "total": 26
     },
     {
       "component_count": 5,
@@ -26598,6 +26610,12 @@
         ],
         "reviewer_prs": [
           {
+            "number": 16,
+            "repo": "imglib/imglib2-mesh",
+            "title": "New Voxelization algorithm",
+            "url": "https://github.com/imglib/imglib2-mesh/pull/16"
+          },
+          {
             "number": 2,
             "repo": "fiji/LSM_Toolbox",
             "title": "Move menu entries to Discontinued Add-ons",
@@ -26883,9 +26901,9 @@
           }
         ]
       },
-      "reviewer_prs": 12,
+      "reviewer_prs": 13,
       "support_issues": 35,
-      "total": 65
+      "total": 66
     },
     {
       "component_count": 2,
