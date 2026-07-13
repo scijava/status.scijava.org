@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12 07:24 UTC",
+  "generated": "2026-07-13 08:10 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26368,6 +26368,18 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.2.3",
             "url": "https://github.com/morphonets/SNT/pull/297"
+          },
+          {
+            "number": 300,
+            "repo": "morphonets/SNT",
+            "title": "Bump com.formdev:flatlaf-extras from 3.7.1 to 3.7.2",
+            "url": "https://github.com/morphonets/SNT/pull/300"
+          },
+          {
+            "number": 301,
+            "repo": "morphonets/SNT",
+            "title": "Bump com.formdev:flatlaf-jide-oss from 3.7.1 to 3.7.2",
+            "url": "https://github.com/morphonets/SNT/pull/301"
           }
         ],
         "support_issues": [
@@ -26427,9 +26439,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 21
+      "total": 23
     },
     {
       "component_count": 18,
