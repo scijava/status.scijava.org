@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16 07:16 UTC",
+  "generated": "2026-07-17 05:20 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3248,6 +3248,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
+            "number": 230,
+            "repo": "saalfeldlab/n5",
+            "title": "fix: ignore \"Bad file descriptor\" on close",
+            "url": "https://github.com/saalfeldlab/n5/pull/230"
+          },
+          {
             "number": 8,
             "repo": "saalfeldlab/n5-blosc",
             "title": "Unpin enforcer version",
@@ -4811,9 +4817,9 @@
           }
         ]
       },
-      "reviewer_prs": 36,
+      "reviewer_prs": 37,
       "support_issues": 247,
-      "total": 325
+      "total": 326
     },
     {
       "component_count": 1,
@@ -6597,6 +6603,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
+            "number": 230,
+            "repo": "saalfeldlab/n5",
+            "title": "fix: ignore \"Bad file descriptor\" on close",
+            "url": "https://github.com/saalfeldlab/n5/pull/230"
+          },
+          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -7278,9 +7290,9 @@
           }
         ]
       },
-      "reviewer_prs": 13,
+      "reviewer_prs": 14,
       "support_issues": 104,
-      "total": 129
+      "total": 130
     },
     {
       "component_count": 6,
@@ -7586,7 +7598,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 174,
+      "maintainer_releases": 175,
       "popups": {
         "components": [
           {
@@ -10398,6 +10410,10 @@
           {
             "ga": "sc.fiji:blockmatching_",
             "url": "https://github.com/fiji/blockmatching"
+          },
+          {
+            "ga": "sc.fiji:fiji",
+            "url": "https://github.com/fiji/fiji"
           },
           {
             "ga": "sc.fiji:fiji-lib",
@@ -19711,7 +19727,7 @@
       },
       "reviewer_prs": 81,
       "support_issues": 1463,
-      "total": 1940
+      "total": 1941
     },
     {
       "component_count": 1,
