@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17 07:11 UTC",
+  "generated": "2026-07-17 22:30 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3248,12 +3248,6 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
-            "number": 230,
-            "repo": "saalfeldlab/n5",
-            "title": "fix: ignore \"Bad file descriptor\" on close",
-            "url": "https://github.com/saalfeldlab/n5/pull/230"
-          },
-          {
             "number": 8,
             "repo": "saalfeldlab/n5-blosc",
             "title": "Unpin enforcer version",
@@ -4817,9 +4811,9 @@
           }
         ]
       },
-      "reviewer_prs": 37,
+      "reviewer_prs": 36,
       "support_issues": 247,
-      "total": 326
+      "total": 325
     },
     {
       "component_count": 1,
@@ -6603,12 +6597,6 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
-            "number": 230,
-            "repo": "saalfeldlab/n5",
-            "title": "fix: ignore \"Bad file descriptor\" on close",
-            "url": "https://github.com/saalfeldlab/n5/pull/230"
-          },
-          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -7290,9 +7278,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 13,
       "support_issues": 104,
-      "total": 130
+      "total": 129
     },
     {
       "component_count": 6,
@@ -10728,12 +10716,6 @@
             "url": "https://github.com/scijava/parsington/pull/25"
           },
           {
-            "number": 26,
-            "repo": "scijava/parsington",
-            "title": "throw UnsupportedOperationException vs null return",
-            "url": "https://github.com/scijava/parsington/pull/26"
-          },
-          {
             "number": 27,
             "repo": "scijava/parsington",
             "title": "Eliminate runtime reflection in Operators",
@@ -10744,12 +10726,6 @@
             "repo": "scijava/parsington",
             "title": "Use a simple DFA to parse operators.",
             "url": "https://github.com/scijava/parsington/pull/28"
-          },
-          {
-            "number": 29,
-            "repo": "scijava/parsington",
-            "title": "change getAll() to vars()",
-            "url": "https://github.com/scijava/parsington/pull/29"
           },
           {
             "number": 286,
@@ -16526,12 +16502,6 @@
             "url": "https://github.com/scijava/parsington/issues/24"
           },
           {
-            "number": 30,
-            "repo": "scijava/parsington",
-            "title": "nit on DECIMAL regular expression",
-            "url": "https://github.com/scijava/parsington/issues/30"
-          },
-          {
             "number": 24,
             "repo": "scijava/scijava",
             "title": "Consolidate generics reasoning dependencies",
@@ -19725,9 +19695,9 @@
           }
         ]
       },
-      "reviewer_prs": 81,
-      "support_issues": 1463,
-      "total": 1941
+      "reviewer_prs": 79,
+      "support_issues": 1462,
+      "total": 1938
     },
     {
       "component_count": 1,
