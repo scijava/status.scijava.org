@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17 23:23 UTC",
+  "generated": "2026-07-18 03:37 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7586,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 175,
+      "maintainer_releases": 174,
       "popups": {
         "components": [
           {
@@ -9896,10 +9896,6 @@
             "url": "https://github.com/scijava/app-launcher"
           },
           {
-            "ga": "org.scijava:parsington",
-            "url": "https://github.com/scijava/parsington"
-          },
-          {
             "ga": "org.scijava:scijava-cache",
             "url": "https://github.com/scijava/scijava-cache"
           },
@@ -10708,12 +10704,6 @@
             "repo": "scijava/native-lib-loader",
             "title": "extractResource: extract file only if it was not extracted yet",
             "url": "https://github.com/scijava/native-lib-loader/pull/46"
-          },
-          {
-            "number": 25,
-            "repo": "scijava/parsington",
-            "title": "Block Integer parsing of a string if it contains a decimal point.",
-            "url": "https://github.com/scijava/parsington/pull/25"
           },
           {
             "number": 27,
@@ -19695,9 +19685,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 78,
       "support_issues": 1462,
-      "total": 1938
+      "total": 1936
     },
     {
       "component_count": 1,
