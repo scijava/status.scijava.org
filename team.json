@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18 06:53 UTC",
+  "generated": "2026-07-18 23:56 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7586,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 174,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9758,10 +9758,6 @@
           {
             "ga": "io.scif:scifio-jai-imageio",
             "url": "https://github.com/scifio/scifio-jai-imageio"
-          },
-          {
-            "ga": "io.scif:scifio-labeling",
-            "url": "https://github.com/scifio/scifio-labeling"
           },
           {
             "ga": "io.scif:scifio-lifesci",
@@ -19687,7 +19683,7 @@
       },
       "reviewer_prs": 78,
       "support_issues": 1462,
-      "total": 1936
+      "total": 1935
     },
     {
       "component_count": 1,
@@ -26988,7 +26984,7 @@
       "dev_name": "Tom Burke",
       "dev_url": "https://imagej.net/people/tomburke-rse",
       "developer_features": 0,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26998,12 +26994,7 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [
-          {
-            "ga": "io.scif:scifio-labeling",
-            "url": "https://github.com/scifio/scifio-labeling"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -27028,7 +27019,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 3,
-      "total": 4
+      "total": 3
     },
     {
       "component_count": 1,
