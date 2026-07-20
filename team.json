@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19 07:23 UTC",
+  "generated": "2026-07-20 07:52 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7586,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 174,
       "popups": {
         "components": [
           {
@@ -9892,6 +9892,10 @@
             "url": "https://github.com/scijava/app-launcher"
           },
           {
+            "ga": "org.scijava:parsington",
+            "url": "https://github.com/scijava/parsington"
+          },
+          {
             "ga": "org.scijava:scijava-cache",
             "url": "https://github.com/scijava/scijava-cache"
           },
@@ -10700,12 +10704,6 @@
             "repo": "scijava/native-lib-loader",
             "title": "extractResource: extract file only if it was not extracted yet",
             "url": "https://github.com/scijava/native-lib-loader/pull/46"
-          },
-          {
-            "number": 27,
-            "repo": "scijava/parsington",
-            "title": "Eliminate runtime reflection in Operators",
-            "url": "https://github.com/scijava/parsington/pull/27"
           },
           {
             "number": 28,
@@ -19681,7 +19679,7 @@
           }
         ]
       },
-      "reviewer_prs": 78,
+      "reviewer_prs": 77,
       "support_issues": 1462,
       "total": 1935
     },
