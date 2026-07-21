@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20 07:52 UTC",
+  "generated": "2026-07-21 07:28 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -19670,18 +19670,12 @@
             "repo": "fiji/fiji",
             "title": "\"Flatten\" rewrites the last part of an image title",
             "url": "https://github.com/fiji/fiji/issues/433"
-          },
-          {
-            "number": 435,
-            "repo": "fiji/fiji",
-            "title": "Fiji 2.19.0 Tasks",
-            "url": "https://github.com/fiji/fiji/issues/435"
           }
         ]
       },
       "reviewer_prs": 77,
-      "support_issues": 1462,
-      "total": 1935
+      "support_issues": 1461,
+      "total": 1934
     },
     {
       "component_count": 1,
