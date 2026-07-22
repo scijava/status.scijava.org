@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21 07:28 UTC",
+  "generated": "2026-07-22 07:30 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7586,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 174,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9884,10 +9884,6 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          },
-          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -10704,12 +10700,6 @@
             "repo": "scijava/native-lib-loader",
             "title": "extractResource: extract file only if it was not extracted yet",
             "url": "https://github.com/scijava/native-lib-loader/pull/46"
-          },
-          {
-            "number": 28,
-            "repo": "scijava/parsington",
-            "title": "Use a simple DFA to parse operators.",
-            "url": "https://github.com/scijava/parsington/pull/28"
           },
           {
             "number": 286,
@@ -19673,9 +19663,9 @@
           }
         ]
       },
-      "reviewer_prs": 77,
+      "reviewer_prs": 76,
       "support_issues": 1461,
-      "total": 1934
+      "total": 1932
     },
     {
       "component_count": 1,
@@ -26264,7 +26254,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26332,42 +26322,13 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 268,
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
-          },
-          {
-            "number": 296,
-            "repo": "morphonets/SNT",
-            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.3",
-            "url": "https://github.com/morphonets/SNT/pull/296"
-          },
-          {
-            "number": 297,
-            "repo": "morphonets/SNT",
-            "title": "Bump smile-core.version from 4.4.0 to 6.2.3",
-            "url": "https://github.com/morphonets/SNT/pull/297"
-          },
-          {
-            "number": 300,
-            "repo": "morphonets/SNT",
-            "title": "Bump com.formdev:flatlaf-extras from 3.7.1 to 3.7.2",
-            "url": "https://github.com/morphonets/SNT/pull/300"
-          },
-          {
-            "number": 301,
-            "repo": "morphonets/SNT",
-            "title": "Bump com.formdev:flatlaf-jide-oss from 3.7.1 to 3.7.2",
-            "url": "https://github.com/morphonets/SNT/pull/301"
           }
         ],
         "support_issues": [
@@ -26427,9 +26388,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 1,
       "support_issues": 9,
-      "total": 23
+      "total": 18
     },
     {
       "component_count": 18,
