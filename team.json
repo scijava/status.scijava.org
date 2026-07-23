@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 07:30 UTC",
+  "generated": "2026-07-23 07:27 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -25587,12 +25587,6 @@
             "repo": "imagej/ImageJ",
             "title": "Remap usages of `Applet` and friends",
             "url": "https://github.com/imagej/ImageJ/pull/292"
-          },
-          {
-            "number": 298,
-            "repo": "imagej/ImageJ",
-            "title": "Add support for custom ROI group LUTs",
-            "url": "https://github.com/imagej/ImageJ/pull/298"
           }
         ],
         "support_issues": [
@@ -26066,9 +26060,9 @@
           }
         ]
       },
-      "reviewer_prs": 9,
+      "reviewer_prs": 8,
       "support_issues": 78,
-      "total": 88
+      "total": 87
     },
     {
       "component_count": 1,
