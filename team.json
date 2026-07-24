@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 07:27 UTC",
+  "generated": "2026-07-24 07:26 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -4402,12 +4402,6 @@
             "url": "https://github.com/saalfeldlab/n5-universe/issues/12"
           },
           {
-            "number": 13,
-            "repo": "saalfeldlab/n5-universe",
-            "title": "AwsClientBuilder is not thread safe",
-            "url": "https://github.com/saalfeldlab/n5-universe/issues/13"
-          },
-          {
             "number": 20,
             "repo": "saalfeldlab/n5-universe",
             "title": "N5Factory looses region information and falls back to hard-wired default with \"s3://bucket/path\" uri",
@@ -4812,8 +4806,8 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 247,
-      "total": 325
+      "support_issues": 246,
+      "total": 324
     },
     {
       "component_count": 1,
@@ -6875,12 +6869,6 @@
             "url": "https://github.com/saalfeldlab/n5-universe/issues/12"
           },
           {
-            "number": 13,
-            "repo": "saalfeldlab/n5-universe",
-            "title": "AwsClientBuilder is not thread safe",
-            "url": "https://github.com/saalfeldlab/n5-universe/issues/13"
-          },
-          {
             "number": 20,
             "repo": "saalfeldlab/n5-universe",
             "title": "N5Factory looses region information and falls back to hard-wired default with \"s3://bucket/path\" uri",
@@ -7279,8 +7267,8 @@
         ]
       },
       "reviewer_prs": 13,
-      "support_issues": 104,
-      "total": 129
+      "support_issues": 103,
+      "total": 128
     },
     {
       "component_count": 6,
@@ -9884,6 +9872,10 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          },
+          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -10378,10 +10370,6 @@
           {
             "ga": "sc.fiji:bUnwarpJ_",
             "url": "https://github.com/fiji/bUnwarpJ"
-          },
-          {
-            "ga": "sc.fiji:bigdataviewer-core",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
           },
           {
             "ga": "sc.fiji:bij",
@@ -19536,12 +19524,6 @@
             "url": "https://github.com/fiji/fiji/issues/404"
           },
           {
-            "number": 406,
-            "repo": "fiji/fiji",
-            "title": "Cannot open the menus on linux",
-            "url": "https://github.com/fiji/fiji/issues/406"
-          },
-          {
             "number": 408,
             "repo": "fiji/fiji",
             "title": "Improve application shutdown when running in Python mode",
@@ -19664,8 +19646,8 @@
         ]
       },
       "reviewer_prs": 76,
-      "support_issues": 1461,
-      "total": 1932
+      "support_issues": 1460,
+      "total": 1931
     },
     {
       "component_count": 1,
@@ -26248,7 +26230,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26316,7 +26298,12 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26384,7 +26371,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 9,
-      "total": 18
+      "total": 19
     },
     {
       "component_count": 18,
@@ -27013,7 +27000,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 12,
+      "maintainer_releases": 11,
       "popups": {
         "components": [
           {
@@ -27211,10 +27198,6 @@
             "url": "https://github.com/scijava/ui-behaviour"
           },
           {
-            "ga": "sc.fiji:bigdataviewer-core",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
-          },
-          {
             "ga": "sc.fiji:spim_data",
             "url": "https://github.com/bigdataviewer/spimdata"
           }
@@ -27387,12 +27370,6 @@
             "repo": "bigdataviewer/bigdataviewer-core",
             "title": "added prototype for first issue of faster loading",
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/212"
-          },
-          {
-            "number": 221,
-            "repo": "bigdataviewer/bigdataviewer-core",
-            "title": "Read chunks instead of blocks",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/221"
           },
           {
             "number": 222,
@@ -28466,9 +28443,9 @@
           }
         ]
       },
-      "reviewer_prs": 33,
+      "reviewer_prs": 32,
       "support_issues": 174,
-      "total": 229
+      "total": 227
     }
   ]
 }
