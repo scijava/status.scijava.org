@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 07:26 UTC",
+  "generated": "2026-07-25 07:10 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26618,6 +26618,12 @@
             "url": "https://github.com/trackmate-sc/TrackMate-Cellpose/pull/22"
           },
           {
+            "number": 23,
+            "repo": "trackmate-sc/TrackMate-Cellpose",
+            "title": "Support 3D segmentation and running Cellpose with Appose from TrackMate v9",
+            "url": "https://github.com/trackmate-sc/TrackMate-Cellpose/pull/23"
+          },
+          {
             "number": 6,
             "repo": "trackmate-sc/TrackMate-Ilastik",
             "title": "Support 3D segmentation with TrackMate-Ilastik",
@@ -26782,6 +26788,12 @@
             "url": "https://github.com/trackmate-sc/TrackMate/issues/343"
           },
           {
+            "number": 354,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Update the Labkit spot editor to support editing of 3D meshes",
+            "url": "https://github.com/trackmate-sc/TrackMate/issues/354"
+          },
+          {
             "number": 3,
             "repo": "trackmate-sc/TrackMate-CSVImporter",
             "title": "Can't read CSV file outputted from ThunderSTORM",
@@ -26843,9 +26855,9 @@
           }
         ]
       },
-      "reviewer_prs": 13,
-      "support_issues": 35,
-      "total": 66
+      "reviewer_prs": 14,
+      "support_issues": 36,
+      "total": 68
     },
     {
       "component_count": 2,
