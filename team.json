@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26 07:31 UTC",
+  "generated": "2026-07-27 08:22 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -10690,6 +10690,12 @@
             "url": "https://github.com/scijava/native-lib-loader/pull/46"
           },
           {
+            "number": 32,
+            "repo": "scijava/parsington",
+            "title": "Regular expression removal",
+            "url": "https://github.com/scijava/parsington/pull/32"
+          },
+          {
             "number": 286,
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
@@ -19645,9 +19651,9 @@
           }
         ]
       },
-      "reviewer_prs": 76,
+      "reviewer_prs": 77,
       "support_issues": 1460,
-      "total": 1931
+      "total": 1932
     },
     {
       "component_count": 1,
@@ -26310,6 +26316,30 @@
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
+          },
+          {
+            "number": 303,
+            "repo": "morphonets/SNT",
+            "title": "Bump smile-core.version from 4.4.0 to 6.2.4",
+            "url": "https://github.com/morphonets/SNT/pull/303"
+          },
+          {
+            "number": 304,
+            "repo": "morphonets/SNT",
+            "title": "Bump it.unimi.dsi:fastutil from 8.5.18 to 8.5.19",
+            "url": "https://github.com/morphonets/SNT/pull/304"
+          },
+          {
+            "number": 305,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-core from 1.5.37 to 1.6.0",
+            "url": "https://github.com/morphonets/SNT/pull/305"
+          },
+          {
+            "number": 306,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-classic from 1.5.37 to 1.6.0",
+            "url": "https://github.com/morphonets/SNT/pull/306"
           }
         ],
         "support_issues": [
@@ -26369,9 +26399,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 19
+      "total": 23
     },
     {
       "component_count": 18,
@@ -26610,6 +26640,12 @@
             "repo": "trackmate-sc/TrackMate",
             "title": "Rewrite MATLAB functions with matlab.io.xml.dom.*",
             "url": "https://github.com/trackmate-sc/TrackMate/pull/351"
+          },
+          {
+            "number": 355,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Undo / redo for the segmentation editor",
+            "url": "https://github.com/trackmate-sc/TrackMate/pull/355"
           },
           {
             "number": 22,
@@ -26855,9 +26891,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 15,
       "support_issues": 36,
-      "total": 68
+      "total": 69
     },
     {
       "component_count": 2,
