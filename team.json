@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27 08:22 UTC",
+  "generated": "2026-07-28 07:33 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -16470,6 +16470,12 @@
             "url": "https://github.com/scijava/parsington/issues/24"
           },
           {
+            "number": 33,
+            "repo": "scijava/parsington",
+            "title": "Remove unimplemented operators?",
+            "url": "https://github.com/scijava/parsington/issues/33"
+          },
+          {
             "number": 24,
             "repo": "scijava/scijava",
             "title": "Consolidate generics reasoning dependencies",
@@ -19652,8 +19658,8 @@
         ]
       },
       "reviewer_prs": 77,
-      "support_issues": 1460,
-      "total": 1932
+      "support_issues": 1461,
+      "total": 1933
     },
     {
       "component_count": 1,
@@ -26322,24 +26328,6 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.2.4",
             "url": "https://github.com/morphonets/SNT/pull/303"
-          },
-          {
-            "number": 304,
-            "repo": "morphonets/SNT",
-            "title": "Bump it.unimi.dsi:fastutil from 8.5.18 to 8.5.19",
-            "url": "https://github.com/morphonets/SNT/pull/304"
-          },
-          {
-            "number": 305,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-core from 1.5.37 to 1.6.0",
-            "url": "https://github.com/morphonets/SNT/pull/305"
-          },
-          {
-            "number": 306,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.5.37 to 1.6.0",
-            "url": "https://github.com/morphonets/SNT/pull/306"
           }
         ],
         "support_issues": [
@@ -26399,9 +26387,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 2,
       "support_issues": 9,
-      "total": 23
+      "total": 20
     },
     {
       "component_count": 18,
