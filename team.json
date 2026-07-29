@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28 07:33 UTC",
+  "generated": "2026-07-29 07:38 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -10696,6 +10696,18 @@
             "url": "https://github.com/scijava/parsington/pull/32"
           },
           {
+            "number": 34,
+            "repo": "scijava/parsington",
+            "title": "Alter parseString to accumulate StringBuilder appends vs individual calls",
+            "url": "https://github.com/scijava/parsington/pull/34"
+          },
+          {
+            "number": 35,
+            "repo": "scijava/parsington",
+            "title": "Ide reported nits for cherry picking",
+            "url": "https://github.com/scijava/parsington/pull/35"
+          },
+          {
             "number": 286,
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
@@ -19657,9 +19669,9 @@
           }
         ]
       },
-      "reviewer_prs": 77,
+      "reviewer_prs": 79,
       "support_issues": 1461,
-      "total": 1933
+      "total": 1935
     },
     {
       "component_count": 1,
