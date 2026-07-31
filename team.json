@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30 07:28 UTC",
+  "generated": "2026-07-31 07:46 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -19836,18 +19836,12 @@
             "repo": "ijpb/MorphoLibJ",
             "title": "Feature request: 3D Directional filtering",
             "url": "https://github.com/ijpb/MorphoLibJ/issues/86"
-          },
-          {
-            "number": 87,
-            "repo": "ijpb/MorphoLibJ",
-            "title": "Possible bug: 3D watershed can label voxels outside domainMask",
-            "url": "https://github.com/ijpb/MorphoLibJ/issues/87"
           }
         ]
       },
       "reviewer_prs": 0,
-      "support_issues": 25,
-      "total": 25
+      "support_issues": 24,
+      "total": 24
     },
     {
       "component_count": 1,
@@ -23647,12 +23641,6 @@
             "url": "https://github.com/ijpb/MorphoLibJ/issues/86"
           },
           {
-            "number": 87,
-            "repo": "ijpb/MorphoLibJ",
-            "title": "Possible bug: 3D watershed can label voxels outside domainMask",
-            "url": "https://github.com/ijpb/MorphoLibJ/issues/87"
-          },
-          {
             "number": 10,
             "repo": "fiji/AnalyzeSkeleton",
             "title": "Possible issue in the calculation of the average branch length.",
@@ -23961,8 +23949,8 @@
         ]
       },
       "reviewer_prs": 1,
-      "support_issues": 76,
-      "total": 85
+      "support_issues": 75,
+      "total": 84
     },
     {
       "component_count": 3,
