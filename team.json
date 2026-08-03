@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02 07:27 UTC",
+  "generated": "2026-08-03 08:21 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26328,6 +26328,24 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.2.4",
             "url": "https://github.com/morphonets/SNT/pull/303"
+          },
+          {
+            "number": 307,
+            "repo": "morphonets/SNT",
+            "title": "Bump org.scijava:pom-scijava from 45.0.0 to 45.1.0",
+            "url": "https://github.com/morphonets/SNT/pull/307"
+          },
+          {
+            "number": 308,
+            "repo": "morphonets/SNT",
+            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.4",
+            "url": "https://github.com/morphonets/SNT/pull/308"
+          },
+          {
+            "number": 309,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-core from 1.6.0 to 1.6.1",
+            "url": "https://github.com/morphonets/SNT/pull/309"
           }
         ],
         "support_issues": [
@@ -26387,9 +26405,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 20
+      "total": 23
     },
     {
       "component_count": 18,
