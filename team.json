@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04 07:31 UTC",
+  "generated": "2026-08-05 07:33 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -2758,7 +2758,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 20,
+      "maintainer_releases": 21,
       "popups": {
         "components": [
           {
@@ -3066,6 +3066,10 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "org.janelia.saalfeldlab:n5-zarr",
+            "url": "https://github.com/saalfeldlab/n5-zarr"
           },
           {
             "ga": "sc.fiji:T2-NIT",
@@ -4546,12 +4550,6 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/issues/92"
           },
           {
-            "number": 98,
-            "repo": "saalfeldlab/n5-zarr",
-            "title": "`V2ChunkKeyEncoding` prepends the separator, so every chunk read misses (all-black images)",
-            "url": "https://github.com/saalfeldlab/n5-zarr/issues/98"
-          },
-          {
             "number": 8,
             "repo": "saalfeldlab/bigwarp",
             "title": "Allow different spot colors for each viewer",
@@ -4812,7 +4810,7 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 247,
+      "support_issues": 246,
       "total": 325
     },
     {
@@ -6450,7 +6448,7 @@
       "dev_name": "John Bogovic",
       "dev_url": "https://imagej.net/User:Bogovic",
       "developer_features": 10,
-      "maintainer_releases": 2,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -6565,6 +6563,10 @@
           {
             "ga": "jitk:jitk-tps",
             "url": "https://github.com/saalfeldlab/jitk-tps"
+          },
+          {
+            "ga": "org.janelia.saalfeldlab:n5-zarr",
+            "url": "https://github.com/saalfeldlab/n5-zarr"
           },
           {
             "ga": "sc.fiji:trakem2_tps",
@@ -7019,12 +7021,6 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/issues/92"
           },
           {
-            "number": 98,
-            "repo": "saalfeldlab/n5-zarr",
-            "title": "`V2ChunkKeyEncoding` prepends the separator, so every chunk read misses (all-black images)",
-            "url": "https://github.com/saalfeldlab/n5-zarr/issues/98"
-          },
-          {
             "number": 8,
             "repo": "saalfeldlab/bigwarp",
             "title": "Allow different spot colors for each viewer",
@@ -7279,7 +7275,7 @@
         ]
       },
       "reviewer_prs": 13,
-      "support_issues": 104,
+      "support_issues": 103,
       "total": 129
     },
     {
