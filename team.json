@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05 07:33 UTC",
+  "generated": "2026-08-06 07:34 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7582,7 +7582,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 172,
       "popups": {
         "components": [
           {
@@ -9878,10 +9878,6 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
-          },
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -18200,6 +18196,12 @@
             "url": "https://github.com/scijava/scijava-ui-swing/issues/85"
           },
           {
+            "number": 90,
+            "repo": "scijava/scijava-ui-swing",
+            "title": "Improve accessibilty of Task displays",
+            "url": "https://github.com/scijava/scijava-ui-swing/issues/90"
+          },
+          {
             "number": 62,
             "repo": "scijava/script-editor",
             "title": "Add dependencies automatically",
@@ -19678,7 +19680,7 @@
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1461,
+      "support_issues": 1462,
       "total": 1935
     },
     {
@@ -26250,7 +26252,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26318,12 +26320,7 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26403,7 +26400,7 @@
       },
       "reviewer_prs": 3,
       "support_issues": 9,
-      "total": 21
+      "total": 20
     },
     {
       "component_count": 18,
