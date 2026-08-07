@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 07:34 UTC",
+  "generated": "2026-08-07 06:05 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -5064,6 +5064,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 291,
+            "repo": "scijava/scijava",
+            "title": "Rename Op dependency",
+            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -6437,9 +6443,9 @@
           }
         ]
       },
-      "reviewer_prs": 15,
+      "reviewer_prs": 16,
       "support_issues": 228,
-      "total": 261
+      "total": 262
     },
     {
       "component_count": 11,
@@ -10466,6 +10472,12 @@
             "url": "https://github.com/imagej/imagej2/pull/182"
           },
           {
+            "number": 319,
+            "repo": "imagej/imagej2",
+            "title": "Remove Ona/Gitpod button from README",
+            "url": "https://github.com/imagej/imagej2/pull/319"
+          },
+          {
             "number": 176,
             "repo": "imagej/imagej-legacy",
             "title": "Add line ROI rotation and translation sample",
@@ -10716,6 +10728,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 291,
+            "repo": "scijava/scijava",
+            "title": "Rename Op dependency",
+            "url": "https://github.com/scijava/scijava/pull/291"
           },
           {
             "number": 91,
@@ -19679,9 +19697,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 81,
       "support_issues": 1462,
-      "total": 1935
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -20400,6 +20418,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 291,
+            "repo": "scijava/scijava",
+            "title": "Rename Op dependency",
+            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -20789,9 +20813,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 2,
       "support_issues": 64,
-      "total": 70
+      "total": 71
     },
     {
       "component_count": 2,
@@ -21433,10 +21457,22 @@
             "url": "https://github.com/imagej/imagej2/pull/182"
           },
           {
+            "number": 319,
+            "repo": "imagej/imagej2",
+            "title": "Remove Ona/Gitpod button from README",
+            "url": "https://github.com/imagej/imagej2/pull/319"
+          },
+          {
             "number": 286,
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 291,
+            "repo": "scijava/scijava",
+            "title": "Rename Op dependency",
+            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -22606,9 +22642,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 4,
       "support_issues": 194,
-      "total": 200
+      "total": 202
     },
     {
       "component_count": 3,
