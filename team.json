@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 06:05 UTC",
+  "generated": "2026-08-08 05:35 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7588,7 +7588,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 172,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9774,6 +9774,10 @@
             "url": "https://github.com/imagej/ij1-patcher"
           },
           {
+            "ga": "net.imagej:imagej",
+            "url": "https://github.com/imagej/imagej2"
+          },
+          {
             "ga": "net.imagej:imagej-common",
             "url": "https://github.com/imagej/imagej-common"
           },
@@ -10470,12 +10474,6 @@
             "repo": "imagej/imagej2",
             "title": "Add Dockerfile for ImageJ.app",
             "url": "https://github.com/imagej/imagej2/pull/182"
-          },
-          {
-            "number": 319,
-            "repo": "imagej/imagej2",
-            "title": "Remove Ona/Gitpod button from README",
-            "url": "https://github.com/imagej/imagej2/pull/319"
           },
           {
             "number": 176,
@@ -19697,7 +19695,7 @@
           }
         ]
       },
-      "reviewer_prs": 81,
+      "reviewer_prs": 80,
       "support_issues": 1462,
       "total": 1937
     },
@@ -21381,7 +21379,7 @@
       "dev_name": "Mark Hiner",
       "dev_url": "https://imagej.net/people/hinerm",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -21448,19 +21446,18 @@
           }
         ],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imagej:imagej",
+            "url": "https://github.com/imagej/imagej2"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 182,
             "repo": "imagej/imagej2",
             "title": "Add Dockerfile for ImageJ.app",
             "url": "https://github.com/imagej/imagej2/pull/182"
-          },
-          {
-            "number": 319,
-            "repo": "imagej/imagej2",
-            "title": "Remove Ona/Gitpod button from README",
-            "url": "https://github.com/imagej/imagej2/pull/319"
           },
           {
             "number": 286,
@@ -22642,7 +22639,7 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 3,
       "support_issues": 194,
       "total": 202
     },
@@ -26683,6 +26680,12 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/355"
           },
           {
+            "number": 359,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Mode the Displaysettings config in the Preferences dialog and clean duplicate code ",
+            "url": "https://github.com/trackmate-sc/TrackMate/pull/359"
+          },
+          {
             "number": 22,
             "repo": "trackmate-sc/TrackMate-Cellpose",
             "title": "Add pixi support",
@@ -26926,9 +26929,9 @@
           }
         ]
       },
-      "reviewer_prs": 15,
+      "reviewer_prs": 16,
       "support_issues": 36,
-      "total": 69
+      "total": 70
     },
     {
       "component_count": 2,
