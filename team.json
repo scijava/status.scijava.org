@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08 05:35 UTC",
+  "generated": "2026-08-09 05:41 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26674,18 +26674,6 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/351"
           },
           {
-            "number": 355,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Undo / redo for the segmentation editor",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/355"
-          },
-          {
-            "number": 359,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Mode the Displaysettings config in the Preferences dialog and clean duplicate code ",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/359"
-          },
-          {
             "number": 22,
             "repo": "trackmate-sc/TrackMate-Cellpose",
             "title": "Add pixi support",
@@ -26929,9 +26917,9 @@
           }
         ]
       },
-      "reviewer_prs": 16,
+      "reviewer_prs": 14,
       "support_issues": 36,
-      "total": 70
+      "total": 68
     },
     {
       "component_count": 2,
