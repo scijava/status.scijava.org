@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09 05:41 UTC",
+  "generated": "2026-08-10 06:07 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -25624,6 +25624,18 @@
             "repo": "imagej/ImageJ",
             "title": "Remap usages of `Applet` and friends",
             "url": "https://github.com/imagej/ImageJ/pull/292"
+          },
+          {
+            "number": 299,
+            "repo": "imagej/ImageJ",
+            "title": "Add ZSTD support for ImageJ's native image TIFF reader",
+            "url": "https://github.com/imagej/ImageJ/pull/299"
+          },
+          {
+            "number": 300,
+            "repo": "imagej/ImageJ",
+            "title": "Unify metadata path between uncompressed and compressed",
+            "url": "https://github.com/imagej/ImageJ/pull/300"
           }
         ],
         "support_issues": [
@@ -26097,9 +26109,9 @@
           }
         ]
       },
-      "reviewer_prs": 8,
+      "reviewer_prs": 10,
       "support_issues": 78,
-      "total": 87
+      "total": 89
     },
     {
       "component_count": 1,
@@ -26362,16 +26374,28 @@
             "url": "https://github.com/morphonets/SNT/pull/268"
           },
           {
-            "number": 303,
+            "number": 310,
             "repo": "morphonets/SNT",
-            "title": "Bump smile-core.version from 4.4.0 to 6.2.4",
-            "url": "https://github.com/morphonets/SNT/pull/303"
+            "title": "Bump smile-core.version from 4.4.0 to 6.2.5",
+            "url": "https://github.com/morphonets/SNT/pull/310"
           },
           {
-            "number": 308,
+            "number": 311,
             "repo": "morphonets/SNT",
-            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.4",
-            "url": "https://github.com/morphonets/SNT/pull/308"
+            "title": "Bump ch.qos.logback:logback-classic from 1.6.0 to 1.6.1",
+            "url": "https://github.com/morphonets/SNT/pull/311"
+          },
+          {
+            "number": 312,
+            "repo": "morphonets/SNT",
+            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.5",
+            "url": "https://github.com/morphonets/SNT/pull/312"
+          },
+          {
+            "number": 313,
+            "repo": "morphonets/SNT",
+            "title": "Bump org.webjars:font-awesome from 6.7.2 to 7.3.0",
+            "url": "https://github.com/morphonets/SNT/pull/313"
           }
         ],
         "support_issues": [
@@ -26431,9 +26455,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 5,
       "support_issues": 9,
-      "total": 20
+      "total": 22
     },
     {
       "component_count": 18,
