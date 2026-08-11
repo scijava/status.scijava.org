@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10 06:07 UTC",
+  "generated": "2026-08-11 05:48 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7588,7 +7588,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 172,
       "popups": {
         "components": [
           {
@@ -9872,10 +9872,6 @@
           {
             "ga": "net.imglib2:imglib2-imglyb",
             "url": "https://github.com/imglib/imglib2-imglyb"
-          },
-          {
-            "ga": "net.imglib2:imglib2-mesh",
-            "url": "https://github.com/imglib/imglib2-mesh"
           },
           {
             "ga": "net.imglib2:imglib2-realtransform",
@@ -19697,7 +19693,7 @@
       },
       "reviewer_prs": 80,
       "support_issues": 1462,
-      "total": 1937
+      "total": 1936
     },
     {
       "component_count": 1,
@@ -24356,7 +24352,7 @@
       "dev_name": "Kyle Harrington",
       "dev_url": "https://imagej.net/User:Kharrington",
       "developer_features": 7,
-      "maintainer_releases": 3,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -24429,10 +24425,6 @@
           {
             "ga": "net.imagej:imagej-mesh-io",
             "url": "https://github.com/imagej/imagej-mesh-io"
-          },
-          {
-            "ga": "net.imglib2:imglib2-mesh",
-            "url": "https://github.com/imglib/imglib2-mesh"
           }
         ],
         "reviewer_prs": [
@@ -24538,7 +24530,7 @@
       },
       "reviewer_prs": 3,
       "support_issues": 13,
-      "total": 26
+      "total": 25
     },
     {
       "component_count": 5,
@@ -26374,28 +26366,10 @@
             "url": "https://github.com/morphonets/SNT/pull/268"
           },
           {
-            "number": 310,
-            "repo": "morphonets/SNT",
-            "title": "Bump smile-core.version from 4.4.0 to 6.2.5",
-            "url": "https://github.com/morphonets/SNT/pull/310"
-          },
-          {
             "number": 311,
             "repo": "morphonets/SNT",
             "title": "Bump ch.qos.logback:logback-classic from 1.6.0 to 1.6.1",
             "url": "https://github.com/morphonets/SNT/pull/311"
-          },
-          {
-            "number": 312,
-            "repo": "morphonets/SNT",
-            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.2.5",
-            "url": "https://github.com/morphonets/SNT/pull/312"
-          },
-          {
-            "number": 313,
-            "repo": "morphonets/SNT",
-            "title": "Bump org.webjars:font-awesome from 6.7.2 to 7.3.0",
-            "url": "https://github.com/morphonets/SNT/pull/313"
           }
         ],
         "support_issues": [
@@ -26455,9 +26429,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 2,
       "support_issues": 9,
-      "total": 22
+      "total": 19
     },
     {
       "component_count": 18,
@@ -26466,7 +26440,7 @@
       "dev_name": "Jean-Yves Tinevez",
       "dev_url": "https://imagej.net/people/tinevez",
       "developer_features": 6,
-      "maintainer_releases": 10,
+      "maintainer_releases": 9,
       "popups": {
         "components": [
           {
@@ -26595,10 +26569,6 @@
           }
         ],
         "maintainer_releases": [
-          {
-            "ga": "net.imglib2:imglib2-mesh",
-            "url": "https://github.com/imglib/imglib2-mesh"
-          },
           {
             "ga": "sc.fiji:Arrow_",
             "url": "https://github.com/fiji/Arrow"
@@ -26943,7 +26913,7 @@
       },
       "reviewer_prs": 14,
       "support_issues": 36,
-      "total": 68
+      "total": 67
     },
     {
       "component_count": 2,
@@ -27098,7 +27068,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 11,
+      "maintainer_releases": 10,
       "popups": {
         "components": [
           {
@@ -27274,10 +27244,6 @@
           {
             "ga": "net.imglib2:imglib2-ij",
             "url": "https://github.com/imglib/imglib2-ij"
-          },
-          {
-            "ga": "net.imglib2:imglib2-mesh",
-            "url": "https://github.com/imglib/imglib2-mesh"
           },
           {
             "ga": "net.imglib2:imglib2-realtransform",
@@ -28543,7 +28509,7 @@
       },
       "reviewer_prs": 32,
       "support_issues": 174,
-      "total": 227
+      "total": 226
     }
   ]
 }
