@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 06:08 UTC",
+  "generated": "2026-08-13 06:10 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3114,12 +3114,6 @@
         ],
         "reviewer_prs": [
           {
-            "number": 12,
-            "repo": "saalfeldlab/jitk-tps",
-            "title": "test: that results are consistent with scipy's implementation",
-            "url": "https://github.com/saalfeldlab/jitk-tps/pull/12"
-          },
-          {
             "number": 45,
             "repo": "axtimwalde/mpicbg",
             "title": "Allow to specify floating point precision when fitting affine models",
@@ -4815,9 +4809,9 @@
           }
         ]
       },
-      "reviewer_prs": 37,
+      "reviewer_prs": 36,
       "support_issues": 246,
-      "total": 326
+      "total": 325
     },
     {
       "component_count": 1,
@@ -6446,12 +6440,18 @@
             "repo": "scijava/scijava",
             "title": "Current projection APIs are hard to use",
             "url": "https://github.com/scijava/scijava/issues/289"
+          },
+          {
+            "number": 292,
+            "repo": "scijava/scijava",
+            "title": "Default projection assumes projection dimension interval starts at 0",
+            "url": "https://github.com/scijava/scijava/issues/292"
           }
         ]
       },
       "reviewer_prs": 16,
-      "support_issues": 228,
-      "total": 262
+      "support_issues": 229,
+      "total": 263
     },
     {
       "component_count": 11,
@@ -6586,12 +6586,6 @@
           }
         ],
         "reviewer_prs": [
-          {
-            "number": 12,
-            "repo": "saalfeldlab/jitk-tps",
-            "title": "test: that results are consistent with scipy's implementation",
-            "url": "https://github.com/saalfeldlab/jitk-tps/pull/12"
-          },
           {
             "number": 70,
             "repo": "saalfeldlab/n5",
@@ -7292,9 +7286,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 13,
       "support_issues": 103,
-      "total": 130
+      "total": 129
     },
     {
       "component_count": 6,
@@ -10466,12 +10460,6 @@
             "url": "https://github.com/scifio/scifio-lifesci/pull/6"
           },
           {
-            "number": 7,
-            "repo": "scifio/scifio-lifesci",
-            "title": "Enable reading compressed data blocks",
-            "url": "https://github.com/scifio/scifio-lifesci/pull/7"
-          },
-          {
             "number": 27,
             "repo": "scifio/scifio-ome-xml",
             "title": "DefaultOMEMetadataService: get BigEndian from image index only",
@@ -10482,6 +10470,12 @@
             "repo": "imagej/imagej2",
             "title": "Add Dockerfile for ImageJ.app",
             "url": "https://github.com/imagej/imagej2/pull/182"
+          },
+          {
+            "number": 320,
+            "repo": "imagej/imagej2",
+            "title": "Add auditable spatial transform field Op",
+            "url": "https://github.com/imagej/imagej2/pull/320"
           },
           {
             "number": 176,
@@ -16888,6 +16882,12 @@
             "url": "https://github.com/scijava/scijava/issues/289"
           },
           {
+            "number": 292,
+            "repo": "scijava/scijava",
+            "title": "Default projection assumes projection dimension interval starts at 0",
+            "url": "https://github.com/scijava/scijava/issues/292"
+          },
+          {
             "number": 27,
             "repo": "scijava/scijava-common",
             "title": "Add PrimitiveArray tools",
@@ -19704,8 +19704,8 @@
         ]
       },
       "reviewer_prs": 80,
-      "support_issues": 1462,
-      "total": 1936
+      "support_issues": 1463,
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -20816,12 +20816,18 @@
             "repo": "scijava/scijava",
             "title": "Current projection APIs are hard to use",
             "url": "https://github.com/scijava/scijava/issues/289"
+          },
+          {
+            "number": 292,
+            "repo": "scijava/scijava",
+            "title": "Default projection assumes projection dimension interval starts at 0",
+            "url": "https://github.com/scijava/scijava/issues/292"
           }
         ]
       },
       "reviewer_prs": 2,
-      "support_issues": 64,
-      "total": 71
+      "support_issues": 65,
+      "total": 72
     },
     {
       "component_count": 2,
@@ -21466,6 +21472,12 @@
             "repo": "imagej/imagej2",
             "title": "Add Dockerfile for ImageJ.app",
             "url": "https://github.com/imagej/imagej2/pull/182"
+          },
+          {
+            "number": 320,
+            "repo": "imagej/imagej2",
+            "title": "Add auditable spatial transform field Op",
+            "url": "https://github.com/imagej/imagej2/pull/320"
           },
           {
             "number": 286,
@@ -22644,12 +22656,18 @@
             "repo": "scijava/scijava",
             "title": "Current projection APIs are hard to use",
             "url": "https://github.com/scijava/scijava/issues/289"
+          },
+          {
+            "number": 292,
+            "repo": "scijava/scijava",
+            "title": "Default projection assumes projection dimension interval starts at 0",
+            "url": "https://github.com/scijava/scijava/issues/292"
           }
         ]
       },
-      "reviewer_prs": 3,
-      "support_issues": 194,
-      "total": 202
+      "reviewer_prs": 4,
+      "support_issues": 195,
+      "total": 204
     },
     {
       "component_count": 3,
@@ -26856,12 +26874,6 @@
             "url": "https://github.com/trackmate-sc/TrackMate/issues/343"
           },
           {
-            "number": 354,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Update the Labkit spot editor to support editing of 3D meshes",
-            "url": "https://github.com/trackmate-sc/TrackMate/issues/354"
-          },
-          {
             "number": 3,
             "repo": "trackmate-sc/TrackMate-CSVImporter",
             "title": "Can't read CSV file outputted from ThunderSTORM",
@@ -26924,8 +26936,8 @@
         ]
       },
       "reviewer_prs": 14,
-      "support_issues": 36,
-      "total": 67
+      "support_issues": 35,
+      "total": 66
     },
     {
       "component_count": 2,
@@ -28476,10 +28488,22 @@
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/issues/215"
           },
           {
-            "number": 218,
+            "number": 223,
             "repo": "bigdataviewer/bigdataviewer-core",
-            "title": "ConcurrentModificationException in setViewerTransform",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core/issues/218"
+            "title": "Preferences dialog drops the builtin keymaps of a KeymapManager subclass, and saves the fallback selection",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core/issues/223"
+          },
+          {
+            "number": 224,
+            "repo": "bigdataviewer/bigdataviewer-core",
+            "title": "SettingsPanel.removePage leaves the page's component in the CardLayout",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core/issues/224"
+          },
+          {
+            "number": 225,
+            "repo": "bigdataviewer/bigdataviewer-core",
+            "title": "Allow ConverterSetupEditPanel to be driven by an arbitrary selection",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core/issues/225"
           },
           {
             "number": 5,
@@ -28520,8 +28544,8 @@
         ]
       },
       "reviewer_prs": 32,
-      "support_issues": 174,
-      "total": 226
+      "support_issues": 176,
+      "total": 228
     }
   ]
 }

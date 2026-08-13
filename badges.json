@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T06:08:24Z",
+  "generated": "2026-08-13T06:10:25Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -662,7 +662,7 @@
       "workflow": "build.yml"
     },
     "saalfeldlab/jitk-tps": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "saalfeldlab/n5": {
@@ -734,7 +734,7 @@
       "workflow": "build-main.yml"
     },
     "scifio/scifio-lifesci": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build-main.yml"
     },
     "scifio/scifio-ome-xml": {
