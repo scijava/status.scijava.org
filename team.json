@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13 06:10 UTC",
+  "generated": "2026-08-14 06:08 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7594,7 +7594,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 172,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9890,6 +9890,10 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
+          },
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -19705,7 +19709,7 @@
       },
       "reviewer_prs": 80,
       "support_issues": 1463,
-      "total": 1937
+      "total": 1938
     },
     {
       "component_count": 1,
@@ -26319,7 +26323,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26387,19 +26391,18 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 268,
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
-          },
-          {
-            "number": 311,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.6.0 to 1.6.1",
-            "url": "https://github.com/morphonets/SNT/pull/311"
           }
         ],
         "support_issues": [
@@ -26459,7 +26462,7 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 1,
       "support_issues": 9,
       "total": 19
     },
