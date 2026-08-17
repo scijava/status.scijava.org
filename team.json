@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16 05:19 UTC",
+  "generated": "2026-08-17 05:26 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26394,6 +26394,18 @@
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
+          },
+          {
+            "number": 320,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-classic from 1.6.1 to 1.6.2",
+            "url": "https://github.com/morphonets/SNT/pull/320"
+          },
+          {
+            "number": 321,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-core from 1.6.1 to 1.6.2",
+            "url": "https://github.com/morphonets/SNT/pull/321"
           }
         ],
         "support_issues": [
@@ -26450,12 +26462,48 @@
             "repo": "morphonets/SNT",
             "title": "Feature request:  Sholl: Extend \"skip somatic segments\" to multi-node soma paths?",
             "url": "https://github.com/morphonets/SNT/issues/266"
+          },
+          {
+            "number": 314,
+            "repo": "morphonets/SNT",
+            "title": "SNT Stream improvements",
+            "url": "https://github.com/morphonets/SNT/issues/314"
+          },
+          {
+            "number": 315,
+            "repo": "morphonets/SNT",
+            "title": "NodeProfiler PathProfiler retrieving empty profiles",
+            "url": "https://github.com/morphonets/SNT/issues/315"
+          },
+          {
+            "number": 316,
+            "repo": "morphonets/SNT",
+            "title": "Skeletonization unaware of streamed origin",
+            "url": "https://github.com/morphonets/SNT/issues/316"
+          },
+          {
+            "number": 317,
+            "repo": "morphonets/SNT",
+            "title": "AlongPathDetector and PeripathDetector erroring with generic out-of-bounds messages",
+            "url": "https://github.com/morphonets/SNT/issues/317"
+          },
+          {
+            "number": 318,
+            "repo": "morphonets/SNT",
+            "title": "Explorefit displaying empty stack",
+            "url": "https://github.com/morphonets/SNT/issues/318"
+          },
+          {
+            "number": 319,
+            "repo": "morphonets/SNT",
+            "title": "Multispectral Refinement erroring with generic message",
+            "url": "https://github.com/morphonets/SNT/issues/319"
           }
         ]
       },
-      "reviewer_prs": 1,
-      "support_issues": 9,
-      "total": 18
+      "reviewer_prs": 3,
+      "support_issues": 15,
+      "total": 26
     },
     {
       "component_count": 18,
