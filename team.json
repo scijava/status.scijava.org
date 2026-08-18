@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17 05:26 UTC",
+  "generated": "2026-08-18 05:21 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -5064,12 +5064,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 291,
-            "repo": "scijava/scijava",
-            "title": "Rename Op dependency",
-            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -6449,9 +6443,9 @@
           }
         ]
       },
-      "reviewer_prs": 16,
+      "reviewer_prs": 15,
       "support_issues": 229,
-      "total": 263
+      "total": 262
     },
     {
       "component_count": 11,
@@ -10728,12 +10722,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 291,
-            "repo": "scijava/scijava",
-            "title": "Rename Op dependency",
-            "url": "https://github.com/scijava/scijava/pull/291"
           },
           {
             "number": 91,
@@ -19703,9 +19691,9 @@
           }
         ]
       },
-      "reviewer_prs": 80,
+      "reviewer_prs": 79,
       "support_issues": 1463,
-      "total": 1937
+      "total": 1936
     },
     {
       "component_count": 1,
@@ -20424,12 +20412,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 291,
-            "repo": "scijava/scijava",
-            "title": "Rename Op dependency",
-            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -20825,9 +20807,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 1,
       "support_issues": 65,
-      "total": 72
+      "total": 71
     },
     {
       "component_count": 2,
@@ -21484,12 +21466,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 291,
-            "repo": "scijava/scijava",
-            "title": "Rename Op dependency",
-            "url": "https://github.com/scijava/scijava/pull/291"
           }
         ],
         "support_issues": [
@@ -22665,9 +22641,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 3,
       "support_issues": 195,
-      "total": 204
+      "total": 203
     },
     {
       "component_count": 3,
