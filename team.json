@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 05:21 UTC",
+  "generated": "2026-08-19 05:21 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26692,22 +26692,10 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/336"
           },
           {
-            "number": 345,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Rewrite MATLAB import functions with readtable()",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/345"
-          },
-          {
             "number": 348,
             "repo": "trackmate-sc/TrackMate",
             "title": "Add pixi support",
             "url": "https://github.com/trackmate-sc/TrackMate/pull/348"
-          },
-          {
-            "number": 350,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Rewrite MATLAB import functions with readstruct()",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/350"
           },
           {
             "number": 351,
@@ -26953,9 +26941,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 12,
       "support_issues": 35,
-      "total": 66
+      "total": 64
     },
     {
       "component_count": 2,
