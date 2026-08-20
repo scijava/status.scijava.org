@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19 05:21 UTC",
+  "generated": "2026-08-20 05:22 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3252,6 +3252,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
+            "number": 231,
+            "repo": "saalfeldlab/n5",
+            "title": "Revise KeyValueAccess, handling of dialect differences, and metadata caching",
+            "url": "https://github.com/saalfeldlab/n5/pull/231"
+          },
+          {
             "number": 8,
             "repo": "saalfeldlab/n5-blosc",
             "title": "Unpin enforcer version",
@@ -4809,9 +4815,9 @@
           }
         ]
       },
-      "reviewer_prs": 36,
+      "reviewer_prs": 37,
       "support_issues": 246,
-      "total": 325
+      "total": 326
     },
     {
       "component_count": 1,
@@ -6605,6 +6611,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/164"
           },
           {
+            "number": 231,
+            "repo": "saalfeldlab/n5",
+            "title": "Revise KeyValueAccess, handling of dialect differences, and metadata caching",
+            "url": "https://github.com/saalfeldlab/n5/pull/231"
+          },
+          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -7280,9 +7292,9 @@
           }
         ]
       },
-      "reviewer_prs": 13,
+      "reviewer_prs": 14,
       "support_issues": 103,
-      "total": 129
+      "total": 130
     },
     {
       "component_count": 6,
@@ -7588,7 +7600,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 172,
+      "maintainer_releases": 173,
       "popups": {
         "components": [
           {
@@ -9884,6 +9896,10 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
+          },
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -19693,7 +19709,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1463,
-      "total": 1936
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -26295,7 +26311,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26363,25 +26379,18 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 268,
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
-          },
-          {
-            "number": 320,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.6.1 to 1.6.2",
-            "url": "https://github.com/morphonets/SNT/pull/320"
-          },
-          {
-            "number": 321,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-core from 1.6.1 to 1.6.2",
-            "url": "https://github.com/morphonets/SNT/pull/321"
           }
         ],
         "support_issues": [
@@ -26477,9 +26486,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 1,
       "support_issues": 15,
-      "total": 26
+      "total": 25
     },
     {
       "component_count": 18,
