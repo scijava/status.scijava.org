@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21 05:24 UTC",
+  "generated": "2026-08-22 05:18 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -1637,6 +1637,12 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/issues/164"
           },
           {
+            "number": 167,
+            "repo": "JaneliaSciComp/BigStitcher",
+            "title": "Missing metadata in HDF5 fusion leads to error opening file",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher/issues/167"
+          },
+          {
             "number": 1,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "I made a Docker Image",
@@ -2293,8 +2299,8 @@
         ]
       },
       "reviewer_prs": 27,
-      "support_issues": 299,
-      "total": 346
+      "support_issues": 300,
+      "total": 347
     },
     {
       "component_count": 8,
@@ -23284,6 +23290,12 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/issues/164"
           },
           {
+            "number": 167,
+            "repo": "JaneliaSciComp/BigStitcher",
+            "title": "Missing metadata in HDF5 fusion leads to error opening file",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher/issues/167"
+          },
+          {
             "number": 1,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "I made a Docker Image",
@@ -23466,8 +23478,8 @@
         ]
       },
       "reviewer_prs": 7,
-      "support_issues": 121,
-      "total": 129
+      "support_issues": 122,
+      "total": 130
     },
     {
       "component_count": 8,
