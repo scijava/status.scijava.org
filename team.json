@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23 05:20 UTC",
+  "generated": "2026-08-24 05:30 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26403,6 +26403,30 @@
             "repo": "morphonets/SNT",
             "title": "Bump sc.iview:sciview from 0.4.0 to 0.5.0",
             "url": "https://github.com/morphonets/SNT/pull/268"
+          },
+          {
+            "number": 322,
+            "repo": "morphonets/SNT",
+            "title": "Bump com.github.haifengl:smile-base from 4.4.0 to 6.3.0",
+            "url": "https://github.com/morphonets/SNT/pull/322"
+          },
+          {
+            "number": 323,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-classic from 1.6.2 to 1.6.3",
+            "url": "https://github.com/morphonets/SNT/pull/323"
+          },
+          {
+            "number": 324,
+            "repo": "morphonets/SNT",
+            "title": "Bump ch.qos.logback:logback-core from 1.6.2 to 1.6.3",
+            "url": "https://github.com/morphonets/SNT/pull/324"
+          },
+          {
+            "number": 325,
+            "repo": "morphonets/SNT",
+            "title": "Bump smile-core.version from 4.4.0 to 6.3.0",
+            "url": "https://github.com/morphonets/SNT/pull/325"
           }
         ],
         "support_issues": [
@@ -26498,9 +26522,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 5,
       "support_issues": 15,
-      "total": 25
+      "total": 29
     },
     {
       "component_count": 18,
