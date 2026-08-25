@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24 05:30 UTC",
+  "generated": "2026-08-25 05:24 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -457,6 +457,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
+          },
+          {
+            "number": 101,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
           },
           {
             "number": 130,
@@ -2298,9 +2304,9 @@
           }
         ]
       },
-      "reviewer_prs": 27,
+      "reviewer_prs": 28,
       "support_issues": 300,
-      "total": 347
+      "total": 348
     },
     {
       "component_count": 8,
@@ -22740,6 +22746,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Cross Correlation Popup (located in Display / Verify)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
+          },
+          {
+            "number": 101,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
           }
         ],
         "support_issues": [
@@ -23477,9 +23489,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 8,
       "support_issues": 122,
-      "total": 130
+      "total": 131
     },
     {
       "component_count": 8,
@@ -25662,6 +25674,12 @@
             "repo": "imagej/ImageJ",
             "title": "Unify metadata path between uncompressed and compressed",
             "url": "https://github.com/imagej/ImageJ/pull/300"
+          },
+          {
+            "number": 301,
+            "repo": "imagej/ImageJ",
+            "title": "Fix .raw files being detected as text or other formats",
+            "url": "https://github.com/imagej/ImageJ/pull/301"
           }
         ],
         "support_issues": [
@@ -26135,9 +26153,9 @@
           }
         ]
       },
-      "reviewer_prs": 10,
+      "reviewer_prs": 11,
       "support_issues": 78,
-      "total": 89
+      "total": 90
     },
     {
       "component_count": 1,
