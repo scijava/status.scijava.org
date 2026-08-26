@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25 05:24 UTC",
+  "generated": "2026-08-26 05:54 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -453,16 +453,16 @@
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
           },
           {
-            "number": 93,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Cross Correlation Popup (located in Display / Verify)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
             "number": 101,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
+          },
+          {
+            "number": 102,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Use metadata to infer dataset axis order (zarr)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
           },
           {
             "number": 130,
@@ -22742,16 +22742,16 @@
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
           },
           {
-            "number": 93,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Cross Correlation Popup (located in Display / Verify)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/93"
-          },
-          {
             "number": 101,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
+          },
+          {
+            "number": 102,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Use metadata to infer dataset axis order (zarr)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
           }
         ],
         "support_issues": [
@@ -26429,18 +26429,6 @@
             "url": "https://github.com/morphonets/SNT/pull/322"
           },
           {
-            "number": 323,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-classic from 1.6.2 to 1.6.3",
-            "url": "https://github.com/morphonets/SNT/pull/323"
-          },
-          {
-            "number": 324,
-            "repo": "morphonets/SNT",
-            "title": "Bump ch.qos.logback:logback-core from 1.6.2 to 1.6.3",
-            "url": "https://github.com/morphonets/SNT/pull/324"
-          },
-          {
             "number": 325,
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.3.0",
@@ -26540,9 +26528,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 3,
       "support_issues": 15,
-      "total": 29
+      "total": 27
     },
     {
       "component_count": 18,
