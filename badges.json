@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-26T05:40:18Z",
+  "generated": "2026-08-27T16:00:16Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
     "JaneliaSciComp/multiview-reconstruction": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "JaneliaSciComp/n5-zstandard": {
@@ -638,7 +638,7 @@
       "workflow": "gradle.yml"
     },
     "ome/omero-model": {
-      "title": "Gradle - failing",
+      "title": "Gradle - passing",
       "workflow": "gradle.yml"
     },
     "ome/omero-renderer": {

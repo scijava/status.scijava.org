@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 05:54 UTC",
+  "generated": "2026-08-27 16:00 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -463,6 +463,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
+          },
+          {
+            "number": 103,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Nearest pixel wins distance",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/103"
           },
           {
             "number": 130,
@@ -2304,9 +2310,9 @@
           }
         ]
       },
-      "reviewer_prs": 28,
+      "reviewer_prs": 29,
       "support_issues": 300,
-      "total": 348
+      "total": 349
     },
     {
       "component_count": 8,
@@ -16526,6 +16532,12 @@
             "url": "https://github.com/scijava/parsington/issues/33"
           },
           {
+            "number": 36,
+            "repo": "scijava/parsington",
+            "title": "Replace if == Operators 50+ rows in StandardEvaluator execute with something faster?",
+            "url": "https://github.com/scijava/parsington/issues/36"
+          },
+          {
             "number": 24,
             "repo": "scijava/scijava",
             "title": "Consolidate generics reasoning dependencies",
@@ -19720,8 +19732,8 @@
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1463,
-      "total": 1937
+      "support_issues": 1464,
+      "total": 1938
     },
     {
       "component_count": 1,
@@ -22752,6 +22764,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
+          },
+          {
+            "number": 103,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Nearest pixel wins distance",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/103"
           }
         ],
         "support_issues": [
@@ -23489,9 +23507,9 @@
           }
         ]
       },
-      "reviewer_prs": 8,
+      "reviewer_prs": 9,
       "support_issues": 122,
-      "total": 131
+      "total": 132
     },
     {
       "component_count": 8,
