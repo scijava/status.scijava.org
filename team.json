@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27 16:00 UTC",
+  "generated": "2026-08-28 17:00 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -463,12 +463,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
-          },
-          {
-            "number": 103,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Nearest pixel wins distance",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/103"
           },
           {
             "number": 130,
@@ -2310,9 +2304,9 @@
           }
         ]
       },
-      "reviewer_prs": 29,
+      "reviewer_prs": 28,
       "support_issues": 300,
-      "total": 349
+      "total": 348
     },
     {
       "component_count": 8,
@@ -22764,12 +22758,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
-          },
-          {
-            "number": 103,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Nearest pixel wins distance",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/103"
           }
         ],
         "support_issues": [
@@ -23507,9 +23495,9 @@
           }
         ]
       },
-      "reviewer_prs": 9,
+      "reviewer_prs": 8,
       "support_issues": 122,
-      "total": 132
+      "total": 131
     },
     {
       "component_count": 8,
@@ -26791,10 +26779,10 @@
             "url": "https://github.com/trackmate-sc/TrackMate-Ilastik/pull/6"
           },
           {
-            "number": 1,
+            "number": 4,
             "repo": "trackmate-sc/TrackMate-MorphoLibJ",
-            "title": "Support 3D segmentation with TrackMate-MorphoLibJ.",
-            "url": "https://github.com/trackmate-sc/TrackMate-MorphoLibJ/pull/1"
+            "title": "Support 3D segmentation with TrackMate-MorphoLibJ with TrackMate v9",
+            "url": "https://github.com/trackmate-sc/TrackMate-MorphoLibJ/pull/4"
           }
         ],
         "support_issues": [
