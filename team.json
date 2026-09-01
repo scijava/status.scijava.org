@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31 11:14 UTC",
+  "generated": "2026-09-01 09:40 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3294,6 +3294,12 @@
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
           },
           {
+            "number": 65,
+            "repo": "saalfeldlab/n5-imglib2",
+            "title": "Fix saveRegion for zarr writers",
+            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
+          },
+          {
             "number": 16,
             "repo": "saalfeldlab/n5-universe",
             "title": "Use URI to find relative group path",
@@ -4827,9 +4833,9 @@
           }
         ]
       },
-      "reviewer_prs": 37,
+      "reviewer_prs": 38,
       "support_issues": 246,
-      "total": 326
+      "total": 327
     },
     {
       "component_count": 1,
@@ -6635,6 +6641,12 @@
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
           },
           {
+            "number": 65,
+            "repo": "saalfeldlab/n5-imglib2",
+            "title": "Fix saveRegion for zarr writers",
+            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
+          },
+          {
             "number": 16,
             "repo": "saalfeldlab/n5-universe",
             "title": "Use URI to find relative group path",
@@ -7304,9 +7316,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 15,
       "support_issues": 103,
-      "total": 130
+      "total": 131
     },
     {
       "component_count": 6,
@@ -21206,6 +21218,12 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
+          },
+          {
+            "number": 65,
+            "repo": "saalfeldlab/n5-imglib2",
+            "title": "Fix saveRegion for zarr writers",
+            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
           }
         ],
         "support_issues": [
@@ -21373,9 +21391,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 5,
       "support_issues": 27,
-      "total": 40
+      "total": 41
     },
     {
       "component_count": 1,
