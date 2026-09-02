@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01 09:40 UTC",
+  "generated": "2026-09-02 09:11 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26513,48 +26513,12 @@
             "repo": "morphonets/SNT",
             "title": "Feature request:  Sholl: Extend \"skip somatic segments\" to multi-node soma paths?",
             "url": "https://github.com/morphonets/SNT/issues/266"
-          },
-          {
-            "number": 314,
-            "repo": "morphonets/SNT",
-            "title": "SNT Stream improvements",
-            "url": "https://github.com/morphonets/SNT/issues/314"
-          },
-          {
-            "number": 315,
-            "repo": "morphonets/SNT",
-            "title": "NodeProfiler PathProfiler retrieving empty profiles",
-            "url": "https://github.com/morphonets/SNT/issues/315"
-          },
-          {
-            "number": 316,
-            "repo": "morphonets/SNT",
-            "title": "Skeletonization unaware of streamed origin",
-            "url": "https://github.com/morphonets/SNT/issues/316"
-          },
-          {
-            "number": 317,
-            "repo": "morphonets/SNT",
-            "title": "AlongPathDetector and PeripathDetector erroring with generic out-of-bounds messages",
-            "url": "https://github.com/morphonets/SNT/issues/317"
-          },
-          {
-            "number": 318,
-            "repo": "morphonets/SNT",
-            "title": "Explorefit displaying empty stack",
-            "url": "https://github.com/morphonets/SNT/issues/318"
-          },
-          {
-            "number": 319,
-            "repo": "morphonets/SNT",
-            "title": "Multispectral Refinement erroring with generic message",
-            "url": "https://github.com/morphonets/SNT/issues/319"
           }
         ]
       },
       "reviewer_prs": 3,
-      "support_issues": 15,
-      "total": 27
+      "support_issues": 9,
+      "total": 21
     },
     {
       "component_count": 18,
@@ -26801,6 +26765,12 @@
             "repo": "trackmate-sc/TrackMate-MorphoLibJ",
             "title": "Support 3D segmentation with TrackMate-MorphoLibJ with TrackMate v9",
             "url": "https://github.com/trackmate-sc/TrackMate-MorphoLibJ/pull/4"
+          },
+          {
+            "number": 4,
+            "repo": "trackmate-sc/TrackMate-Weka",
+            "title": "Support 3D segmentation with TrackMate-Weka",
+            "url": "https://github.com/trackmate-sc/TrackMate-Weka/pull/4"
           }
         ],
         "support_issues": [
@@ -27016,9 +26986,9 @@
           }
         ]
       },
-      "reviewer_prs": 12,
+      "reviewer_prs": 13,
       "support_issues": 35,
-      "total": 64
+      "total": 65
     },
     {
       "component_count": 2,
