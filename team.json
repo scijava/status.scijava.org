@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02 09:11 UTC",
+  "generated": "2026-09-03 09:18 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 9,
+      "maintainer_releases": 8,
       "popups": {
         "components": [
           {
@@ -311,10 +311,6 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
-            "ga": "net.imglib2:imglib2-realtransform",
-            "url": "https://github.com/imglib/imglib2-realtransform"
-          },
-          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -399,12 +395,6 @@
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
           },
           {
-            "number": 54,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "fix RealTransformFiniteDerivatives copy",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/54"
-          },
-          {
             "number": 44,
             "repo": "imglib/imglib2-roi",
             "title": "Sparse bitmask",
@@ -463,6 +453,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
+          },
+          {
+            "number": 104,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "TPS: affine seeding",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/104"
           },
           {
             "number": 130,
@@ -2306,7 +2302,7 @@
       },
       "reviewer_prs": 28,
       "support_issues": 300,
-      "total": 348
+      "total": 347
     },
     {
       "component_count": 8,
@@ -2770,7 +2766,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 21,
+      "maintainer_releases": 20,
       "popups": {
         "components": [
           {
@@ -3072,10 +3068,6 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
-            "ga": "net.imglib2:imglib2-realtransform",
-            "url": "https://github.com/imglib/imglib2-realtransform"
-          },
-          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -3220,12 +3212,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 54,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "fix RealTransformFiniteDerivatives copy",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/54"
           },
           {
             "number": 44,
@@ -4833,9 +4819,9 @@
           }
         ]
       },
-      "reviewer_prs": 38,
+      "reviewer_prs": 37,
       "support_issues": 246,
-      "total": 327
+      "total": 325
     },
     {
       "component_count": 1,
@@ -7624,7 +7610,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 173,
+      "maintainer_releases": 172,
       "popups": {
         "components": [
           {
@@ -9908,10 +9894,6 @@
           {
             "ga": "net.imglib2:imglib2-imglyb",
             "url": "https://github.com/imglib/imglib2-imglyb"
-          },
-          {
-            "ga": "net.imglib2:imglib2-realtransform",
-            "url": "https://github.com/imglib/imglib2-realtransform"
           },
           {
             "ga": "net.imglib2:imglib2-roi",
@@ -19739,7 +19721,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1464,
-      "total": 1938
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -22776,6 +22758,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Use metadata to infer dataset axis order (zarr)",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
+          },
+          {
+            "number": 104,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "TPS: affine seeding",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/104"
           }
         ],
         "support_issues": [
@@ -23513,9 +23501,9 @@
           }
         ]
       },
-      "reviewer_prs": 8,
+      "reviewer_prs": 9,
       "support_issues": 122,
-      "total": 131
+      "total": 132
     },
     {
       "component_count": 8,
@@ -26513,12 +26501,18 @@
             "repo": "morphonets/SNT",
             "title": "Feature request:  Sholl: Extend \"skip somatic segments\" to multi-node soma paths?",
             "url": "https://github.com/morphonets/SNT/issues/266"
+          },
+          {
+            "number": 326,
+            "repo": "morphonets/SNT",
+            "title": "Stream mode improvements",
+            "url": "https://github.com/morphonets/SNT/issues/326"
           }
         ]
       },
       "reviewer_prs": 3,
-      "support_issues": 9,
-      "total": 21
+      "support_issues": 10,
+      "total": 22
     },
     {
       "component_count": 18,
@@ -27143,7 +27137,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 10,
+      "maintainer_releases": 9,
       "popups": {
         "components": [
           {
@@ -27321,10 +27315,6 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
-            "ga": "net.imglib2:imglib2-realtransform",
-            "url": "https://github.com/imglib/imglib2-realtransform"
-          },
-          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -27413,12 +27403,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 54,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "fix RealTransformFiniteDerivatives copy",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/54"
           },
           {
             "number": 44,
@@ -28594,9 +28578,9 @@
           }
         ]
       },
-      "reviewer_prs": 32,
+      "reviewer_prs": 31,
       "support_issues": 176,
-      "total": 228
+      "total": 226
     }
   ]
 }
