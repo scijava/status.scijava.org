@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T09:18:32Z",
+  "generated": "2026-09-04T09:12:17Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - failing",
@@ -162,7 +162,7 @@
       "workflow": "build-main.yml"
     },
     "fiji/Fiji_Plugins": {
-      "title": "build - passing",
+      "title": "build - no status",
       "workflow": "build.yml"
     },
     "fiji/FilamentDetector": {
