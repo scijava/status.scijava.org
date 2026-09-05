@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T09:12:17Z",
+  "generated": "2026-09-05T08:43:06Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - failing",
@@ -702,7 +702,7 @@
       "workflow": "build-main.yml"
     },
     "saalfeldlab/n5-zarr": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "saalfeldlab/trakem2-tps": {

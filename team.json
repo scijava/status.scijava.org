@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04 09:12 UTC",
+  "generated": "2026-09-05 08:43 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -2766,7 +2766,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 20,
+      "maintainer_releases": 19,
       "popups": {
         "components": [
           {
@@ -3072,10 +3072,6 @@
             "url": "https://github.com/imglib/imglib2-roi"
           },
           {
-            "ga": "org.janelia.saalfeldlab:n5-zarr",
-            "url": "https://github.com/saalfeldlab/n5-zarr"
-          },
-          {
             "ga": "sc.fiji:T2-NIT",
             "url": "https://github.com/trakem2/T2-NIT"
           },
@@ -3278,12 +3274,6 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
-          },
-          {
-            "number": 65,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "Fix saveRegion for zarr writers",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
           },
           {
             "number": 16,
@@ -4374,6 +4364,12 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/125"
           },
           {
+            "number": 126,
+            "repo": "saalfeldlab/n5-ij",
+            "title": "Save ImagePlus origin as translation",
+            "url": "https://github.com/saalfeldlab/n5-ij/issues/126"
+          },
+          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -4396,12 +4392,6 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "Deprecate / remove `N5Utils.openMipmaps` methods",
             "url": "https://github.com/saalfeldlab/n5-imglib2/issues/56"
-          },
-          {
-            "number": 62,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "N5Utils.saveRegion errors when trying to append to an existing image.",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/issues/62"
           },
           {
             "number": 3,
@@ -4819,9 +4809,9 @@
           }
         ]
       },
-      "reviewer_prs": 37,
+      "reviewer_prs": 36,
       "support_issues": 246,
-      "total": 325
+      "total": 323
     },
     {
       "component_count": 1,
@@ -6464,7 +6454,7 @@
       "dev_name": "John Bogovic",
       "dev_url": "https://imagej.net/User:Bogovic",
       "developer_features": 10,
-      "maintainer_releases": 3,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -6581,10 +6571,6 @@
             "url": "https://github.com/saalfeldlab/jitk-tps"
           },
           {
-            "ga": "org.janelia.saalfeldlab:n5-zarr",
-            "url": "https://github.com/saalfeldlab/n5-zarr"
-          },
-          {
             "ga": "sc.fiji:trakem2_tps",
             "url": "https://github.com/saalfeldlab/trakem2-tps"
           }
@@ -6625,12 +6611,6 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
-          },
-          {
-            "number": 65,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "Fix saveRegion for zarr writers",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
           },
           {
             "number": 16,
@@ -6885,12 +6865,6 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "Deprecate / remove `N5Utils.openMipmaps` methods",
             "url": "https://github.com/saalfeldlab/n5-imglib2/issues/56"
-          },
-          {
-            "number": 62,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "N5Utils.saveRegion errors when trying to append to an existing image.",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/issues/62"
           },
           {
             "number": 3,
@@ -7302,9 +7276,9 @@
           }
         ]
       },
-      "reviewer_prs": 15,
-      "support_issues": 103,
-      "total": 131
+      "reviewer_prs": 14,
+      "support_issues": 102,
+      "total": 128
     },
     {
       "component_count": 6,
@@ -21200,12 +21174,6 @@
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
             "url": "https://github.com/saalfeldlab/n5-imglib2/pull/14"
-          },
-          {
-            "number": 65,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "Fix saveRegion for zarr writers",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/pull/65"
           }
         ],
         "support_issues": [
@@ -21342,12 +21310,6 @@
             "url": "https://github.com/saalfeldlab/n5-imglib2/issues/56"
           },
           {
-            "number": 62,
-            "repo": "saalfeldlab/n5-imglib2",
-            "title": "N5Utils.saveRegion errors when trying to append to an existing image.",
-            "url": "https://github.com/saalfeldlab/n5-imglib2/issues/62"
-          },
-          {
             "number": 6,
             "repo": "saalfeldlab/z-spacing",
             "title": "Forcing monotonicity",
@@ -21373,9 +21335,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
-      "support_issues": 27,
-      "total": 41
+      "reviewer_prs": 4,
+      "support_issues": 26,
+      "total": 39
     },
     {
       "component_count": 1,
