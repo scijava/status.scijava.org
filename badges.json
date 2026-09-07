@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-06T09:03:29Z",
+  "generated": "2026-09-07T09:50:46Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "JaneliaSciComp/multiview-reconstruction": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "JaneliaSciComp/n5-zstandard": {
@@ -446,7 +446,7 @@
       "workflow": "build.yml"
     },
     "imagej/imagej-common": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "imagej/imagej-deprecated": {
@@ -598,7 +598,7 @@
       "workflow": "build-main.yml"
     },
     "morphonets/SNT": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "ome/ome-codecs": {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06 09:03 UTC",
+  "generated": "2026-09-07 09:50 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 8,
+      "maintainer_releases": 9,
       "popups": {
         "components": [
           {
@@ -313,6 +313,10 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
           },
           {
             "ga": "net.preibisch:multiview-reconstruction",
@@ -2302,7 +2306,7 @@
       },
       "reviewer_prs": 28,
       "support_issues": 300,
-      "total": 347
+      "total": 348
     },
     {
       "component_count": 8,
@@ -22648,7 +22652,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 1,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -22667,6 +22671,10 @@
         "debugger_bugs": [],
         "developer_features": [],
         "maintainer_releases": [
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
+          },
           {
             "ga": "net.preibisch:multiview-reconstruction",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
@@ -23465,7 +23473,7 @@
       },
       "reviewer_prs": 9,
       "support_issues": 122,
-      "total": 132
+      "total": 133
     },
     {
       "component_count": 8,
