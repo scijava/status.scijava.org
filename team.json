@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07 09:50 UTC",
+  "generated": "2026-09-08 09:15 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -5068,6 +5068,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 293,
+            "repo": "scijava/scijava",
+            "title": "Projection op improvments",
+            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -6447,9 +6453,9 @@
           }
         ]
       },
-      "reviewer_prs": 15,
+      "reviewer_prs": 16,
       "support_issues": 229,
-      "total": 262
+      "total": 263
     },
     {
       "component_count": 11,
@@ -10722,6 +10728,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 293,
+            "repo": "scijava/scijava",
+            "title": "Projection op improvments",
+            "url": "https://github.com/scijava/scijava/pull/293"
           },
           {
             "number": 91,
@@ -19697,9 +19709,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 80,
       "support_issues": 1464,
-      "total": 1937
+      "total": 1938
     },
     {
       "component_count": 1,
@@ -20418,6 +20430,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 293,
+            "repo": "scijava/scijava",
+            "title": "Projection op improvments",
+            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -20813,9 +20831,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 2,
       "support_issues": 65,
-      "total": 71
+      "total": 72
     },
     {
       "component_count": 2,
@@ -21466,6 +21484,12 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 293,
+            "repo": "scijava/scijava",
+            "title": "Projection op improvments",
+            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -22641,9 +22665,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 4,
       "support_issues": 195,
-      "total": 203
+      "total": 204
     },
     {
       "component_count": 3,
