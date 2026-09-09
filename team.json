@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 09:15 UTC",
+  "generated": "2026-09-09 09:19 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 9,
+      "maintainer_releases": 7,
       "popups": {
         "components": [
           {
@@ -313,14 +313,6 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
-          },
-          {
-            "ga": "net.preibisch:BigStitcher",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher"
-          },
-          {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
           },
           {
             "ga": "sc.fiji:SPIM_Registration",
@@ -2306,7 +2298,7 @@
       },
       "reviewer_prs": 28,
       "support_issues": 300,
-      "total": 348
+      "total": 346
     },
     {
       "component_count": 8,
@@ -4374,6 +4366,12 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/126"
           },
           {
+            "number": 127,
+            "repo": "saalfeldlab/n5-ij",
+            "title": "Dropping singleton dimensions with non-zero origin",
+            "url": "https://github.com/saalfeldlab/n5-ij/issues/127"
+          },
+          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -4814,8 +4812,8 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 246,
-      "total": 323
+      "support_issues": 247,
+      "total": 324
     },
     {
       "component_count": 1,
@@ -5068,12 +5066,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 293,
-            "repo": "scijava/scijava",
-            "title": "Projection op improvments",
-            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -6440,12 +6432,6 @@
             "url": "https://github.com/scijava/scijava/issues/288"
           },
           {
-            "number": 289,
-            "repo": "scijava/scijava",
-            "title": "Current projection APIs are hard to use",
-            "url": "https://github.com/scijava/scijava/issues/289"
-          },
-          {
             "number": 292,
             "repo": "scijava/scijava",
             "title": "Default projection assumes projection dimension interval starts at 0",
@@ -6453,9 +6439,9 @@
           }
         ]
       },
-      "reviewer_prs": 16,
-      "support_issues": 229,
-      "total": 263
+      "reviewer_prs": 15,
+      "support_issues": 228,
+      "total": 261
     },
     {
       "component_count": 11,
@@ -7594,7 +7580,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 172,
+      "maintainer_releases": 171,
       "popups": {
         "components": [
           {
@@ -9888,10 +9874,6 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          },
-          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -10728,12 +10710,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 293,
-            "repo": "scijava/scijava",
-            "title": "Projection op improvments",
-            "url": "https://github.com/scijava/scijava/pull/293"
           },
           {
             "number": 91,
@@ -16882,12 +16858,6 @@
             "url": "https://github.com/scijava/scijava/issues/288"
           },
           {
-            "number": 289,
-            "repo": "scijava/scijava",
-            "title": "Current projection APIs are hard to use",
-            "url": "https://github.com/scijava/scijava/issues/289"
-          },
-          {
             "number": 292,
             "repo": "scijava/scijava",
             "title": "Default projection assumes projection dimension interval starts at 0",
@@ -19709,9 +19679,9 @@
           }
         ]
       },
-      "reviewer_prs": 80,
-      "support_issues": 1464,
-      "total": 1938
+      "reviewer_prs": 79,
+      "support_issues": 1463,
+      "total": 1935
     },
     {
       "component_count": 1,
@@ -20430,12 +20400,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 293,
-            "repo": "scijava/scijava",
-            "title": "Projection op improvments",
-            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -20818,12 +20782,6 @@
             "url": "https://github.com/scijava/scijava/issues/288"
           },
           {
-            "number": 289,
-            "repo": "scijava/scijava",
-            "title": "Current projection APIs are hard to use",
-            "url": "https://github.com/scijava/scijava/issues/289"
-          },
-          {
             "number": 292,
             "repo": "scijava/scijava",
             "title": "Default projection assumes projection dimension interval starts at 0",
@@ -20831,9 +20789,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
-      "support_issues": 65,
-      "total": 72
+      "reviewer_prs": 1,
+      "support_issues": 64,
+      "total": 70
     },
     {
       "component_count": 2,
@@ -21484,12 +21442,6 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
-          },
-          {
-            "number": 293,
-            "repo": "scijava/scijava",
-            "title": "Projection op improvments",
-            "url": "https://github.com/scijava/scijava/pull/293"
           }
         ],
         "support_issues": [
@@ -22652,12 +22604,6 @@
             "url": "https://github.com/scijava/scijava/issues/288"
           },
           {
-            "number": 289,
-            "repo": "scijava/scijava",
-            "title": "Current projection APIs are hard to use",
-            "url": "https://github.com/scijava/scijava/issues/289"
-          },
-          {
             "number": 292,
             "repo": "scijava/scijava",
             "title": "Default projection assumes projection dimension interval starts at 0",
@@ -22665,9 +22611,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
-      "support_issues": 195,
-      "total": 204
+      "reviewer_prs": 3,
+      "support_issues": 194,
+      "total": 202
     },
     {
       "component_count": 3,
@@ -22676,7 +22622,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 2,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -22694,16 +22640,7 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [
-          {
-            "ga": "net.preibisch:BigStitcher",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher"
-          },
-          {
-            "ga": "net.preibisch:multiview-reconstruction",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 162,
@@ -23497,7 +23434,7 @@
       },
       "reviewer_prs": 9,
       "support_issues": 122,
-      "total": 133
+      "total": 131
     },
     {
       "component_count": 8,
@@ -26347,7 +26284,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26415,12 +26352,7 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26506,7 +26438,7 @@
       },
       "reviewer_prs": 3,
       "support_issues": 10,
-      "total": 22
+      "total": 21
     },
     {
       "component_count": 18,
