@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 09:19 UTC",
+  "generated": "2026-09-10 09:17 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -4372,6 +4372,12 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/127"
           },
           {
+            "number": 128,
+            "repo": "saalfeldlab/n5-ij",
+            "title": "Pixels are rendered at wrong position in BDV",
+            "url": "https://github.com/saalfeldlab/n5-ij/issues/128"
+          },
+          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -4812,8 +4818,8 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 247,
-      "total": 324
+      "support_issues": 248,
+      "total": 325
     },
     {
       "component_count": 1,
@@ -7580,7 +7586,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 171,
+      "maintainer_releases": 172,
       "popups": {
         "components": [
           {
@@ -9872,6 +9878,10 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
+          },
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -19681,7 +19691,7 @@
       },
       "reviewer_prs": 79,
       "support_issues": 1463,
-      "total": 1935
+      "total": 1936
     },
     {
       "component_count": 1,
@@ -26284,7 +26294,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26352,7 +26362,12 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 268,
@@ -26438,7 +26453,7 @@
       },
       "reviewer_prs": 3,
       "support_issues": 10,
-      "total": 21
+      "total": 22
     },
     {
       "component_count": 18,
@@ -27443,6 +27458,12 @@
             "repo": "bigdataviewer/bigdataviewer_fiji",
             "title": "Make downsampling method configurable",
             "url": "https://github.com/bigdataviewer/bigdataviewer_fiji/pull/22"
+          },
+          {
+            "number": 35,
+            "repo": "bigdataviewer/bigdataviewer_fiji",
+            "title": "use the origin in the ImagePlus to build the affine",
+            "url": "https://github.com/bigdataviewer/bigdataviewer_fiji/pull/35"
           }
         ],
         "support_issues": [
@@ -28504,9 +28525,9 @@
           }
         ]
       },
-      "reviewer_prs": 31,
+      "reviewer_prs": 32,
       "support_issues": 176,
-      "total": 226
+      "total": 227
     }
   ]
 }
