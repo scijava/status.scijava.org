@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10 09:17 UTC",
+  "generated": "2026-09-11 09:16 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -409,12 +409,6 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
           },
           {
-            "number": 6,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "look for tile locations under another key in .czi metadata",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/6"
-          },
-          {
             "number": 50,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "XmlIOFileMapImgLoaderLOCI2: Do not parse Z grouped file paths",
@@ -437,24 +431,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Modernize lazy flatfield correction code",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
-          },
-          {
-            "number": 101,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
-          },
-          {
-            "number": 102,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Use metadata to infer dataset axis order (zarr)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
-          },
-          {
-            "number": 106,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "fix Overlap to require expandOverlap parameter (TODO: remove all old …",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/106"
           },
           {
             "number": 130,
@@ -829,6 +805,12 @@
             "repo": "imglib/imglib2",
             "title": "RandomAccessibleIntervalView type variables hinder extension",
             "url": "https://github.com/imglib/imglib2/issues/377"
+          },
+          {
+            "number": 386,
+            "repo": "imglib/imglib2",
+            "title": "Add a ReshapeView",
+            "url": "https://github.com/imglib/imglib2/issues/386"
           },
           {
             "number": 3,
@@ -2296,9 +2278,9 @@
           }
         ]
       },
-      "reviewer_prs": 28,
-      "support_issues": 300,
-      "total": 346
+      "reviewer_prs": 24,
+      "support_issues": 301,
+      "total": 343
     },
     {
       "component_count": 8,
@@ -3742,6 +3724,12 @@
             "url": "https://github.com/imglib/imglib2/issues/377"
           },
           {
+            "number": 386,
+            "repo": "imglib/imglib2",
+            "title": "Add a ReshapeView",
+            "url": "https://github.com/imglib/imglib2/issues/386"
+          },
+          {
             "number": 3,
             "repo": "imglib/imglib2-algorithm",
             "title": "Morphology framework TODOs.",
@@ -4818,8 +4806,8 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 248,
-      "total": 325
+      "support_issues": 249,
+      "total": 326
     },
     {
       "component_count": 1,
@@ -10468,6 +10456,12 @@
             "repo": "imagej/imagej2",
             "title": "Add auditable spatial transform field Op",
             "url": "https://github.com/imagej/imagej2/pull/320"
+          },
+          {
+            "number": 115,
+            "repo": "imagej/imagej-common",
+            "title": "Handle some variants of the micro sign µ",
+            "url": "https://github.com/imagej/imagej-common/pull/115"
           },
           {
             "number": 176,
@@ -19689,9 +19683,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 80,
       "support_issues": 1463,
-      "total": 1936
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -22659,12 +22653,6 @@
             "url": "https://github.com/JaneliaSciComp/BigStitcher/pull/162"
           },
           {
-            "number": 6,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "look for tile locations under another key in .czi metadata",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/6"
-          },
-          {
             "number": 50,
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "XmlIOFileMapImgLoaderLOCI2: Do not parse Z grouped file paths",
@@ -22687,24 +22675,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Modernize lazy flatfield correction code",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
-          },
-          {
-            "number": 101,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Action History feature (records parameters / translates to BigStitcher-Spark)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/101"
-          },
-          {
-            "number": 102,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Use metadata to infer dataset axis order (zarr)",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/102"
-          },
-          {
-            "number": 106,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "fix Overlap to require expandOverlap parameter (TODO: remove all old …",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/106"
           }
         ],
         "support_issues": [
@@ -23442,9 +23412,9 @@
           }
         ]
       },
-      "reviewer_prs": 9,
+      "reviewer_prs": 5,
       "support_issues": 122,
-      "total": 131
+      "total": 127
     },
     {
       "component_count": 8,
@@ -27804,6 +27774,12 @@
             "url": "https://github.com/imglib/imglib2/issues/377"
           },
           {
+            "number": 386,
+            "repo": "imglib/imglib2",
+            "title": "Add a ReshapeView",
+            "url": "https://github.com/imglib/imglib2/issues/386"
+          },
+          {
             "number": 3,
             "repo": "imglib/imglib2-algorithm",
             "title": "Morphology framework TODOs.",
@@ -28526,8 +28502,8 @@
         ]
       },
       "reviewer_prs": 32,
-      "support_issues": 176,
-      "total": 227
+      "support_issues": 177,
+      "total": 228
     }
   ]
 }
