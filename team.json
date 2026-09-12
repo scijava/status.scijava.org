@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11 09:16 UTC",
+  "generated": "2026-09-12 08:56 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -4360,12 +4360,6 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/127"
           },
           {
-            "number": 128,
-            "repo": "saalfeldlab/n5-ij",
-            "title": "Pixels are rendered at wrong position in BDV",
-            "url": "https://github.com/saalfeldlab/n5-ij/issues/128"
-          },
-          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -4806,8 +4800,8 @@
         ]
       },
       "reviewer_prs": 36,
-      "support_issues": 249,
-      "total": 326
+      "support_issues": 248,
+      "total": 325
     },
     {
       "component_count": 1,
@@ -27412,6 +27406,12 @@
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/222"
           },
           {
+            "number": 226,
+            "repo": "bigdataviewer/bigdataviewer-core",
+            "title": "fix Multibox overlay sources ranges",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/226"
+          },
+          {
             "number": 4,
             "repo": "bigdataviewer/bigdataviewer_fiji",
             "title": "Drag/drop BigDataViewer .xml support",
@@ -28501,9 +28501,9 @@
           }
         ]
       },
-      "reviewer_prs": 32,
+      "reviewer_prs": 33,
       "support_issues": 177,
-      "total": 228
+      "total": 229
     }
   ]
 }
