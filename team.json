@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12 08:56 UTC",
+  "generated": "2026-09-13 09:53 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3116,6 +3116,12 @@
             "url": "https://github.com/axtimwalde/mpicbg/pull/87"
           },
           {
+            "number": 88,
+            "repo": "axtimwalde/mpicbg",
+            "title": "Vectorize sift and feature matching",
+            "url": "https://github.com/axtimwalde/mpicbg/pull/88"
+          },
+          {
             "number": 213,
             "repo": "imglib/imglib2",
             "title": "Lanczos range",
@@ -4799,9 +4805,9 @@
           }
         ]
       },
-      "reviewer_prs": 36,
+      "reviewer_prs": 37,
       "support_issues": 248,
-      "total": 325
+      "total": 326
     },
     {
       "component_count": 1,
