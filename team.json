@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13 09:53 UTC",
+  "generated": "2026-09-14 10:13 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26356,6 +26356,12 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.3.0",
             "url": "https://github.com/morphonets/SNT/pull/325"
+          },
+          {
+            "number": 327,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump org.slf4j:slf4j-api from 2.0.18 to 2.0.19",
+            "url": "https://github.com/morphonets/SNT/pull/327"
           }
         ],
         "support_issues": [
@@ -26421,9 +26427,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 4,
       "support_issues": 10,
-      "total": 22
+      "total": 23
     },
     {
       "component_count": 18,
