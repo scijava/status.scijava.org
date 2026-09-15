@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 10:13 UTC",
+  "generated": "2026-09-15 10:10 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -18512,6 +18512,12 @@
             "url": "https://github.com/scijava/scripting-renjin/issues/4"
           },
           {
+            "number": 13,
+            "repo": "scijava/scripting-scala",
+            "title": "Scala scripts do not work in Fiji",
+            "url": "https://github.com/scijava/scripting-scala/issues/13"
+          },
+          {
             "number": 1,
             "repo": "fiji/3D_Viewer",
             "title": "3D Viewer does not dispose properly",
@@ -19684,8 +19690,8 @@
         ]
       },
       "reviewer_prs": 80,
-      "support_issues": 1463,
-      "total": 1937
+      "support_issues": 1464,
+      "total": 1938
     },
     {
       "component_count": 1,
