@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15 10:10 UTC",
+  "generated": "2026-09-16 09:36 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -151,7 +151,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 7,
+      "maintainer_releases": 8,
       "popups": {
         "components": [
           {
@@ -313,6 +313,10 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
           },
           {
             "ga": "sc.fiji:SPIM_Registration",
@@ -2280,7 +2284,7 @@
       },
       "reviewer_prs": 24,
       "support_issues": 301,
-      "total": 343
+      "total": 344
     },
     {
       "component_count": 8,
@@ -22632,7 +22636,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -22650,7 +22654,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 162,
@@ -23420,7 +23429,7 @@
       },
       "reviewer_prs": 5,
       "support_issues": 122,
-      "total": 127
+      "total": 128
     },
     {
       "component_count": 8,
