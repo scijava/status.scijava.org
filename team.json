@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16 09:36 UTC",
+  "generated": "2026-09-17 09:44 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -4544,12 +4544,6 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/issues/84"
           },
           {
-            "number": 92,
-            "repo": "saalfeldlab/n5-zarr",
-            "title": "Padded Codec BufferUnderflowException",
-            "url": "https://github.com/saalfeldlab/n5-zarr/issues/92"
-          },
-          {
             "number": 8,
             "repo": "saalfeldlab/bigwarp",
             "title": "Allow different spot colors for each viewer",
@@ -4810,8 +4804,8 @@
         ]
       },
       "reviewer_prs": 37,
-      "support_issues": 248,
-      "total": 326
+      "support_issues": 247,
+      "total": 325
     },
     {
       "component_count": 1,
@@ -7011,12 +7005,6 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/issues/84"
           },
           {
-            "number": 92,
-            "repo": "saalfeldlab/n5-zarr",
-            "title": "Padded Codec BufferUnderflowException",
-            "url": "https://github.com/saalfeldlab/n5-zarr/issues/92"
-          },
-          {
             "number": 8,
             "repo": "saalfeldlab/bigwarp",
             "title": "Allow different spot colors for each viewer",
@@ -7271,8 +7259,8 @@
         ]
       },
       "reviewer_prs": 14,
-      "support_issues": 102,
-      "total": 128
+      "support_issues": 101,
+      "total": 127
     },
     {
       "component_count": 6,
@@ -18348,6 +18336,18 @@
             "url": "https://github.com/scijava/script-editor/issues/76"
           },
           {
+            "number": 77,
+            "repo": "scijava/script-editor",
+            "title": "Script Editor cancel/interrupt does not reliably stop a running script",
+            "url": "https://github.com/scijava/script-editor/issues/77"
+          },
+          {
+            "number": 78,
+            "repo": "scijava/script-editor",
+            "title": "TextEditor.createNewDocument fails to check for extensions in provided filenames",
+            "url": "https://github.com/scijava/script-editor/issues/78"
+          },
+          {
             "number": 5,
             "repo": "scijava/scripting-clojure",
             "title": "Script parameters lead to unbound system variables in Clojure",
@@ -19694,8 +19694,8 @@
         ]
       },
       "reviewer_prs": 80,
-      "support_issues": 1464,
-      "total": 1938
+      "support_issues": 1466,
+      "total": 1940
     },
     {
       "component_count": 1,
@@ -26371,12 +26371,6 @@
             "repo": "morphonets/SNT",
             "title": "Bump smile-core.version from 4.4.0 to 6.3.0",
             "url": "https://github.com/morphonets/SNT/pull/325"
-          },
-          {
-            "number": 327,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump org.slf4j:slf4j-api from 2.0.18 to 2.0.19",
-            "url": "https://github.com/morphonets/SNT/pull/327"
           }
         ],
         "support_issues": [
@@ -26442,9 +26436,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 3,
       "support_issues": 10,
-      "total": 23
+      "total": 22
     },
     {
       "component_count": 18,
