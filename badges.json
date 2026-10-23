@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T09:44:35Z",
+  "generated": "2026-10-23T18:32:43Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -178,14 +178,6 @@
       "workflow": "build-main.yml"
     },
     "fiji/Gray_Morphology": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/H5J_Loader_Plugin": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "fiji/HDF5_Vibez": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -526,7 +518,7 @@
       "workflow": "build-main.yml"
     },
     "imagej/imagej-ui-swing": {
-      "title": "build - passing",
+      "title": "build - no status",
       "workflow": "build-main.yml"
     },
     "imagej/imagej-updater": {
@@ -638,7 +630,7 @@
       "workflow": "gradle.yml"
     },
     "ome/omero-model": {
-      "title": "Gradle - failing",
+      "title": "Gradle - passing",
       "workflow": "gradle.yml"
     },
     "ome/omero-renderer": {
@@ -754,7 +746,7 @@
       "workflow": "build.yml"
     },
     "scijava/native-lib-loader": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/parsington": {
@@ -786,10 +778,6 @@
       "workflow": "build-main.yml"
     },
     "scijava/scijava-io-http": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "scijava/scijava-java3d": {
       "title": "build - no status",
       "workflow": "build-main.yml"
     },
@@ -833,14 +821,6 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "scijava/scijava-ui-swing": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "scijava/script-editor": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
     "scijava/script-editor-jython": {
       "title": "build - no status",
       "workflow": "build-main.yml"
@@ -874,7 +854,7 @@
       "workflow": "build-main.yml"
     },
     "scijava/scripting-jython": {
-      "title": "build - passing",
+      "title": "build - no status",
       "workflow": "build-main.yml"
     },
     "scijava/scripting-kotlin": {
