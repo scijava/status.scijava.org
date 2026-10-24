@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23 18:32 UTC",
+  "generated": "2026-10-24 09:22 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -25044,6 +25044,12 @@
             "repo": "imagej/ImageJ",
             "title": "Preserve HiDPI image detail when painting ROIs and overlays",
             "url": "https://github.com/imagej/ImageJ/pull/302"
+          },
+          {
+            "number": 303,
+            "repo": "imagej/ImageJ",
+            "title": "Linux: image windows can't grow past the primary monitor's size",
+            "url": "https://github.com/imagej/ImageJ/pull/303"
           }
         ],
         "support_issues": [
@@ -25517,9 +25523,9 @@
           }
         ]
       },
-      "reviewer_prs": 12,
+      "reviewer_prs": 13,
       "support_issues": 78,
-      "total": 91
+      "total": 92
     },
     {
       "component_count": 1,
