@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24 09:22 UTC",
+  "generated": "2026-10-24 21:50 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -8,7 +8,7 @@
       "dev_name": "Benjamin Wilhelm",
       "dev_url": "https://imagej.net/people/HedgehogCode",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -18,7 +18,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imagej:imagej-tensorflow",
+            "url": "https://github.com/imagej/imagej-tensorflow"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 34,
@@ -80,7 +85,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 8,
-      "total": 9
+      "total": 10
     },
     {
       "component_count": 1,
@@ -89,7 +94,7 @@
       "dev_name": "Varun Kapoor",
       "dev_url": "https://imagej.net/people/kapoorlab",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -99,7 +104,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:TrackMate-Oneat",
+            "url": "https://github.com/trackmate-sc/TrackMate-Oneat"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -112,7 +122,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 1,
-      "total": 1
+      "total": 2
     },
     {
       "component_count": 1,
@@ -146,7 +156,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 5,
+      "maintainer_releases": 12,
       "popups": {
         "components": [
           {
@@ -294,6 +304,10 @@
             "url": "https://github.com/imglib/imglib2"
           },
           {
+            "ga": "net.imglib2:imglib2-algorithm",
+            "url": "https://github.com/imglib/imglib2-algorithm"
+          },
+          {
             "ga": "net.imglib2:imglib2-algorithm-fft",
             "url": "https://github.com/imglib/imglib2-algorithm-fft"
           },
@@ -306,8 +320,32 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-imagej",
+            "url": "https://github.com/imglib/imglib2-imagej"
+          },
+          {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "sc.fiji:Descriptor_based_registration",
+            "url": "https://github.com/fiji/Descriptor_based_registration"
+          },
+          {
+            "ga": "sc.fiji:SPIM_Registration",
+            "url": "https://github.com/fiji/SPIM_Registration"
+          },
+          {
+            "ga": "sc.fiji:Stitching_",
+            "url": "https://github.com/fiji/Stitching"
+          },
+          {
+            "ga": "sc.fiji:legacy-imglib1",
+            "url": "https://github.com/fiji/legacy-imglib1"
           }
         ],
         "reviewer_prs": [
@@ -2297,7 +2335,7 @@
       },
       "reviewer_prs": 26,
       "support_issues": 304,
-      "total": 346
+      "total": 353
     },
     {
       "component_count": 8,
@@ -2306,7 +2344,7 @@
       "dev_name": "Albert Cardona",
       "dev_url": "https://imagej.net/User:Albertcardona",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -2344,7 +2382,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.scijava:script-editor-jython",
+            "url": "https://github.com/scijava/script-editor-jython"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -2393,7 +2436,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 7,
-      "total": 7
+      "total": 8
     },
     {
       "component_count": 3,
@@ -2756,7 +2799,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 10,
+      "maintainer_releases": 20,
       "popups": {
         "components": [
           {
@@ -3034,6 +3077,10 @@
             "url": "https://github.com/imglib/imglib2"
           },
           {
+            "ga": "net.imglib2:imglib2-algorithm",
+            "url": "https://github.com/imglib/imglib2-algorithm"
+          },
+          {
             "ga": "net.imglib2:imglib2-algorithm-fft",
             "url": "https://github.com/imglib/imglib2-algorithm-fft"
           },
@@ -3050,6 +3097,14 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-imagej",
+            "url": "https://github.com/imglib/imglib2-imagej"
+          },
+          {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
           },
@@ -3058,12 +3113,40 @@
             "url": "https://github.com/saalfeldlab/n5-hdf5"
           },
           {
+            "ga": "sc.fiji:T2-NIT",
+            "url": "https://github.com/trakem2/T2-NIT"
+          },
+          {
+            "ga": "sc.fiji:T2-TreelineGraph",
+            "url": "https://github.com/trakem2/T2-TreelineGraph"
+          },
+          {
             "ga": "sc.fiji:TrakEM2_",
             "url": "https://github.com/trakem2/TrakEM2"
           },
           {
+            "ga": "sc.fiji:VectorString",
+            "url": "https://github.com/trakem2/VectorString"
+          },
+          {
             "ga": "sc.fiji:bigwarp_fiji",
             "url": "https://github.com/saalfeldlab/bigwarp"
+          },
+          {
+            "ga": "sc.fiji:blockmatching_",
+            "url": "https://github.com/fiji/blockmatching"
+          },
+          {
+            "ga": "sc.fiji:legacy-imglib1",
+            "url": "https://github.com/fiji/legacy-imglib1"
+          },
+          {
+            "ga": "sc.fiji:panorama_",
+            "url": "https://github.com/fiji/panorama"
+          },
+          {
+            "ga": "sc.fiji:trakem2-transform",
+            "url": "https://github.com/trakem2/trakem2-transform"
           }
         ],
         "reviewer_prs": [
@@ -4825,7 +4908,7 @@
       },
       "reviewer_prs": 40,
       "support_issues": 252,
-      "total": 324
+      "total": 334
     },
     {
       "component_count": 1,
@@ -7329,7 +7412,7 @@
       "dev_name": "Daniel James White",
       "dev_url": "http://imagej.net/User:White",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 5,
       "popups": {
         "components": [
           {
@@ -7359,7 +7442,28 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:3D_Objects_Counter",
+            "url": "https://github.com/fiji/3D_Objects_Counter"
+          },
+          {
+            "ga": "sc.fiji:Colocalisation_Analysis",
+            "url": "https://github.com/fiji/Colocalisation_Analysis"
+          },
+          {
+            "ga": "sc.fiji:QuickPALM_",
+            "url": "https://github.com/fiji/QuickPALM"
+          },
+          {
+            "ga": "sc.fiji:Series_Labeler",
+            "url": "https://github.com/fiji/Series_Labeler"
+          },
+          {
+            "ga": "sc.fiji:Time_Stamper",
+            "url": "https://github.com/fiji/Time_Stamper"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 1,
@@ -7541,7 +7645,7 @@
       },
       "reviewer_prs": 2,
       "support_issues": 27,
-      "total": 29
+      "total": 34
     },
     {
       "component_count": 1,
@@ -7550,7 +7654,7 @@
       "dev_name": "Christopher M. Bruns",
       "dev_url": "https://github.com/cmbruns-hhmi",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -7560,13 +7664,18 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:Vaa3d_Reader",
+            "url": "https://github.com/fiji/Vaa3d_Reader"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": []
       },
       "reviewer_prs": 0,
       "support_issues": 0,
-      "total": 0
+      "total": 1
     },
     {
       "component_count": 1,
@@ -7600,7 +7709,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 41,
+      "maintainer_releases": 193,
       "popups": {
         "components": [
           {
@@ -9764,8 +9873,32 @@
         ],
         "maintainer_releases": [
           {
+            "ga": "io.scif:scifio-bf-compat",
+            "url": "https://github.com/scifio/scifio-bf-compat"
+          },
+          {
+            "ga": "io.scif:scifio-cli",
+            "url": "https://github.com/scifio/scifio-cli"
+          },
+          {
+            "ga": "io.scif:scifio-hdf5",
+            "url": "https://github.com/scifio/scifio-hdf5"
+          },
+          {
+            "ga": "io.scif:scifio-jai-imageio",
+            "url": "https://github.com/scifio/scifio-jai-imageio"
+          },
+          {
+            "ga": "io.scif:scifio-labeling",
+            "url": "https://github.com/scifio/scifio-labeling"
+          },
+          {
             "ga": "io.scif:scifio-lifesci",
             "url": "https://github.com/scifio/scifio-lifesci"
+          },
+          {
+            "ga": "io.scif:scifio-ome-xml",
+            "url": "https://github.com/scifio/scifio-ome-xml"
           },
           {
             "ga": "net.imagej:ij1-patcher",
@@ -9776,12 +9909,88 @@
             "url": "https://github.com/imagej/imagej2"
           },
           {
+            "ga": "net.imagej:imagej-common",
+            "url": "https://github.com/imagej/imagej-common"
+          },
+          {
+            "ga": "net.imagej:imagej-deprecated",
+            "url": "https://github.com/imagej/imagej-deprecated"
+          },
+          {
+            "ga": "net.imagej:imagej-matlab",
+            "url": "https://github.com/imagej/imagej-matlab"
+          },
+          {
+            "ga": "net.imagej:imagej-mesh",
+            "url": "https://github.com/imagej/imagej-mesh"
+          },
+          {
+            "ga": "net.imagej:imagej-mesh-io",
+            "url": "https://github.com/imagej/imagej-mesh-io"
+          },
+          {
+            "ga": "net.imagej:imagej-notebook",
+            "url": "https://github.com/imagej/imagej-notebook"
+          },
+          {
+            "ga": "net.imagej:imagej-opencv",
+            "url": "https://github.com/imagej/imagej-opencv"
+          },
+          {
+            "ga": "net.imagej:imagej-ops",
+            "url": "https://github.com/imagej/imagej-ops"
+          },
+          {
+            "ga": "net.imagej:imagej-plugins-commands",
+            "url": "https://github.com/imagej/imagej-plugins-commands"
+          },
+          {
+            "ga": "net.imagej:imagej-plugins-tools",
+            "url": "https://github.com/imagej/imagej-plugins-tools"
+          },
+          {
+            "ga": "net.imagej:imagej-plugins-uploader-ssh",
+            "url": "https://github.com/imagej/imagej-plugins-uploader-ssh"
+          },
+          {
+            "ga": "net.imagej:imagej-plugins-uploader-webdav",
+            "url": "https://github.com/imagej/imagej-plugins-uploader-webdav"
+          },
+          {
             "ga": "net.imagej:imagej-scripting",
             "url": "https://github.com/imagej/imagej-scripting"
           },
           {
+            "ga": "net.imagej:imagej-server",
+            "url": "https://github.com/imagej/imagej-server"
+          },
+          {
+            "ga": "net.imagej:imagej-tensorflow",
+            "url": "https://github.com/imagej/imagej-tensorflow"
+          },
+          {
+            "ga": "net.imagej:imagej-ui-awt",
+            "url": "https://github.com/imagej/imagej-ui-awt"
+          },
+          {
+            "ga": "net.imagej:imagej-ui-swing",
+            "url": "https://github.com/imagej/imagej-ui-swing"
+          },
+          {
+            "ga": "net.imagej:imagej-updater",
+            "url": "https://github.com/imagej/imagej-updater"
+          },
+          {
+            "ga": "net.imagej:op-finder",
+            "url": "https://github.com/imagej/op-finder"
+          },
+          {
             "ga": "net.imglib2:imglib2",
             "url": "https://github.com/imglib/imglib2"
+          },
+          {
+            "ga": "net.imglib2:imglib2-algorithm",
+            "url": "https://github.com/imglib/imglib2-algorithm"
           },
           {
             "ga": "net.imglib2:imglib2-algorithm-fft",
@@ -9796,8 +10005,20 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-imagej",
+            "url": "https://github.com/imglib/imglib2-imagej"
+          },
+          {
             "ga": "net.imglib2:imglib2-imglyb",
             "url": "https://github.com/imglib/imglib2-imglyb"
+          },
+          {
+            "ga": "net.imglib2:imglib2-mesh",
+            "url": "https://github.com/imglib/imglib2-mesh"
+          },
+          {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
           },
           {
             "ga": "net.imglib2:imglib2-roi",
@@ -9812,6 +10033,10 @@
             "url": "https://github.com/scijava/app-launcher"
           },
           {
+            "ga": "org.scijava:minimaven",
+            "url": "https://github.com/scijava/minimaven"
+          },
+          {
             "ga": "org.scijava:native-lib-loader",
             "url": "https://github.com/scijava/native-lib-loader"
           },
@@ -9820,8 +10045,16 @@
             "url": "https://github.com/scijava/parsington"
           },
           {
+            "ga": "org.scijava:scijava-cache",
+            "url": "https://github.com/scijava/scijava-cache"
+          },
+          {
             "ga": "org.scijava:scijava-collections",
             "url": "https://github.com/scijava/scijava"
+          },
+          {
+            "ga": "org.scijava:scijava-common",
+            "url": "https://github.com/scijava/scijava-common"
           },
           {
             "ga": "org.scijava:scijava-common3",
@@ -9832,6 +10065,10 @@
             "url": "https://github.com/scijava/scijava"
           },
           {
+            "ga": "org.scijava:scijava-config",
+            "url": "https://github.com/scijava/scijava-config"
+          },
+          {
             "ga": "org.scijava:scijava-discovery",
             "url": "https://github.com/scijava/scijava"
           },
@@ -9840,12 +10077,24 @@
             "url": "https://github.com/scijava/scijava"
           },
           {
+            "ga": "org.scijava:scijava-grab",
+            "url": "https://github.com/scijava/scijava-grab"
+          },
+          {
+            "ga": "org.scijava:scijava-io-http",
+            "url": "https://github.com/scijava/scijava-io-http"
+          },
+          {
             "ga": "org.scijava:scijava-java3d",
             "url": "https://github.com/scijava/scijava-java3d"
           },
           {
             "ga": "org.scijava:scijava-legacy",
             "url": "https://github.com/scijava/scijava"
+          },
+          {
+            "ga": "org.scijava:scijava-log-slf4j",
+            "url": "https://github.com/scijava/scijava-log-slf4j"
           },
           {
             "ga": "org.scijava:scijava-meta",
@@ -9880,12 +10129,36 @@
             "url": "https://github.com/scijava/scijava"
           },
           {
+            "ga": "org.scijava:scijava-optional",
+            "url": "https://github.com/scijava/scijava-optional"
+          },
+          {
+            "ga": "org.scijava:scijava-plot",
+            "url": "https://github.com/scijava/scijava-plot"
+          },
+          {
+            "ga": "org.scijava:scijava-plugins-commands",
+            "url": "https://github.com/scijava/scijava-plugins-commands"
+          },
+          {
+            "ga": "org.scijava:scijava-plugins-text-markdown",
+            "url": "https://github.com/scijava/scijava-plugins-text-markdown"
+          },
+          {
+            "ga": "org.scijava:scijava-plugins-text-plain",
+            "url": "https://github.com/scijava/scijava-plugins-text-plain"
+          },
+          {
             "ga": "org.scijava:scijava-priority",
             "url": "https://github.com/scijava/scijava"
           },
           {
             "ga": "org.scijava:scijava-progress",
             "url": "https://github.com/scijava/scijava"
+          },
+          {
+            "ga": "org.scijava:scijava-search",
+            "url": "https://github.com/scijava/scijava-search"
           },
           {
             "ga": "org.scijava:scijava-struct",
@@ -9908,24 +10181,468 @@
             "url": "https://github.com/scijava/scijava-ui-awt"
           },
           {
+            "ga": "org.scijava:scijava-ui-swing",
+            "url": "https://github.com/scijava/scijava-ui-swing"
+          },
+          {
+            "ga": "org.scijava:script-editor-jython",
+            "url": "https://github.com/scijava/script-editor-jython"
+          },
+          {
+            "ga": "org.scijava:scripting-beanshell",
+            "url": "https://github.com/scijava/scripting-beanshell"
+          },
+          {
+            "ga": "org.scijava:scripting-clojure",
+            "url": "https://github.com/scijava/scripting-clojure"
+          },
+          {
+            "ga": "org.scijava:scripting-groovy",
+            "url": "https://github.com/scijava/scripting-groovy"
+          },
+          {
+            "ga": "org.scijava:scripting-java",
+            "url": "https://github.com/scijava/scripting-java"
+          },
+          {
+            "ga": "org.scijava:scripting-javascript",
+            "url": "https://github.com/scijava/scripting-javascript"
+          },
+          {
+            "ga": "org.scijava:scripting-jruby",
+            "url": "https://github.com/scijava/scripting-jruby"
+          },
+          {
             "ga": "org.scijava:scripting-jython",
             "url": "https://github.com/scijava/scripting-jython"
+          },
+          {
+            "ga": "org.scijava:scripting-kotlin",
+            "url": "https://github.com/scijava/scripting-kotlin"
+          },
+          {
+            "ga": "org.scijava:scripting-matlab",
+            "url": "https://github.com/scijava/scripting-matlab"
+          },
+          {
+            "ga": "org.scijava:scripting-python",
+            "url": "https://github.com/scijava/scripting-python"
+          },
+          {
+            "ga": "org.scijava:scripting-renjin",
+            "url": "https://github.com/scijava/scripting-renjin"
+          },
+          {
+            "ga": "org.scijava:scripting-scala",
+            "url": "https://github.com/scijava/scripting-scala"
+          },
+          {
+            "ga": "org.scijava:swing-checkbox-tree",
+            "url": "https://github.com/scijava/swing-checkbox-tree"
+          },
+          {
+            "ga": "org.scijava:ui-behaviour",
+            "url": "https://github.com/scijava/ui-behaviour"
+          },
+          {
+            "ga": "sc.fiji:3D_Blob_Segmentation",
+            "url": "https://github.com/fiji/3D_Blob_Segmentation"
+          },
+          {
+            "ga": "sc.fiji:3D_Objects_Counter",
+            "url": "https://github.com/fiji/3D_Objects_Counter"
+          },
+          {
+            "ga": "sc.fiji:3D_Viewer",
+            "url": "https://github.com/fiji/3D_Viewer"
+          },
+          {
+            "ga": "sc.fiji:AnalyzeSkeleton_",
+            "url": "https://github.com/fiji/AnalyzeSkeleton"
+          },
+          {
+            "ga": "sc.fiji:Anisotropic_Diffusion_2D",
+            "url": "https://github.com/fiji/Anisotropic_Diffusion_2D"
+          },
+          {
+            "ga": "sc.fiji:Archipelago_Plugins",
+            "url": "https://github.com/fiji/Archipelago_Plugins"
+          },
+          {
+            "ga": "sc.fiji:Arrow_",
+            "url": "https://github.com/fiji/Arrow"
+          },
+          {
+            "ga": "sc.fiji:Auto_Local_Threshold",
+            "url": "https://github.com/fiji/Auto_Local_Threshold"
+          },
+          {
+            "ga": "sc.fiji:Auto_Threshold",
+            "url": "https://github.com/fiji/Auto_Threshold"
+          },
+          {
+            "ga": "sc.fiji:BalloonSegmentation_",
+            "url": "https://github.com/fiji/BalloonSegmentation"
+          },
+          {
+            "ga": "sc.fiji:Bug_Submitter",
+            "url": "https://github.com/fiji/Bug_Submitter"
+          },
+          {
+            "ga": "sc.fiji:CPU_Meter",
+            "url": "https://github.com/fiji/CPU_Meter"
+          },
+          {
+            "ga": "sc.fiji:Calculator_Plus",
+            "url": "https://github.com/fiji/Calculator_Plus"
+          },
+          {
+            "ga": "sc.fiji:Cell_Counter",
+            "url": "https://github.com/fiji/Cell_Counter"
+          },
+          {
+            "ga": "sc.fiji:Colocalisation_Analysis",
+            "url": "https://github.com/fiji/Colocalisation_Analysis"
+          },
+          {
+            "ga": "sc.fiji:Color_Histogram",
+            "url": "https://github.com/fiji/Color_Histogram"
+          },
+          {
+            "ga": "sc.fiji:Color_Inspector_3D",
+            "url": "https://github.com/fiji/Color_Inspector_3D"
+          },
+          {
+            "ga": "sc.fiji:Colour_Deconvolution",
+            "url": "https://github.com/fiji/Colour_Deconvolution"
+          },
+          {
+            "ga": "sc.fiji:CorrectBleach_",
+            "url": "https://github.com/fiji/CorrectBleach"
+          },
+          {
+            "ga": "sc.fiji:Correct_3D_Drift",
+            "url": "https://github.com/fiji/Correct_3D_Drift"
+          },
+          {
+            "ga": "sc.fiji:Descriptor_based_registration",
+            "url": "https://github.com/fiji/Descriptor_based_registration"
+          },
+          {
+            "ga": "sc.fiji:Dichromacy_",
+            "url": "https://github.com/fiji/Dichromacy"
+          },
+          {
+            "ga": "sc.fiji:Directionality_",
+            "url": "https://github.com/fiji/Directionality"
+          },
+          {
+            "ga": "sc.fiji:FS_Align_TrakEM2",
+            "url": "https://github.com/fiji/FS_Align_TrakEM2"
+          },
+          {
+            "ga": "sc.fiji:Feature_Detection",
+            "url": "https://github.com/fiji/Feature_Detection"
+          },
+          {
+            "ga": "sc.fiji:Fiji_Archipelago",
+            "url": "https://github.com/fiji/Fiji_Archipelago"
+          },
+          {
+            "ga": "sc.fiji:Fiji_Developer",
+            "url": "https://github.com/fiji/Fiji_Developer"
+          },
+          {
+            "ga": "sc.fiji:Fiji_Package_Maker",
+            "url": "https://github.com/fiji/Fiji_Package_Maker"
+          },
+          {
+            "ga": "sc.fiji:Fiji_Plugins",
+            "url": "https://github.com/fiji/Fiji_Plugins"
+          },
+          {
+            "ga": "sc.fiji:FilamentDetector",
+            "url": "https://github.com/fiji/FilamentDetector"
+          },
+          {
+            "ga": "sc.fiji:FlowJ_",
+            "url": "https://github.com/fiji/FlowJ"
+          },
+          {
+            "ga": "sc.fiji:Graph_Cut",
+            "url": "https://github.com/fiji/Graph_Cut"
+          },
+          {
+            "ga": "sc.fiji:Gray_Morphology",
+            "url": "https://github.com/fiji/Gray_Morphology"
           },
           {
             "ga": "sc.fiji:HDF5_Vibez",
             "url": "https://github.com/fiji/HDF5_Vibez"
           },
           {
+            "ga": "sc.fiji:Helmholtz_Analysis",
+            "url": "https://github.com/fiji/Helmholtz_Analysis"
+          },
+          {
+            "ga": "sc.fiji:IJ_Robot",
+            "url": "https://github.com/fiji/IJ_Robot"
+          },
+          {
+            "ga": "sc.fiji:IO_",
+            "url": "https://github.com/fiji/IO"
+          },
+          {
+            "ga": "sc.fiji:Image_5D",
+            "url": "https://github.com/fiji/Image_5D"
+          },
+          {
+            "ga": "sc.fiji:Image_Expression_Parser",
+            "url": "https://github.com/fiji/Image_Expression_Parser"
+          },
+          {
+            "ga": "sc.fiji:Interactive_3D_Surface_Plot",
+            "url": "https://github.com/fiji/Interactive_3D_Surface_Plot"
+          },
+          {
+            "ga": "sc.fiji:IsoData_Classifier",
+            "url": "https://github.com/fiji/IsoData_Classifier"
+          },
+          {
+            "ga": "sc.fiji:Kuwahara_Filter",
+            "url": "https://github.com/fiji/Kuwahara_Filter"
+          },
+          {
+            "ga": "sc.fiji:KymographBuilder",
+            "url": "https://github.com/fiji/KymographBuilder"
+          },
+          {
+            "ga": "sc.fiji:LSM_Reader",
+            "url": "https://github.com/fiji/LSM_Reader"
+          },
+          {
+            "ga": "sc.fiji:LSM_Toolbox",
+            "url": "https://github.com/fiji/LSM_Toolbox"
+          },
+          {
+            "ga": "sc.fiji:Lasso_and_Blow_Tool",
+            "url": "https://github.com/fiji/Lasso_and_Blow_Tool"
+          },
+          {
+            "ga": "sc.fiji:Linear_Kuwahara",
+            "url": "https://github.com/fiji/Linear_Kuwahara"
+          },
+          {
+            "ga": "sc.fiji:LocalThickness_",
+            "url": "https://github.com/fiji/LocalThickness"
+          },
+          {
+            "ga": "sc.fiji:MTrack2_",
+            "url": "https://github.com/fiji/MTrack2"
+          },
+          {
+            "ga": "sc.fiji:M_I_P",
+            "url": "https://github.com/fiji/M_I_P"
+          },
+          {
+            "ga": "sc.fiji:MaMuT",
+            "url": "https://github.com/trackmate-sc/MaMuT"
+          },
+          {
+            "ga": "sc.fiji:Manual_Tracking",
+            "url": "https://github.com/fiji/Manual_Tracking"
+          },
+          {
+            "ga": "sc.fiji:Multi_Kymograph",
+            "url": "https://github.com/fiji/Multi_Kymograph"
+          },
+          {
+            "ga": "sc.fiji:OMEVisual",
+            "url": "https://github.com/fiji/OMEVisual"
+          },
+          {
+            "ga": "sc.fiji:PIV_analyser",
+            "url": "https://github.com/fiji/PIV_analyser"
+          },
+          {
+            "ga": "sc.fiji:QuickPALM_",
+            "url": "https://github.com/fiji/QuickPALM"
+          },
+          {
+            "ga": "sc.fiji:RATS_",
+            "url": "https://github.com/fiji/RATS"
+          },
+          {
+            "ga": "sc.fiji:Reconstruct_Reader",
+            "url": "https://github.com/fiji/Reconstruct_Reader"
+          },
+          {
+            "ga": "sc.fiji:SPIM_Opener",
+            "url": "https://github.com/fiji/SPIM_Opener"
+          },
+          {
+            "ga": "sc.fiji:SPIM_Registration",
+            "url": "https://github.com/fiji/SPIM_Registration"
+          },
+          {
+            "ga": "sc.fiji:Samples_",
+            "url": "https://github.com/fiji/Samples"
+          },
+          {
+            "ga": "sc.fiji:Series_Labeler",
+            "url": "https://github.com/fiji/Series_Labeler"
+          },
+          {
+            "ga": "sc.fiji:Siox_Segmentation",
+            "url": "https://github.com/fiji/Siox_Segmentation"
+          },
+          {
+            "ga": "sc.fiji:Skeletonize3D_",
+            "url": "https://github.com/fiji/Skeletonize3D"
+          },
+          {
+            "ga": "sc.fiji:SplineDeformationGenerator_",
+            "url": "https://github.com/fiji/SplineDeformationGenerator"
+          },
+          {
+            "ga": "sc.fiji:Stack_Manipulation",
+            "url": "https://github.com/fiji/Stack_Manipulation"
+          },
+          {
+            "ga": "sc.fiji:Statistical_Region_Merging",
+            "url": "https://github.com/fiji/Statistical_Region_Merging"
+          },
+          {
+            "ga": "sc.fiji:Stitching_",
+            "url": "https://github.com/fiji/Stitching"
+          },
+          {
+            "ga": "sc.fiji:Sync_Win",
+            "url": "https://github.com/fiji/Sync_Win"
+          },
+          {
+            "ga": "sc.fiji:T2-NIT",
+            "url": "https://github.com/trakem2/T2-NIT"
+          },
+          {
+            "ga": "sc.fiji:T2-TreelineGraph",
+            "url": "https://github.com/trakem2/T2-TreelineGraph"
+          },
+          {
+            "ga": "sc.fiji:Thread_Killer",
+            "url": "https://github.com/fiji/Thread_Killer"
+          },
+          {
+            "ga": "sc.fiji:Time_Lapse",
+            "url": "https://github.com/fiji/Time_Lapse"
+          },
+          {
+            "ga": "sc.fiji:Time_Stamper",
+            "url": "https://github.com/fiji/Time_Stamper"
+          },
+          {
+            "ga": "sc.fiji:TopoJ_",
+            "url": "https://github.com/fiji/TopoJ"
+          },
+          {
             "ga": "sc.fiji:TrackMate",
             "url": "https://github.com/trackmate-sc/TrackMate"
+          },
+          {
+            "ga": "sc.fiji:Trainable_Segmentation",
+            "url": "https://github.com/fiji/Trainable_Segmentation"
           },
           {
             "ga": "sc.fiji:TrakEM2_",
             "url": "https://github.com/trakem2/TrakEM2"
           },
           {
+            "ga": "sc.fiji:TrakEM2_Archipelago",
+            "url": "https://github.com/fiji/TrakEM2_Archipelago"
+          },
+          {
+            "ga": "sc.fiji:VIB-lib",
+            "url": "https://github.com/fiji/VIB-lib"
+          },
+          {
+            "ga": "sc.fiji:VIB_",
+            "url": "https://github.com/fiji/VIB"
+          },
+          {
+            "ga": "sc.fiji:Vaa3d_Reader",
+            "url": "https://github.com/fiji/Vaa3d_Reader"
+          },
+          {
+            "ga": "sc.fiji:Vaa3d_Writer",
+            "url": "https://github.com/fiji/Vaa3d_Writer"
+          },
+          {
+            "ga": "sc.fiji:VectorString",
+            "url": "https://github.com/trakem2/VectorString"
+          },
+          {
+            "ga": "sc.fiji:Video_Editing",
+            "url": "https://github.com/fiji/Video_Editing"
+          },
+          {
+            "ga": "sc.fiji:Volume_Calculator",
+            "url": "https://github.com/fiji/Volume_Calculator"
+          },
+          {
+            "ga": "sc.fiji:Volume_Viewer",
+            "url": "https://github.com/fiji/Volume_Viewer"
+          },
+          {
+            "ga": "sc.fiji:bUnwarpJ_",
+            "url": "https://github.com/fiji/bUnwarpJ"
+          },
+          {
+            "ga": "sc.fiji:bij",
+            "url": "https://github.com/fiji/bij"
+          },
+          {
+            "ga": "sc.fiji:blockmatching_",
+            "url": "https://github.com/fiji/blockmatching"
+          },
+          {
             "ga": "sc.fiji:fiji",
             "url": "https://github.com/fiji/fiji"
+          },
+          {
+            "ga": "sc.fiji:fiji-lib",
+            "url": "https://github.com/fiji/fiji-lib"
+          },
+          {
+            "ga": "sc.fiji:legacy-imglib1",
+            "url": "https://github.com/fiji/legacy-imglib1"
+          },
+          {
+            "ga": "sc.fiji:level_sets",
+            "url": "https://github.com/fiji/level_sets"
+          },
+          {
+            "ga": "sc.fiji:pal-optimization",
+            "url": "https://github.com/fiji/pal-optimization"
+          },
+          {
+            "ga": "sc.fiji:panorama_",
+            "url": "https://github.com/fiji/panorama"
+          },
+          {
+            "ga": "sc.fiji:register_virtual_stack_slices",
+            "url": "https://github.com/fiji/register_virtual_stack_slices"
+          },
+          {
+            "ga": "sc.fiji:registration_3d",
+            "url": "https://github.com/fiji/registration_3d"
+          },
+          {
+            "ga": "sc.fiji:trakem2-transform",
+            "url": "https://github.com/trakem2/trakem2-transform"
+          },
+          {
+            "ga": "sc.fiji:weave_jy2java",
+            "url": "https://github.com/fiji/weave_jy2java"
           }
         ],
         "reviewer_prs": [
@@ -19224,18 +19941,12 @@
             "repo": "fiji/fiji",
             "title": "\"Flatten\" rewrites the last part of an image title",
             "url": "https://github.com/fiji/fiji/issues/433"
-          },
-          {
-            "number": 436,
-            "repo": "fiji/fiji",
-            "title": "tunnel",
-            "url": "https://github.com/fiji/fiji/issues/436"
           }
         ]
       },
       "reviewer_prs": 78,
-      "support_issues": 1472,
-      "total": 1814
+      "support_issues": 1471,
+      "total": 1965
     },
     {
       "component_count": 1,
@@ -19702,7 +20413,7 @@
       "dev_name": "Deborah Schmidt",
       "dev_url": "https://imagej.net/people/frauzufall",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -19712,7 +20423,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imagej:imagej-tensorflow",
+            "url": "https://github.com/imagej/imagej-tensorflow"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 34,
@@ -19774,7 +20490,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 8,
-      "total": 9
+      "total": 10
     },
     {
       "component_count": 1,
@@ -19808,7 +20524,7 @@
       "dev_name": "Gabriel Selzer",
       "dev_url": "https://imagej.net/people/gselzer",
       "developer_features": 1,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -19930,7 +20646,12 @@
             "url": "https://github.com/imglib/imglib2-imagej/issues/3"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imglib2:imglib2-imagej",
+            "url": "https://github.com/imglib/imglib2-imagej"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 286,
@@ -20328,7 +21049,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 64,
-      "total": 70
+      "total": 71
     },
     {
       "component_count": 2,
@@ -20337,7 +21058,7 @@
       "dev_name": "Hadrien Mary",
       "dev_url": "https://imagej.net/people/hadim",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -20351,7 +21072,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:Kappa",
+            "url": "https://github.com/fiji/Kappa"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -20478,7 +21204,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 20,
-      "total": 20
+      "total": 21
     },
     {
       "component_count": 2,
@@ -20577,7 +21303,7 @@
       "dev_name": "Philipp Hanslovsky",
       "dev_url": "https://imagej.net/User:Hanslovsky",
       "developer_features": 6,
-      "maintainer_releases": 1,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -20648,6 +21374,10 @@
           }
         ],
         "maintainer_releases": [
+          {
+            "ga": "net.imglib2:imglib2-algorithm",
+            "url": "https://github.com/imglib/imglib2-algorithm"
+          },
           {
             "ga": "net.imglib2:imglib2-unsafe",
             "url": "https://github.com/imglib/imglib2-unsafe"
@@ -20840,7 +21570,7 @@
       },
       "reviewer_prs": 4,
       "support_issues": 26,
-      "total": 38
+      "total": 39
     },
     {
       "component_count": 1,
@@ -22966,7 +23696,7 @@
       "dev_name": "Ignacio Arganda-Carreras",
       "dev_url": "https://imagej.net/people/iarganda",
       "developer_features": 1,
-      "maintainer_releases": 1,
+      "maintainer_releases": 8,
       "popups": {
         "components": [
           {
@@ -23015,6 +23745,34 @@
           {
             "ga": "fr.inra.ijpb:MorphoLibJ_",
             "url": "https://github.com/ijpb/MorphoLibJ"
+          },
+          {
+            "ga": "sc.fiji:AnalyzeSkeleton_",
+            "url": "https://github.com/fiji/AnalyzeSkeleton"
+          },
+          {
+            "ga": "sc.fiji:Siox_Segmentation",
+            "url": "https://github.com/fiji/Siox_Segmentation"
+          },
+          {
+            "ga": "sc.fiji:Skeletonize3D_",
+            "url": "https://github.com/fiji/Skeletonize3D"
+          },
+          {
+            "ga": "sc.fiji:SplineDeformationGenerator_",
+            "url": "https://github.com/fiji/SplineDeformationGenerator"
+          },
+          {
+            "ga": "sc.fiji:Trainable_Segmentation",
+            "url": "https://github.com/fiji/Trainable_Segmentation"
+          },
+          {
+            "ga": "sc.fiji:bUnwarpJ_",
+            "url": "https://github.com/fiji/bUnwarpJ"
+          },
+          {
+            "ga": "sc.fiji:register_virtual_stack_slices",
+            "url": "https://github.com/fiji/register_virtual_stack_slices"
           }
         ],
         "reviewer_prs": [
@@ -23456,7 +24214,7 @@
       },
       "reviewer_prs": 2,
       "support_issues": 70,
-      "total": 74
+      "total": 81
     },
     {
       "component_count": 3,
@@ -23602,7 +24360,7 @@
       "dev_name": "Jan Eglinger",
       "dev_url": "https://imagej.net/User:Eglinger",
       "developer_features": 1,
-      "maintainer_releases": 0,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -23627,7 +24385,16 @@
             "url": "https://github.com/scijava/batch-processor/issues/7"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imagej:imagej-plugins-batch",
+            "url": "https://github.com/imagej/imagej-plugins-batch"
+          },
+          {
+            "ga": "org.scijava:batch-processor",
+            "url": "https://github.com/scijava/batch-processor"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -23676,7 +24443,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 7,
-      "total": 8
+      "total": 10
     },
     {
       "component_count": 1,
@@ -23778,7 +24545,7 @@
       "dev_name": "Varun Kapoor",
       "dev_url": "https://imagej.net/people/kapoorlab",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -23788,7 +24555,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:TrackMate-Skeleton",
+            "url": "https://github.com/trackmate-sc/TrackMate-Skeleton"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -23801,7 +24573,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 1,
-      "total": 1
+      "total": 2
     },
     {
       "component_count": 4,
@@ -23810,7 +24582,7 @@
       "dev_name": "Kyle Harrington",
       "dev_url": "https://imagej.net/User:Kharrington",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -23875,7 +24647,20 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.imagej:imagej-mesh",
+            "url": "https://github.com/imagej/imagej-mesh"
+          },
+          {
+            "ga": "net.imagej:imagej-mesh-io",
+            "url": "https://github.com/imagej/imagej-mesh-io"
+          },
+          {
+            "ga": "net.imglib2:imglib2-mesh",
+            "url": "https://github.com/imglib/imglib2-mesh"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 20,
@@ -23973,7 +24758,7 @@
       },
       "reviewer_prs": 2,
       "support_issues": 13,
-      "total": 22
+      "total": 25
     },
     {
       "component_count": 5,
@@ -23982,7 +24767,7 @@
       "dev_name": "Gabriel Landini",
       "dev_url": "https://imagej.net/User:Landini",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -24008,7 +24793,20 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:Auto_Local_Threshold",
+            "url": "https://github.com/fiji/Auto_Local_Threshold"
+          },
+          {
+            "ga": "sc.fiji:Auto_Threshold",
+            "url": "https://github.com/fiji/Auto_Threshold"
+          },
+          {
+            "ga": "sc.fiji:Colour_Deconvolution",
+            "url": "https://github.com/fiji/Colour_Deconvolution"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -24021,7 +24819,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 1,
-      "total": 1
+      "total": 4
     },
     {
       "component_count": 5,
@@ -24030,7 +24828,7 @@
       "dev_name": "Larry Lindsey",
       "dev_url": "http://imagej.net/User:Lindsey",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -24056,7 +24854,20 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:FS_Align_TrakEM2",
+            "url": "https://github.com/fiji/FS_Align_TrakEM2"
+          },
+          {
+            "ga": "sc.fiji:Reconstruct_Reader",
+            "url": "https://github.com/fiji/Reconstruct_Reader"
+          },
+          {
+            "ga": "sc.fiji:TrakEM2_Archipelago",
+            "url": "https://github.com/fiji/TrakEM2_Archipelago"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 1,
@@ -24069,7 +24880,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 0,
-      "total": 1
+      "total": 4
     },
     {
       "component_count": 3,
@@ -24078,7 +24889,7 @@
       "dev_name": "Matthias Arzt",
       "dev_url": "https://imagej.net/people/maarzt",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -24096,7 +24907,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.scijava:scijava-plot",
+            "url": "https://github.com/scijava/scijava-plot"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 128,
@@ -24512,7 +25328,7 @@
       },
       "reviewer_prs": 1,
       "support_issues": 67,
-      "total": 68
+      "total": 69
     },
     {
       "component_count": 5,
@@ -25679,7 +26495,7 @@
       "dev_name": "Stefan Helfrich",
       "dev_url": "https://imagej.net/User:Stelfrich",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -25693,13 +26509,22 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:Auto_Local_Threshold",
+            "url": "https://github.com/fiji/Auto_Local_Threshold"
+          },
+          {
+            "ga": "sc.fiji:Auto_Threshold",
+            "url": "https://github.com/fiji/Auto_Threshold"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": []
       },
       "reviewer_prs": 0,
       "support_issues": 0,
-      "total": 0
+      "total": 2
     },
     {
       "component_count": 3,
@@ -25858,7 +26683,7 @@
       "dev_name": "Jean-Yves Tinevez",
       "dev_url": "https://imagej.net/people/tinevez",
       "developer_features": 6,
-      "maintainer_releases": 2,
+      "maintainer_releases": 16,
       "popups": {
         "components": [
           {
@@ -25988,12 +26813,68 @@
         ],
         "maintainer_releases": [
           {
+            "ga": "net.imglib2:imglib2-mesh",
+            "url": "https://github.com/imglib/imglib2-mesh"
+          },
+          {
+            "ga": "sc.fiji:Arrow_",
+            "url": "https://github.com/fiji/Arrow"
+          },
+          {
+            "ga": "sc.fiji:Directionality_",
+            "url": "https://github.com/fiji/Directionality"
+          },
+          {
+            "ga": "sc.fiji:FlowJ_",
+            "url": "https://github.com/fiji/FlowJ"
+          },
+          {
+            "ga": "sc.fiji:Image_Expression_Parser",
+            "url": "https://github.com/fiji/Image_Expression_Parser"
+          },
+          {
+            "ga": "sc.fiji:LSM_Toolbox",
+            "url": "https://github.com/fiji/LSM_Toolbox"
+          },
+          {
+            "ga": "sc.fiji:MaMuT",
+            "url": "https://github.com/trackmate-sc/MaMuT"
+          },
+          {
+            "ga": "sc.fiji:PIV_analyser",
+            "url": "https://github.com/fiji/PIV_analyser"
+          },
+          {
+            "ga": "sc.fiji:Stack_Manipulation",
+            "url": "https://github.com/fiji/Stack_Manipulation"
+          },
+          {
             "ga": "sc.fiji:TrackMate",
             "url": "https://github.com/trackmate-sc/TrackMate"
           },
           {
+            "ga": "sc.fiji:TrackMate-CSVImporter",
+            "url": "https://github.com/trackmate-sc/TrackMate-CSVImporter"
+          },
+          {
             "ga": "sc.fiji:TrackMate-Cellpose",
             "url": "https://github.com/trackmate-sc/TrackMate-Cellpose"
+          },
+          {
+            "ga": "sc.fiji:TrackMate-ExTrack",
+            "url": "https://github.com/trackmate-sc/TrackMate-ExTrack"
+          },
+          {
+            "ga": "sc.fiji:TrackMate-Ilastik",
+            "url": "https://github.com/trackmate-sc/TrackMate-Ilastik"
+          },
+          {
+            "ga": "sc.fiji:TrackMate-MorphoLibJ",
+            "url": "https://github.com/trackmate-sc/TrackMate-MorphoLibJ"
+          },
+          {
+            "ga": "sc.fiji:TrackMate-Weka",
+            "url": "https://github.com/trackmate-sc/TrackMate-Weka"
           }
         ],
         "reviewer_prs": [
@@ -26285,7 +27166,7 @@
       },
       "reviewer_prs": 12,
       "support_issues": 35,
-      "total": 57
+      "total": 71
     },
     {
       "component_count": 2,
@@ -26294,7 +27175,7 @@
       "dev_name": "Christian Tischer",
       "dev_url": "https://github.com/tischi",
       "developer_features": 1,
-      "maintainer_releases": 0,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -26315,7 +27196,16 @@
             "url": "https://github.com/fiji/Correct_3D_Drift/issues/5"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "sc.fiji:Correct_3D_Drift",
+            "url": "https://github.com/fiji/Correct_3D_Drift"
+          },
+          {
+            "ga": "sc.fiji:Linear_Kuwahara",
+            "url": "https://github.com/fiji/Linear_Kuwahara"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -26340,7 +27230,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 3,
-      "total": 4
+      "total": 6
     },
     {
       "component_count": 1,
@@ -26349,7 +27239,7 @@
       "dev_name": "Tom Burke",
       "dev_url": "https://imagej.net/people/tomburke-rse",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26359,7 +27249,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "io.scif:scifio-labeling",
+            "url": "https://github.com/scifio/scifio-labeling"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -26384,7 +27279,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 3,
-      "total": 3
+      "total": 4
     },
     {
       "component_count": 1,
@@ -26431,7 +27326,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 6,
+      "maintainer_releases": 13,
       "popups": {
         "components": [
           {
@@ -26593,6 +27488,10 @@
             "url": "https://github.com/imglib/imglib2"
           },
           {
+            "ga": "net.imglib2:imglib2-algorithm",
+            "url": "https://github.com/imglib/imglib2-algorithm"
+          },
+          {
             "ga": "net.imglib2:imglib2-algorithm-fft",
             "url": "https://github.com/imglib/imglib2-algorithm-fft"
           },
@@ -26609,8 +27508,32 @@
             "url": "https://github.com/imglib/imglib2-ij"
           },
           {
+            "ga": "net.imglib2:imglib2-imagej",
+            "url": "https://github.com/imglib/imglib2-imagej"
+          },
+          {
+            "ga": "net.imglib2:imglib2-mesh",
+            "url": "https://github.com/imglib/imglib2-mesh"
+          },
+          {
+            "ga": "net.imglib2:imglib2-realtransform",
+            "url": "https://github.com/imglib/imglib2-realtransform"
+          },
+          {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "org.scijava:scijava-listeners",
+            "url": "https://github.com/scijava/scijava-listeners"
+          },
+          {
+            "ga": "org.scijava:scijava-optional",
+            "url": "https://github.com/scijava/scijava-optional"
+          },
+          {
+            "ga": "org.scijava:ui-behaviour",
+            "url": "https://github.com/scijava/ui-behaviour"
           }
         ],
         "reviewer_prs": [
@@ -27892,7 +28815,7 @@
       },
       "reviewer_prs": 34,
       "support_issues": 178,
-      "total": 228
+      "total": 235
     }
   ]
 }
