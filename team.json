@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25 09:39 UTC",
+  "generated": "2026-10-26 10:53 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -26602,7 +26602,20 @@
           }
         ],
         "maintainer_releases": [],
-        "reviewer_prs": [],
+        "reviewer_prs": [
+          {
+            "number": 342,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.1.0",
+            "url": "https://github.com/morphonets/SNT/pull/342"
+          },
+          {
+            "number": 343,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.1.0",
+            "url": "https://github.com/morphonets/SNT/pull/343"
+          }
+        ],
         "support_issues": [
           {
             "number": 75,
@@ -26672,9 +26685,9 @@
           }
         ]
       },
-      "reviewer_prs": 0,
+      "reviewer_prs": 2,
       "support_issues": 11,
-      "total": 19
+      "total": 21
     },
     {
       "component_count": 18,
