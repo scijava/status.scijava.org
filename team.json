@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26 10:53 UTC",
+  "generated": "2026-10-27 10:18 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -5155,6 +5155,18 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 295,
+            "repo": "scijava/scijava",
+            "title": "Migrate many SciJava Common subsystems",
+            "url": "https://github.com/scijava/scijava/pull/295"
+          },
+          {
+            "number": 296,
+            "repo": "scijava/scijava",
+            "title": "Fix ops with multi-dimensional array parameters",
+            "url": "https://github.com/scijava/scijava/pull/296"
           }
         ],
         "support_issues": [
@@ -6528,9 +6540,9 @@
           }
         ]
       },
-      "reviewer_prs": 14,
+      "reviewer_prs": 16,
       "support_issues": 228,
-      "total": 260
+      "total": 262
     },
     {
       "component_count": 11,
@@ -7709,7 +7721,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 193,
+      "maintainer_releases": 194,
       "popups": {
         "components": [
           {
@@ -10029,6 +10041,10 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          },
+          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -10915,6 +10931,18 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 295,
+            "repo": "scijava/scijava",
+            "title": "Migrate many SciJava Common subsystems",
+            "url": "https://github.com/scijava/scijava/pull/295"
+          },
+          {
+            "number": 296,
+            "repo": "scijava/scijava",
+            "title": "Fix ops with multi-dimensional array parameters",
+            "url": "https://github.com/scijava/scijava/pull/296"
           },
           {
             "number": 91,
@@ -19941,12 +19969,18 @@
             "repo": "fiji/fiji",
             "title": "\"Flatten\" rewrites the last part of an image title",
             "url": "https://github.com/fiji/fiji/issues/433"
+          },
+          {
+            "number": 437,
+            "repo": "fiji/fiji",
+            "title": "Opening a video creates a stack of multiples slices instead of multiple frames",
+            "url": "https://github.com/fiji/fiji/issues/437"
           }
         ]
       },
-      "reviewer_prs": 78,
-      "support_issues": 1471,
-      "total": 1965
+      "reviewer_prs": 80,
+      "support_issues": 1472,
+      "total": 1969
     },
     {
       "component_count": 1,
@@ -20658,6 +20692,18 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 295,
+            "repo": "scijava/scijava",
+            "title": "Migrate many SciJava Common subsystems",
+            "url": "https://github.com/scijava/scijava/pull/295"
+          },
+          {
+            "number": 296,
+            "repo": "scijava/scijava",
+            "title": "Fix ops with multi-dimensional array parameters",
+            "url": "https://github.com/scijava/scijava/pull/296"
           }
         ],
         "support_issues": [
@@ -21047,9 +21093,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 3,
       "support_issues": 64,
-      "total": 71
+      "total": 73
     },
     {
       "component_count": 2,
@@ -21695,6 +21741,18 @@
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
             "url": "https://github.com/scijava/scijava/pull/286"
+          },
+          {
+            "number": 295,
+            "repo": "scijava/scijava",
+            "title": "Migrate many SciJava Common subsystems",
+            "url": "https://github.com/scijava/scijava/pull/295"
+          },
+          {
+            "number": 296,
+            "repo": "scijava/scijava",
+            "title": "Fix ops with multi-dimensional array parameters",
+            "url": "https://github.com/scijava/scijava/pull/296"
           }
         ],
         "support_issues": [
@@ -22864,9 +22922,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 5,
       "support_issues": 194,
-      "total": 202
+      "total": 204
     },
     {
       "component_count": 3,
@@ -26533,7 +26591,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26601,21 +26659,13 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
-        "reviewer_prs": [
+        "maintainer_releases": [
           {
-            "number": 342,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.1.0",
-            "url": "https://github.com/morphonets/SNT/pull/342"
-          },
-          {
-            "number": 343,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.1.0",
-            "url": "https://github.com/morphonets/SNT/pull/343"
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           }
         ],
+        "reviewer_prs": [],
         "support_issues": [
           {
             "number": 75,
@@ -26685,9 +26735,9 @@
           }
         ]
       },
-      "reviewer_prs": 2,
+      "reviewer_prs": 0,
       "support_issues": 11,
-      "total": 21
+      "total": 20
     },
     {
       "component_count": 18,
