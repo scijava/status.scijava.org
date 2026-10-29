@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T16:33:16Z",
+  "generated": "2026-10-29T19:28:43Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -650,7 +650,7 @@
       "workflow": "build.yml"
     },
     "saalfeldlab/imglib2-label-multisets": {
-      "title": "build - no status",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "saalfeldlab/jitk-tps": {
