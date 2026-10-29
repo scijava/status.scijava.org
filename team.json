@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29 19:28 UTC",
+  "generated": "2026-10-29 22:40 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7709,7 +7709,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 195,
+      "maintainer_releases": 192,
       "popups": {
         "components": [
           {
@@ -9937,10 +9937,6 @@
             "url": "https://github.com/imagej/imagej-opencv"
           },
           {
-            "ga": "net.imagej:imagej-ops",
-            "url": "https://github.com/imagej/imagej-ops"
-          },
-          {
             "ga": "net.imagej:imagej-plugins-commands",
             "url": "https://github.com/imagej/imagej-plugins-commands"
           },
@@ -9955,10 +9951,6 @@
           {
             "ga": "net.imagej:imagej-plugins-uploader-webdav",
             "url": "https://github.com/imagej/imagej-plugins-uploader-webdav"
-          },
-          {
-            "ga": "net.imagej:imagej-scripting",
-            "url": "https://github.com/imagej/imagej-scripting"
           },
           {
             "ga": "net.imagej:imagej-server",
@@ -10187,10 +10179,6 @@
           {
             "ga": "org.scijava:scijava-ui-swing",
             "url": "https://github.com/scijava/scijava-ui-swing"
-          },
-          {
-            "ga": "org.scijava:script-editor",
-            "url": "https://github.com/scijava/script-editor"
           },
           {
             "ga": "org.scijava:script-editor-jython",
@@ -19966,7 +19954,7 @@
       },
       "reviewer_prs": 80,
       "support_issues": 1471,
-      "total": 1969
+      "total": 1966
     },
     {
       "component_count": 1,
