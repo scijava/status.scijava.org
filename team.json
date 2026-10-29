@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29 11:23 UTC",
+  "generated": "2026-10-29 16:33 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -7709,7 +7709,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 194,
+      "maintainer_releases": 195,
       "popups": {
         "components": [
           {
@@ -10187,6 +10187,10 @@
           {
             "ga": "org.scijava:scijava-ui-swing",
             "url": "https://github.com/scijava/scijava-ui-swing"
+          },
+          {
+            "ga": "org.scijava:script-editor",
+            "url": "https://github.com/scijava/script-editor"
           },
           {
             "ga": "org.scijava:script-editor-jython",
@@ -18603,12 +18607,6 @@
             "url": "https://github.com/scijava/script-editor/issues/77"
           },
           {
-            "number": 78,
-            "repo": "scijava/script-editor",
-            "title": "TextEditor.createNewDocument fails to check for extensions in provided filenames",
-            "url": "https://github.com/scijava/script-editor/issues/78"
-          },
-          {
             "number": 79,
             "repo": "scijava/script-editor",
             "title": "Script language environments should be released",
@@ -19967,7 +19965,7 @@
         ]
       },
       "reviewer_prs": 80,
-      "support_issues": 1472,
+      "support_issues": 1471,
       "total": 1969
     },
     {
