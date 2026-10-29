@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28 11:10 UTC",
+  "generated": "2026-10-29 11:23 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3307,12 +3307,6 @@
             "url": "https://github.com/saalfeldlab/n5-blosc/pull/8"
           },
           {
-            "number": 51,
-            "repo": "saalfeldlab/n5-hdf5",
-            "title": "Depend on janelia-jhdf5 under its new groupId, org.janelia",
-            "url": "https://github.com/saalfeldlab/n5-hdf5/pull/51"
-          },
-          {
             "number": 101,
             "repo": "saalfeldlab/n5-ij",
             "title": "test: TestExportImports remove TestRunners",
@@ -4906,9 +4900,9 @@
           }
         ]
       },
-      "reviewer_prs": 40,
+      "reviewer_prs": 39,
       "support_issues": 252,
-      "total": 334
+      "total": 333
     },
     {
       "component_count": 1,
@@ -6708,12 +6702,6 @@
             "url": "https://github.com/saalfeldlab/n5/pull/231"
           },
           {
-            "number": 51,
-            "repo": "saalfeldlab/n5-hdf5",
-            "title": "Depend on janelia-jhdf5 under its new groupId, org.janelia",
-            "url": "https://github.com/saalfeldlab/n5-hdf5/pull/51"
-          },
-          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -7413,9 +7401,9 @@
           }
         ]
       },
-      "reviewer_prs": 16,
+      "reviewer_prs": 15,
       "support_issues": 106,
-      "total": 135
+      "total": 134
     },
     {
       "component_count": 6,
