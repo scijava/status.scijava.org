@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T22:39:59Z",
+  "generated": "2026-10-30T11:15:37Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -590,7 +590,7 @@
       "workflow": "build-main.yml"
     },
     "morphonets/SNT": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "ome/ome-codecs": {
