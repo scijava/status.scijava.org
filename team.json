@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30 14:46 UTC",
+  "generated": "2026-10-31 10:54 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -414,12 +414,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 55,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Add AffineRealTransform, a non-invertible affine",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/55"
           },
           {
             "number": 44,
@@ -2333,9 +2327,9 @@
           }
         ]
       },
-      "reviewer_prs": 26,
+      "reviewer_prs": 25,
       "support_issues": 304,
-      "total": 353
+      "total": 352
     },
     {
       "component_count": 8,
@@ -3251,12 +3245,6 @@
             "repo": "imglib/imglib2-realtransform",
             "title": "Add Spherical curvature distortion transformation",
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
-          },
-          {
-            "number": 55,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Add AffineRealTransform, a non-invertible affine",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/55"
           },
           {
             "number": 44,
@@ -4900,9 +4888,9 @@
           }
         ]
       },
-      "reviewer_prs": 39,
+      "reviewer_prs": 38,
       "support_issues": 252,
-      "total": 333
+      "total": 332
     },
     {
       "component_count": 1,
@@ -27653,12 +27641,6 @@
             "url": "https://github.com/imglib/imglib2-realtransform/pull/51"
           },
           {
-            "number": 55,
-            "repo": "imglib/imglib2-realtransform",
-            "title": "Add AffineRealTransform, a non-invertible affine",
-            "url": "https://github.com/imglib/imglib2-realtransform/pull/55"
-          },
-          {
             "number": 44,
             "repo": "imglib/imglib2-roi",
             "title": "Sparse bitmask",
@@ -28856,9 +28838,9 @@
           }
         ]
       },
-      "reviewer_prs": 34,
+      "reviewer_prs": 33,
       "support_issues": 178,
-      "total": 235
+      "total": 234
     }
   ]
 }
