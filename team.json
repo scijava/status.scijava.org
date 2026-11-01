@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31 10:54 UTC",
+  "generated": "2026-11-01 06:32 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -362,22 +362,10 @@
             "url": "https://github.com/imglib/imglib2/pull/236"
           },
           {
-            "number": 319,
-            "repo": "imglib/imglib2",
-            "title": "Create a VolatileNativeBooleanType",
-            "url": "https://github.com/imglib/imglib2/pull/319"
-          },
-          {
             "number": 378,
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
-          },
-          {
-            "number": 384,
-            "repo": "imglib/imglib2",
-            "title": "Remove duplicate data field in IntArray and ShortArray",
-            "url": "https://github.com/imglib/imglib2/pull/384"
           },
           {
             "number": 83,
@@ -2327,9 +2315,9 @@
           }
         ]
       },
-      "reviewer_prs": 25,
+      "reviewer_prs": 23,
       "support_issues": 304,
-      "total": 352
+      "total": 350
     },
     {
       "component_count": 8,
@@ -3187,22 +3175,10 @@
             "url": "https://github.com/imglib/imglib2/pull/236"
           },
           {
-            "number": 319,
-            "repo": "imglib/imglib2",
-            "title": "Create a VolatileNativeBooleanType",
-            "url": "https://github.com/imglib/imglib2/pull/319"
-          },
-          {
             "number": 378,
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
-          },
-          {
-            "number": 384,
-            "repo": "imglib/imglib2",
-            "title": "Remove duplicate data field in IntArray and ShortArray",
-            "url": "https://github.com/imglib/imglib2/pull/384"
           },
           {
             "number": 83,
@@ -4888,9 +4864,9 @@
           }
         ]
       },
-      "reviewer_prs": 38,
+      "reviewer_prs": 36,
       "support_issues": 252,
-      "total": 332
+      "total": 330
     },
     {
       "component_count": 1,
@@ -27581,22 +27557,10 @@
             "url": "https://github.com/imglib/imglib2/pull/236"
           },
           {
-            "number": 319,
-            "repo": "imglib/imglib2",
-            "title": "Create a VolatileNativeBooleanType",
-            "url": "https://github.com/imglib/imglib2/pull/319"
-          },
-          {
             "number": 378,
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
-          },
-          {
-            "number": 384,
-            "repo": "imglib/imglib2",
-            "title": "Remove duplicate data field in IntArray and ShortArray",
-            "url": "https://github.com/imglib/imglib2/pull/384"
           },
           {
             "number": 83,
@@ -28838,9 +28802,9 @@
           }
         ]
       },
-      "reviewer_prs": 33,
+      "reviewer_prs": 31,
       "support_issues": 178,
-      "total": 234
+      "total": 232
     }
   ]
 }
