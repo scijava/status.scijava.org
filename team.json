@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02 02:21 UTC",
+  "generated": "2026-11-02 13:17 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -156,7 +156,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 12,
+      "maintainer_releases": 11,
       "popups": {
         "components": [
           {
@@ -299,10 +299,6 @@
           }
         ],
         "maintainer_releases": [
-          {
-            "ga": "net.imglib2:imglib2",
-            "url": "https://github.com/imglib/imglib2"
-          },
           {
             "ga": "net.imglib2:imglib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm"
@@ -2323,7 +2319,7 @@
       },
       "reviewer_prs": 24,
       "support_issues": 304,
-      "total": 351
+      "total": 350
     },
     {
       "component_count": 8,
@@ -2787,7 +2783,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 20,
+      "maintainer_releases": 19,
       "popups": {
         "components": [
           {
@@ -3059,10 +3055,6 @@
           {
             "ga": "jitk:jitk-tps",
             "url": "https://github.com/saalfeldlab/jitk-tps"
-          },
-          {
-            "ga": "net.imglib2:imglib2",
-            "url": "https://github.com/imglib/imglib2"
           },
           {
             "ga": "net.imglib2:imglib2-algorithm",
@@ -4878,7 +4870,7 @@
       },
       "reviewer_prs": 37,
       "support_issues": 252,
-      "total": 331
+      "total": 330
     },
     {
       "component_count": 1,
@@ -7685,7 +7677,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 193,
+      "maintainer_releases": 191,
       "popups": {
         "components": [
           {
@@ -9953,10 +9945,6 @@
             "url": "https://github.com/imagej/op-finder"
           },
           {
-            "ga": "net.imglib2:imglib2",
-            "url": "https://github.com/imglib/imglib2"
-          },
-          {
             "ga": "net.imglib2:imglib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm"
           },
@@ -10567,10 +10555,6 @@
           {
             "ga": "sc.fiji:bUnwarpJ_",
             "url": "https://github.com/fiji/bUnwarpJ"
-          },
-          {
-            "ga": "sc.fiji:bigdataviewer-core",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
           },
           {
             "ga": "sc.fiji:bij",
@@ -19934,7 +19918,7 @@
       },
       "reviewer_prs": 80,
       "support_issues": 1471,
-      "total": 1967
+      "total": 1965
     },
     {
       "component_count": 1,
@@ -26631,7 +26615,14 @@
             "url": "https://github.com/morphonets/SNT"
           }
         ],
-        "reviewer_prs": [],
+        "reviewer_prs": [
+          {
+            "number": 344,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump logback.version from 1.6.5 to 1.6.6",
+            "url": "https://github.com/morphonets/SNT/pull/344"
+          }
+        ],
         "support_issues": [
           {
             "number": 75,
@@ -26701,9 +26692,9 @@
           }
         ]
       },
-      "reviewer_prs": 0,
+      "reviewer_prs": 1,
       "support_issues": 11,
-      "total": 20
+      "total": 21
     },
     {
       "component_count": 18,
@@ -27355,7 +27346,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 14,
+      "maintainer_releases": 12,
       "popups": {
         "components": [
           {
@@ -27513,10 +27504,6 @@
         ],
         "maintainer_releases": [
           {
-            "ga": "net.imglib2:imglib2",
-            "url": "https://github.com/imglib/imglib2"
-          },
-          {
             "ga": "net.imglib2:imglib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm"
           },
@@ -27563,10 +27550,6 @@
           {
             "ga": "org.scijava:ui-behaviour",
             "url": "https://github.com/scijava/ui-behaviour"
-          },
-          {
-            "ga": "sc.fiji:bigdataviewer-core",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
           }
         ],
         "reviewer_prs": [
@@ -27695,12 +27678,6 @@
             "repo": "bigdataviewer/bigdataviewer-core",
             "title": "Movie Producer Tool",
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/151"
-          },
-          {
-            "number": 156,
-            "repo": "bigdataviewer/bigdataviewer-core",
-            "title": "input file path as args to main",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/156"
           },
           {
             "number": 167,
@@ -28828,9 +28805,9 @@
           }
         ]
       },
-      "reviewer_prs": 31,
+      "reviewer_prs": 30,
       "support_issues": 178,
-      "total": 233
+      "total": 230
     }
   ]
 }
