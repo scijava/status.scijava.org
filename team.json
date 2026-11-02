@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01 11:46 UTC",
+  "generated": "2026-11-02 02:21 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -384,6 +384,12 @@
             "repo": "imglib/imglib2-algorithm",
             "title": "Add Op discovery annotations to ImgLib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
+          },
+          {
+            "number": 112,
+            "repo": "imglib/imglib2-algorithm",
+            "title": "Improve performance of some convolutions",
+            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
           },
           {
             "number": 35,
@@ -2315,9 +2321,9 @@
           }
         ]
       },
-      "reviewer_prs": 23,
+      "reviewer_prs": 24,
       "support_issues": 304,
-      "total": 350
+      "total": 351
     },
     {
       "component_count": 8,
@@ -3197,6 +3203,12 @@
             "repo": "imglib/imglib2-algorithm",
             "title": "Add Op discovery annotations to ImgLib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
+          },
+          {
+            "number": 112,
+            "repo": "imglib/imglib2-algorithm",
+            "title": "Improve performance of some convolutions",
+            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
           },
           {
             "number": 7,
@@ -4864,9 +4876,9 @@
           }
         ]
       },
-      "reviewer_prs": 36,
+      "reviewer_prs": 37,
       "support_issues": 252,
-      "total": 330
+      "total": 331
     },
     {
       "component_count": 1,
@@ -7673,7 +7685,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 192,
+      "maintainer_releases": 193,
       "popups": {
         "components": [
           {
@@ -10555,6 +10567,10 @@
           {
             "ga": "sc.fiji:bUnwarpJ_",
             "url": "https://github.com/fiji/bUnwarpJ"
+          },
+          {
+            "ga": "sc.fiji:bigdataviewer-core",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
           },
           {
             "ga": "sc.fiji:bij",
@@ -19918,7 +19934,7 @@
       },
       "reviewer_prs": 80,
       "support_issues": 1471,
-      "total": 1966
+      "total": 1967
     },
     {
       "component_count": 1,
@@ -21387,6 +21403,12 @@
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
           },
           {
+            "number": 112,
+            "repo": "imglib/imglib2-algorithm",
+            "title": "Improve performance of some convolutions",
+            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
+          },
+          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -21552,9 +21574,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 5,
       "support_issues": 26,
-      "total": 39
+      "total": 40
     },
     {
       "component_count": 1,
@@ -27333,7 +27355,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 13,
+      "maintainer_releases": 14,
       "popups": {
         "components": [
           {
@@ -27541,6 +27563,10 @@
           {
             "ga": "org.scijava:ui-behaviour",
             "url": "https://github.com/scijava/ui-behaviour"
+          },
+          {
+            "ga": "sc.fiji:bigdataviewer-core",
+            "url": "https://github.com/bigdataviewer/bigdataviewer-core"
           }
         ],
         "reviewer_prs": [
@@ -27579,6 +27605,12 @@
             "repo": "imglib/imglib2-algorithm",
             "title": "Add Op discovery annotations to ImgLib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
+          },
+          {
+            "number": 112,
+            "repo": "imglib/imglib2-algorithm",
+            "title": "Improve performance of some convolutions",
+            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
           },
           {
             "number": 7,
@@ -27699,12 +27731,6 @@
             "repo": "bigdataviewer/bigdataviewer-core",
             "title": "add  RealTransformedSource",
             "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/222"
-          },
-          {
-            "number": 226,
-            "repo": "bigdataviewer/bigdataviewer-core",
-            "title": "fix Multibox overlay sources ranges",
-            "url": "https://github.com/bigdataviewer/bigdataviewer-core/pull/226"
           },
           {
             "number": 4,
@@ -28804,7 +28830,7 @@
       },
       "reviewer_prs": 31,
       "support_issues": 178,
-      "total": 232
+      "total": 233
     }
   ]
 }
