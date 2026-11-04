@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02 13:17 UTC",
+  "generated": "2026-11-04 05:13 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -123,6 +123,389 @@
       "reviewer_prs": 0,
       "support_issues": 1,
       "total": 2
+    },
+    {
+      "component_count": 1,
+      "debugger_bugs": 4,
+      "dev_id": "KateMoreva",
+      "dev_name": "Ekaterina Moreva",
+      "dev_url": "https://github.com/KateMoreva",
+      "developer_features": 8,
+      "maintainer_releases": 0,
+      "popups": {
+        "components": [
+          {
+            "ga": "org.embl.mobie:mobie-io",
+            "url": "https://github.com/mobie/mobie-io"
+          }
+        ],
+        "debugger_bugs": [
+          {
+            "number": 58,
+            "repo": "mobie/mobie-io",
+            "title": "README out of date",
+            "url": "https://github.com/mobie/mobie-io/issues/58"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 103,
+            "repo": "mobie/mobie-io",
+            "title": "Multi channel names",
+            "url": "https://github.com/mobie/mobie-io/issues/103"
+          },
+          {
+            "number": 152,
+            "repo": "mobie/mobie-io",
+            "title": "N5 compilation error using scijava parent pom 37.0.0",
+            "url": "https://github.com/mobie/mobie-io/issues/152"
+          }
+        ],
+        "developer_features": [
+          {
+            "number": 49,
+            "repo": "mobie/mobie-io",
+            "title": "Add shared queues for bdv.ome.zarr.s3",
+            "url": "https://github.com/mobie/mobie-io/issues/49"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 91,
+            "repo": "mobie/mobie-io",
+            "title": "Remove doesObjectExist() calls everywhere?",
+            "url": "https://github.com/mobie/mobie-io/issues/91"
+          },
+          {
+            "number": 99,
+            "repo": "mobie/mobie-io",
+            "title": "attributes read twice in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/99"
+          },
+          {
+            "number": 102,
+            "repo": "mobie/mobie-io",
+            "title": "Make LoadingStrategy configurable for OME ZARR S3 ImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/102"
+          },
+          {
+            "number": 104,
+            "repo": "mobie/mobie-io",
+            "title": "Add optional chunk loading logging also to opening OME-Zarr from file system",
+            "url": "https://github.com/mobie/mobie-io/issues/104"
+          },
+          {
+            "number": 131,
+            "repo": "mobie/mobie-io",
+            "title": "Implement ImgLoaderIo for all XML based formats",
+            "url": "https://github.com/mobie/mobie-io/issues/131"
+          },
+          {
+            "number": 154,
+            "repo": "mobie/mobie-io",
+            "title": "Use n5-viewer to load OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/154"
+          }
+        ],
+        "maintainer_releases": [],
+        "reviewer_prs": [
+          {
+            "number": 100,
+            "repo": "mobie/mobie-io",
+            "title": "Prevent multiple loading of DatasetAttributes in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/pull/100"
+          },
+          {
+            "number": 119,
+            "repo": "mobie/mobie-io",
+            "title": "Hackathon prague 2022",
+            "url": "https://github.com/mobie/mobie-io/pull/119"
+          },
+          {
+            "number": 145,
+            "repo": "mobie/mobie-io",
+            "title": "Refactoring CI",
+            "url": "https://github.com/mobie/mobie-io/pull/145"
+          },
+          {
+            "number": 185,
+            "repo": "mobie/mobie-io",
+            "title": "Show the actual cause when a dataset cannot be opened",
+            "url": "https://github.com/mobie/mobie-io/pull/185"
+          }
+        ],
+        "support_issues": [
+          {
+            "number": 2,
+            "repo": "mobie/mobie-io",
+            "title": "label image dependencies",
+            "url": "https://github.com/mobie/mobie-io/issues/2"
+          },
+          {
+            "number": 18,
+            "repo": "mobie/mobie-io",
+            "title": "class ArrayCreator code duplication?",
+            "url": "https://github.com/mobie/mobie-io/issues/18"
+          },
+          {
+            "number": 37,
+            "repo": "mobie/mobie-io",
+            "title": "Confusing method names...",
+            "url": "https://github.com/mobie/mobie-io/issues/37"
+          },
+          {
+            "number": 49,
+            "repo": "mobie/mobie-io",
+            "title": "Add shared queues for bdv.ome.zarr.s3",
+            "url": "https://github.com/mobie/mobie-io/issues/49"
+          },
+          {
+            "number": 58,
+            "repo": "mobie/mobie-io",
+            "title": "README out of date",
+            "url": "https://github.com/mobie/mobie-io/issues/58"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 61,
+            "repo": "mobie/mobie-io",
+            "title": "Can we use / merge metadata functionality in n5-imglib2?",
+            "url": "https://github.com/mobie/mobie-io/issues/61"
+          },
+          {
+            "number": 62,
+            "repo": "mobie/mobie-io",
+            "title": "Refactoring of SpimDataOpener",
+            "url": "https://github.com/mobie/mobie-io/issues/62"
+          },
+          {
+            "number": 79,
+            "repo": "mobie/mobie-io",
+            "title": "Downsampling strategy when writing OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/79"
+          },
+          {
+            "number": 91,
+            "repo": "mobie/mobie-io",
+            "title": "Remove doesObjectExist() calls everywhere?",
+            "url": "https://github.com/mobie/mobie-io/issues/91"
+          },
+          {
+            "number": 94,
+            "repo": "mobie/mobie-io",
+            "title": "MoBIE-io incompatible with bigdataviewer-core:10.2.2",
+            "url": "https://github.com/mobie/mobie-io/issues/94"
+          },
+          {
+            "number": 99,
+            "repo": "mobie/mobie-io",
+            "title": "attributes read twice in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/99"
+          },
+          {
+            "number": 101,
+            "repo": "mobie/mobie-io",
+            "title": "Profile SpimDataOpener().openSpimData() for S3OMEZarr",
+            "url": "https://github.com/mobie/mobie-io/issues/101"
+          },
+          {
+            "number": 102,
+            "repo": "mobie/mobie-io",
+            "title": "Make LoadingStrategy configurable for OME ZARR S3 ImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/102"
+          },
+          {
+            "number": 103,
+            "repo": "mobie/mobie-io",
+            "title": "Multi channel names",
+            "url": "https://github.com/mobie/mobie-io/issues/103"
+          },
+          {
+            "number": 104,
+            "repo": "mobie/mobie-io",
+            "title": "Add optional chunk loading logging also to opening OME-Zarr from file system",
+            "url": "https://github.com/mobie/mobie-io/issues/104"
+          },
+          {
+            "number": 105,
+            "repo": "mobie/mobie-io",
+            "title": "BDV->OMEZarr does not work correctly with time dimension",
+            "url": "https://github.com/mobie/mobie-io/issues/105"
+          },
+          {
+            "number": 106,
+            "repo": "mobie/mobie-io",
+            "title": "Consider using SciJava DataHandle/Location API",
+            "url": "https://github.com/mobie/mobie-io/issues/106"
+          },
+          {
+            "number": 109,
+            "repo": "mobie/mobie-io",
+            "title": "Performance considerations when reading through http",
+            "url": "https://github.com/mobie/mobie-io/issues/109"
+          },
+          {
+            "number": 118,
+            "repo": "mobie/mobie-io",
+            "title": "Next release",
+            "url": "https://github.com/mobie/mobie-io/issues/118"
+          },
+          {
+            "number": 122,
+            "repo": "mobie/mobie-io",
+            "title": "Reverse spatial ome metadata when parsing it to avoid reversing the axis order later",
+            "url": "https://github.com/mobie/mobie-io/issues/122"
+          },
+          {
+            "number": 131,
+            "repo": "mobie/mobie-io",
+            "title": "Implement ImgLoaderIo for all XML based formats",
+            "url": "https://github.com/mobie/mobie-io/issues/131"
+          },
+          {
+            "number": 138,
+            "repo": "mobie/mobie-io",
+            "title": "cannot read ome-zarr from s3",
+            "url": "https://github.com/mobie/mobie-io/issues/138"
+          },
+          {
+            "number": 140,
+            "repo": "mobie/mobie-io",
+            "title": "CI: Separate deploy and test",
+            "url": "https://github.com/mobie/mobie-io/issues/140"
+          },
+          {
+            "number": 146,
+            "repo": "mobie/mobie-io",
+            "title": "Running the tests is slow in the US",
+            "url": "https://github.com/mobie/mobie-io/issues/146"
+          },
+          {
+            "number": 152,
+            "repo": "mobie/mobie-io",
+            "title": "N5 compilation error using scijava parent pom 37.0.0",
+            "url": "https://github.com/mobie/mobie-io/issues/152"
+          },
+          {
+            "number": 154,
+            "repo": "mobie/mobie-io",
+            "title": "Use n5-viewer to load OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/154"
+          },
+          {
+            "number": 158,
+            "repo": "mobie/mobie-io",
+            "title": "Support XML OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/158"
+          },
+          {
+            "number": 159,
+            "repo": "mobie/mobie-io",
+            "title": "Is it useful to support directly writing OME-Zarr to S3 ? ",
+            "url": "https://github.com/mobie/mobie-io/issues/159"
+          },
+          {
+            "number": 160,
+            "repo": "mobie/mobie-io",
+            "title": "Opening from S3 with credentials only via official mechanisms",
+            "url": "https://github.com/mobie/mobie-io/issues/160"
+          },
+          {
+            "number": 162,
+            "repo": "mobie/mobie-io",
+            "title": "Default chunk sizes",
+            "url": "https://github.com/mobie/mobie-io/issues/162"
+          },
+          {
+            "number": 165,
+            "repo": "mobie/mobie-io",
+            "title": "Linking data from one mobie project s3 to another requires redundant xml file",
+            "url": "https://github.com/mobie/mobie-io/issues/165"
+          },
+          {
+            "number": 166,
+            "repo": "mobie/mobie-io",
+            "title": "Mobie seems to have problems with ilastik as first image (image to get metadata from)",
+            "url": "https://github.com/mobie/mobie-io/issues/166"
+          },
+          {
+            "number": 167,
+            "repo": "mobie/mobie-io",
+            "title": "Command errored: Open Multiple Images and Labels... [ilastik .h5]",
+            "url": "https://github.com/mobie/mobie-io/issues/167"
+          },
+          {
+            "number": 168,
+            "repo": "mobie/mobie-io",
+            "title": "File handle not released when loading h5 data fails",
+            "url": "https://github.com/mobie/mobie-io/issues/168"
+          },
+          {
+            "number": 170,
+            "repo": "mobie/mobie-io",
+            "title": "Add support for opening OMERO URLs...?",
+            "url": "https://github.com/mobie/mobie-io/issues/170"
+          },
+          {
+            "number": 171,
+            "repo": "mobie/mobie-io",
+            "title": "Throw meaningful error when OMERO dependencies are missing",
+            "url": "https://github.com/mobie/mobie-io/issues/171"
+          },
+          {
+            "number": 172,
+            "repo": "mobie/mobie-io",
+            "title": "Documentation request: basic api usage (for opening OME-Zarr as ImagePlus)",
+            "url": "https://github.com/mobie/mobie-io/issues/172"
+          },
+          {
+            "number": 173,
+            "repo": "mobie/mobie-io",
+            "title": "Supporting OME-Zarr 0.5 via N5",
+            "url": "https://github.com/mobie/mobie-io/issues/173"
+          },
+          {
+            "number": 174,
+            "repo": "mobie/mobie-io",
+            "title": "Blosc suppport",
+            "url": "https://github.com/mobie/mobie-io/issues/174"
+          },
+          {
+            "number": 175,
+            "repo": "mobie/mobie-io",
+            "title": "How to obtain the time unit and timestep for the zarr file data loading.",
+            "url": "https://github.com/mobie/mobie-io/issues/175"
+          },
+          {
+            "number": 176,
+            "repo": "mobie/mobie-io",
+            "title": "Better grouping of SpimData dataset according to attributes",
+            "url": "https://github.com/mobie/mobie-io/issues/176"
+          },
+          {
+            "number": 177,
+            "repo": "mobie/mobie-io",
+            "title": "Supporting OME-Zarr via Zarr-Java",
+            "url": "https://github.com/mobie/mobie-io/issues/177"
+          }
+        ]
+      },
+      "reviewer_prs": 4,
+      "support_issues": 43,
+      "total": 59
     },
     {
       "component_count": 1,
@@ -452,6 +835,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
+          },
+          {
+            "number": 112,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Support plugin discovery in Fiji",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/112"
           },
           {
             "number": 130,
@@ -2317,9 +2706,9 @@
           }
         ]
       },
-      "reviewer_prs": 24,
+      "reviewer_prs": 25,
       "support_issues": 304,
-      "total": 350
+      "total": 351
     },
     {
       "component_count": 8,
@@ -3269,6 +3658,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/231"
           },
           {
+            "number": 233,
+            "repo": "saalfeldlab/n5",
+            "title": "feat: add VlenUtf8BlockCodecInfo",
+            "url": "https://github.com/saalfeldlab/n5/pull/233"
+          },
+          {
             "number": 8,
             "repo": "saalfeldlab/n5-blosc",
             "title": "Unpin enforcer version",
@@ -3333,6 +3728,12 @@
             "repo": "saalfeldlab/n5-zarr",
             "title": "Ensure empty filters are serialized as null",
             "url": "https://github.com/saalfeldlab/n5-zarr/pull/52"
+          },
+          {
+            "number": 103,
+            "repo": "saalfeldlab/n5-zarr",
+            "title": "feat: add zarr3 string data type",
+            "url": "https://github.com/saalfeldlab/n5-zarr/pull/103"
           },
           {
             "number": 6,
@@ -4868,9 +5269,9 @@
           }
         ]
       },
-      "reviewer_prs": 37,
+      "reviewer_prs": 39,
       "support_issues": 252,
-      "total": 330
+      "total": 332
     },
     {
       "component_count": 1,
@@ -6670,6 +7071,12 @@
             "url": "https://github.com/saalfeldlab/n5/pull/231"
           },
           {
+            "number": 233,
+            "repo": "saalfeldlab/n5",
+            "title": "feat: add VlenUtf8BlockCodecInfo",
+            "url": "https://github.com/saalfeldlab/n5/pull/233"
+          },
+          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -6716,6 +7123,12 @@
             "repo": "saalfeldlab/n5-zarr",
             "title": "Ensure empty filters are serialized as null",
             "url": "https://github.com/saalfeldlab/n5-zarr/pull/52"
+          },
+          {
+            "number": 103,
+            "repo": "saalfeldlab/n5-zarr",
+            "title": "feat: add zarr3 string data type",
+            "url": "https://github.com/saalfeldlab/n5-zarr/pull/103"
           },
           {
             "number": 133,
@@ -7369,9 +7782,9 @@
           }
         ]
       },
-      "reviewer_prs": 15,
+      "reviewer_prs": 17,
       "support_issues": 106,
-      "total": 134
+      "total": 136
     },
     {
       "component_count": 6,
@@ -11015,12 +11428,6 @@
             "url": "https://github.com/scijava/scijava-ui-swing/pull/71"
           },
           {
-            "number": 84,
-            "repo": "scijava/scijava-ui-swing",
-            "title": "Enable FileWidget.FILE_AND_DIRECTORY_STYLE",
-            "url": "https://github.com/scijava/scijava-ui-swing/pull/84"
-          },
-          {
             "number": 86,
             "repo": "scijava/scijava-ui-swing",
             "title": "Add URI widget",
@@ -11031,12 +11438,6 @@
             "repo": "scijava/scijava-ui-swing",
             "title": "SwingObjectWidget: set values by string comparison",
             "url": "https://github.com/scijava/scijava-ui-swing/pull/87"
-          },
-          {
-            "number": 92,
-            "repo": "scijava/scijava-ui-swing",
-            "title": "Fix Copy+Paste, Drag&Drop and Improve all Widgets",
-            "url": "https://github.com/scijava/scijava-ui-swing/pull/92"
           },
           {
             "number": 41,
@@ -16207,12 +16608,6 @@
             "url": "https://github.com/imagej/imagej-ui-swing/issues/96"
           },
           {
-            "number": 97,
-            "repo": "imagej/imagej-ui-swing",
-            "title": "Consider adding a \"Backup my Fiji\" to the updater",
-            "url": "https://github.com/imagej/imagej-ui-swing/issues/97"
-          },
-          {
             "number": 1,
             "repo": "imagej/imagej-updater",
             "title": "Teach the updater to resume interrupted updates",
@@ -18355,12 +18750,6 @@
             "url": "https://github.com/scijava/scijava-ui-swing/issues/58"
           },
           {
-            "number": 59,
-            "repo": "scijava/scijava-ui-swing",
-            "title": "SwingFileWidget: support copying from widget text",
-            "url": "https://github.com/scijava/scijava-ui-swing/issues/59"
-          },
-          {
             "number": 69,
             "repo": "scijava/scijava-ui-swing",
             "title": "Allow showing file list widget instead of file chooser",
@@ -19916,9 +20305,9 @@
           }
         ]
       },
-      "reviewer_prs": 80,
-      "support_issues": 1471,
-      "total": 1965
+      "reviewer_prs": 78,
+      "support_issues": 1469,
+      "total": 1961
     },
     {
       "component_count": 1,
@@ -22932,6 +23321,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
+          },
+          {
+            "number": 112,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Support plugin discovery in Fiji",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/112"
           }
         ],
         "support_issues": [
@@ -23687,9 +24082,9 @@
           }
         ]
       },
-      "reviewer_prs": 6,
+      "reviewer_prs": 7,
       "support_issues": 125,
-      "total": 131
+      "total": 132
     },
     {
       "component_count": 8,
@@ -26615,14 +27010,7 @@
             "url": "https://github.com/morphonets/SNT"
           }
         ],
-        "reviewer_prs": [
-          {
-            "number": 344,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump logback.version from 1.6.5 to 1.6.6",
-            "url": "https://github.com/morphonets/SNT/pull/344"
-          }
-        ],
+        "reviewer_prs": [],
         "support_issues": [
           {
             "number": 75,
@@ -26692,9 +27080,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 0,
       "support_issues": 11,
-      "total": 21
+      "total": 20
     },
     {
       "component_count": 18,
@@ -27189,15 +27577,23 @@
       "total": 71
     },
     {
-      "component_count": 2,
-      "debugger_bugs": 0,
+      "component_count": 4,
+      "debugger_bugs": 53,
       "dev_id": "tischi",
       "dev_name": "Christian Tischer",
       "dev_url": "https://github.com/tischi",
-      "developer_features": 1,
-      "maintainer_releases": 2,
+      "developer_features": 112,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
+          {
+            "ga": "org.embl.mobie:mobie-io",
+            "url": "https://github.com/mobie/mobie-io"
+          },
+          {
+            "ga": "org.embl.mobie:mobie-viewer-fiji",
+            "url": "https://github.com/mobie/mobie-viewer-fiji"
+          },
           {
             "ga": "sc.fiji:Correct_3D_Drift",
             "url": "https://github.com/fiji/Correct_3D_Drift"
@@ -27207,8 +27603,993 @@
             "url": "https://github.com/fiji/Linear_Kuwahara"
           }
         ],
-        "debugger_bugs": [],
+        "debugger_bugs": [
+          {
+            "number": 58,
+            "repo": "mobie/mobie-io",
+            "title": "README out of date",
+            "url": "https://github.com/mobie/mobie-io/issues/58"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 103,
+            "repo": "mobie/mobie-io",
+            "title": "Multi channel names",
+            "url": "https://github.com/mobie/mobie-io/issues/103"
+          },
+          {
+            "number": 152,
+            "repo": "mobie/mobie-io",
+            "title": "N5 compilation error using scijava parent pom 37.0.0",
+            "url": "https://github.com/mobie/mobie-io/issues/152"
+          },
+          {
+            "number": 202,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Closing 'continue annotation' throws NullPointerException",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/202"
+          },
+          {
+            "number": 214,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Images are added twice",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/214"
+          },
+          {
+            "number": 394,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "default location meaningful for dataset",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/394"
+          },
+          {
+            "number": 447,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "make the merge grid transformation work for large images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/447"
+          },
+          {
+            "number": 463,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Can we have different sources with the same name right now?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/463"
+          },
+          {
+            "number": 471,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Saving a view includes transforms from previously displayed views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/471"
+          },
+          {
+            "number": 532,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "PlatyBrowser [level] button is missing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/532"
+          },
+          {
+            "number": 554,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Segmentation MergedGridSource assumes UnsignedIntType",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/554"
+          },
+          {
+            "number": 563,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Adding scatterplot makes scale bar disappear ",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/563"
+          },
+          {
+            "number": 595,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ProSPr GeneSearch for transformed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/595"
+          },
+          {
+            "number": 659,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Project made with 'linking' images on Windows can't be opened on mac",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/659"
+          },
+          {
+            "number": 661,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label mask display in OME-Zarr Viewer is broken",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/661"
+          },
+          {
+            "number": 675,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "RealMaskRealInterval seems to hang when too many intervals are combined",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/675"
+          },
+          {
+            "number": 704,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Github path contains superfluous `/`",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/704"
+          },
+          {
+            "number": 717,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Scatter plots contain scale bars",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/717"
+          },
+          {
+            "number": 742,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Memory issues during tests on CI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/742"
+          },
+          {
+            "number": 750,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Move region annotation with transformed source",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/750"
+          },
+          {
+            "number": 829,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Accumulate projector is only used if there is more than 1 source",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/829"
+          },
+          {
+            "number": 835,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Weird names in overlay",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/835"
+          },
+          {
+            "number": 874,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Removing image doesn't remove 3D view",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/874"
+          },
+          {
+            "number": 884,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Full Fiji freeze",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/884"
+          },
+          {
+            "number": 900,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BoundarySource creation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/900"
+          },
+          {
+            "number": 908,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Opening a new view does not give a initial log",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/908"
+          },
+          {
+            "number": 909,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Table positions are wrong when opening multiple views in sequence",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/909"
+          },
+          {
+            "number": 913,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "AnnotationDialog: not all scenarios for selecting annotations in the dialog are covered",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/913"
+          },
+          {
+            "number": 916,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BDV HDF5: supported data types",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/916"
+          },
+          {
+            "number": 938,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Opening tables from FileSystem doesn't work",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/938"
+          },
+          {
+            "number": 944,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "navigation from tables (re-opened)",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/944"
+          },
+          {
+            "number": 959,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Cannot run project on all computers, probably due to LegacyInjector issues",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/959"
+          },
+          {
+            "number": 987,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS: Operetta field order",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/987"
+          },
+          {
+            "number": 1011,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Swing errors for updating table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1011"
+          },
+          {
+            "number": 1013,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "overlay names for multiple sources is a problem",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1013"
+          },
+          {
+            "number": 1014,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Error when opening `Figure1a` view in platybrowser",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1014"
+          },
+          {
+            "number": 1049,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Fiji scripting seems not up to date",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1049"
+          },
+          {
+            "number": 1066,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Implement labels loading for OME-Zarr HCS plates",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1066"
+          },
+          {
+            "number": 1069,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Fixing the new major version script",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1069"
+          },
+          {
+            "number": 1102,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "enable tests",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1102"
+          },
+          {
+            "number": 1113,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Selection in scatterplot not always working",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1113"
+          },
+          {
+            "number": 1121,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "new-n5: mouse embryo spatial-transcriptomics project does not open",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1121"
+          },
+          {
+            "number": 1123,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Newly created image view is not found in the context of a view with several images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1123"
+          },
+          {
+            "number": 1124,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Clicking Preview on Enter Transformation adds transformation twice",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1124"
+          },
+          {
+            "number": 1134,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Beta - edit MoBIE project broken",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1134"
+          },
+          {
+            "number": 1164,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "How to browse Files and still be able to enter URLs in the GUI?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1164"
+          },
+          {
+            "number": 1168,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Auto-contrast does not work for big TIFF images...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1168"
+          },
+          {
+            "number": 1173,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "`F2`, `F3` and some other BigWarp shortcuts don't work",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1173"
+          },
+          {
+            "number": 1176,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Handling \"Cancel\" when saving views of transformed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1176"
+          },
+          {
+            "number": 1278,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE Collection Table Creation does not recognize OME-Zarr",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1278"
+          },
+          {
+            "number": 1307,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Coloring: Opacity / alpha is ignored when only one source is rendered",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1307"
+          },
+          {
+            "number": 1312,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "github mvn build  error",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1312"
+          }
+        ],
         "developer_features": [
+          {
+            "number": 49,
+            "repo": "mobie/mobie-io",
+            "title": "Add shared queues for bdv.ome.zarr.s3",
+            "url": "https://github.com/mobie/mobie-io/issues/49"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 91,
+            "repo": "mobie/mobie-io",
+            "title": "Remove doesObjectExist() calls everywhere?",
+            "url": "https://github.com/mobie/mobie-io/issues/91"
+          },
+          {
+            "number": 99,
+            "repo": "mobie/mobie-io",
+            "title": "attributes read twice in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/99"
+          },
+          {
+            "number": 102,
+            "repo": "mobie/mobie-io",
+            "title": "Make LoadingStrategy configurable for OME ZARR S3 ImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/102"
+          },
+          {
+            "number": 104,
+            "repo": "mobie/mobie-io",
+            "title": "Add optional chunk loading logging also to opening OME-Zarr from file system",
+            "url": "https://github.com/mobie/mobie-io/issues/104"
+          },
+          {
+            "number": 131,
+            "repo": "mobie/mobie-io",
+            "title": "Implement ImgLoaderIo for all XML based formats",
+            "url": "https://github.com/mobie/mobie-io/issues/131"
+          },
+          {
+            "number": 154,
+            "repo": "mobie/mobie-io",
+            "title": "Use n5-viewer to load OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/154"
+          },
+          {
+            "number": 12,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "implement proper logger",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/12"
+          },
+          {
+            "number": 17,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "synch view of bdv and 3d viewer",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/17"
+          },
+          {
+            "number": 63,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Gene search: Ask for Radius",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/63"
+          },
+          {
+            "number": 79,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Resize 3D-viewer window",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/79"
+          },
+          {
+            "number": 89,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add better representation for neuron traces?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/89"
+          },
+          {
+            "number": 95,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable linking objects in different segmentations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/95"
+          },
+          {
+            "number": 116,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Configurable (project specific) context menu",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/116"
+          },
+          {
+            "number": 162,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Upload bdv.n5 to S3",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/162"
+          },
+          {
+            "number": 188,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Maximum size to render in 3D",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/188"
+          },
+          {
+            "number": 191,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open project",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/191"
+          },
+          {
+            "number": 220,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Annotation mode improvements",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/220"
+          },
+          {
+            "number": 222,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableRowListener",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/222"
+          },
+          {
+            "number": 223,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ColoringModelWrapper inefficient",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/223"
+          },
+          {
+            "number": 228,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableViewer",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/228"
+          },
+          {
+            "number": 230,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Luts and coloring models",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/230"
+          },
+          {
+            "number": 231,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Collections vs. Lists?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/231"
+          },
+          {
+            "number": 234,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Implement proper adapter",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/234"
+          },
+          {
+            "number": 243,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "3D crop export to ImageJ",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/243"
+          },
+          {
+            "number": 279,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use GitHub API instead of raw",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/279"
+          },
+          {
+            "number": 305,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Replacing List< TableRows > with a TableModel",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/305"
+          },
+          {
+            "number": 339,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Moveable source panels for layers",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/339"
+          },
+          {
+            "number": 352,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "When annotating, map number keys to categories",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/352"
+          },
+          {
+            "number": 355,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "using segmentations as masks for intensity analysis",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/355"
+          },
+          {
+            "number": 362,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Dynamic grid views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/362"
+          },
+          {
+            "number": 368,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE in the browser",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/368"
+          },
+          {
+            "number": 390,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Support opening from private github repos with tokens",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/390"
+          },
+          {
+            "number": 418,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Download raw data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/418"
+          },
+          {
+            "number": 437,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Command names capitalisation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/437"
+          },
+          {
+            "number": 439,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Folder Browse Button for Opening OME-Zarr",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/439"
+          },
+          {
+            "number": 462,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"Current\" source(s) selection",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/462"
+          },
+          {
+            "number": 508,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Grid view loading progress",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/508"
+          },
+          {
+            "number": 519,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refactor SpimDataOpener into mobie-io",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/519"
+          },
+          {
+            "number": 530,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Distinguish build error from failed deploy",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/530"
+          },
+          {
+            "number": 536,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make maxNumVoxels of volume rendering configurable",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/536"
+          },
+          {
+            "number": 539,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Get rid of MoBIEUtils class",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/539"
+          },
+          {
+            "number": 550,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Simplify BdvSegmentSelector",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/550"
+          },
+          {
+            "number": 551,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Improve LabelConverter for images without table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/551"
+          },
+          {
+            "number": 557,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Zooming in and out of transformed grid hangs",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/557"
+          },
+          {
+            "number": 561,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Hide BDV Menu bar",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/561"
+          },
+          {
+            "number": 576,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make context menu for toggling source display settings",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/576"
+          },
+          {
+            "number": 584,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Screenshot progress bar",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/584"
+          },
+          {
+            "number": 595,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ProSPr GeneSearch for transformed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/595"
+          },
+          {
+            "number": 598,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "GeneSearch: Add Test",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/598"
+          },
+          {
+            "number": 620,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "JSON Spec for sources[] and sources[][]",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/620"
+          },
+          {
+            "number": 660,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Take screenshot (multi-channel) always 16-bit",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/660"
+          },
+          {
+            "number": 664,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Test loading many sources with new BDV",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/664"
+          },
+          {
+            "number": 665,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "OME Zarr opener add 2D mode checkbox",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/665"
+          },
+          {
+            "number": 667,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Creating Grid Views via Project Creator API",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/667"
+          },
+          {
+            "number": 713,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Project Creator, sumOccluding Blending Mode",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/713"
+          },
+          {
+            "number": 744,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Think about ColoringModels",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/744"
+          },
+          {
+            "number": 745,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label boundary rendering for regions of mixed size",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/745"
+          },
+          {
+            "number": 750,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Move region annotation with transformed source",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/750"
+          },
+          {
+            "number": 753,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label Coloring: Add single color mode?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/753"
+          },
+          {
+            "number": 781,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Published figures and projects description",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/781"
+          },
+          {
+            "number": 785,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Region annotations for multiple timepoints not working yet",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/785"
+          },
+          {
+            "number": 796,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make ScatterPlotViewer work with TableRowsTableModel",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/796"
+          },
+          {
+            "number": 798,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Consider SliceViewSelectionListener",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/798"
+          },
+          {
+            "number": 801,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add table to segmentation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/801"
+          },
+          {
+            "number": 811,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open MoBIE projects from data other than a MoBIE project",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/811"
+          },
+          {
+            "number": 840,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Code duplication in TableSawAnnotatedSpot...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/840"
+          },
+          {
+            "number": 884,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Full Fiji freeze",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/884"
+          },
+          {
+            "number": 919,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Running MoBIE from the command line",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/919"
+          },
+          {
+            "number": 953,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using Mastodon Scatterplot Grapher",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/953"
+          },
+          {
+            "number": 956,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"Log Current View\" misleading?!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/956"
+          },
+          {
+            "number": 958,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make points on Scatter Plot round",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/958"
+          },
+          {
+            "number": 979,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Show well names when activating name overlay for HCS data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/979"
+          },
+          {
+            "number": 988,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS Opener: Optionally use Bio-Formats",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/988"
+          },
+          {
+            "number": 989,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add information about probably required memory",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/989"
+          },
+          {
+            "number": 997,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BDV getting a little bit stuck",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/997"
+          },
+          {
+            "number": 998,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add relative boundary rendering to the spec",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/998"
+          },
+          {
+            "number": 1000,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Render boundaries outside",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1000"
+          },
+          {
+            "number": 1002,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add help buttons to some menu items?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1002"
+          },
+          {
+            "number": 1003,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add option for a simple config.toml",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1003"
+          },
+          {
+            "number": 1005,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "mergedGrid for 3D with different number of z-planes",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1005"
+          },
+          {
+            "number": 1015,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refactor ShowRasterImagesCommand",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1015"
+          },
+          {
+            "number": 1020,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Contrast limit adjustment is tedious if it is far off",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1020"
+          },
+          {
+            "number": 1026,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add splash screen for launching from CLI?!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1026"
+          },
+          {
+            "number": 1037,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Start from CLI without launching ImageJ UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1037"
+          },
+          {
+            "number": 1055,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"thickness\" of 2D images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1055"
+          },
+          {
+            "number": 1059,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add FAIM tests",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1059"
+          },
+          {
+            "number": 1061,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "clearing the viewer speedup",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1061"
+          },
+          {
+            "number": 1078,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "S3 IncuCyteRaw HCS loading via files",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1078"
+          },
+          {
+            "number": 1088,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Default view description",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1088"
+          },
+          {
+            "number": 1090,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Automated Registration: Automate the IAT z-spacing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1090"
+          },
+          {
+            "number": 1091,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Automated Registration: Hide SIFT features",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1091"
+          },
+          {
+            "number": 1092,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "dynamic view adjustment based on table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1092"
+          },
+          {
+            "number": 1095,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use Valdo's contrast slider from BDV",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1095"
+          },
+          {
+            "number": 1103,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Create better region table for multiple sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1103"
+          },
+          {
+            "number": 1105,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using n5-viewer code fro loading OME-Zarr and N5",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1105"
+          },
+          {
+            "number": 1125,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Including a new viewer transform for a new registered image does not make sense",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1125"
+          },
+          {
+            "number": 1143,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Read colours from OME-Zarr omero",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1143"
+          },
+          {
+            "number": 1144,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using Nico's on-the-fly multi-resolution Source for StitchedImage",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1144"
+          },
+          {
+            "number": 1149,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable transforming a group of images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1149"
+          },
+          {
+            "number": 1151,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Creating more powerful support for opening tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1151"
+          },
+          {
+            "number": 1155,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Keep Transformation Command Windows on top",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1155"
+          },
+          {
+            "number": 1171,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Saving OME-Zarr is slower now?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1171"
+          },
+          {
+            "number": 1177,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Save the views of all transformed sources in one go...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1177"
+          },
+          {
+            "number": 1178,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Move \"context menu\" to BDV menu",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1178"
+          },
+          {
+            "number": 1223,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable to have one view in multiple UI selection groups",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1223"
+          },
+          {
+            "number": 1252,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Is there a way to order the uiSelectionsGroups?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1252"
+          },
+          {
+            "number": 1276,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Feature suggestion: Arbitrary grid specifier in collection table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1276"
+          },
+          {
+            "number": 1290,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Create new display layers from numerical annotations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1290"
+          },
+          {
+            "number": 1301,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Improve the selection logic for table row [feat-request]",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1301"
+          },
           {
             "number": 5,
             "repo": "fiji/Correct_3D_Drift",
@@ -27218,6 +28599,10 @@
         ],
         "maintainer_releases": [
           {
+            "ga": "org.embl.mobie:mobie-viewer-fiji",
+            "url": "https://github.com/mobie/mobie-viewer-fiji"
+          },
+          {
             "ga": "sc.fiji:Correct_3D_Drift",
             "url": "https://github.com/fiji/Correct_3D_Drift"
           },
@@ -27226,8 +28611,2199 @@
             "url": "https://github.com/fiji/Linear_Kuwahara"
           }
         ],
-        "reviewer_prs": [],
+        "reviewer_prs": [
+          {
+            "number": 100,
+            "repo": "mobie/mobie-io",
+            "title": "Prevent multiple loading of DatasetAttributes in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/pull/100"
+          },
+          {
+            "number": 119,
+            "repo": "mobie/mobie-io",
+            "title": "Hackathon prague 2022",
+            "url": "https://github.com/mobie/mobie-io/pull/119"
+          },
+          {
+            "number": 145,
+            "repo": "mobie/mobie-io",
+            "title": "Refactoring CI",
+            "url": "https://github.com/mobie/mobie-io/pull/145"
+          },
+          {
+            "number": 185,
+            "repo": "mobie/mobie-io",
+            "title": "Show the actual cause when a dataset cannot be opened",
+            "url": "https://github.com/mobie/mobie-io/pull/185"
+          },
+          {
+            "number": 416,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Dynamic gridView, sources and views description",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/pull/416"
+          },
+          {
+            "number": 565,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Fix BDV HDF5 reading",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/pull/565"
+          },
+          {
+            "number": 1332,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Update ome-zarr-fiji version to 0.9.1",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/pull/1332"
+          }
+        ],
         "support_issues": [
+          {
+            "number": 2,
+            "repo": "mobie/mobie-io",
+            "title": "label image dependencies",
+            "url": "https://github.com/mobie/mobie-io/issues/2"
+          },
+          {
+            "number": 18,
+            "repo": "mobie/mobie-io",
+            "title": "class ArrayCreator code duplication?",
+            "url": "https://github.com/mobie/mobie-io/issues/18"
+          },
+          {
+            "number": 37,
+            "repo": "mobie/mobie-io",
+            "title": "Confusing method names...",
+            "url": "https://github.com/mobie/mobie-io/issues/37"
+          },
+          {
+            "number": 49,
+            "repo": "mobie/mobie-io",
+            "title": "Add shared queues for bdv.ome.zarr.s3",
+            "url": "https://github.com/mobie/mobie-io/issues/49"
+          },
+          {
+            "number": 58,
+            "repo": "mobie/mobie-io",
+            "title": "README out of date",
+            "url": "https://github.com/mobie/mobie-io/issues/58"
+          },
+          {
+            "number": 59,
+            "repo": "mobie/mobie-io",
+            "title": "Enable using multiple S3 secret and access keys",
+            "url": "https://github.com/mobie/mobie-io/issues/59"
+          },
+          {
+            "number": 61,
+            "repo": "mobie/mobie-io",
+            "title": "Can we use / merge metadata functionality in n5-imglib2?",
+            "url": "https://github.com/mobie/mobie-io/issues/61"
+          },
+          {
+            "number": 62,
+            "repo": "mobie/mobie-io",
+            "title": "Refactoring of SpimDataOpener",
+            "url": "https://github.com/mobie/mobie-io/issues/62"
+          },
+          {
+            "number": 79,
+            "repo": "mobie/mobie-io",
+            "title": "Downsampling strategy when writing OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/79"
+          },
+          {
+            "number": 91,
+            "repo": "mobie/mobie-io",
+            "title": "Remove doesObjectExist() calls everywhere?",
+            "url": "https://github.com/mobie/mobie-io/issues/91"
+          },
+          {
+            "number": 94,
+            "repo": "mobie/mobie-io",
+            "title": "MoBIE-io incompatible with bigdataviewer-core:10.2.2",
+            "url": "https://github.com/mobie/mobie-io/issues/94"
+          },
+          {
+            "number": 99,
+            "repo": "mobie/mobie-io",
+            "title": "attributes read twice in N5OMEZarrImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/99"
+          },
+          {
+            "number": 101,
+            "repo": "mobie/mobie-io",
+            "title": "Profile SpimDataOpener().openSpimData() for S3OMEZarr",
+            "url": "https://github.com/mobie/mobie-io/issues/101"
+          },
+          {
+            "number": 102,
+            "repo": "mobie/mobie-io",
+            "title": "Make LoadingStrategy configurable for OME ZARR S3 ImageLoader",
+            "url": "https://github.com/mobie/mobie-io/issues/102"
+          },
+          {
+            "number": 103,
+            "repo": "mobie/mobie-io",
+            "title": "Multi channel names",
+            "url": "https://github.com/mobie/mobie-io/issues/103"
+          },
+          {
+            "number": 104,
+            "repo": "mobie/mobie-io",
+            "title": "Add optional chunk loading logging also to opening OME-Zarr from file system",
+            "url": "https://github.com/mobie/mobie-io/issues/104"
+          },
+          {
+            "number": 105,
+            "repo": "mobie/mobie-io",
+            "title": "BDV->OMEZarr does not work correctly with time dimension",
+            "url": "https://github.com/mobie/mobie-io/issues/105"
+          },
+          {
+            "number": 106,
+            "repo": "mobie/mobie-io",
+            "title": "Consider using SciJava DataHandle/Location API",
+            "url": "https://github.com/mobie/mobie-io/issues/106"
+          },
+          {
+            "number": 109,
+            "repo": "mobie/mobie-io",
+            "title": "Performance considerations when reading through http",
+            "url": "https://github.com/mobie/mobie-io/issues/109"
+          },
+          {
+            "number": 118,
+            "repo": "mobie/mobie-io",
+            "title": "Next release",
+            "url": "https://github.com/mobie/mobie-io/issues/118"
+          },
+          {
+            "number": 122,
+            "repo": "mobie/mobie-io",
+            "title": "Reverse spatial ome metadata when parsing it to avoid reversing the axis order later",
+            "url": "https://github.com/mobie/mobie-io/issues/122"
+          },
+          {
+            "number": 131,
+            "repo": "mobie/mobie-io",
+            "title": "Implement ImgLoaderIo for all XML based formats",
+            "url": "https://github.com/mobie/mobie-io/issues/131"
+          },
+          {
+            "number": 138,
+            "repo": "mobie/mobie-io",
+            "title": "cannot read ome-zarr from s3",
+            "url": "https://github.com/mobie/mobie-io/issues/138"
+          },
+          {
+            "number": 140,
+            "repo": "mobie/mobie-io",
+            "title": "CI: Separate deploy and test",
+            "url": "https://github.com/mobie/mobie-io/issues/140"
+          },
+          {
+            "number": 146,
+            "repo": "mobie/mobie-io",
+            "title": "Running the tests is slow in the US",
+            "url": "https://github.com/mobie/mobie-io/issues/146"
+          },
+          {
+            "number": 152,
+            "repo": "mobie/mobie-io",
+            "title": "N5 compilation error using scijava parent pom 37.0.0",
+            "url": "https://github.com/mobie/mobie-io/issues/152"
+          },
+          {
+            "number": 154,
+            "repo": "mobie/mobie-io",
+            "title": "Use n5-viewer to load OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/154"
+          },
+          {
+            "number": 158,
+            "repo": "mobie/mobie-io",
+            "title": "Support XML OME-Zarr",
+            "url": "https://github.com/mobie/mobie-io/issues/158"
+          },
+          {
+            "number": 159,
+            "repo": "mobie/mobie-io",
+            "title": "Is it useful to support directly writing OME-Zarr to S3 ? ",
+            "url": "https://github.com/mobie/mobie-io/issues/159"
+          },
+          {
+            "number": 160,
+            "repo": "mobie/mobie-io",
+            "title": "Opening from S3 with credentials only via official mechanisms",
+            "url": "https://github.com/mobie/mobie-io/issues/160"
+          },
+          {
+            "number": 162,
+            "repo": "mobie/mobie-io",
+            "title": "Default chunk sizes",
+            "url": "https://github.com/mobie/mobie-io/issues/162"
+          },
+          {
+            "number": 165,
+            "repo": "mobie/mobie-io",
+            "title": "Linking data from one mobie project s3 to another requires redundant xml file",
+            "url": "https://github.com/mobie/mobie-io/issues/165"
+          },
+          {
+            "number": 166,
+            "repo": "mobie/mobie-io",
+            "title": "Mobie seems to have problems with ilastik as first image (image to get metadata from)",
+            "url": "https://github.com/mobie/mobie-io/issues/166"
+          },
+          {
+            "number": 167,
+            "repo": "mobie/mobie-io",
+            "title": "Command errored: Open Multiple Images and Labels... [ilastik .h5]",
+            "url": "https://github.com/mobie/mobie-io/issues/167"
+          },
+          {
+            "number": 168,
+            "repo": "mobie/mobie-io",
+            "title": "File handle not released when loading h5 data fails",
+            "url": "https://github.com/mobie/mobie-io/issues/168"
+          },
+          {
+            "number": 170,
+            "repo": "mobie/mobie-io",
+            "title": "Add support for opening OMERO URLs...?",
+            "url": "https://github.com/mobie/mobie-io/issues/170"
+          },
+          {
+            "number": 171,
+            "repo": "mobie/mobie-io",
+            "title": "Throw meaningful error when OMERO dependencies are missing",
+            "url": "https://github.com/mobie/mobie-io/issues/171"
+          },
+          {
+            "number": 172,
+            "repo": "mobie/mobie-io",
+            "title": "Documentation request: basic api usage (for opening OME-Zarr as ImagePlus)",
+            "url": "https://github.com/mobie/mobie-io/issues/172"
+          },
+          {
+            "number": 173,
+            "repo": "mobie/mobie-io",
+            "title": "Supporting OME-Zarr 0.5 via N5",
+            "url": "https://github.com/mobie/mobie-io/issues/173"
+          },
+          {
+            "number": 174,
+            "repo": "mobie/mobie-io",
+            "title": "Blosc suppport",
+            "url": "https://github.com/mobie/mobie-io/issues/174"
+          },
+          {
+            "number": 175,
+            "repo": "mobie/mobie-io",
+            "title": "How to obtain the time unit and timestep for the zarr file data loading.",
+            "url": "https://github.com/mobie/mobie-io/issues/175"
+          },
+          {
+            "number": 176,
+            "repo": "mobie/mobie-io",
+            "title": "Better grouping of SpimData dataset according to attributes",
+            "url": "https://github.com/mobie/mobie-io/issues/176"
+          },
+          {
+            "number": 177,
+            "repo": "mobie/mobie-io",
+            "title": "Supporting OME-Zarr via Zarr-Java",
+            "url": "https://github.com/mobie/mobie-io/issues/177"
+          },
+          {
+            "number": 12,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "implement proper logger",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/12"
+          },
+          {
+            "number": 17,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "synch view of bdv and 3d viewer",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/17"
+          },
+          {
+            "number": 63,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Gene search: Ask for Radius",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/63"
+          },
+          {
+            "number": 79,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Resize 3D-viewer window",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/79"
+          },
+          {
+            "number": 89,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add better representation for neuron traces?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/89"
+          },
+          {
+            "number": 95,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable linking objects in different segmentations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/95"
+          },
+          {
+            "number": 202,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Closing 'continue annotation' throws NullPointerException",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/202"
+          },
+          {
+            "number": 116,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Configurable (project specific) context menu",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/116"
+          },
+          {
+            "number": 162,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Upload bdv.n5 to S3",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/162"
+          },
+          {
+            "number": 188,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Maximum size to render in 3D",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/188"
+          },
+          {
+            "number": 191,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open project",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/191"
+          },
+          {
+            "number": 204,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Can we get rid of imagej-utils dependency?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/204"
+          },
+          {
+            "number": 205,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ImageSegment vs imglib2-roi",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/205"
+          },
+          {
+            "number": 214,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Images are added twice",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/214"
+          },
+          {
+            "number": 220,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Annotation mode improvements",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/220"
+          },
+          {
+            "number": 222,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableRowListener",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/222"
+          },
+          {
+            "number": 223,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ColoringModelWrapper inefficient",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/223"
+          },
+          {
+            "number": 228,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableViewer",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/228"
+          },
+          {
+            "number": 230,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Luts and coloring models",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/230"
+          },
+          {
+            "number": 231,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Collections vs. Lists?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/231"
+          },
+          {
+            "number": 233,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Auto custom colouring scheme (A-R-G-B)",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/233"
+          },
+          {
+            "number": 234,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Implement proper adapter",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/234"
+          },
+          {
+            "number": 243,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "3D crop export to ImageJ",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/243"
+          },
+          {
+            "number": 278,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Issues with writing views in quick succession to the same github file",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/278"
+          },
+          {
+            "number": 279,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use GitHub API instead of raw",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/279"
+          },
+          {
+            "number": 292,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Platybrowser 'search genes' functionality",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/292"
+          },
+          {
+            "number": 302,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Dealing with multiple tables with shared column names",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/302"
+          },
+          {
+            "number": 305,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Replacing List< TableRows > with a TableModel",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/305"
+          },
+          {
+            "number": 324,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Support timepoints in transforms",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/324"
+          },
+          {
+            "number": 329,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Possible memory leak",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/329"
+          },
+          {
+            "number": 335,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Clean up table loading",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/335"
+          },
+          {
+            "number": 339,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Moveable source panels for layers",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/339"
+          },
+          {
+            "number": 343,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Scatter plots for grid views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/343"
+          },
+          {
+            "number": 345,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Interpolation of sources in occluding mode produces a border",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/345"
+          },
+          {
+            "number": 352,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "When annotating, map number keys to categories",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/352"
+          },
+          {
+            "number": 355,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "using segmentations as masks for intensity analysis",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/355"
+          },
+          {
+            "number": 362,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Dynamic grid views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/362"
+          },
+          {
+            "number": 364,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "right-click source selection",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/364"
+          },
+          {
+            "number": 368,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE in the browser",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/368"
+          },
+          {
+            "number": 370,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Weird behaviour of contrast limits",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/370"
+          },
+          {
+            "number": 390,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Support opening from private github repos with tokens",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/390"
+          },
+          {
+            "number": 394,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "default location meaningful for dataset",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/394"
+          },
+          {
+            "number": 400,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Loading tables for HTM is slow",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/400"
+          },
+          {
+            "number": 403,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Rename ImageSource and SegmentationSource",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/403"
+          },
+          {
+            "number": 411,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add support for interactive registration",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/411"
+          },
+          {
+            "number": 418,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Download raw data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/418"
+          },
+          {
+            "number": 437,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Command names capitalisation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/437"
+          },
+          {
+            "number": 439,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Folder Browse Button for Opening OME-Zarr",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/439"
+          },
+          {
+            "number": 444,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "main methods should be empty in src/main",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/444"
+          },
+          {
+            "number": 447,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "make the merge grid transformation work for large images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/447"
+          },
+          {
+            "number": 450,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "global sources not just for images but also derived sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/450"
+          },
+          {
+            "number": 460,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "CLEM example project views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/460"
+          },
+          {
+            "number": 461,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"Related views\" concept...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/461"
+          },
+          {
+            "number": 462,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"Current\" source(s) selection",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/462"
+          },
+          {
+            "number": 463,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Can we have different sources with the same name right now?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/463"
+          },
+          {
+            "number": 464,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Change code to consistently use Map< Name, SAC >",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/464"
+          },
+          {
+            "number": 471,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Saving a view includes transforms from previously displayed views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/471"
+          },
+          {
+            "number": 473,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Saving a view with the same source in multiple views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/473"
+          },
+          {
+            "number": 479,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "grid table order is wrong",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/479"
+          },
+          {
+            "number": 484,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MergedGridSource fetches voxel size from sourceTransform",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/484"
+          },
+          {
+            "number": 485,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MergedGridSource uses SourceTransform of one of the sources for all sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/485"
+          },
+          {
+            "number": 487,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MergedGridSource spec",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/487"
+          },
+          {
+            "number": 508,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Grid view loading progress",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/508"
+          },
+          {
+            "number": 515,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableDir for combined sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/515"
+          },
+          {
+            "number": 519,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refactor SpimDataOpener into mobie-io",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/519"
+          },
+          {
+            "number": 525,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Using the 'browse' button changes the project creator laf",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/525"
+          },
+          {
+            "number": 530,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Distinguish build error from failed deploy",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/530"
+          },
+          {
+            "number": 531,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Adding multiple 2D images from a directory via project creator",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/531"
+          },
+          {
+            "number": 532,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "PlatyBrowser [level] button is missing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/532"
+          },
+          {
+            "number": 536,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make maxNumVoxels of volume rendering configurable",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/536"
+          },
+          {
+            "number": 537,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ImageVolumeViewer does not listen to image color",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/537"
+          },
+          {
+            "number": 539,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Get rid of MoBIEUtils class",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/539"
+          },
+          {
+            "number": 549,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Segmentation MergedGridSource",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/549"
+          },
+          {
+            "number": 550,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Simplify BdvSegmentSelector",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/550"
+          },
+          {
+            "number": 551,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Improve LabelConverter for images without table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/551"
+          },
+          {
+            "number": 554,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Segmentation MergedGridSource assumes UnsignedIntType",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/554"
+          },
+          {
+            "number": 557,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Zooming in and out of transformed grid hangs",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/557"
+          },
+          {
+            "number": 561,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Hide BDV Menu bar",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/561"
+          },
+          {
+            "number": 563,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Adding scatterplot makes scale bar disappear ",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/563"
+          },
+          {
+            "number": 576,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make context menu for toggling source display settings",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/576"
+          },
+          {
+            "number": 582,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Help for 'Segmentations Browsing' needs updating",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/582"
+          },
+          {
+            "number": 584,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Screenshot progress bar",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/584"
+          },
+          {
+            "number": 595,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ProSPr GeneSearch for transformed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/595"
+          },
+          {
+            "number": 598,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "GeneSearch: Add Test",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/598"
+          },
+          {
+            "number": 605,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add \"Create Cropped View\"",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/605"
+          },
+          {
+            "number": 620,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "JSON Spec for sources[] and sources[][]",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/620"
+          },
+          {
+            "number": 625,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Handling expected exceptions in project creator",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/625"
+          },
+          {
+            "number": 642,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use signing region when opening ome-zarr projects",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/642"
+          },
+          {
+            "number": 650,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Project creator: data subfolder issue",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/650"
+          },
+          {
+            "number": 659,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Project made with 'linking' images on Windows can't be opened on mac",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/659"
+          },
+          {
+            "number": 660,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Take screenshot (multi-channel) always 16-bit",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/660"
+          },
+          {
+            "number": 661,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label mask display in OME-Zarr Viewer is broken",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/661"
+          },
+          {
+            "number": 664,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Test loading many sources with new BDV",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/664"
+          },
+          {
+            "number": 665,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "OME Zarr opener add 2D mode checkbox",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/665"
+          },
+          {
+            "number": 667,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Creating Grid Views via Project Creator API",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/667"
+          },
+          {
+            "number": 669,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Creating views via the Project Creator API",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/669"
+          },
+          {
+            "number": 671,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "UX with annotations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/671"
+          },
+          {
+            "number": 675,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "RealMaskRealInterval seems to hang when too many intervals are combined",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/675"
+          },
+          {
+            "number": 688,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Artifacts for boundary rendering of segmentations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/688"
+          },
+          {
+            "number": 689,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "LabelRendering Menu: shows \"wrong\" check",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/689"
+          },
+          {
+            "number": 691,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open Project Expert Mode, mixed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/691"
+          },
+          {
+            "number": 704,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Github path contains superfluous `/`",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/704"
+          },
+          {
+            "number": 713,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Project Creator, sumOccluding Blending Mode",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/713"
+          },
+          {
+            "number": 717,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Scatter plots contain scale bars",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/717"
+          },
+          {
+            "number": 731,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "enable location field to accept just positions (comma-separated)",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/731"
+          },
+          {
+            "number": 733,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Assign background value (aka fill value).",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/733"
+          },
+          {
+            "number": 742,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Memory issues during tests on CI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/742"
+          },
+          {
+            "number": 744,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Think about ColoringModels",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/744"
+          },
+          {
+            "number": 745,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label boundary rendering for regions of mixed size",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/745"
+          },
+          {
+            "number": 750,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Move region annotation with transformed source",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/750"
+          },
+          {
+            "number": 753,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Label Coloring: Add single color mode?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/753"
+          },
+          {
+            "number": 756,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Published Figures",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/756"
+          },
+          {
+            "number": 761,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Which segments should be shown as 3D rendering?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/761"
+          },
+          {
+            "number": 773,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"clear\" -> \"remove all\"?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/773"
+          },
+          {
+            "number": 781,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Published figures and projects description",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/781"
+          },
+          {
+            "number": 785,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Region annotations for multiple timepoints not working yet",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/785"
+          },
+          {
+            "number": 796,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make ScatterPlotViewer work with TableRowsTableModel",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/796"
+          },
+          {
+            "number": 798,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Consider SliceViewSelectionListener",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/798"
+          },
+          {
+            "number": 800,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Change font size for the axes labels in 3D mode",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/800"
+          },
+          {
+            "number": 801,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add table to segmentation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/801"
+          },
+          {
+            "number": 809,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Annotation: Skip None or Nan",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/809"
+          },
+          {
+            "number": 811,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open MoBIE projects from data other than a MoBIE project",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/811"
+          },
+          {
+            "number": 813,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Delegate ImgLoader closing to BDV-PL",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/813"
+          },
+          {
+            "number": 828,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use Console instead of IJ.log",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/828"
+          },
+          {
+            "number": 829,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Accumulate projector is only used if there is more than 1 source",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/829"
+          },
+          {
+            "number": 835,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Weird names in overlay",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/835"
+          },
+          {
+            "number": 840,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Code duplication in TableSawAnnotatedSpot...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/840"
+          },
+          {
+            "number": 841,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Transforming fields in a table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/841"
+          },
+          {
+            "number": 857,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "What to cache and how long?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/857"
+          },
+          {
+            "number": 858,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "New version / versions uploads to Fiji",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/858"
+          },
+          {
+            "number": 869,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Color by column: more meaningful error messages",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/869"
+          },
+          {
+            "number": 915,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Float precission for spots?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/915"
+          },
+          {
+            "number": 873,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Further improve performance for loading large (spot) tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/873"
+          },
+          {
+            "number": 874,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Removing image doesn't remove 3D view",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/874"
+          },
+          {
+            "number": 884,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Full Fiji freeze",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/884"
+          },
+          {
+            "number": 885,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Crash when opening view without BDV window",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/885"
+          },
+          {
+            "number": 886,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Record Movie",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/886"
+          },
+          {
+            "number": 889,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Opinion: reversing y-axis in Plot doesn't make sense",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/889"
+          },
+          {
+            "number": 891,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "AddAnnotations and AddAnnotation in TableModel",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/891"
+          },
+          {
+            "number": 908,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Opening a new view does not give a initial log",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/908"
+          },
+          {
+            "number": 909,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Table positions are wrong when opening multiple views in sequence",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/909"
+          },
+          {
+            "number": 913,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "AnnotationDialog: not all scenarios for selecting annotations in the dialog are covered",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/913"
+          },
+          {
+            "number": 916,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BDV HDF5: supported data types",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/916"
+          },
+          {
+            "number": 918,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Added project name",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/918"
+          },
+          {
+            "number": 919,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Running MoBIE from the command line",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/919"
+          },
+          {
+            "number": 920,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open ilastik image files",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/920"
+          },
+          {
+            "number": 921,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open Bio-Formats image files in MoBIE",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/921"
+          },
+          {
+            "number": 922,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Determine image file format from image path",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/922"
+          },
+          {
+            "number": 923,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Determine LUT settings from image file?!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/923"
+          },
+          {
+            "number": 926,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Determine dimensionality",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/926"
+          },
+          {
+            "number": 927,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Number of channels",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/927"
+          },
+          {
+            "number": 928,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open images to prefetch metadata",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/928"
+          },
+          {
+            "number": 929,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Reload data every time a view is opened?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/929"
+          },
+          {
+            "number": 931,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Showing ImageJ UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/931"
+          },
+          {
+            "number": 932,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Show IJ Log window?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/932"
+          },
+          {
+            "number": 934,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make this consistent within the Java code (i.e. use `ColorHelper` everywhere, also in the `DataetJsonCreator`!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/934"
+          },
+          {
+            "number": 935,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Table formats",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/935"
+          },
+          {
+            "number": 938,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Opening tables from FileSystem doesn't work",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/938"
+          },
+          {
+            "number": 944,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "navigation from tables (re-opened)",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/944"
+          },
+          {
+            "number": 945,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Only first two channels are displayed when channel-chunksize is > 1",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/945"
+          },
+          {
+            "number": 947,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open OME-Zarr in Neuroglancer",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/947"
+          },
+          {
+            "number": 948,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Selection of overlapping segments",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/948"
+          },
+          {
+            "number": 949,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "mobie goes conda",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/949"
+          },
+          {
+            "number": 950,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "check that the bookmarks are saving the resolution of the segmentation in the view.",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/950"
+          },
+          {
+            "number": 952,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Select Source from UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/952"
+          },
+          {
+            "number": 953,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using Mastodon Scatterplot Grapher",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/953"
+          },
+          {
+            "number": 954,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE Menu out-of-date",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/954"
+          },
+          {
+            "number": 956,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"Log Current View\" misleading?!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/956"
+          },
+          {
+            "number": 958,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make points on Scatter Plot round",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/958"
+          },
+          {
+            "number": 959,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Cannot run project on all computers, probably due to LegacyInjector issues",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/959"
+          },
+          {
+            "number": 961,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Tooltip description for UI buttons",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/961"
+          },
+          {
+            "number": 962,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Display/overlay of multichannel data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/962"
+          },
+          {
+            "number": 979,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Show well names when activating name overlay for HCS data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/979"
+          },
+          {
+            "number": 980,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS data: pass well table?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/980"
+          },
+          {
+            "number": 981,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "New MoBIE release?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/981"
+          },
+          {
+            "number": 987,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS: Operetta field order",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/987"
+          },
+          {
+            "number": 988,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS Opener: Optionally use Bio-Formats",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/988"
+          },
+          {
+            "number": 989,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add information about probably required memory",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/989"
+          },
+          {
+            "number": 991,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Consider cached on-the-fly scale pyramids",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/991"
+          },
+          {
+            "number": 993,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "new crash with HCS imported images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/993"
+          },
+          {
+            "number": 995,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Operetta small files ",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/995"
+          },
+          {
+            "number": 997,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BDV getting a little bit stuck",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/997"
+          },
+          {
+            "number": 998,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add relative boundary rendering to the spec",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/998"
+          },
+          {
+            "number": 999,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "sort grid by feature",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/999"
+          },
+          {
+            "number": 1000,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Render boundaries outside",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1000"
+          },
+          {
+            "number": 1002,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add help buttons to some menu items?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1002"
+          },
+          {
+            "number": 1003,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add option for a simple config.toml",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1003"
+          },
+          {
+            "number": 1005,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "mergedGrid for 3D with different number of z-planes",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1005"
+          },
+          {
+            "number": 1006,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "nomenclature for CLI and Fiji UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1006"
+          },
+          {
+            "number": 1007,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Operetta 5",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1007"
+          },
+          {
+            "number": 1009,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TableOpener returns empty column list for header-only tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1009"
+          },
+          {
+            "number": 1011,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Swing errors for updating table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1011"
+          },
+          {
+            "number": 1013,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "overlay names for multiple sources is a problem",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1013"
+          },
+          {
+            "number": 1014,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Error when opening `Figure1a` view in platybrowser",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1014"
+          },
+          {
+            "number": 1015,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refactor ShowRasterImagesCommand",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1015"
+          },
+          {
+            "number": 1017,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Sync problem with Harmony 4.1 dataset. Missing field",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1017"
+          },
+          {
+            "number": 1020,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Contrast limit adjustment is tedious if it is far off",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1020"
+          },
+          {
+            "number": 1025,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Reliable CI to test project creator (and more)",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1025"
+          },
+          {
+            "number": 1026,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add splash screen for launching from CLI?!",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1026"
+          },
+          {
+            "number": 1027,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "TimepointTransform mapping of multi-timepoint sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1027"
+          },
+          {
+            "number": 1029,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "create release for the publication version (spec 0.3) and freeze this version",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1029"
+          },
+          {
+            "number": 1035,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Loading of object tables for grid view",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1035"
+          },
+          {
+            "number": 1037,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Start from CLI without launching ImageJ UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1037"
+          },
+          {
+            "number": 1048,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "absolute dataset path in xml does not work",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1048"
+          },
+          {
+            "number": 1049,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Fiji scripting seems not up to date",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1049"
+          },
+          {
+            "number": 1055,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "\"thickness\" of 2D images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1055"
+          },
+          {
+            "number": 1059,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add FAIM tests",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1059"
+          },
+          {
+            "number": 1061,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "clearing the viewer speedup",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1061"
+          },
+          {
+            "number": 1066,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Implement labels loading for OME-Zarr HCS plates",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1066"
+          },
+          {
+            "number": 1069,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Fixing the new major version script",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1069"
+          },
+          {
+            "number": 1073,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open HCS-Plate from Windows",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1073"
+          },
+          {
+            "number": 1078,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "S3 IncuCyteRaw HCS loading via files",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1078"
+          },
+          {
+            "number": 1088,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Default view description",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1088"
+          },
+          {
+            "number": 1090,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Automated Registration: Automate the IAT z-spacing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1090"
+          },
+          {
+            "number": 1091,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Automated Registration: Hide SIFT features",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1091"
+          },
+          {
+            "number": 1092,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "dynamic view adjustment based on table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1092"
+          },
+          {
+            "number": 1095,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use Valdo's contrast slider from BDV",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1095"
+          },
+          {
+            "number": 1098,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open Project from GitHub with local source selector",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1098"
+          },
+          {
+            "number": 1102,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "enable tests",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1102"
+          },
+          {
+            "number": 1103,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Create better region table for multiple sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1103"
+          },
+          {
+            "number": 1105,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using n5-viewer code fro loading OME-Zarr and N5",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1105"
+          },
+          {
+            "number": 1106,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Deprecate support for XML based OME-Zarr loading?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1106"
+          },
+          {
+            "number": 1107,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Save manual transform",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1107"
+          },
+          {
+            "number": 1108,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Option to create new image for transformed images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1108"
+          },
+          {
+            "number": 1109,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "ava.lang.IllegalArgumentException: Fetching transformations from org.embl.mobie.lib.source.BoundarySource is not implemented.",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1109"
+          },
+          {
+            "number": 1113,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Selection in scatterplot not always working",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1113"
+          },
+          {
+            "number": 1115,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Do not support linking to existing BDV/XML images in Fiji Project Creator",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1115"
+          },
+          {
+            "number": 1118,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Are the is2D arguments in ImagesCreatorTest necessary?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1118"
+          },
+          {
+            "number": 1121,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "new-n5: mouse embryo spatial-transcriptomics project does not open",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1121"
+          },
+          {
+            "number": 1122,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Registration - Enter transformation adding transform twice",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1122"
+          },
+          {
+            "number": 1123,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Newly created image view is not found in the context of a view with several images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1123"
+          },
+          {
+            "number": 1124,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Clicking Preview on Enter Transformation adds transformation twice",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1124"
+          },
+          {
+            "number": 1125,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Including a new viewer transform for a new registered image does not make sense",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1125"
+          },
+          {
+            "number": 1126,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Can't enter a manual transform for segmentations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1126"
+          },
+          {
+            "number": 1134,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Beta - edit MoBIE project broken",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1134"
+          },
+          {
+            "number": 1142,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Change Java3D import",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1142"
+          },
+          {
+            "number": 1143,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Read colours from OME-Zarr omero",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1143"
+          },
+          {
+            "number": 1144,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Explore using Nico's on-the-fly multi-resolution Source for StitchedImage",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1144"
+          },
+          {
+            "number": 1147,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Cannot open plates where some images don't have a segmentation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1147"
+          },
+          {
+            "number": 1149,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable transforming a group of images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1149"
+          },
+          {
+            "number": 1151,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Creating more powerful support for opening tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1151"
+          },
+          {
+            "number": 1154,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Probably [F] does not work well for multiple sources including rotations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1154"
+          },
+          {
+            "number": 1155,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Keep Transformation Command Windows on top",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1155"
+          },
+          {
+            "number": 1158,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "How to deal with memory issues reading HCS plates",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1158"
+          },
+          {
+            "number": 1161,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Supporting time for inCarta data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1161"
+          },
+          {
+            "number": 1164,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "How to browse Files and still be able to enter URLs in the GUI?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1164"
+          },
+          {
+            "number": 1165,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "manual transformation triggered with [T] no longer saved in views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1165"
+          },
+          {
+            "number": 1168,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Auto-contrast does not work for big TIFF images...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1168"
+          },
+          {
+            "number": 1171,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Saving OME-Zarr is slower now?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1171"
+          },
+          {
+            "number": 1173,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "`F2`, `F3` and some other BigWarp shortcuts don't work",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1173"
+          },
+          {
+            "number": 1175,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BigWarp with multiple moving sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1175"
+          },
+          {
+            "number": 1176,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Handling \"Cancel\" when saving views of transformed sources",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1176"
+          },
+          {
+            "number": 1177,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Save the views of all transformed sources in one go...",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1177"
+          },
+          {
+            "number": 1178,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Move \"context menu\" to BDV menu",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1178"
+          },
+          {
+            "number": 1179,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "On-the-fly labels table pops up briefly when opening label dataset using the table version of MoBIE",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1179"
+          },
+          {
+            "number": 1185,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Annotation Overlay",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1185"
+          },
+          {
+            "number": 1191,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add 3-D screenshot functionality",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1191"
+          },
+          {
+            "number": 1192,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Load additional views throws an error if the /misc/views dir doesn't exist",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1192"
+          },
+          {
+            "number": 1201,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BVV annotation views support in timelapse data",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1201"
+          },
+          {
+            "number": 1211,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Duplicated classes for scijava 40.0.0",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1211"
+          },
+          {
+            "number": 1223,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Enable to have one view in multiple UI selection groups",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1223"
+          },
+          {
+            "number": 1224,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Spots data source bounding box",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1224"
+          },
+          {
+            "number": 1225,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Show spots only in 2D",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1225"
+          },
+          {
+            "number": 1226,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Getting rid of \"isRemote()\"",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1226"
+          },
+          {
+            "number": 1230,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Collection table: ignore unknown types",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1230"
+          },
+          {
+            "number": 1234,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Index out of bounds error when opening a grid view",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1234"
+          },
+          {
+            "number": 1236,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Error when opening a grid view with image and segmentation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1236"
+          },
+          {
+            "number": 1239,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE wants to record the screen?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1239"
+          },
+          {
+            "number": 1243,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Suggestions MoBIE menu",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1243"
+          },
+          {
+            "number": 1245,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Bounding boxes missing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1245"
+          },
+          {
+            "number": 1246,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Regions with high-res information not visible when zoomed out",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1246"
+          },
+          {
+            "number": 1250,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "cannot open zarr v3 files in MoBIE/Fiji",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1250"
+          },
+          {
+            "number": 1251,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Open collection table: Add browse button for Table Uri",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1251"
+          },
+          {
+            "number": 1252,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Is there a way to order the uiSelectionsGroups?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1252"
+          },
+          {
+            "number": 1253,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "What is the default view doing?",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1253"
+          },
+          {
+            "number": 1256,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "HCS image data displaced wrt to labels and well annotations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1256"
+          },
+          {
+            "number": 1260,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make generating a table optional in project creator",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1260"
+          },
+          {
+            "number": 1261,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add isValidOmeZarr check back into project creator",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1261"
+          },
+          {
+            "number": 1262,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Reduce number of dialogs to add stored ome-zarr images",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1262"
+          },
+          {
+            "number": 1263,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add support for thinplatespline transformations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1263"
+          },
+          {
+            "number": 1265,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Automated metadata extraction during collection table creation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1265"
+          },
+          {
+            "number": 1268,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE error on Windows Server 2019",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1268"
+          },
+          {
+            "number": 1274,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "BVB center of rotation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1274"
+          },
+          {
+            "number": 1276,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Feature suggestion: Arbitrary grid specifier in collection table",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1276"
+          },
+          {
+            "number": 1277,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Unify functionality of opening functions a bit",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1277"
+          },
+          {
+            "number": 1278,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "MoBIE Collection Table Creation does not recognize OME-Zarr",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1278"
+          },
+          {
+            "number": 1280,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Closing main MoBIE window does not close some settings windows",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1280"
+          },
+          {
+            "number": 1283,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Support TrackMate column names",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1283"
+          },
+          {
+            "number": 1288,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Make the select view dropbox work with multi-selection",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1288"
+          },
+          {
+            "number": 1290,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Create new display layers from numerical annotations",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1290"
+          },
+          {
+            "number": 1291,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Documentation: create graphic that shows correspondence of csv field to gui element",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1291"
+          },
+          {
+            "number": 1299,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "What to do with: Plugins > MoBIE > Open > Open OME-Zarr..",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1299"
+          },
+          {
+            "number": 1301,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Improve the selection logic for table row [feat-request]",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1301"
+          },
+          {
+            "number": 1302,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "For 3D mrc files I seem to need write permissions for their directory to display in MoBIE",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1302"
+          },
+          {
+            "number": 1303,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Serialisation of displacement fields",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1303"
+          },
+          {
+            "number": 1304,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Support for OME-Zarr v05 via N5",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1304"
+          },
+          {
+            "number": 1305,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "add option to \"invert\" to elastix_spline_uri",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1305"
+          },
+          {
+            "number": 1306,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "isRelativePath is confusing",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1306"
+          },
+          {
+            "number": 1307,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Coloring: Opacity / alpha is ignored when only one source is rendered",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1307"
+          },
+          {
+            "number": 1308,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Numeric annotations 3D views items",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1308"
+          },
+          {
+            "number": 1309,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Numeric annotation view rendered in 3D as a segmentation",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1309"
+          },
+          {
+            "number": 1310,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Numeric annotation duplicated views",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1310"
+          },
+          {
+            "number": 1311,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "3D viewer deletion bug",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1311"
+          },
+          {
+            "number": 1312,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "github mvn build  error",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1312"
+          },
+          {
+            "number": 1314,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add support for adding one source to multiple views in collection tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1314"
+          },
+          {
+            "number": 1315,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Add Google Sheets as a source for loading data columns",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1315"
+          },
+          {
+            "number": 1316,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refactor tests; extend test coverage for file formats; ensure compatibility with spec",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1316"
+          },
+          {
+            "number": 1319,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "releasing memory when closing MoBIE",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1319"
+          },
+          {
+            "number": 1323,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Set views/rotations in the native MoBIE 3D viewer UI",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1323"
+          },
+          {
+            "number": 1327,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "drag & drop of MoBIE collection tables",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1327"
+          },
+          {
+            "number": 1329,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Image and region names overlay are visible even if the image or region is not",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1329"
+          },
+          {
+            "number": 1333,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "mesh cache",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1333"
+          },
+          {
+            "number": 1336,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Collections Table: NoClassDefFoundError: com/amazonaws/services/s3/model/S3ObjectInputStream",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1336"
+          },
+          {
+            "number": 1337,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Improve handling presence/absence of OME-Zarr update site",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1337"
+          },
+          {
+            "number": 1338,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Use omero metadata",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/issues/1338"
+          },
           {
             "number": 4,
             "repo": "fiji/Correct_3D_Drift",
@@ -27248,9 +30824,9 @@
           }
         ]
       },
-      "reviewer_prs": 0,
-      "support_issues": 3,
-      "total": 6
+      "reviewer_prs": 7,
+      "support_issues": 361,
+      "total": 536
     },
     {
       "component_count": 1,

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T13:17:34Z",
+  "generated": "2026-11-04T05:06:45Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -588,6 +588,14 @@
     "juglab/labkit-ui": {
       "title": "build - no status",
       "workflow": "build-main.yml"
+    },
+    "mobie/mobie-io": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "mobie/mobie-viewer-fiji": {
+      "title": "build - failing",
+      "workflow": "build.yml"
     },
     "morphonets/SNT": {
       "title": "build - passing",
