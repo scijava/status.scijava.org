@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04 12:52 UTC",
+  "generated": "2026-11-05 13:00 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -745,6 +745,12 @@
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
+          },
+          {
+            "number": 388,
+            "repo": "imglib/imglib2",
+            "title": "feat: reshape transform and view",
+            "url": "https://github.com/imglib/imglib2/pull/388"
           },
           {
             "number": 83,
@@ -2706,9 +2712,9 @@
           }
         ]
       },
-      "reviewer_prs": 25,
+      "reviewer_prs": 26,
       "support_issues": 304,
-      "total": 351
+      "total": 352
     },
     {
       "component_count": 8,
@@ -3566,6 +3572,12 @@
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
+          },
+          {
+            "number": 388,
+            "repo": "imglib/imglib2",
+            "title": "feat: reshape transform and view",
+            "url": "https://github.com/imglib/imglib2/pull/388"
           },
           {
             "number": 83,
@@ -5269,9 +5281,9 @@
           }
         ]
       },
-      "reviewer_prs": 39,
+      "reviewer_prs": 40,
       "support_issues": 252,
-      "total": 332
+      "total": 333
     },
     {
       "component_count": 1,
@@ -13008,12 +13020,6 @@
             "url": "https://github.com/imagej/ij1-patcher/issues/53"
           },
           {
-            "number": 55,
-            "repo": "imagej/ij1-patcher",
-            "title": "Help message improvements.",
-            "url": "https://github.com/imagej/ij1-patcher/issues/55"
-          },
-          {
             "number": 23,
             "repo": "imagej/imagej2",
             "title": "Add a nice GUI for downgrading in the updater",
@@ -20124,12 +20130,6 @@
             "url": "https://github.com/fiji/fiji/issues/393"
           },
           {
-            "number": 394,
-            "repo": "fiji/fiji",
-            "title": "Move SNT back into Fiji",
-            "url": "https://github.com/fiji/fiji/issues/394"
-          },
-          {
             "number": 395,
             "repo": "fiji/fiji",
             "title": "Swing components shrink on JavaFX initialization on windows due no dpiawareness",
@@ -20306,8 +20306,8 @@
         ]
       },
       "reviewer_prs": 78,
-      "support_issues": 1469,
-      "total": 1961
+      "support_issues": 1467,
+      "total": 1959
     },
     {
       "component_count": 1,
@@ -30922,7 +30922,7 @@
       "dev_name": "Tobias Pietzsch",
       "dev_url": "https://imagej.net/User:tpietzsch",
       "developer_features": 8,
-      "maintainer_releases": 12,
+      "maintainer_releases": 13,
       "popups": {
         "components": [
           {
@@ -31126,6 +31126,10 @@
           {
             "ga": "org.scijava:ui-behaviour",
             "url": "https://github.com/scijava/ui-behaviour"
+          },
+          {
+            "ga": "sc.fiji:bigvolumeviewer",
+            "url": "https://github.com/bigdataviewer/bigvolumeviewer-core"
           }
         ],
         "reviewer_prs": [
@@ -31146,6 +31150,12 @@
             "repo": "imglib/imglib2",
             "title": "RealRandomAccessible: extend RandomAccessible",
             "url": "https://github.com/imglib/imglib2/pull/378"
+          },
+          {
+            "number": 388,
+            "repo": "imglib/imglib2",
+            "title": "feat: reshape transform and view",
+            "url": "https://github.com/imglib/imglib2/pull/388"
           },
           {
             "number": 83,
@@ -32381,9 +32391,9 @@
           }
         ]
       },
-      "reviewer_prs": 30,
+      "reviewer_prs": 31,
       "support_issues": 178,
-      "total": 230
+      "total": 232
     }
   ]
 }
