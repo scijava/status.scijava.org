@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05 13:00 UTC",
+  "generated": "2026-11-06 12:49 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -539,7 +539,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 11,
+      "maintainer_releases": 12,
       "popups": {
         "components": [
           {
@@ -709,6 +709,10 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
           },
           {
             "ga": "sc.fiji:Descriptor_based_registration",
@@ -2714,7 +2718,7 @@
       },
       "reviewer_prs": 26,
       "support_issues": 304,
-      "total": 352
+      "total": 353
     },
     {
       "component_count": 8,
@@ -4824,6 +4828,12 @@
             "url": "https://github.com/saalfeldlab/n5-ij/issues/127"
           },
           {
+            "number": 131,
+            "repo": "saalfeldlab/n5-ij",
+            "title": "5D OME Zarr mislabeling dimensions",
+            "url": "https://github.com/saalfeldlab/n5-ij/issues/131"
+          },
+          {
             "number": 41,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "translation - open datatsets without inverse translation",
@@ -5282,8 +5292,8 @@
         ]
       },
       "reviewer_prs": 40,
-      "support_issues": 252,
-      "total": 333
+      "support_issues": 253,
+      "total": 334
     },
     {
       "component_count": 1,
@@ -8102,7 +8112,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 191,
+      "maintainer_releases": 190,
       "popups": {
         "components": [
           {
@@ -10408,10 +10418,6 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
-          },
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -20302,11 +20308,17 @@
             "repo": "fiji/fiji",
             "title": "Opening a video creates a stack of multiples slices instead of multiple frames",
             "url": "https://github.com/fiji/fiji/issues/437"
+          },
+          {
+            "number": 438,
+            "repo": "fiji/fiji",
+            "title": "Inconsistent behavior when clicking on Apply in the Brightness and Contrast window depending on image type",
+            "url": "https://github.com/fiji/fiji/issues/438"
           }
         ]
       },
       "reviewer_prs": 78,
-      "support_issues": 1467,
+      "support_issues": 1468,
       "total": 1959
     },
     {
@@ -23266,7 +23278,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -23284,7 +23296,12 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 162,
@@ -24084,7 +24101,7 @@
       },
       "reviewer_prs": 7,
       "support_issues": 125,
-      "total": 132
+      "total": 133
     },
     {
       "component_count": 8,
@@ -26936,7 +26953,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -27004,12 +27021,7 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
+        "maintainer_releases": [],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -27082,7 +27094,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 11,
-      "total": 20
+      "total": 19
     },
     {
       "component_count": 18,
@@ -27329,6 +27341,12 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/351"
           },
           {
+            "number": 361,
+            "repo": "trackmate-sc/TrackMate",
+            "title": "Use GEFF as the main file format of TrackMate take 2",
+            "url": "https://github.com/trackmate-sc/TrackMate/pull/361"
+          },
+          {
             "number": 22,
             "repo": "trackmate-sc/TrackMate-Cellpose",
             "title": "Add pixi support",
@@ -27572,9 +27590,9 @@
           }
         ]
       },
-      "reviewer_prs": 12,
+      "reviewer_prs": 13,
       "support_issues": 35,
-      "total": 71
+      "total": 72
     },
     {
       "component_count": 4,
