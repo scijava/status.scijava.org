@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 12:49 UTC",
+  "generated": "2026-11-07 11:37 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -845,12 +845,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
-          },
-          {
-            "number": 112,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Support plugin discovery in Fiji",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/112"
           },
           {
             "number": 130,
@@ -2716,9 +2710,9 @@
           }
         ]
       },
-      "reviewer_prs": 26,
+      "reviewer_prs": 25,
       "support_issues": 304,
-      "total": 353
+      "total": 352
     },
     {
       "component_count": 8,
@@ -8112,7 +8106,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 190,
+      "maintainer_releases": 191,
       "popups": {
         "components": [
           {
@@ -10418,6 +10412,10 @@
           {
             "ga": "org.janelia:H5J_Loader_Plugin",
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
+          },
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
           },
           {
             "ga": "org.scijava:app-launcher",
@@ -20319,7 +20317,7 @@
       },
       "reviewer_prs": 78,
       "support_issues": 1468,
-      "total": 1959
+      "total": 1960
     },
     {
       "component_count": 1,
@@ -23338,12 +23336,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
-          },
-          {
-            "number": 112,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Support plugin discovery in Fiji",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/112"
           }
         ],
         "support_issues": [
@@ -24099,9 +24091,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 6,
       "support_issues": 125,
-      "total": 133
+      "total": 132
     },
     {
       "component_count": 8,
@@ -26953,7 +26945,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -27021,7 +27013,12 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -27094,7 +27091,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 11,
-      "total": 19
+      "total": 20
     },
     {
       "component_count": 18,
