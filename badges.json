@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T00:47:20Z",
+  "generated": "2026-11-08T11:49:11Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -598,11 +598,11 @@
       "workflow": "maven.yml"
     },
     "ome/omero-blitz": {
-      "title": "Gradle - passing",
+      "title": "Gradle - failing",
       "workflow": "gradle.yml"
     },
     "ome/omero-common": {
-      "title": "Gradle - passing",
+      "title": "Gradle - failing",
       "workflow": "gradle.yml"
     },
     "ome/omero-dsl-plugin": {
@@ -622,11 +622,11 @@
       "workflow": "gradle.yml"
     },
     "ome/omero-romio": {
-      "title": "Gradle - passing",
+      "title": "Gradle - failing",
       "workflow": "gradle.yml"
     },
     "ome/omero-server": {
-      "title": "Gradle - passing",
+      "title": "Gradle - failing",
       "workflow": "gradle.yml"
     },
     "saalfeldlab/bigwarp": {
