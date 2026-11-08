@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T11:37:18Z",
+  "generated": "2026-11-08T00:47:20Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -25,21 +25,9 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "bigdataviewer/bigdataviewer-server": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "bigdataviewer/bigdataviewer_fiji": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "bigdataviewer/bigvolumeviewer-core": {
       "title": "build - passing",
       "workflow": "build.yml"
-    },
-    "bigdataviewer/spimdata": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
     },
     "bionanoimaging/View5D": {
       "title": "build - passing",
@@ -51,59 +39,59 @@
     },
     "fiji/3D_Blob_Segmentation": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/3D_Objects_Counter": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "title": "build - failing",
+      "workflow": "build.yml"
     },
     "fiji/3D_Viewer": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/AnalyzeSkeleton": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Anisotropic_Diffusion_2D": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "title": "build - failing",
+      "workflow": "build.yml"
     },
     "fiji/Archipelago_Plugins": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Arrow": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Auto_Local_Threshold": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Auto_Threshold": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/BalloonSegmentation": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Bug_Submitter": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/CPU_Meter": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Calculator_Plus": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Cell_Counter": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Colocalisation_Analysis": {
       "title": "build - passing",
@@ -111,111 +99,115 @@
     },
     "fiji/Color_Histogram": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Color_Inspector_3D": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Colour_Deconvolution": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/CorrectBleach": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Correct_3D_Drift": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Descriptor_based_registration": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Dichromacy": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Directionality": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/FS_Align_TrakEM2": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Feature_Detection": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Fiji_Archipelago": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Fiji_Developer": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Fiji_Package_Maker": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Fiji_Plugins": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
     "fiji/FilamentDetector": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "fiji/FlowJ": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Graph_Cut": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Gray_Morphology": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
+    },
+    "fiji/HDF5_Vibez": {
+      "title": "build - passing",
+      "workflow": "build.yml"
     },
     "fiji/Helmholtz_Analysis": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/IJ_Robot": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/IO": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Image_5D": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Image_Expression_Parser": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Interactive_3D_Surface_Plot": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/IsoData_Classifier": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Kappa": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "title": "build - failing",
+      "workflow": "build.yml"
     },
     "fiji/Kuwahara_Filter": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/KymographBuilder": {
       "title": "build - passing",
@@ -223,39 +215,39 @@
     },
     "fiji/LSM_Reader": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/LSM_Toolbox": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Lasso_and_Blow_Tool": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Linear_Kuwahara": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/LocalThickness": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/MTrack2": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/M_I_P": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Manual_Tracking": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Multi_Kymograph": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/OMEVisual": {
       "title": "build - passing",
@@ -263,131 +255,127 @@
     },
     "fiji/PIV_analyser": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/QuickPALM": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/RATS": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Reconstruct_Reader": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/SPIM_Opener": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/SPIM_Registration": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Samples": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Series_Labeler": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Siox_Segmentation": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Skeletonize3D": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/SplineDeformationGenerator": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Stack_Manipulation": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Statistical_Region_Merging": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "fiji/Stitching": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Sync_Win": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Thread_Killer": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Time_Lapse": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Time_Stamper": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/ToAST": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/TopoJ": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Trainable_Segmentation": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/TrakEM2_Archipelago": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/VIB": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/VIB-lib": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Vaa3d_Reader": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Vaa3d_Writer": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Video_Editing": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Volume_Calculator": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/Volume_Viewer": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/bUnwarpJ": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/bij": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/blockmatching": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/fiji": {
       "title": "build - passing",
@@ -395,35 +383,35 @@
     },
     "fiji/fiji-lib": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/legacy-imglib1": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/level_sets": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/pal-optimization": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/panorama": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/register_virtual_stack_slices": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/registration_3d": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "fiji/weave_jy2java": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "ijpb/MorphoLibJ": {
       "title": "build - passing",
@@ -443,7 +431,7 @@
     },
     "imagej/imagej-deprecated": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-legacy": {
       "title": "build - passing",
@@ -455,55 +443,47 @@
     },
     "imagej/imagej-mesh": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-mesh-io": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-notebook": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "imagej/imagej-omero": {
-      "title": "build - failing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-omero-legacy": {
       "title": "build - failing",
-      "workflow": "build-main.yml"
-    },
-    "imagej/imagej-opencv": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-ops": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
+      "title": "build - failing",
+      "workflow": "build.yml"
     },
     "imagej/imagej-plugins-batch": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-plugins-commands": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-plugins-tools": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-plugins-uploader-ssh": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-plugins-uploader-webdav": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-scripting": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-server": {
       "title": "build - passing",
@@ -511,19 +491,19 @@
     },
     "imagej/imagej-tensorflow": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-ui-awt": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-ui-swing": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imagej/imagej-updater": {
-      "title": "build - failing",
-      "workflow": "build-main.yml"
+      "title": "build - passing",
+      "workflow": "build.yml"
     },
     "imagej/imagej2": {
       "title": "build - passing",
@@ -531,7 +511,7 @@
     },
     "imagej/op-finder": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "imglib/imglib2": {
       "title": "build - passing",
@@ -581,13 +561,9 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "juglab/labkit-pixel-classification": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "juglab/labkit-ui": {
       "title": "build - no status",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "mobie/mobie-io": {
       "title": "build - failing",
@@ -705,49 +681,45 @@
       "title": "build - passing",
       "workflow": "build.yml"
     },
-    "saalfeldlab/trakem2-tps": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
-    "saalfeldlab/z-spacing": {
-      "title": "build - no status",
-      "workflow": "build-main.yml"
-    },
     "scifio/scifio": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
     "scifio/scifio-bf-compat": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scifio/scifio-cli": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scifio/scifio-hdf5": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scifio/scifio-jai-imageio": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
+    },
+    "scifio/scifio-labeling": {
+      "title": "build - passing",
+      "workflow": "build.yml"
     },
     "scifio/scifio-lifesci": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scifio/scifio-ome-xml": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/app-launcher": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "scijava/batch-processor": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/minimaven": {
       "title": "build - passing",
@@ -767,7 +739,7 @@
     },
     "scijava/scijava-cache": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-common": {
       "title": "build - passing",
@@ -783,11 +755,11 @@
     },
     "scijava/scijava-grab": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
-    "scijava/scijava-io-http": {
+    "scijava/scijava-java3d": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-listeners": {
       "title": "build - passing",
@@ -803,19 +775,19 @@
     },
     "scijava/scijava-plot": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-plugins-commands": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-plugins-text-markdown": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-plugins-text-plain": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-search": {
       "title": "build - passing",
@@ -823,27 +795,35 @@
     },
     "scijava/scijava-table": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scijava-ui-awt": {
       "title": "build - passing",
       "workflow": "build.yml"
     },
+    "scijava/scijava-ui-swing": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
+    "scijava/script-editor": {
+      "title": "build - passing",
+      "workflow": "build.yml"
+    },
     "scijava/script-editor-jython": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/script-editor-scala": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "scijava/scripting-beanshell": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-clojure": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-groovy": {
       "title": "build - passing",
@@ -855,15 +835,15 @@
     },
     "scijava/scripting-javascript": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-jruby": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-jython": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-kotlin": {
       "title": "build - passing",
@@ -871,7 +851,7 @@
     },
     "scijava/scripting-matlab": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-python": {
       "title": "build - passing",
@@ -879,11 +859,11 @@
     },
     "scijava/scripting-renjin": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/scripting-scala": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "scijava/swing-checkbox-tree": {
       "title": "build - passing",
@@ -891,7 +871,7 @@
     },
     "scijava/ui-behaviour": {
       "title": "build - passing",
-      "workflow": "build-main.yml"
+      "workflow": "build.yml"
     },
     "trackmate-sc/MaMuT": {
       "title": "build - passing",
@@ -936,26 +916,6 @@
     "trackmate-sc/TrackMate-Weka": {
       "title": "build - passing",
       "workflow": "build.yml"
-    },
-    "trakem2/T2-NIT": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/T2-TreelineGraph": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/TrakEM2": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/VectorString": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
-    },
-    "trakem2/trakem2-transform": {
-      "title": "build - passing",
-      "workflow": "build-main.yml"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07 11:37 UTC",
+  "generated": "2026-11-08 00:47 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -845,12 +845,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
-          },
-          {
-            "number": 130,
-            "repo": "fiji/SPIM_Registration",
-            "title": "Iss921",
-            "url": "https://github.com/fiji/SPIM_Registration/pull/130"
           },
           {
             "number": 46,
@@ -2710,9 +2704,9 @@
           }
         ]
       },
-      "reviewer_prs": 25,
+      "reviewer_prs": 24,
       "support_issues": 304,
-      "total": 352
+      "total": 351
     },
     {
       "component_count": 8,
@@ -8106,7 +8100,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 191,
+      "maintainer_releases": 194,
       "popups": {
         "components": [
           {
@@ -10270,6 +10264,10 @@
         ],
         "maintainer_releases": [
           {
+            "ga": "io.scif:scifio",
+            "url": "https://github.com/scifio/scifio"
+          },
+          {
             "ga": "io.scif:scifio-bf-compat",
             "url": "https://github.com/scifio/scifio-bf-compat"
           },
@@ -10348,6 +10346,10 @@
           {
             "ga": "net.imagej:imagej-plugins-uploader-webdav",
             "url": "https://github.com/imagej/imagej-plugins-uploader-webdav"
+          },
+          {
+            "ga": "net.imagej:imagej-scripting",
+            "url": "https://github.com/imagej/imagej-scripting"
           },
           {
             "ga": "net.imagej:imagej-server",
@@ -10552,6 +10554,10 @@
           {
             "ga": "org.scijava:scijava-struct",
             "url": "https://github.com/scijava/scijava"
+          },
+          {
+            "ga": "org.scijava:scijava-table",
+            "url": "https://github.com/scijava/scijava-table"
           },
           {
             "ga": "org.scijava:scijava-taglets",
@@ -20317,7 +20323,7 @@
       },
       "reviewer_prs": 78,
       "support_issues": 1468,
-      "total": 1960
+      "total": 1963
     },
     {
       "component_count": 1,
@@ -24766,7 +24772,7 @@
       "dev_name": "Jan Eglinger",
       "dev_url": "https://imagej.net/User:Eglinger",
       "developer_features": 1,
-      "maintainer_releases": 2,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -24799,6 +24805,10 @@
           {
             "ga": "org.scijava:batch-processor",
             "url": "https://github.com/scijava/batch-processor"
+          },
+          {
+            "ga": "org.scijava:scijava-table",
+            "url": "https://github.com/scijava/scijava-table"
           }
         ],
         "reviewer_prs": [],
@@ -24849,7 +24859,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 7,
-      "total": 10
+      "total": 11
     },
     {
       "component_count": 1,
