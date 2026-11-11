@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10 13:22 UTC",
+  "generated": "2026-11-11 12:33 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -27094,12 +27094,18 @@
             "repo": "morphonets/SNT",
             "title": "Bvv click precision needs auditing",
             "url": "https://github.com/morphonets/SNT/issues/341"
+          },
+          {
+            "number": 346,
+            "repo": "morphonets/SNT",
+            "title": "DelineationsManager: Loading of large masks (labels image) could stall the EDT",
+            "url": "https://github.com/morphonets/SNT/issues/346"
           }
         ]
       },
       "reviewer_prs": 1,
-      "support_issues": 11,
-      "total": 21
+      "support_issues": 12,
+      "total": 22
     },
     {
       "component_count": 18,

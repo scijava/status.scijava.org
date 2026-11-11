@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T13:22:28Z",
+  "generated": "2026-11-11T12:33:11Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -714,7 +714,7 @@
       "workflow": "build.yml"
     },
     "scijava/app-launcher": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/batch-processor": {
