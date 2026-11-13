@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 13:38 UTC",
+  "generated": "2026-11-13 12:57 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3736,6 +3736,12 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/pull/103"
           },
           {
+            "number": 104,
+            "repo": "saalfeldlab/n5-zarr",
+            "title": "Read arrays on a rectilinear chunk grid",
+            "url": "https://github.com/saalfeldlab/n5-zarr/pull/104"
+          },
+          {
             "number": 6,
             "repo": "trakem2/TrakEM2",
             "title": "Block Alignment Test Parameters in Trakem",
@@ -5275,9 +5281,9 @@
           }
         ]
       },
-      "reviewer_prs": 40,
+      "reviewer_prs": 41,
       "support_issues": 253,
-      "total": 334
+      "total": 335
     },
     {
       "component_count": 1,
@@ -7137,6 +7143,12 @@
             "url": "https://github.com/saalfeldlab/n5-zarr/pull/103"
           },
           {
+            "number": 104,
+            "repo": "saalfeldlab/n5-zarr",
+            "title": "Read arrays on a rectilinear chunk grid",
+            "url": "https://github.com/saalfeldlab/n5-zarr/pull/104"
+          },
+          {
             "number": 133,
             "repo": "saalfeldlab/bigwarp",
             "title": "WIP: switch from IJ1 plugins to IJ2 plugins",
@@ -7788,9 +7800,9 @@
           }
         ]
       },
-      "reviewer_prs": 17,
+      "reviewer_prs": 18,
       "support_issues": 106,
-      "total": 136
+      "total": 137
     },
     {
       "component_count": 6,
