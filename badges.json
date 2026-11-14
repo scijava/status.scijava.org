@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T12:57:00Z",
+  "generated": "2026-11-14T12:00:28Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -586,7 +586,7 @@
       "workflow": "maven.yml"
     },
     "ome/ome-metakit": {
-      "title": "Maven - passing",
+      "title": "Maven - failing",
       "workflow": "maven.yml"
     },
     "ome/ome-model": {
@@ -598,7 +598,7 @@
       "workflow": "maven.yml"
     },
     "ome/omero-blitz": {
-      "title": "Gradle - passing",
+      "title": "Gradle - failing",
       "workflow": "gradle.yml"
     },
     "ome/omero-common": {

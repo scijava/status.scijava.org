@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13 12:57 UTC",
+  "generated": "2026-11-14 12:00 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -539,7 +539,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 11,
+      "maintainer_releases": 13,
       "popups": {
         "components": [
           {
@@ -709,6 +709,14 @@
           {
             "ga": "net.imglib2:imglib2-roi",
             "url": "https://github.com/imglib/imglib2-roi"
+          },
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
+          },
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
           },
           {
             "ga": "sc.fiji:Descriptor_based_registration",
@@ -2702,7 +2710,7 @@
       },
       "reviewer_prs": 24,
       "support_issues": 304,
-      "total": 350
+      "total": 352
     },
     {
       "component_count": 8,
@@ -23290,7 +23298,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 0,
+      "maintainer_releases": 2,
       "popups": {
         "components": [
           {
@@ -23308,7 +23316,16 @@
         ],
         "debugger_bugs": [],
         "developer_features": [],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "net.preibisch:BigStitcher",
+            "url": "https://github.com/JaneliaSciComp/BigStitcher"
+          },
+          {
+            "ga": "net.preibisch:multiview-reconstruction",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
+          }
+        ],
         "reviewer_prs": [
           {
             "number": 162,
@@ -24102,7 +24119,7 @@
       },
       "reviewer_prs": 6,
       "support_issues": 125,
-      "total": 131
+      "total": 133
     },
     {
       "component_count": 8,
