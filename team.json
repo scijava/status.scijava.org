@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15 12:36 UTC",
+  "generated": "2026-11-16 13:28 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -11490,6 +11490,12 @@
             "url": "https://github.com/scijava/script-editor/pull/70"
           },
           {
+            "number": 81,
+            "repo": "scijava/script-editor",
+            "title": "Revamp the Script Editor",
+            "url": "https://github.com/scijava/script-editor/pull/81"
+          },
+          {
             "number": 8,
             "repo": "scijava/scripting-kotlin",
             "title": "Fix circular dependencies",
@@ -20337,9 +20343,9 @@
           }
         ]
       },
-      "reviewer_prs": 78,
+      "reviewer_prs": 79,
       "support_issues": 1468,
-      "total": 1963
+      "total": 1964
     },
     {
       "component_count": 1,
@@ -27055,6 +27061,18 @@
             "repo": "morphonets/SNT",
             "title": "Build(deps): Bump com.formdev:flatlaf-jide-oss from 3.7.2 to 3.8",
             "url": "https://github.com/morphonets/SNT/pull/345"
+          },
+          {
+            "number": 347,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.2.0",
+            "url": "https://github.com/morphonets/SNT/pull/347"
+          },
+          {
+            "number": 348,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.2.0",
+            "url": "https://github.com/morphonets/SNT/pull/348"
           }
         ],
         "support_issues": [
@@ -27132,9 +27150,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 3,
       "support_issues": 12,
-      "total": 22
+      "total": 24
     },
     {
       "component_count": 18,
