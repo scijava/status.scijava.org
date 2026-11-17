@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16 13:28 UTC",
+  "generated": "2026-11-17 14:14 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -539,7 +539,7 @@
       "dev_name": "Stephan Preibisch",
       "dev_url": "https://imagej.net/User:StephanP",
       "developer_features": 9,
-      "maintainer_releases": 13,
+      "maintainer_releases": 12,
       "popups": {
         "components": [
           {
@@ -711,10 +711,6 @@
             "url": "https://github.com/imglib/imglib2-roi"
           },
           {
-            "ga": "net.preibisch:BigStitcher",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher"
-          },
-          {
             "ga": "net.preibisch:multiview-reconstruction",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
           },
@@ -837,12 +833,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "fix/test: more flexible NumericalFilenamePattern matching",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/76"
-          },
-          {
-            "number": 92,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Modernize lazy flatfield correction code",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
           },
           {
             "number": 108,
@@ -2708,9 +2698,9 @@
           }
         ]
       },
-      "reviewer_prs": 24,
+      "reviewer_prs": 23,
       "support_issues": 304,
-      "total": 352
+      "total": 350
     },
     {
       "component_count": 8,
@@ -8116,7 +8106,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 194,
+      "maintainer_releases": 195,
       "popups": {
         "components": [
           {
@@ -10596,6 +10586,10 @@
             "url": "https://github.com/scijava/scijava-ui-swing"
           },
           {
+            "ga": "org.scijava:script-editor",
+            "url": "https://github.com/scijava/script-editor"
+          },
+          {
             "ga": "org.scijava:script-editor-jython",
             "url": "https://github.com/scijava/script-editor-jython"
           },
@@ -11490,10 +11484,10 @@
             "url": "https://github.com/scijava/script-editor/pull/70"
           },
           {
-            "number": 81,
+            "number": 82,
             "repo": "scijava/script-editor",
-            "title": "Revamp the Script Editor",
-            "url": "https://github.com/scijava/script-editor/pull/81"
+            "title": "Report run time and acknowledge completion when running scripts Plus minor adjustments",
+            "url": "https://github.com/scijava/script-editor/pull/82"
           },
           {
             "number": 8,
@@ -18866,12 +18860,6 @@
             "url": "https://github.com/scijava/script-editor/issues/59"
           },
           {
-            "number": 58,
-            "repo": "scijava/script-editor",
-            "title": "ScriptEditor is hidden before asking to save scripts",
-            "url": "https://github.com/scijava/script-editor/issues/58"
-          },
-          {
             "number": 5,
             "repo": "scijava/script-editor",
             "title": "Implement the Debug menu from ImageJ 1.x",
@@ -18902,12 +18890,6 @@
             "url": "https://github.com/scijava/script-editor/issues/16"
           },
           {
-            "number": 17,
-            "repo": "scijava/script-editor",
-            "title": "Script title not updated after Save As",
-            "url": "https://github.com/scijava/script-editor/issues/17"
-          },
-          {
             "number": 20,
             "repo": "scijava/script-editor",
             "title": "Script editor keyboard shortcuts not working on Mac (increase/decrease font size, block comment)",
@@ -18926,18 +18908,6 @@
             "url": "https://github.com/scijava/script-editor/issues/24"
           },
           {
-            "number": 32,
-            "repo": "scijava/script-editor",
-            "title": "Script Editor minimises into bottom left corner",
-            "url": "https://github.com/scijava/script-editor/issues/32"
-          },
-          {
-            "number": 37,
-            "repo": "scijava/script-editor",
-            "title": "When the file has changed, the \"reload\" dialog opens but it cannot be refused",
-            "url": "https://github.com/scijava/script-editor/issues/37"
-          },
-          {
             "number": 39,
             "repo": "scijava/script-editor",
             "title": "Confusing semantics for variable names in default bindings of interpreter",
@@ -18950,22 +18920,10 @@
             "url": "https://github.com/scijava/script-editor/issues/54"
           },
           {
-            "number": 66,
-            "repo": "scijava/script-editor",
-            "title": "Auto-completion popup does not respect EditorPane's theme",
-            "url": "https://github.com/scijava/script-editor/issues/66"
-          },
-          {
             "number": 73,
             "repo": "scijava/script-editor",
             "title": "Add TextEditor API reporting number of tabs open",
             "url": "https://github.com/scijava/script-editor/issues/73"
-          },
-          {
-            "number": 74,
-            "repo": "scijava/script-editor",
-            "title": "Refactor TextEditor instance/context parallel arrays ",
-            "url": "https://github.com/scijava/script-editor/issues/74"
           },
           {
             "number": 75,
@@ -18984,12 +18942,6 @@
             "repo": "scijava/script-editor",
             "title": "Script Editor cancel/interrupt does not reliably stop a running script",
             "url": "https://github.com/scijava/script-editor/issues/77"
-          },
-          {
-            "number": 79,
-            "repo": "scijava/script-editor",
-            "title": "Script language environments should be released",
-            "url": "https://github.com/scijava/script-editor/issues/79"
           },
           {
             "number": 5,
@@ -20344,8 +20296,8 @@
         ]
       },
       "reviewer_prs": 79,
-      "support_issues": 1468,
-      "total": 1964
+      "support_issues": 1461,
+      "total": 1958
     },
     {
       "component_count": 1,
@@ -23304,7 +23256,7 @@
       "dev_name": "David Hoerl",
       "dev_url": "https://imagej.net/people/hoerldavid",
       "developer_features": 0,
-      "maintainer_releases": 2,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -23323,10 +23275,6 @@
         "debugger_bugs": [],
         "developer_features": [],
         "maintainer_releases": [
-          {
-            "ga": "net.preibisch:BigStitcher",
-            "url": "https://github.com/JaneliaSciComp/BigStitcher"
-          },
           {
             "ga": "net.preibisch:multiview-reconstruction",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction"
@@ -23356,12 +23304,6 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "fix/test: more flexible NumericalFilenamePattern matching",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/76"
-          },
-          {
-            "number": 92,
-            "repo": "JaneliaSciComp/multiview-reconstruction",
-            "title": "Modernize lazy flatfield correction code",
-            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/92"
           },
           {
             "number": 108,
@@ -24123,9 +24065,9 @@
           }
         ]
       },
-      "reviewer_prs": 6,
+      "reviewer_prs": 5,
       "support_issues": 125,
-      "total": 133
+      "total": 131
     },
     {
       "component_count": 8,
@@ -27061,18 +27003,6 @@
             "repo": "morphonets/SNT",
             "title": "Build(deps): Bump com.formdev:flatlaf-jide-oss from 3.7.2 to 3.8",
             "url": "https://github.com/morphonets/SNT/pull/345"
-          },
-          {
-            "number": 347,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.2.0",
-            "url": "https://github.com/morphonets/SNT/pull/347"
-          },
-          {
-            "number": 348,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.2.0",
-            "url": "https://github.com/morphonets/SNT/pull/348"
           }
         ],
         "support_issues": [
@@ -27150,9 +27080,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 1,
       "support_issues": 12,
-      "total": 24
+      "total": 22
     },
     {
       "component_count": 18,
