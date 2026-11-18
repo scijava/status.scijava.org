@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 14:14 UTC",
+  "generated": "2026-11-18 13:46 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -3164,7 +3164,7 @@
       "dev_name": "Stephan Saalfeld",
       "dev_url": "https://imagej.net/User:Saalfeld",
       "developer_features": 18,
-      "maintainer_releases": 19,
+      "maintainer_releases": 20,
       "popups": {
         "components": [
           {
@@ -3472,6 +3472,10 @@
           {
             "ga": "org.janelia.saalfeldlab:n5-hdf5",
             "url": "https://github.com/saalfeldlab/n5-hdf5"
+          },
+          {
+            "ga": "org.janelia.saalfeldlab:n5-imglib2",
+            "url": "https://github.com/saalfeldlab/n5-imglib2"
           },
           {
             "ga": "sc.fiji:T2-NIT",
@@ -5281,7 +5285,7 @@
       },
       "reviewer_prs": 41,
       "support_issues": 253,
-      "total": 335
+      "total": 336
     },
     {
       "component_count": 1,
@@ -6924,7 +6928,7 @@
       "dev_name": "John Bogovic",
       "dev_url": "https://imagej.net/User:Bogovic",
       "developer_features": 10,
-      "maintainer_releases": 3,
+      "maintainer_releases": 4,
       "popups": {
         "components": [
           {
@@ -7043,6 +7047,10 @@
           {
             "ga": "org.janelia.saalfeldlab:n5-hdf5",
             "url": "https://github.com/saalfeldlab/n5-hdf5"
+          },
+          {
+            "ga": "org.janelia.saalfeldlab:n5-imglib2",
+            "url": "https://github.com/saalfeldlab/n5-imglib2"
           },
           {
             "ga": "sc.fiji:bigwarp_fiji",
@@ -7800,7 +7808,7 @@
       },
       "reviewer_prs": 18,
       "support_issues": 106,
-      "total": 137
+      "total": 138
     },
     {
       "component_count": 6,
@@ -8106,7 +8114,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 195,
+      "maintainer_releases": 194,
       "popups": {
         "components": [
           {
@@ -10422,10 +10430,6 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          },
-          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -11304,18 +11308,6 @@
             "url": "https://github.com/scijava/parsington/pull/32"
           },
           {
-            "number": 34,
-            "repo": "scijava/parsington",
-            "title": "Alter parseString to accumulate StringBuilder appends vs individual calls",
-            "url": "https://github.com/scijava/parsington/pull/34"
-          },
-          {
-            "number": 35,
-            "repo": "scijava/parsington",
-            "title": "Ide reported nits for cherry picking",
-            "url": "https://github.com/scijava/parsington/pull/35"
-          },
-          {
             "number": 286,
             "repo": "scijava/scijava",
             "title": "New installation docs: First cut",
@@ -11482,12 +11474,6 @@
             "repo": "scijava/script-editor",
             "title": "AI assisted Script Editiing: removed dependencies, refactored OpenAI code, added anthropic Claude",
             "url": "https://github.com/scijava/script-editor/pull/70"
-          },
-          {
-            "number": 82,
-            "repo": "scijava/script-editor",
-            "title": "Report run time and acknowledge completion when running scripts Plus minor adjustments",
-            "url": "https://github.com/scijava/script-editor/pull/82"
           },
           {
             "number": 8,
@@ -17108,12 +17094,6 @@
             "url": "https://github.com/scijava/parsington/issues/24"
           },
           {
-            "number": 33,
-            "repo": "scijava/parsington",
-            "title": "Remove unimplemented operators?",
-            "url": "https://github.com/scijava/parsington/issues/33"
-          },
-          {
             "number": 36,
             "repo": "scijava/parsington",
             "title": "Replace if == Operators 50+ rows in StandardEvaluator execute with something faster?",
@@ -18944,6 +18924,12 @@
             "url": "https://github.com/scijava/script-editor/issues/77"
           },
           {
+            "number": 79,
+            "repo": "scijava/script-editor",
+            "title": "Script language environments should be released",
+            "url": "https://github.com/scijava/script-editor/issues/79"
+          },
+          {
             "number": 5,
             "repo": "scijava/scripting-clojure",
             "title": "Script parameters lead to unbound system variables in Clojure",
@@ -20295,9 +20281,9 @@
           }
         ]
       },
-      "reviewer_prs": 79,
+      "reviewer_prs": 76,
       "support_issues": 1461,
-      "total": 1958
+      "total": 1954
     },
     {
       "component_count": 1,
@@ -21666,7 +21652,7 @@
       "dev_name": "Philipp Hanslovsky",
       "dev_url": "https://imagej.net/User:Hanslovsky",
       "developer_features": 6,
-      "maintainer_releases": 2,
+      "maintainer_releases": 3,
       "popups": {
         "components": [
           {
@@ -21744,6 +21730,10 @@
           {
             "ga": "net.imglib2:imglib2-unsafe",
             "url": "https://github.com/imglib/imglib2-unsafe"
+          },
+          {
+            "ga": "org.janelia.saalfeldlab:n5-imglib2",
+            "url": "https://github.com/saalfeldlab/n5-imglib2"
           }
         ],
         "reviewer_prs": [
@@ -21939,7 +21929,7 @@
       },
       "reviewer_prs": 5,
       "support_issues": 26,
-      "total": 40
+      "total": 41
     },
     {
       "component_count": 1,
@@ -26923,7 +26913,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 1,
+      "maintainer_releases": 0,
       "popups": {
         "components": [
           {
@@ -26991,20 +26981,8 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [
-          {
-            "ga": "org.morphonets:SNT",
-            "url": "https://github.com/morphonets/SNT"
-          }
-        ],
-        "reviewer_prs": [
-          {
-            "number": 345,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump com.formdev:flatlaf-jide-oss from 3.7.2 to 3.8",
-            "url": "https://github.com/morphonets/SNT/pull/345"
-          }
-        ],
+        "maintainer_releases": [],
+        "reviewer_prs": [],
         "support_issues": [
           {
             "number": 75,
@@ -27080,9 +27058,9 @@
           }
         ]
       },
-      "reviewer_prs": 1,
+      "reviewer_prs": 0,
       "support_issues": 12,
-      "total": 22
+      "total": 20
     },
     {
       "component_count": 18,
