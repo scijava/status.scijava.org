@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 13:46 UTC",
+  "generated": "2026-11-19 14:14 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -240,6 +240,18 @@
             "repo": "mobie/mobie-io",
             "title": "Show the actual cause when a dataset cannot be opened",
             "url": "https://github.com/mobie/mobie-io/pull/185"
+          },
+          {
+            "number": 186,
+            "repo": "mobie/mobie-io",
+            "title": "Bump ome-zarr-fiji to 0.10.5",
+            "url": "https://github.com/mobie/mobie-io/pull/186"
+          },
+          {
+            "number": 187,
+            "repo": "mobie/mobie-io",
+            "title": "Read OMERO channel names, colors and contrast limits in the Pyramidal image data",
+            "url": "https://github.com/mobie/mobie-io/pull/187"
           }
         ],
         "support_issues": [
@@ -503,9 +515,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 6,
       "support_issues": 43,
-      "total": 59
+      "total": 61
     },
     {
       "component_count": 1,
@@ -8114,7 +8126,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 194,
+      "maintainer_releases": 178,
       "popups": {
         "components": [
           {
@@ -10450,32 +10462,12 @@
             "url": "https://github.com/scijava/scijava-cache"
           },
           {
-            "ga": "org.scijava:scijava-collections",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-common",
             "url": "https://github.com/scijava/scijava-common"
           },
           {
-            "ga": "org.scijava:scijava-common3",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-concurrent",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-config",
             "url": "https://github.com/scijava/scijava-config"
-          },
-          {
-            "ga": "org.scijava:scijava-discovery",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-function",
-            "url": "https://github.com/scijava/scijava"
           },
           {
             "ga": "org.scijava:scijava-grab",
@@ -10498,18 +10490,6 @@
             "url": "https://github.com/scijava/scijava-log-slf4j"
           },
           {
-            "ga": "org.scijava:scijava-meta",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-ops-api",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-ops-engine",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-ops-flim",
             "url": "https://github.com/scijava/scijava"
           },
@@ -10518,15 +10498,7 @@
             "url": "https://github.com/scijava/scijava"
           },
           {
-            "ga": "org.scijava:scijava-ops-indexer",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-ops-opencv",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-ops-spi",
             "url": "https://github.com/scijava/scijava"
           },
           {
@@ -10550,36 +10522,12 @@
             "url": "https://github.com/scijava/scijava-plugins-text-plain"
           },
           {
-            "ga": "org.scijava:scijava-priority",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-progress",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-search",
             "url": "https://github.com/scijava/scijava-search"
           },
           {
-            "ga": "org.scijava:scijava-struct",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
             "ga": "org.scijava:scijava-table",
             "url": "https://github.com/scijava/scijava-table"
-          },
-          {
-            "ga": "org.scijava:scijava-taglets",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-testutil",
-            "url": "https://github.com/scijava/scijava"
-          },
-          {
-            "ga": "org.scijava:scijava-types",
-            "url": "https://github.com/scijava/scijava"
           },
           {
             "ga": "org.scijava:scijava-ui-awt",
@@ -11300,12 +11248,6 @@
             "repo": "scijava/native-lib-loader",
             "title": "extractResource: extract file only if it was not extracted yet",
             "url": "https://github.com/scijava/native-lib-loader/pull/46"
-          },
-          {
-            "number": 32,
-            "repo": "scijava/parsington",
-            "title": "Regular expression removal",
-            "url": "https://github.com/scijava/parsington/pull/32"
           },
           {
             "number": 286,
@@ -17089,18 +17031,6 @@
           },
           {
             "number": 24,
-            "repo": "scijava/parsington",
-            "title": "Speed improvement ? when parsing more doubles than integers",
-            "url": "https://github.com/scijava/parsington/issues/24"
-          },
-          {
-            "number": 36,
-            "repo": "scijava/parsington",
-            "title": "Replace if == Operators 50+ rows in StandardEvaluator execute with something faster?",
-            "url": "https://github.com/scijava/parsington/issues/36"
-          },
-          {
-            "number": 24,
             "repo": "scijava/scijava",
             "title": "Consolidate generics reasoning dependencies",
             "url": "https://github.com/scijava/scijava/issues/24"
@@ -20281,9 +20211,9 @@
           }
         ]
       },
-      "reviewer_prs": 76,
-      "support_issues": 1461,
-      "total": 1954
+      "reviewer_prs": 75,
+      "support_issues": 1459,
+      "total": 1935
     },
     {
       "component_count": 1,
@@ -28621,6 +28551,18 @@
             "url": "https://github.com/mobie/mobie-io/pull/185"
           },
           {
+            "number": 186,
+            "repo": "mobie/mobie-io",
+            "title": "Bump ome-zarr-fiji to 0.10.5",
+            "url": "https://github.com/mobie/mobie-io/pull/186"
+          },
+          {
+            "number": 187,
+            "repo": "mobie/mobie-io",
+            "title": "Read OMERO channel names, colors and contrast limits in the Pyramidal image data",
+            "url": "https://github.com/mobie/mobie-io/pull/187"
+          },
+          {
             "number": 416,
             "repo": "mobie/mobie-viewer-fiji",
             "title": "Dynamic gridView, sources and views description",
@@ -30808,9 +30750,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 9,
       "support_issues": 361,
-      "total": 536
+      "total": 538
     },
     {
       "component_count": 1,
