@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T14:14:34Z",
+  "generated": "2026-11-20T15:24:27Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -54,7 +54,7 @@
       "workflow": "build.yml"
     },
     "fiji/Anisotropic_Diffusion_2D": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "fiji/Archipelago_Plugins": {
@@ -202,7 +202,7 @@
       "workflow": "build.yml"
     },
     "fiji/Kappa": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "fiji/Kuwahara_Filter": {
@@ -422,7 +422,7 @@
       "workflow": "build.yml"
     },
     "imagej/ij1-patcher": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "imagej/imagej-common": {
@@ -734,7 +734,7 @@
       "workflow": "build.yml"
     },
     "scijava/scijava": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/scijava-cache": {
@@ -814,7 +814,7 @@
       "workflow": "build.yml"
     },
     "scijava/script-editor-scala": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "scijava/scripting-beanshell": {

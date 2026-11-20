@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 14:14 UTC",
+  "generated": "2026-11-20 15:24 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -252,6 +252,12 @@
             "repo": "mobie/mobie-io",
             "title": "Read OMERO channel names, colors and contrast limits in the Pyramidal image data",
             "url": "https://github.com/mobie/mobie-io/pull/187"
+          },
+          {
+            "number": 188,
+            "repo": "mobie/mobie-io",
+            "title": "Fall back to MoBIE N5 when an OME-Zarr reader is unavailable",
+            "url": "https://github.com/mobie/mobie-io/pull/188"
           }
         ],
         "support_issues": [
@@ -515,9 +521,9 @@
           }
         ]
       },
-      "reviewer_prs": 6,
+      "reviewer_prs": 7,
       "support_issues": 43,
-      "total": 61
+      "total": 62
     },
     {
       "component_count": 1,
@@ -5556,6 +5562,18 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
+          },
+          {
+            "number": 298,
+            "repo": "scijava/scijava",
+            "title": "function completion from groovy language server",
+            "url": "https://github.com/scijava/scijava/pull/298"
+          },
+          {
+            "number": 299,
+            "repo": "scijava/scijava",
+            "title": "Migrate many classic Fiji plugins to SciJava Ops",
+            "url": "https://github.com/scijava/scijava/pull/299"
           }
         ],
         "support_issues": [
@@ -6929,9 +6947,9 @@
           }
         ]
       },
-      "reviewer_prs": 16,
+      "reviewer_prs": 18,
       "support_issues": 228,
-      "total": 262
+      "total": 264
     },
     {
       "component_count": 11,
@@ -8126,7 +8144,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 178,
+      "maintainer_releases": 177,
       "popups": {
         "components": [
           {
@@ -10442,6 +10460,10 @@
             "url": "https://github.com/fiji/H5J_Loader_Plugin"
           },
           {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          },
+          {
             "ga": "org.scijava:app-launcher",
             "url": "https://github.com/scijava/app-launcher"
           },
@@ -10480,10 +10502,6 @@
           {
             "ga": "org.scijava:scijava-java3d",
             "url": "https://github.com/scijava/scijava-java3d"
-          },
-          {
-            "ga": "org.scijava:scijava-legacy",
-            "url": "https://github.com/scijava/scijava"
           },
           {
             "ga": "org.scijava:scijava-log-slf4j",
@@ -10616,10 +10634,6 @@
           {
             "ga": "sc.fiji:AnalyzeSkeleton_",
             "url": "https://github.com/fiji/AnalyzeSkeleton"
-          },
-          {
-            "ga": "sc.fiji:Anisotropic_Diffusion_2D",
-            "url": "https://github.com/fiji/Anisotropic_Diffusion_2D"
           },
           {
             "ga": "sc.fiji:Archipelago_Plugins",
@@ -11268,6 +11282,18 @@
             "url": "https://github.com/scijava/scijava/pull/296"
           },
           {
+            "number": 298,
+            "repo": "scijava/scijava",
+            "title": "function completion from groovy language server",
+            "url": "https://github.com/scijava/scijava/pull/298"
+          },
+          {
+            "number": 299,
+            "repo": "scijava/scijava",
+            "title": "Migrate many classic Fiji plugins to SciJava Ops",
+            "url": "https://github.com/scijava/scijava/pull/299"
+          },
+          {
             "number": 91,
             "repo": "scijava/scijava-common",
             "title": "Better lazy resolution",
@@ -11416,6 +11442,12 @@
             "repo": "scijava/script-editor",
             "title": "AI assisted Script Editiing: removed dependencies, refactored OpenAI code, added anthropic Claude",
             "url": "https://github.com/scijava/script-editor/pull/70"
+          },
+          {
+            "number": 8,
+            "repo": "scijava/scripting-groovy",
+            "title": "Add a scijava-code-lsp ScriptDialect",
+            "url": "https://github.com/scijava/scripting-groovy/pull/8"
           },
           {
             "number": 8,
@@ -20211,9 +20243,9 @@
           }
         ]
       },
-      "reviewer_prs": 75,
+      "reviewer_prs": 78,
       "support_issues": 1459,
-      "total": 1935
+      "total": 1937
     },
     {
       "component_count": 1,
@@ -20937,6 +20969,18 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
+          },
+          {
+            "number": 298,
+            "repo": "scijava/scijava",
+            "title": "function completion from groovy language server",
+            "url": "https://github.com/scijava/scijava/pull/298"
+          },
+          {
+            "number": 299,
+            "repo": "scijava/scijava",
+            "title": "Migrate many classic Fiji plugins to SciJava Ops",
+            "url": "https://github.com/scijava/scijava/pull/299"
           }
         ],
         "support_issues": [
@@ -21326,9 +21370,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 5,
       "support_issues": 64,
-      "total": 73
+      "total": 75
     },
     {
       "component_count": 2,
@@ -21996,6 +22040,18 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
+          },
+          {
+            "number": 298,
+            "repo": "scijava/scijava",
+            "title": "function completion from groovy language server",
+            "url": "https://github.com/scijava/scijava/pull/298"
+          },
+          {
+            "number": 299,
+            "repo": "scijava/scijava",
+            "title": "Migrate many classic Fiji plugins to SciJava Ops",
+            "url": "https://github.com/scijava/scijava/pull/299"
           }
         ],
         "support_issues": [
@@ -23165,9 +23221,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 7,
       "support_issues": 194,
-      "total": 204
+      "total": 206
     },
     {
       "component_count": 3,
@@ -26843,7 +26899,7 @@
       "dev_name": "Tiago Ferreira",
       "dev_url": "https://imagej.net/people/tferr",
       "developer_features": 7,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -26911,7 +26967,12 @@
             "url": "https://github.com/morphonets/SNT/issues/266"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.morphonets:SNT",
+            "url": "https://github.com/morphonets/SNT"
+          }
+        ],
         "reviewer_prs": [],
         "support_issues": [
           {
@@ -26990,7 +27051,7 @@
       },
       "reviewer_prs": 0,
       "support_issues": 12,
-      "total": 20
+      "total": 21
     },
     {
       "component_count": 18,
@@ -28563,6 +28624,12 @@
             "url": "https://github.com/mobie/mobie-io/pull/187"
           },
           {
+            "number": 188,
+            "repo": "mobie/mobie-io",
+            "title": "Fall back to MoBIE N5 when an OME-Zarr reader is unavailable",
+            "url": "https://github.com/mobie/mobie-io/pull/188"
+          },
+          {
             "number": 416,
             "repo": "mobie/mobie-viewer-fiji",
             "title": "Dynamic gridView, sources and views description",
@@ -28579,6 +28646,12 @@
             "repo": "mobie/mobie-viewer-fiji",
             "title": "Update ome-zarr-fiji version to 0.9.1",
             "url": "https://github.com/mobie/mobie-viewer-fiji/pull/1332"
+          },
+          {
+            "number": 1339,
+            "repo": "mobie/mobie-viewer-fiji",
+            "title": "Refuse an unavailable OME-Zarr reader in the MoBIE settings",
+            "url": "https://github.com/mobie/mobie-viewer-fiji/pull/1339"
           }
         ],
         "support_issues": [
@@ -30750,9 +30823,9 @@
           }
         ]
       },
-      "reviewer_prs": 9,
+      "reviewer_prs": 11,
       "support_issues": 361,
-      "total": 538
+      "total": 540
     },
     {
       "component_count": 1,
