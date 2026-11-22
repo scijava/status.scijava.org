@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21 13:19 UTC",
+  "generated": "2026-11-22 13:11 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -27298,12 +27298,6 @@
             "url": "https://github.com/trackmate-sc/TrackMate/pull/351"
           },
           {
-            "number": 361,
-            "repo": "trackmate-sc/TrackMate",
-            "title": "Use GEFF as the main file format of TrackMate take 2",
-            "url": "https://github.com/trackmate-sc/TrackMate/pull/361"
-          },
-          {
             "number": 22,
             "repo": "trackmate-sc/TrackMate-Cellpose",
             "title": "Add pixi support",
@@ -27547,9 +27541,9 @@
           }
         ]
       },
-      "reviewer_prs": 13,
+      "reviewer_prs": 12,
       "support_issues": 35,
-      "total": 72
+      "total": 71
     },
     {
       "component_count": 4,
