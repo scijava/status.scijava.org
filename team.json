@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22 13:11 UTC",
+  "generated": "2026-11-23 15:48 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -791,12 +791,6 @@
             "repo": "imglib/imglib2-algorithm",
             "title": "Add Op discovery annotations to ImgLib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
-          },
-          {
-            "number": 112,
-            "repo": "imglib/imglib2-algorithm",
-            "title": "Improve performance of some convolutions",
-            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
           },
           {
             "number": 35,
@@ -2716,9 +2710,9 @@
           }
         ]
       },
-      "reviewer_prs": 23,
+      "reviewer_prs": 22,
       "support_issues": 304,
-      "total": 350
+      "total": 349
     },
     {
       "component_count": 8,
@@ -3604,12 +3598,6 @@
             "repo": "imglib/imglib2-algorithm",
             "title": "Add Op discovery annotations to ImgLib2-algorithm",
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
-          },
-          {
-            "number": 112,
-            "repo": "imglib/imglib2-algorithm",
-            "title": "Improve performance of some convolutions",
-            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
           },
           {
             "number": 7,
@@ -5301,9 +5289,9 @@
           }
         ]
       },
-      "reviewer_prs": 41,
+      "reviewer_prs": 40,
       "support_issues": 253,
-      "total": 336
+      "total": 335
     },
     {
       "component_count": 1,
@@ -5562,12 +5550,6 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
-          },
-          {
-            "number": 298,
-            "repo": "scijava/scijava",
-            "title": "function completion from groovy language server",
-            "url": "https://github.com/scijava/scijava/pull/298"
           },
           {
             "number": 299,
@@ -6947,9 +6929,9 @@
           }
         ]
       },
-      "reviewer_prs": 18,
+      "reviewer_prs": 17,
       "support_issues": 228,
-      "total": 264
+      "total": 263
     },
     {
       "component_count": 11,
@@ -8144,7 +8126,7 @@
       "dev_name": "Curtis Rueden",
       "dev_url": "https://imagej.net/people/ctrueden",
       "developer_features": 107,
-      "maintainer_releases": 177,
+      "maintainer_releases": 179,
       "popups": {
         "components": [
           {
@@ -10516,6 +10498,10 @@
             "url": "https://github.com/scijava/scijava"
           },
           {
+            "ga": "org.scijava:scijava-ops-indexer",
+            "url": "https://github.com/scijava/scijava"
+          },
+          {
             "ga": "org.scijava:scijava-ops-opencv",
             "url": "https://github.com/scijava/scijava"
           },
@@ -10546,6 +10532,10 @@
           {
             "ga": "org.scijava:scijava-table",
             "url": "https://github.com/scijava/scijava-table"
+          },
+          {
+            "ga": "org.scijava:scijava-taglets",
+            "url": "https://github.com/scijava/scijava"
           },
           {
             "ga": "org.scijava:scijava-ui-awt",
@@ -11280,12 +11270,6 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
-          },
-          {
-            "number": 298,
-            "repo": "scijava/scijava",
-            "title": "function completion from groovy language server",
-            "url": "https://github.com/scijava/scijava/pull/298"
           },
           {
             "number": 299,
@@ -20243,9 +20227,9 @@
           }
         ]
       },
-      "reviewer_prs": 78,
+      "reviewer_prs": 77,
       "support_issues": 1459,
-      "total": 1937
+      "total": 1938
     },
     {
       "component_count": 1,
@@ -20971,12 +20955,6 @@
             "url": "https://github.com/scijava/scijava/pull/296"
           },
           {
-            "number": 298,
-            "repo": "scijava/scijava",
-            "title": "function completion from groovy language server",
-            "url": "https://github.com/scijava/scijava/pull/298"
-          },
-          {
             "number": 299,
             "repo": "scijava/scijava",
             "title": "Migrate many classic Fiji plugins to SciJava Ops",
@@ -21370,9 +21348,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 4,
       "support_issues": 64,
-      "total": 75
+      "total": 74
     },
     {
       "component_count": 2,
@@ -21730,12 +21708,6 @@
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
           },
           {
-            "number": 112,
-            "repo": "imglib/imglib2-algorithm",
-            "title": "Improve performance of some convolutions",
-            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
-          },
-          {
             "number": 14,
             "repo": "saalfeldlab/n5-imglib2",
             "title": "discoverable axes index lookup",
@@ -21901,9 +21873,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 4,
       "support_issues": 26,
-      "total": 41
+      "total": 40
     },
     {
       "component_count": 1,
@@ -22040,12 +22012,6 @@
             "repo": "scijava/scijava",
             "title": "Fix ops with multi-dimensional array parameters",
             "url": "https://github.com/scijava/scijava/pull/296"
-          },
-          {
-            "number": 298,
-            "repo": "scijava/scijava",
-            "title": "function completion from groovy language server",
-            "url": "https://github.com/scijava/scijava/pull/298"
           },
           {
             "number": 299,
@@ -23221,9 +23187,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 6,
       "support_issues": 194,
-      "total": 206
+      "total": 205
     },
     {
       "component_count": 3,
@@ -25689,12 +25655,18 @@
             "repo": "juglab/labkit-ui",
             "title": "Import labeling swaps z and t ?",
             "url": "https://github.com/juglab/labkit-ui/issues/129"
+          },
+          {
+            "number": 130,
+            "repo": "juglab/labkit-ui",
+            "title": "Plugin mechanism for Labkit annotations (segmentations maybe later...)",
+            "url": "https://github.com/juglab/labkit-ui/issues/130"
           }
         ]
       },
       "reviewer_prs": 1,
-      "support_issues": 68,
-      "total": 70
+      "support_issues": 69,
+      "total": 71
     },
     {
       "component_count": 5,
@@ -26973,7 +26945,26 @@
             "url": "https://github.com/morphonets/SNT"
           }
         ],
-        "reviewer_prs": [],
+        "reviewer_prs": [
+          {
+            "number": 350,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.3.0",
+            "url": "https://github.com/morphonets/SNT/pull/350"
+          },
+          {
+            "number": 351,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.3.0",
+            "url": "https://github.com/morphonets/SNT/pull/351"
+          },
+          {
+            "number": 352,
+            "repo": "morphonets/SNT",
+            "title": "Build(deps): Bump logback.version from 1.6.6 to 1.6.8",
+            "url": "https://github.com/morphonets/SNT/pull/352"
+          }
+        ],
         "support_issues": [
           {
             "number": 75,
@@ -27049,9 +27040,9 @@
           }
         ]
       },
-      "reviewer_prs": 0,
+      "reviewer_prs": 3,
       "support_issues": 12,
-      "total": 21
+      "total": 24
     },
     {
       "component_count": 18,
@@ -31169,12 +31160,6 @@
             "url": "https://github.com/imglib/imglib2-algorithm/pull/94"
           },
           {
-            "number": 112,
-            "repo": "imglib/imglib2-algorithm",
-            "title": "Improve performance of some convolutions",
-            "url": "https://github.com/imglib/imglib2-algorithm/pull/112"
-          },
-          {
             "number": 7,
             "repo": "imglib/imglib2-cache",
             "title": "Disk cache refactoring",
@@ -32384,9 +32369,9 @@
           }
         ]
       },
-      "reviewer_prs": 31,
+      "reviewer_prs": 30,
       "support_issues": 178,
-      "total": 232
+      "total": 231
     }
   ]
 }

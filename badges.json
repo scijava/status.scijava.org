@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T13:11:13Z",
+  "generated": "2026-11-23T15:48:27Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -518,7 +518,7 @@
       "workflow": "build.yml"
     },
     "imglib/imglib2-algorithm": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build-main.yml"
     },
     "imglib/imglib2-algorithm-fft": {
@@ -734,7 +734,7 @@
       "workflow": "build.yml"
     },
     "scijava/scijava": {
-      "title": "build - passing",
+      "title": "build - failing",
       "workflow": "build.yml"
     },
     "scijava/scijava-cache": {
