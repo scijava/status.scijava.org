@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23 15:48 UTC",
+  "generated": "2026-11-24 15:40 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -851,6 +851,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
+          },
+          {
+            "number": 113,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Fusion efficiency",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/113"
           },
           {
             "number": 46,
@@ -2710,9 +2716,9 @@
           }
         ]
       },
-      "reviewer_prs": 22,
+      "reviewer_prs": 23,
       "support_issues": 304,
-      "total": 349
+      "total": 350
     },
     {
       "component_count": 8,
@@ -23252,6 +23258,12 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "IP Storage: use ragged list Zarrv3",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/108"
+          },
+          {
+            "number": 113,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "Fusion efficiency",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/pull/113"
           }
         ],
         "support_issues": [
@@ -24007,9 +24019,9 @@
           }
         ]
       },
-      "reviewer_prs": 5,
+      "reviewer_prs": 6,
       "support_issues": 125,
-      "total": 131
+      "total": 132
     },
     {
       "component_count": 8,
@@ -26945,26 +26957,7 @@
             "url": "https://github.com/morphonets/SNT"
           }
         ],
-        "reviewer_prs": [
-          {
-            "number": 350,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump com.github.haifengl:smile-base from 4.4.0 to 7.3.0",
-            "url": "https://github.com/morphonets/SNT/pull/350"
-          },
-          {
-            "number": 351,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump smile-core.version from 4.4.0 to 7.3.0",
-            "url": "https://github.com/morphonets/SNT/pull/351"
-          },
-          {
-            "number": 352,
-            "repo": "morphonets/SNT",
-            "title": "Build(deps): Bump logback.version from 1.6.6 to 1.6.8",
-            "url": "https://github.com/morphonets/SNT/pull/352"
-          }
-        ],
+        "reviewer_prs": [],
         "support_issues": [
           {
             "number": 75,
@@ -27040,9 +27033,9 @@
           }
         ]
       },
-      "reviewer_prs": 3,
+      "reviewer_prs": 0,
       "support_issues": 12,
-      "total": 24
+      "total": 21
     },
     {
       "component_count": 18,
@@ -28625,12 +28618,6 @@
             "repo": "mobie/mobie-viewer-fiji",
             "title": "Fix BDV HDF5 reading",
             "url": "https://github.com/mobie/mobie-viewer-fiji/pull/565"
-          },
-          {
-            "number": 1332,
-            "repo": "mobie/mobie-viewer-fiji",
-            "title": "Update ome-zarr-fiji version to 0.9.1",
-            "url": "https://github.com/mobie/mobie-viewer-fiji/pull/1332"
           },
           {
             "number": 1339,
@@ -30808,9 +30795,9 @@
           }
         ]
       },
-      "reviewer_prs": 11,
+      "reviewer_prs": 10,
       "support_issues": 361,
-      "total": 540
+      "total": 539
     },
     {
       "component_count": 1,
