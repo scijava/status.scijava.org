@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24 15:40 UTC",
+  "generated": "2026-11-25 15:24 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -236,28 +236,10 @@
             "url": "https://github.com/mobie/mobie-io/pull/145"
           },
           {
-            "number": 185,
+            "number": 189,
             "repo": "mobie/mobie-io",
-            "title": "Show the actual cause when a dataset cannot be opened",
-            "url": "https://github.com/mobie/mobie-io/pull/185"
-          },
-          {
-            "number": 186,
-            "repo": "mobie/mobie-io",
-            "title": "Bump ome-zarr-fiji to 0.10.5",
-            "url": "https://github.com/mobie/mobie-io/pull/186"
-          },
-          {
-            "number": 187,
-            "repo": "mobie/mobie-io",
-            "title": "Read OMERO channel names, colors and contrast limits in the Pyramidal image data",
-            "url": "https://github.com/mobie/mobie-io/pull/187"
-          },
-          {
-            "number": 188,
-            "repo": "mobie/mobie-io",
-            "title": "Fall back to MoBIE N5 when an OME-Zarr reader is unavailable",
-            "url": "https://github.com/mobie/mobie-io/pull/188"
+            "title": "Fix CI: point tests at reachable test data",
+            "url": "https://github.com/mobie/mobie-io/pull/189"
           }
         ],
         "support_issues": [
@@ -521,9 +503,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 4,
       "support_issues": 43,
-      "total": 62
+      "total": 59
     },
     {
       "component_count": 1,
@@ -11440,6 +11422,12 @@
             "url": "https://github.com/scijava/scripting-groovy/pull/8"
           },
           {
+            "number": 14,
+            "repo": "scijava/scripting-jython",
+            "title": "Add a scijava-code-lsp ScriptDialect",
+            "url": "https://github.com/scijava/scripting-jython/pull/14"
+          },
+          {
             "number": 8,
             "repo": "scijava/scripting-kotlin",
             "title": "Fix circular dependencies",
@@ -20233,9 +20221,9 @@
           }
         ]
       },
-      "reviewer_prs": 77,
+      "reviewer_prs": 78,
       "support_issues": 1459,
-      "total": 1938
+      "total": 1939
     },
     {
       "component_count": 1,
@@ -28584,28 +28572,10 @@
             "url": "https://github.com/mobie/mobie-io/pull/145"
           },
           {
-            "number": 185,
+            "number": 189,
             "repo": "mobie/mobie-io",
-            "title": "Show the actual cause when a dataset cannot be opened",
-            "url": "https://github.com/mobie/mobie-io/pull/185"
-          },
-          {
-            "number": 186,
-            "repo": "mobie/mobie-io",
-            "title": "Bump ome-zarr-fiji to 0.10.5",
-            "url": "https://github.com/mobie/mobie-io/pull/186"
-          },
-          {
-            "number": 187,
-            "repo": "mobie/mobie-io",
-            "title": "Read OMERO channel names, colors and contrast limits in the Pyramidal image data",
-            "url": "https://github.com/mobie/mobie-io/pull/187"
-          },
-          {
-            "number": 188,
-            "repo": "mobie/mobie-io",
-            "title": "Fall back to MoBIE N5 when an OME-Zarr reader is unavailable",
-            "url": "https://github.com/mobie/mobie-io/pull/188"
+            "title": "Fix CI: point tests at reachable test data",
+            "url": "https://github.com/mobie/mobie-io/pull/189"
           },
           {
             "number": 416,
@@ -30795,9 +30765,9 @@
           }
         ]
       },
-      "reviewer_prs": 10,
+      "reviewer_prs": 7,
       "support_issues": 361,
-      "total": 539
+      "total": 536
     },
     {
       "component_count": 1,
