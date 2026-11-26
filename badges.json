@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T15:24:19Z",
+  "generated": "2026-11-26T14:52:54Z",
   "repos": {
     "JaneliaSciComp/BigStitcher": {
       "title": "build - passing",
@@ -566,7 +566,7 @@
       "workflow": "build.yml"
     },
     "mobie/mobie-io": {
-      "title": "build - failing",
+      "title": "build - passing",
       "workflow": "build.yml"
     },
     "mobie/mobie-viewer-fiji": {

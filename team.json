@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25 15:24 UTC",
+  "generated": "2026-11-26 14:52 UTC",
   "rows": [
     {
       "component_count": 1,
@@ -131,7 +131,7 @@
       "dev_name": "Ekaterina Moreva",
       "dev_url": "https://github.com/KateMoreva",
       "developer_features": 8,
-      "maintainer_releases": 0,
+      "maintainer_releases": 1,
       "popups": {
         "components": [
           {
@@ -215,26 +215,13 @@
             "url": "https://github.com/mobie/mobie-io/issues/154"
           }
         ],
-        "maintainer_releases": [],
+        "maintainer_releases": [
+          {
+            "ga": "org.embl.mobie:mobie-io",
+            "url": "https://github.com/mobie/mobie-io"
+          }
+        ],
         "reviewer_prs": [
-          {
-            "number": 100,
-            "repo": "mobie/mobie-io",
-            "title": "Prevent multiple loading of DatasetAttributes in N5OMEZarrImageLoader",
-            "url": "https://github.com/mobie/mobie-io/pull/100"
-          },
-          {
-            "number": 119,
-            "repo": "mobie/mobie-io",
-            "title": "Hackathon prague 2022",
-            "url": "https://github.com/mobie/mobie-io/pull/119"
-          },
-          {
-            "number": 145,
-            "repo": "mobie/mobie-io",
-            "title": "Refactoring CI",
-            "url": "https://github.com/mobie/mobie-io/pull/145"
-          },
           {
             "number": 189,
             "repo": "mobie/mobie-io",
@@ -503,9 +490,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 1,
       "support_issues": 43,
-      "total": 59
+      "total": 57
     },
     {
       "component_count": 1,
@@ -2223,6 +2210,12 @@
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/issues/111"
           },
           {
+            "number": 114,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "OME-Zarr fusion writes s0 of channel > 0 multiple times, creating out-of-bounds chunks (ExportN5Api)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/issues/114"
+          },
+          {
             "number": 11,
             "repo": "fiji/SPIM_Registration",
             "title": "XML Explorer documentation",
@@ -2699,8 +2692,8 @@
         ]
       },
       "reviewer_prs": 23,
-      "support_issues": 304,
-      "total": 350
+      "support_issues": 305,
+      "total": 351
     },
     {
       "component_count": 8,
@@ -5544,6 +5537,12 @@
             "repo": "scijava/scijava",
             "title": "Migrate many classic Fiji plugins to SciJava Ops",
             "url": "https://github.com/scijava/scijava/pull/299"
+          },
+          {
+            "number": 300,
+            "repo": "scijava/scijava",
+            "title": "Add a listener for server startup/status",
+            "url": "https://github.com/scijava/scijava/pull/300"
           }
         ],
         "support_issues": [
@@ -6917,9 +6916,9 @@
           }
         ]
       },
-      "reviewer_prs": 17,
+      "reviewer_prs": 18,
       "support_issues": 228,
-      "total": 263
+      "total": 264
     },
     {
       "component_count": 11,
@@ -11264,6 +11263,12 @@
             "repo": "scijava/scijava",
             "title": "Migrate many classic Fiji plugins to SciJava Ops",
             "url": "https://github.com/scijava/scijava/pull/299"
+          },
+          {
+            "number": 300,
+            "repo": "scijava/scijava",
+            "title": "Add a listener for server startup/status",
+            "url": "https://github.com/scijava/scijava/pull/300"
           },
           {
             "number": 91,
@@ -20221,9 +20226,9 @@
           }
         ]
       },
-      "reviewer_prs": 78,
+      "reviewer_prs": 79,
       "support_issues": 1459,
-      "total": 1939
+      "total": 1940
     },
     {
       "component_count": 1,
@@ -20953,6 +20958,12 @@
             "repo": "scijava/scijava",
             "title": "Migrate many classic Fiji plugins to SciJava Ops",
             "url": "https://github.com/scijava/scijava/pull/299"
+          },
+          {
+            "number": 300,
+            "repo": "scijava/scijava",
+            "title": "Add a listener for server startup/status",
+            "url": "https://github.com/scijava/scijava/pull/300"
           }
         ],
         "support_issues": [
@@ -21342,9 +21353,9 @@
           }
         ]
       },
-      "reviewer_prs": 4,
+      "reviewer_prs": 5,
       "support_issues": 64,
-      "total": 74
+      "total": 75
     },
     {
       "component_count": 2,
@@ -22012,6 +22023,12 @@
             "repo": "scijava/scijava",
             "title": "Migrate many classic Fiji plugins to SciJava Ops",
             "url": "https://github.com/scijava/scijava/pull/299"
+          },
+          {
+            "number": 300,
+            "repo": "scijava/scijava",
+            "title": "Add a listener for server startup/status",
+            "url": "https://github.com/scijava/scijava/pull/300"
           }
         ],
         "support_issues": [
@@ -23181,9 +23198,9 @@
           }
         ]
       },
-      "reviewer_prs": 6,
+      "reviewer_prs": 7,
       "support_issues": 194,
-      "total": 205
+      "total": 206
     },
     {
       "component_count": 3,
@@ -24004,12 +24021,18 @@
             "repo": "JaneliaSciComp/multiview-reconstruction",
             "title": "Repeated conditional test",
             "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/issues/111"
+          },
+          {
+            "number": 114,
+            "repo": "JaneliaSciComp/multiview-reconstruction",
+            "title": "OME-Zarr fusion writes s0 of channel > 0 multiple times, creating out-of-bounds chunks (ExportN5Api)",
+            "url": "https://github.com/JaneliaSciComp/multiview-reconstruction/issues/114"
           }
         ]
       },
       "reviewer_prs": 6,
-      "support_issues": 125,
-      "total": 132
+      "support_issues": 126,
+      "total": 133
     },
     {
       "component_count": 8,
@@ -27524,7 +27547,7 @@
       "dev_name": "Christian Tischer",
       "dev_url": "https://github.com/tischi",
       "developer_features": 112,
-      "maintainer_releases": 3,
+      "maintainer_releases": 4,
       "popups": {
         "components": [
           {
@@ -28540,6 +28563,10 @@
         ],
         "maintainer_releases": [
           {
+            "ga": "org.embl.mobie:mobie-io",
+            "url": "https://github.com/mobie/mobie-io"
+          },
+          {
             "ga": "org.embl.mobie:mobie-viewer-fiji",
             "url": "https://github.com/mobie/mobie-viewer-fiji"
           },
@@ -28553,24 +28580,6 @@
           }
         ],
         "reviewer_prs": [
-          {
-            "number": 100,
-            "repo": "mobie/mobie-io",
-            "title": "Prevent multiple loading of DatasetAttributes in N5OMEZarrImageLoader",
-            "url": "https://github.com/mobie/mobie-io/pull/100"
-          },
-          {
-            "number": 119,
-            "repo": "mobie/mobie-io",
-            "title": "Hackathon prague 2022",
-            "url": "https://github.com/mobie/mobie-io/pull/119"
-          },
-          {
-            "number": 145,
-            "repo": "mobie/mobie-io",
-            "title": "Refactoring CI",
-            "url": "https://github.com/mobie/mobie-io/pull/145"
-          },
           {
             "number": 189,
             "repo": "mobie/mobie-io",
@@ -30765,9 +30774,9 @@
           }
         ]
       },
-      "reviewer_prs": 7,
+      "reviewer_prs": 4,
       "support_issues": 361,
-      "total": 536
+      "total": 534
     },
     {
       "component_count": 1,
